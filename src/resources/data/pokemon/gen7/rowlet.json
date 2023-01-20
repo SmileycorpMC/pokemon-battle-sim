@@ -1,0 +1,58 @@
+{
+  "name": "Rowlet",
+  "id": 722,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Long Reach",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dartrix",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 17
+        }
+      ],
+      "stats": {
+        "HP": 68,
+        "ATK": 55,
+        "DEF": 55,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 42
+      },
+      "height": 0.3,
+      "weight": 1.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Grass Quill",
+      "isBaseForm": true
+    }
+  }
+}

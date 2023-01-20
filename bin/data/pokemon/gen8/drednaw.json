@@ -1,0 +1,80 @@
+{
+  "name": "Drednaw",
+  "id": 834,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "ability1": "Strong Jaw",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Swift Swim",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 115,
+        "DEF": 90,
+        "SP_ATK": 48,
+        "SP_DEF": 68,
+        "SPD": 74
+      },
+      "height": 1.0,
+      "weight": 115.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Bite",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "ability1": "Strong Jaw",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Swift Swim",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 115,
+        "DEF": 90,
+        "SP_ATK": 48,
+        "SP_DEF": 68,
+        "SPD": 74
+      },
+      "height": 24.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Bite",
+      "isBaseForm": false
+    }
+  }
+}

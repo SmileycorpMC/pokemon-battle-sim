@@ -1,0 +1,48 @@
+{
+  "name": "Regieleki",
+  "id": 894,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Transistor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 100,
+        "DEF": 50,
+        "SP_ATK": 100,
+        "SP_DEF": 50,
+        "SPD": 200
+      },
+      "height": 1.2,
+      "weight": 145.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Electron",
+      "isBaseForm": true
+    }
+  }
+}

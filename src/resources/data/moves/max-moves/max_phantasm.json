@@ -1,0 +1,19 @@
+{
+	"name": "Max Phantasm",
+	"type": "Ghost",
+	"category": null,
+	"target": "select_opponent",
+	"power": -1,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_opponents",
+		"value": [{
+			"stat": "DEF",
+			"amount": -1
+		}],
+		"conditions": []
+	}]
+}

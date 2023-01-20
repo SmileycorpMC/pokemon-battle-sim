@@ -1,0 +1,16 @@
+{
+  "name": "Soul-Stealing 7-Star Strike",
+  "type": "Ghost",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 195,
+  "accuracy": 101,
+  "pp": 1,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

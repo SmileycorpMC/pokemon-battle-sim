@@ -1,0 +1,16 @@
+{
+  "name": "Venoshock",
+  "type": "Poison",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 65,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

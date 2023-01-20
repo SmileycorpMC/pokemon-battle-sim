@@ -1,0 +1,58 @@
+{
+  "name": "Dragonair",
+  "id": 148,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Marvel Scale",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dragonite",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 55
+        }
+      ],
+      "stats": {
+        "HP": 61,
+        "ATK": 84,
+        "DEF": 65,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 4.0,
+      "weight": 16.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Dragon",
+      "isBaseForm": true
+    }
+  }
+}

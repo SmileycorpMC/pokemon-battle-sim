@@ -1,0 +1,59 @@
+{
+  "name": "Ducklett",
+  "id": 580,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Big Pecks",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "swanna",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 62,
+        "ATK": 44,
+        "DEF": 50,
+        "SP_ATK": 44,
+        "SP_DEF": 50,
+        "SPD": 55
+      },
+      "height": 0.5,
+      "weight": 5.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Water Bird",
+      "isBaseForm": true
+    }
+  }
+}

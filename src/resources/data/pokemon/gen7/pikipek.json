@@ -1,0 +1,58 @@
+{
+  "name": "Pikipek",
+  "id": 731,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Skill Link",
+      "hiddenAbility": "Pickup",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "trumbeak",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 14
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 75,
+        "DEF": 30,
+        "SP_ATK": 30,
+        "SP_DEF": 30,
+        "SPD": 65
+      },
+      "height": 0.3,
+      "weight": 1.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 53,
+      "classification": "Woodpecker",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "name": "Eevee",
+  "id": 133,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Anticipation",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "vaporeon",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "water_stone"
+        },
+        {
+          "target": {
+            "species": "jolteon",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "thunder_stone"
+        },
+        {
+          "target": {
+            "species": "flareon",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "fire_stone"
+        },
+        {
+          "target": {
+            "species": "espeon",
+            "form": "default"
+          },
+          "method": "happiness_day"
+        },
+        {
+          "target": {
+            "species": "umbreon",
+            "form": "default"
+          },
+          "method": "happiness_night"
+        },
+        {
+          "target": {
+            "species": "leafeon",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "leaf_stone"
+        },
+        {
+          "target": {
+            "species": "leafeon",
+            "form": "default"
+          },
+          "method": "location",
+          "value": "mossy_rock"
+        },
+        {
+          "target": {
+            "species": "glaceon",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "ice_stone"
+        },
+        {
+          "target": {
+            "species": "glaceon",
+            "form": "default"
+          },
+          "method": "location",
+          "value": "icy_rock"
+        },
+        {
+          "target": {
+            "species": "sylveon",
+            "form": "default"
+          },
+          "method": "happiness_move_of_type",
+          "value": "fairy"
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 55,
+        "DEF": 50,
+        "SP_ATK": 45,
+        "SP_DEF": 65,
+        "SPD": 55
+      },
+      "height": 0.3,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Evolution",
+      "isBaseForm": true
+    },
+    "partner": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Anticipation",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 75,
+        "DEF": 70,
+        "SP_ATK": 65,
+        "SP_DEF": 85,
+        "SPD": 75
+      },
+      "height": 0.3,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 87,
+      "classification": "Evolution",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Anticipation",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 55,
+        "ATK": 55,
+        "DEF": 50,
+        "SP_ATK": 45,
+        "SP_DEF": 65,
+        "SPD": 55
+      },
+      "height": 18.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Evolution",
+      "isBaseForm": false
+    }
+  }
+}

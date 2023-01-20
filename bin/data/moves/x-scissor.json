@@ -1,0 +1,19 @@
+{
+  "name": "X-Scissor",
+  "type": "Bug",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 80,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+		"makes_contact",
+		"sharp"
+	],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

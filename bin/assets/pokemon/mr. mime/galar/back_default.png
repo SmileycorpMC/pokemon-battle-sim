@@ -1,0 +1,41 @@
+{
+  "name": "Mienshao",
+  "id": 620,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "Regenerator",
+      "hiddenAbility": "Reckless",
+      "stats": {
+        "HP": 65,
+        "ATK": 125,
+        "DEF": 60,
+        "SP_ATK": 95,
+        "SP_DEF": 60,
+        "SPD": 105
+      },
+      "height": 1.4,
+      "weight": 35.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+  

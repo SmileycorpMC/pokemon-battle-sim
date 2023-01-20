@@ -1,0 +1,57 @@
+{
+  "name": "Drowzee",
+  "id": 96,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "Forewarn",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "hypno",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 26
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 48,
+        "DEF": 45,
+        "SP_ATK": 43,
+        "SP_DEF": 90,
+        "SPD": 42
+      },
+      "height": 1.0,
+      "weight": 32.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Hypnosis",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Alomomola",
+  "id": 594,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Healer",
+      "ability2": "Hydration",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 165,
+        "ATK": 75,
+        "DEF": 80,
+        "SP_ATK": 40,
+        "SP_DEF": 45,
+        "SPD": 65
+      },
+      "height": 1.2,
+      "weight": 31.6,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Caring",
+      "isBaseForm": true
+    }
+  }
+}

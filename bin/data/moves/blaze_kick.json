@@ -1,0 +1,29 @@
+{
+	"name": "Blaze Kick",
+	"type": "Fire",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 85,
+	"accuracy": 90,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "burn",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}],
+	"z-move_effects": []
+}

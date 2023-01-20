@@ -1,0 +1,42 @@
+{
+  "name": "Lickilicky",
+  "id": 463,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 30,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Own Tempo",
+      "ability2": "Oblivious",
+      "hiddenAbility": "Cloud Nine",
+      "stats": {
+        "HP": 110,
+        "ATK": 85,
+        "DEF": 95,
+        "SP_ATK": 80,
+        "SP_DEF": 95,
+        "SPD": 50
+      },
+      "height": 1.7,
+      "weight": 140.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 180,
+      "classification": "Licking",
+      "isBaseForm": true

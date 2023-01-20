@@ -1,0 +1,16 @@
+{
+  "name": "Grass Pledge",
+  "type": "Grass",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 80,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

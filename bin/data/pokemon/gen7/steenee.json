@@ -1,0 +1,57 @@
+{
+  "name": "Steenee",
+  "id": 762,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "Oblivious",
+      "hiddenAbility": "Sweet Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "tsareena",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "stomp"
+        }
+      ],
+      "stats": {
+        "HP": 52,
+        "ATK": 40,
+        "DEF": 48,
+        "SP_ATK": 40,
+        "SP_DEF": 48,
+        "SPD": 62
+      },
+      "height": 0.7,
+      "weight": 8.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 102,
+      "classification": "Fruit",
+      "isBaseForm": true
+    }
+  }
+}

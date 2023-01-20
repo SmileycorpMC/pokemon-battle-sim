@@ -1,0 +1,49 @@
+{
+  "name": "Spinda",
+  "id": 327,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Own Tempo",
+      "ability2": "Tangled Feet",
+      "hiddenAbility": "Contrary",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 60,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 60
+      },
+      "height": 1.1,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 126,
+      "classification": "Spot Panda",
+      "isBaseForm": true
+    }
+  }
+}

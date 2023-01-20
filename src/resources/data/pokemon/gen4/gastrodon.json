@@ -1,0 +1,80 @@
+{
+  "name": "Gastrodon",
+  "id": 423,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Amorphous"
+  ],
+  "forms": {
+    "west": {
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "ability1": "Sticky Hold",
+      "ability2": "Storm Drain",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 111,
+        "ATK": 83,
+        "DEF": 68,
+        "SP_ATK": 92,
+        "SP_DEF": 82,
+        "SPD": 39
+      },
+      "height": 0.9,
+      "weight": 29.9,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Sea Slug",
+      "isBaseForm": true
+    },
+    "east": {
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "ability1": "Sticky Hold",
+      "ability2": "Storm Drain",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 111,
+        "ATK": 83,
+        "DEF": 68,
+        "SP_ATK": 92,
+        "SP_DEF": 82,
+        "SPD": 39
+      },
+      "height": 0.9,
+      "weight": 29.9,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Sea Slug",
+      "isBaseForm": true
+    }
+  }
+}

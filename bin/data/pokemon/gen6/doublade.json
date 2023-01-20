@@ -1,0 +1,58 @@
+{
+  "name": "Doublade",
+  "id": 680,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "ability1": "No Guard",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "aegislash",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "dusk_stone"
+        }
+      ],
+      "stats": {
+        "HP": 59,
+        "ATK": 110,
+        "DEF": 150,
+        "SP_ATK": 45,
+        "SP_DEF": 49,
+        "SPD": 35
+      },
+      "height": 0.8,
+      "weight": 4.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 157,
+      "classification": "Sword",
+      "isBaseForm": true
+    }
+  }
+}

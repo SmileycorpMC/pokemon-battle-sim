@@ -1,0 +1,19 @@
+{
+	"name": "Bonemerang",
+	"type": "Ground",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 50,
+	"accuracy": 90,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": 180,
+	"max_move_power": 130,
+	"primary_effects": [{
+		"function": "set_hit_count",
+		"value": 2,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

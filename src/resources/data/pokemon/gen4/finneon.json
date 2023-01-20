@@ -1,0 +1,57 @@
+{
+  "name": "Finneon",
+  "id": 456,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Storm Drain",
+      "hiddenAbility": "Water Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lumineon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 31
+        }
+      ],
+      "stats": {
+        "HP": 49,
+        "ATK": 49,
+        "DEF": 56,
+        "SP_ATK": 49,
+        "SP_DEF": 61,
+        "SPD": 66
+      },
+      "height": 0.4,
+      "weight": 7.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Wing Fish",
+      "isBaseForm": true
+    }
+  }
+}

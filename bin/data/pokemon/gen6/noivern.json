@@ -1,0 +1,50 @@
+{
+  "name": "Noivern",
+  "id": 715,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "ability1": "Frisk",
+      "ability2": "Infiltrator",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 70,
+        "DEF": 80,
+        "SP_ATK": 97,
+        "SP_DEF": 80,
+        "SPD": 123
+      },
+      "height": 1.5,
+      "weight": 85.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 187,
+      "classification": "Sound Wave",
+      "isBaseForm": true
+    }
+  }
+}

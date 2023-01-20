@@ -1,0 +1,16 @@
+{
+	"name": "Continental Crush",
+	"type": "Rock",
+	"category": null,
+	"target": "select_ajacent",
+	"power": 190,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "set_terrain",
+		"value": null,
+		"conditions": []
+	}]
+}

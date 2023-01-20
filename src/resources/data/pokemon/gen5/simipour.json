@@ -1,0 +1,48 @@
+{
+  "name": "Simipour",
+  "id": 516,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Gluttony",
+      "ability2": "",
+      "hiddenAbility": "Torrent",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 98,
+        "DEF": 63,
+        "SP_ATK": 98,
+        "SP_DEF": 63,
+        "SPD": 101
+      },
+      "height": 1.0,
+      "weight": 29.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Geyser",
+      "isBaseForm": true
+    }
+  }
+}

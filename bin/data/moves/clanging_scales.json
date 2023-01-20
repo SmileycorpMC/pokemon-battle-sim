@@ -1,0 +1,29 @@
+{
+	"name": "Clanging Scales",
+	"type": "Dragon",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 110,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"sound_based"
+	],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+				"stat": "DEF",
+				"amount": -1
+			}],
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

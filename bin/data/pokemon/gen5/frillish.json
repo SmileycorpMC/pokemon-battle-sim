@@ -1,0 +1,58 @@
+{
+  "name": "Frillish",
+  "id": 592,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Ghost"
+      ],
+      "ability1": "Water Absorb",
+      "ability2": "Cursed Body",
+      "hiddenAbility": "Damp",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "jellicent",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 40,
+        "DEF": 50,
+        "SP_ATK": 65,
+        "SP_DEF": 85,
+        "SPD": 40
+      },
+      "height": 1.2,
+      "weight": 33.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 67,
+      "classification": "Floating",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Crabrawler",
+  "id": 739,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Iron Fist",
+      "hiddenAbility": "Anger Point",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "crabominable",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "ice_stone"
+        },
+        {
+          "target": {
+            "species": "crabominable",
+            "form": "default"
+          },
+          "method": "location",
+          "value": "icy_rock"
+        }
+      ],
+      "stats": {
+        "HP": 47,
+        "ATK": 82,
+        "DEF": 57,
+        "SP_ATK": 42,
+        "SP_DEF": 47,
+        "SPD": 63
+      },
+      "height": 0.6,
+      "weight": 7.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 68,
+      "classification": "Boxing",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Darumaka",
+  "id": 554,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Hustle",
+      "ability2": "",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "darmanitan",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 90,
+        "DEF": 45,
+        "SP_ATK": 15,
+        "SP_DEF": 45,
+        "SPD": 50
+      },
+      "height": 0.6,
+      "weight": 37.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Zen Charm",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Hustle",
+      "ability2": "",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "darmanitan",
+            "form": "galar"
+          },
+          "method": "item",
+          "value": "ice_stone"
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 90,
+        "DEF": 45,
+        "SP_ATK": 15,
+        "SP_DEF": 45,
+        "SPD": 50
+      },
+      "height": 0.7,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Zen Charm",
+      "isBaseForm": true
+    }
+  }
+}

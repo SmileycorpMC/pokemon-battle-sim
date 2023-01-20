@@ -1,0 +1,41 @@
+{
+	"name": "Blizzard",
+	"type": "Ice",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 110,
+	"accuracy": 70,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_accuracy",
+		"value": 101,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					"hail",
+					"snowstorm"
+				]
+			}
+		}]
+	}],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "freeze",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}],
+	"z-move_effects": []
+}

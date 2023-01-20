@@ -1,0 +1,79 @@
+{
+  "name": "Scizor",
+  "id": 212,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Technician",
+      "hiddenAbility": "Light Metal",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 130,
+        "DEF": 100,
+        "SP_ATK": 55,
+        "SP_DEF": 80,
+        "SPD": 65
+      },
+      "height": 1.8,
+      "weight": 118.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Pincer",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Technician",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 150,
+        "DEF": 140,
+        "SP_ATK": 65,
+        "SP_DEF": 100,
+        "SPD": 75
+      },
+      "height": 2.0,
+      "weight": 125.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 210,
+      "classification": "Pincer",
+      "isBaseForm": false
+    }
+  }
+}

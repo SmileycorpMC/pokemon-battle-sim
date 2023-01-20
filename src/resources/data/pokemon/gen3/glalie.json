@@ -1,0 +1,78 @@
+{
+  "name": "Glalie",
+  "id": 362,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "Ice Body",
+      "hiddenAbility": "Moody",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 80,
+        "DEF": 80,
+        "SP_ATK": 80,
+        "SP_DEF": 80,
+        "SPD": 80
+      },
+      "height": 1.5,
+      "weight": 256.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Face",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Refrigerate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 120,
+        "DEF": 80,
+        "SP_ATK": 120,
+        "SP_DEF": 80,
+        "SPD": 100
+      },
+      "height": 2.1,
+      "weight": 350.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 203,
+      "classification": "Face",
+      "isBaseForm": false
+    }
+  }
+}

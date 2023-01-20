@@ -1,0 +1,12 @@
+{
+	"name": "Let's Snuggle Forever",
+	"type": "Fairy",
+	"category": null,
+	"target": "select_ajacent",
+	"power": 190,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": []
+}

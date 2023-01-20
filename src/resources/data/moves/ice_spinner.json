@@ -1,0 +1,22 @@
+{
+	"name": "Ice Spinner",
+	"type": "Ice",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 80,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "remove_terrain",
+		"value": "all",
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

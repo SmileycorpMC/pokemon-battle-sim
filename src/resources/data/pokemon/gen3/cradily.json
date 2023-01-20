@@ -1,0 +1,49 @@
+{
+  "name": "Cradily",
+  "id": 346,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Grass"
+      ],
+      "ability1": "Suction Cups",
+      "ability2": "",
+      "hiddenAbility": "Storm Drain",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 86,
+        "ATK": 81,
+        "DEF": 97,
+        "SP_ATK": 81,
+        "SP_DEF": 107,
+        "SPD": 43
+      },
+      "height": 1.5,
+      "weight": 60.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Barnacle",
+      "isBaseForm": true
+    }
+  }
+}

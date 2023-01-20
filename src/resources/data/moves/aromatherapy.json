@@ -1,0 +1,27 @@
+{
+	"name": "Aromatherapy",
+	"type": "Grass",
+	"category": "status",
+	"target": "self_and_allies",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "remove_status_effect",
+		"value": {
+			"target": "all_party",
+			"value": "all"
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "fractional_heal_user",
+		"value": 1,
+		"conditions": []
+	}]
+}

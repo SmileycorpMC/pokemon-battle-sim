@@ -1,0 +1,49 @@
+{
+  "name": "Skarmory",
+  "id": 227,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 80,
+        "DEF": 140,
+        "SP_ATK": 40,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 1.7,
+      "weight": 50.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 163,
+      "classification": "Armor Bird",
+      "isBaseForm": true
+    }
+  }
+}

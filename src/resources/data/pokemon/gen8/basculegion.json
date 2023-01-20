@@ -1,0 +1,79 @@
+{
+  "name": "Basculegion",
+  "id": 902,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "male": {
+      "types": [
+        "Water",
+        "Ghost"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 120,
+        "ATK": 112,
+        "DEF": 65,
+        "SP_ATK": 80,
+        "SP_DEF": 75,
+        "SPD": 78
+      },
+      "height": 3.0,
+      "weight": 110.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Big Fish",
+      "isBaseForm": true
+    },
+    "female": {
+      "types": [
+        "Water",
+        "Ghost"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 120,
+        "ATK": 92,
+        "DEF": 65,
+        "SP_ATK": 100,
+        "SP_DEF": 75,
+        "SPD": 78
+      },
+      "height": 3.0,
+      "weight": 110.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Big Fish",
+      "isBaseForm": true
+    }
+  }
+}

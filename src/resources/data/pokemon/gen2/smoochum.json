@@ -1,0 +1,58 @@
+{
+  "name": "Smoochum",
+  "id": 238,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Forewarn",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "jynx",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 30,
+        "DEF": 15,
+        "SP_ATK": 85,
+        "SP_DEF": 65,
+        "SPD": 65
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Kiss",
+      "isBaseForm": true
+    }
+  }
+}

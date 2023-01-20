@@ -1,0 +1,57 @@
+{
+  "name": "Minccino",
+  "id": 572,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Technician",
+      "hiddenAbility": "Skill Link",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "cinccino",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 50,
+        "DEF": 40,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 75
+      },
+      "height": 0.4,
+      "weight": 5.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Chinchilla",
+      "isBaseForm": true
+    }
+  }
+}

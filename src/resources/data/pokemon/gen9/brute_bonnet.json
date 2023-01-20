@@ -1,0 +1,49 @@
+{
+  "name": "Brute Bonnet",
+  "id": 986,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 50,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+		"Dark"
+      ],
+      "ability1": "Protosynthesis",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 111,
+        "ATK": 127,
+        "DEF": 99,
+        "SP_ATK": 79,
+        "SP_DEF": 99,
+        "SPD": 55
+      },
+      "height": 1.2,
+      "weight": 21.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

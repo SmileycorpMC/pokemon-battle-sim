@@ -1,0 +1,49 @@
+{
+  "name": "Dustox",
+  "id": 269,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "",
+      "hiddenAbility": "Compound Eyes",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 50,
+        "DEF": 70,
+        "SP_ATK": 50,
+        "SP_DEF": 90,
+        "SPD": 65
+      },
+      "height": 1.2,
+      "weight": 31.6,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Poison Moth",
+      "isBaseForm": true
+    }
+  }
+}

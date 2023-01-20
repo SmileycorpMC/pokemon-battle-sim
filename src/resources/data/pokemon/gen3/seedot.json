@@ -1,0 +1,58 @@
+{
+  "name": "Seedot",
+  "id": 273,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Early Bird",
+      "hiddenAbility": "Pickpocket",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "nuzleaf",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 14
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 40,
+        "DEF": 50,
+        "SP_ATK": 30,
+        "SP_DEF": 30,
+        "SPD": 30
+      },
+      "height": 0.5,
+      "weight": 4.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 44,
+      "classification": "Acorn",
+      "isBaseForm": true
+    }
+  }
+}

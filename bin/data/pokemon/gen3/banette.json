@@ -1,0 +1,77 @@
+{
+  "name": "Banette",
+  "id": 354,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "Frisk",
+      "hiddenAbility": "Cursed Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 64,
+        "ATK": 115,
+        "DEF": 65,
+        "SP_ATK": 83,
+        "SP_DEF": 63,
+        "SPD": 65
+      },
+      "height": 1.1,
+      "weight": 12.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Marionette",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Prankster",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 64,
+        "ATK": 165,
+        "DEF": 75,
+        "SP_ATK": 93,
+        "SP_DEF": 83,
+        "SPD": 75
+      },
+      "height": 1.2,
+      "weight": 13.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 194,
+      "classification": "Marionette",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Zweilous",
+  "id": 634,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Dragon"
+      ],
+      "ability1": "Hustle",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "hydreigon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 64
+        }
+      ],
+      "stats": {
+        "HP": 72,
+        "ATK": 85,
+        "DEF": 70,
+        "SP_ATK": 65,
+        "SP_DEF": 70,
+        "SPD": 58
+      },
+      "height": 1.4,
+      "weight": 50.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Hostile",
+      "isBaseForm": true
+    }
+  }
+}

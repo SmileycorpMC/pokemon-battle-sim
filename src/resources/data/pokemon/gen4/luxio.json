@@ -1,0 +1,57 @@
+{
+  "name": "Luxio",
+  "id": 404,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Rivalry",
+      "ability2": "Intimidate",
+      "hiddenAbility": "Guts",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "luxray",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 85,
+        "DEF": 49,
+        "SP_ATK": 60,
+        "SP_DEF": 49,
+        "SPD": 60
+      },
+      "height": 0.9,
+      "weight": 30.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 127,
+      "classification": "Spark",
+      "isBaseForm": true
+    }
+  }
+}

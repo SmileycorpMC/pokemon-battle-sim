@@ -1,0 +1,58 @@
+{
+  "name": "Trumbeak",
+  "id": 732,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Skill Link",
+      "hiddenAbility": "Pickup",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "toucannon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 28
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 85,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 0.6,
+      "weight": 14.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 124,
+      "classification": "Bugle Beak",
+      "isBaseForm": true
+    }
+  }
+}

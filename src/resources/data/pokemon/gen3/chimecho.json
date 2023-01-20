@@ -1,0 +1,52 @@
+{
+  "name": "Chimecho",
+  "id": 358,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 50,
+        "DEF": 80,
+        "SP_ATK": 95,
+        "SP_DEF": 90,
+        "SPD": 65
+      },
+      "height": 0.6,
+      "weight": 1.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Wind Chime",
+      "isBaseForm": true
+    }
+  }
+}

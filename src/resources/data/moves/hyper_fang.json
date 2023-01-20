@@ -1,0 +1,26 @@
+{
+	"name": "Hyper Fang",
+	"type": "Normal",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 80,
+	"accuracy": 90,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"biting"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "flinch",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}],
+	"z-move_effects": []
+}

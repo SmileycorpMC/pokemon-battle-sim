@@ -1,0 +1,58 @@
+{
+  "name": "Ledyba",
+  "id": 165,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Early Bird",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ledian",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 20,
+        "DEF": 30,
+        "SP_ATK": 40,
+        "SP_DEF": 80,
+        "SPD": 55
+      },
+      "height": 1.0,
+      "weight": 10.8,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 53,
+      "classification": "Five Star",
+      "isBaseForm": true
+    }
+  }
+}

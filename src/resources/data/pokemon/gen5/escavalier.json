@@ -1,0 +1,49 @@
+{
+  "name": "Escavalier",
+  "id": 589,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 135,
+        "DEF": 105,
+        "SP_ATK": 60,
+        "SP_DEF": 105,
+        "SPD": 20
+      },
+      "height": 1.0,
+      "weight": 33.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cavalry",
+      "isBaseForm": true
+    }
+  }
+}

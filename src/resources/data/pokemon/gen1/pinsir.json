@@ -1,0 +1,78 @@
+{
+  "name": "Pinsir",
+  "id": 127,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Mold Breaker",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 125,
+        "DEF": 100,
+        "SP_ATK": 55,
+        "SP_DEF": 70,
+        "SPD": 85
+      },
+      "height": 1.5,
+      "weight": 55.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Stag Beetle",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Aerilate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 155,
+        "DEF": 120,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 105
+      },
+      "height": 1.7,
+      "weight": 59.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 210,
+      "classification": "Stag Beetle",
+      "isBaseForm": false
+    }
+  }
+}

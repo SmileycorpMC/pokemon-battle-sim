@@ -1,0 +1,49 @@
+{
+  "name": "Bruxish",
+  "id": 779,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Dazzling",
+      "ability2": "Strong Jaw",
+      "hiddenAbility": "Wonder Skin",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 68,
+        "ATK": 105,
+        "DEF": 70,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 92
+      },
+      "height": 0.9,
+      "weight": 19.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Gnash Teeth",
+      "isBaseForm": true
+    }
+  }
+}

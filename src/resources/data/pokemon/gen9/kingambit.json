@@ -1,0 +1,49 @@
+{
+  "name": "Kingambit",
+  "id": 983,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 25,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+		"Steel"
+      ],
+      "ability1": "Defiant",
+      "ability2": "Supreme Overlord",
+      "hiddenAbility": "Pressure",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 135,
+        "DEF": 120,
+        "SP_ATK": 60,
+        "SP_DEF": 85,
+        "SPD": 50
+      },
+      "height": 2.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Big Blade",
+      "isBaseForm": true
+    }
+  }
+}

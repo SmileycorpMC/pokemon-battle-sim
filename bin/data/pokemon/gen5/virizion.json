@@ -1,0 +1,49 @@
+{
+  "name": "Virizion",
+  "id": 640,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "ability1": "Justified",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 91,
+        "ATK": 90,
+        "DEF": 72,
+        "SP_ATK": 90,
+        "SP_DEF": 129,
+        "SPD": 108
+      },
+      "height": 2.0,
+      "weight": 200.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Grassland",
+      "isBaseForm": true
+    }
+  }
+}

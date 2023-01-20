@@ -1,0 +1,50 @@
+{
+  "name": "Turtonator",
+  "id": 776,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Dragon"
+      ],
+      "ability1": "Shell Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 78,
+        "DEF": 135,
+        "SP_ATK": 91,
+        "SP_DEF": 85,
+        "SPD": 36
+      },
+      "height": 2.0,
+      "weight": 212.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Blast Turtle",
+      "isBaseForm": true
+    }
+  }
+}

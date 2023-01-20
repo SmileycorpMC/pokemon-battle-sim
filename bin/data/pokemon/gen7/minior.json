@@ -1,0 +1,495 @@
+{
+  "name": "Minior",
+  "id": 774,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "red-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "orange-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "yellow-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "green-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "blue-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "indigo-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "violet-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "red-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "orange-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "yellow-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "green-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "blue-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "indigo-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "violet-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Voltorb",
+  "id": 100,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "Static",
+      "hiddenAbility": "Aftermath",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "electrode",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        },
+        {
+          "target": {
+            "species": "electrode",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "leaf_stone"
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 30,
+        "DEF": 50,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 100
+      },
+      "height": 0.5,
+      "weight": 10.4,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Ball",
+      "isBaseForm": true
+    },
+    "hisui": {
+      "types": [
+        "Electric",
+        "Grass"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "Static",
+      "hiddenAbility": "Aftermath",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 40,
+        "ATK": 30,
+        "DEF": 50,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 100
+      },
+      "height": 0.5,
+      "weight": 13.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Sphere",
+      "isBaseForm": true
+    }
+  }
+}

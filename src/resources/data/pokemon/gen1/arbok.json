@@ -1,0 +1,49 @@
+{
+  "name": "Arbok",
+  "id": 24,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Shed Skin",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 95,
+        "DEF": 69,
+        "SP_ATK": 65,
+        "SP_DEF": 79,
+        "SPD": 80
+      },
+      "height": 3.5,
+      "weight": 65.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 157,
+      "classification": "Cobra",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Wingull",
+  "id": 278,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Hydration",
+      "hiddenAbility": "Rain Dish",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pelipper",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 30,
+        "DEF": 30,
+        "SP_ATK": 55,
+        "SP_DEF": 30,
+        "SPD": 85
+      },
+      "height": 0.6,
+      "weight": 9.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Seagull",
+      "isBaseForm": true
+    }
+  }
+}

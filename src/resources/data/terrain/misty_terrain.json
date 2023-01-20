@@ -1,0 +1,60 @@
+{
+  "stat_modifiers": [],
+  "effects": [
+    {
+      "event": "on_apply_status",
+      "functions": [
+        {
+          "function": "set_event_status",
+          "value": "Deny",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "get_status_type"
+                },
+                "operation": "==",
+                "value2": [
+                  "burn",
+                  "freeze",
+                  "paralysis",
+                  "poison",
+                  "bad_poison",
+                  "sleep",
+                  "frostbite",
+                  "drowsiness",
+                  "confusion"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "hit_by_move",
+      "functions": [
+        {
+          "function": "apply_damage_modifier",
+          "value": 0.5,
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_move",
+                  "target": "types"
+                },
+                "operator": "==",
+                "value2": "dragon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

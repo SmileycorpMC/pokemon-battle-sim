@@ -1,0 +1,25 @@
+{
+	"name": "Bolt Strike",
+	"type": "Electric",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 130,
+	"accuracy": 85,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "paralysis",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.20
+		}]
+	}],
+	"z-move_effects": []
+}

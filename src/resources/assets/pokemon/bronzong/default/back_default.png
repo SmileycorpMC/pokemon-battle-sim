@@ -1,0 +1,43 @@
+{
+  "name": "Scraggy",
+  "id": 559,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 35,
+  "catchRate": 180,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "Moxie",
+      "hiddenAbility": "Intimidate",
+      "stats": {
+        "HP": 50,
+        "ATK": 75,
+        "DEF": 70,
+        "SP_ATK": 35,
+        "SP_DEF": 70,
+        "SPD": 48
+      },
+      "height": 0.6,
+      "weight": 11.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Shedding",

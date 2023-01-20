@@ -1,0 +1,58 @@
+{
+  "name": "Clobbopus",
+  "id": 852,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Limber",
+      "ability2": "",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "grapploct",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "taunt"
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 68,
+        "DEF": 60,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 32
+      },
+      "height": 0.6,
+      "weight": 4.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Tantrum",
+      "isBaseForm": true
+    }
+  }
+}

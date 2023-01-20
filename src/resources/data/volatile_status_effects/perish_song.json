@@ -1,0 +1,43 @@
+{
+  "stat_modifiers": [],
+  "effects": [
+    {
+      "event": "on_first_apply",
+      "functions": [
+        {
+          "function": "create_turn_timer",
+          "value": {
+            "name": "perish_count",
+            "start": 3,
+            "value": -1
+          },
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "event": "on_turn_end",
+      "functions": [
+        {
+          "function": "faint_pokemon",
+          "value": {
+            "value": "from_event",
+            "target": "current_pokemon"
+          },
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "event": "on_effect_removed",
+      "functions": [
+        {
+          "function": "remove_turn_timer",
+          "value": "perish_count",
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "immune_types": []
+}

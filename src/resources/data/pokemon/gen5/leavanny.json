@@ -1,0 +1,49 @@
+{
+  "name": "Leavanny",
+  "id": 542,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Chlorophyll",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 103,
+        "DEF": 80,
+        "SP_ATK": 70,
+        "SP_DEF": 80,
+        "SPD": 92
+      },
+      "height": 1.2,
+      "weight": 20.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 225,
+      "classification": "Nurturing",
+      "isBaseForm": true
+    }
+  }
+}

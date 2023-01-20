@@ -1,0 +1,50 @@
+{
+  "name": "Archeops",
+  "id": 567,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Defeatist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 140,
+        "DEF": 65,
+        "SP_ATK": 112,
+        "SP_DEF": 65,
+        "SPD": 110
+      },
+      "height": 1.4,
+      "weight": 32.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 177,
+      "classification": "First Bird",
+      "isBaseForm": true
+    }
+  }
+}

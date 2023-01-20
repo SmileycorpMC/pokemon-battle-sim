@@ -1,0 +1,49 @@
+{
+	"name": "Captivate",
+	"type": "Normal",
+	"category": "status",
+	"target": "all_adjacent_opponents",
+	"power": -1,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"oblivious_cancels"
+	],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SP_ATK",
+			"amount": -2
+		}],
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_target",
+					"value": "gender"
+				},
+				"operator": "!=",
+				"value2": [
+					null,
+					{
+						"type": "from_user",
+						"value": "gender"
+					}
+				]
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "SP_DEF",
+			"amount": 2
+		}],
+		"conditions": []
+	}]
+}

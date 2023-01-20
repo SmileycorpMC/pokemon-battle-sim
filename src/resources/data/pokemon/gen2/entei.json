@@ -1,0 +1,52 @@
+{
+  "name": "Entei",
+  "id": 244,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 115,
+        "ATK": 115,
+        "DEF": 85,
+        "SP_ATK": 90,
+        "SP_DEF": 75,
+        "SPD": 100
+      },
+      "height": 2.1,
+      "weight": 198.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Volcano",
+      "isBaseForm": true
+    }
+  }
+}

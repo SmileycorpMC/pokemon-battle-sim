@@ -1,0 +1,39 @@
+{
+	"name": "Brine",
+	"type": "Water",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 65,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_power",
+		"value": 130,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "int",
+				"value1": {
+					"type": "from_target",
+					"value": "current_hp"
+				},
+				"operator": "<=",
+				"value2": {
+					"operation": "Divide",
+					"value": [{
+							"type": "from_target",
+							"target": "max_hp"
+						},
+						2
+					]
+				}
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

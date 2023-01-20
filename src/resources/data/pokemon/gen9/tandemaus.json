@@ -1,0 +1,49 @@
+{
+  "name": "Tandemaus",
+  "id": 924,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 50,
+  "catchRate": 150,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Pickup",
+      "hiddenAbility": "Own Tempo",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 50,
+        "DEF": 45,
+        "SP_ATK": 40,
+        "SP_DEF": 45,
+        "SPD": 75
+      },
+      "height": 0.3,
+      "weight": 1.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Couple",
+      "isBaseForm": true
+    }
+  }
+}

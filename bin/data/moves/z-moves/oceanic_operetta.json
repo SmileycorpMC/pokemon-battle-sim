@@ -1,0 +1,12 @@
+{
+	"name": "Oceanic Operetta",
+	"type": "Water",
+	"category": null,
+	"target": "select_ajacent",
+	"power": 195,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": []
+}

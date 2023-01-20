@@ -1,0 +1,48 @@
+{
+  "name": "Cosmog",
+  "id": 789,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Unaware",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 43,
+        "ATK": 29,
+        "DEF": 31,
+        "SP_ATK": 29,
+        "SP_DEF": 31,
+        "SPD": 37
+      },
+      "height": 0.2,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 40,
+      "classification": "Nebula",
+      "isBaseForm": true
+    }
+  }
+}

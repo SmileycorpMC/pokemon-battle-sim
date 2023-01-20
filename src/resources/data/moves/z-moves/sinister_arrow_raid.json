@@ -1,0 +1,12 @@
+{
+	"name": "Sinister Arrow Raid",
+	"type": "Ghost",
+	"category": null,
+	"target": "select_ajacent",
+	"power": 180,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": []
+}

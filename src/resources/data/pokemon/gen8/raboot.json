@@ -1,0 +1,58 @@
+{
+  "name": "Raboot",
+  "id": 814,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Libero",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "cinderace",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 86,
+        "DEF": 60,
+        "SP_ATK": 55,
+        "SP_DEF": 60,
+        "SPD": 94
+      },
+      "height": 0.6,
+      "weight": 9.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Rabbit",
+      "isBaseForm": true
+    }
+  }
+}

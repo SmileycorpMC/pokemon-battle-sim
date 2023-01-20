@@ -1,0 +1,57 @@
+{
+  "name": "Swadloon",
+  "id": 541,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "Chlorophyll",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "leavanny",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 63,
+        "DEF": 90,
+        "SP_ATK": 50,
+        "SP_DEF": 80,
+        "SPD": 42
+      },
+      "height": 0.5,
+      "weight": 7.3,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 133,
+      "classification": "Leaf-Wrapped",
+      "isBaseForm": true
+    }
+  }
+}

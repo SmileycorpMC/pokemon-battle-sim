@@ -1,0 +1,79 @@
+{
+  "name": "Metagross",
+  "id": 376,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "",
+      "hiddenAbility": "Light Metal",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 135,
+        "DEF": 130,
+        "SP_ATK": 95,
+        "SP_DEF": 90,
+        "SPD": 70
+      },
+      "height": 1.6,
+      "weight": 550.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Iron Leg",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "ability1": "Tough Claws",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 145,
+        "DEF": 150,
+        "SP_ATK": 105,
+        "SP_DEF": 110,
+        "SPD": 110
+      },
+      "height": 2.5,
+      "weight": 942.9,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Iron Leg",
+      "isBaseForm": false
+    }
+  }
+}

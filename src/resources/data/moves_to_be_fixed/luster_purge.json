@@ -1,0 +1,16 @@
+{
+  "name": "Luster Purge",
+  "type": "Psychic",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 70,
+  "accuracy": 100,
+  "pp": 5,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

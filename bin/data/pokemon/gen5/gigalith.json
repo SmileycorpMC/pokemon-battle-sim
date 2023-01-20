@@ -1,0 +1,48 @@
+{
+  "name": "Gigalith",
+  "id": 526,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Sand Stream",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 135,
+        "DEF": 130,
+        "SP_ATK": 60,
+        "SP_DEF": 80,
+        "SPD": 25
+      },
+      "height": 1.7,
+      "weight": 260.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 258,
+      "classification": "Compressed",
+      "isBaseForm": true
+    }
+  }
+}

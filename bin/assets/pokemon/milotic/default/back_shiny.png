@@ -1,0 +1,37 @@
+d
+	some bugs fixed
+
+Version 01.36 (2006-10-22)
+	added: russian/english interface
+	added: work with FAT volumes with damaged directories structure
+	added: directory recovery (full version only)
+	some bugs fixed
+
+Version 01.35 (2006-09-10)
+	added: cluster map
+	added: support for FAT files >2GB and NTFS files >4GB
+	fixed: NTFS Search
+	fixed: writing to MFT reserved area when create NTFS files and directories
+	fixed: NTFS directory recovery (support for 64bits, file attributes corrected)
+
+Version 01.34 (2006-07-27)
+	added: support for different NTFS versions
+	fixed: processing NTFS volumes without MFT record 0
+	improved: NTFS indexes reading
+
+Version 01.33 (2006-07-19)
+	fixed: MFTMirr updating after MFT modification
+	fixed: NTFS extended attribute processing
+
+Version 01.32 (2006-07-13)
+	added: direct NTFS write access
+	some small bugs fixed
+
+Version 01.30 (2006-06-26)
+	critical bug fixed: detecting XBIOS in 32bit DOS version
+	fixed: NTFS FILE fragmented record processing
+	added: FAT Search
+	added: file panel for FAT
+	added: write file to sectors, save sectors to file
+	added: work without FAT tables, with bad FAT tables
+	improved:

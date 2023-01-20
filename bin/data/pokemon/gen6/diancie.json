@@ -1,0 +1,87 @@
+{
+  "name": "Diancie",
+  "id": 719,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 100,
+        "DEF": 150,
+        "SP_ATK": 100,
+        "SP_DEF": 150,
+        "SPD": 50
+      },
+      "height": 0.7,
+      "weight": 8.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Jewel",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "ability1": "Magic Bounce",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 160,
+        "DEF": 110,
+        "SP_ATK": 160,
+        "SP_DEF": 110,
+        "SPD": 110
+      },
+      "height": 1.1,
+      "weight": 27.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Jewel",
+      "isBaseForm": false
+    }
+  }
+}

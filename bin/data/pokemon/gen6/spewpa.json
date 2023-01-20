@@ -1,0 +1,48 @@
+{
+  "name": "Spewpa",
+  "id": 665,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 22,
+        "DEF": 60,
+        "SP_ATK": 27,
+        "SP_DEF": 30,
+        "SPD": 29
+      },
+      "height": 0.3,
+      "weight": 8.4,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 75,
+      "classification": "Scatterdust",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Rampardos",
+  "id": 409,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Mold Breaker",
+      "ability2": "",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 165,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 50,
+        "SPD": 58
+      },
+      "height": 1.6,
+      "weight": 102.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Head Butt",
+      "isBaseForm": true
+    }
+  }
+}

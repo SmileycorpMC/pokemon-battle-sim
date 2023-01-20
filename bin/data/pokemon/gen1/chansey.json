@@ -1,0 +1,56 @@
+{
+  "name": "Chansey",
+  "id": 113,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "Serene Grace",
+      "hiddenAbility": "Healer",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "blissey",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 250,
+        "ATK": 5,
+        "DEF": 5,
+        "SP_ATK": 35,
+        "SP_DEF": 105,
+        "SPD": 50
+      },
+      "height": 1.1,
+      "weight": 34.6,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 395,
+      "classification": "Egg",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"name": "U-turn",
+	"type": "Bug",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 70,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "switch_out_user",
+		"value": null,
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Pyukumuku",
+  "id": 771,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Innards Out",
+      "ability2": "",
+      "hiddenAbility": "Unaware",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 55,
+        "ATK": 60,
+        "DEF": 130,
+        "SP_ATK": 30,
+        "SP_DEF": 130,
+        "SPD": 5
+      },
+      "height": 0.3,
+      "weight": 1.2,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Sea Cucumber",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Mirror Coat",
+  "type": "Psychic",
+  "category": "special",
+  "target": "self",
+  "power": -1,
+  "accuracy": 100,
+  "pp": 20,
+  "priority": -5,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

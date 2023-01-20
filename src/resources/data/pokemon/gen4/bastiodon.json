@@ -1,0 +1,49 @@
+{
+  "name": "Bastiodon",
+  "id": 411,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Steel"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "",
+      "hiddenAbility": "Soundproof",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 52,
+        "DEF": 168,
+        "SP_ATK": 47,
+        "SP_DEF": 138,
+        "SPD": 30
+      },
+      "height": 1.3,
+      "weight": 149.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Shield",
+      "isBaseForm": true
+    }
+  }
+}

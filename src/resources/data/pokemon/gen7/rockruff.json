@@ -1,0 +1,75 @@
+{
+  "name": "Rockruff",
+  "id": 744,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Vital Spirit",
+      "hiddenAbility": "Steadfast",
+      "eventAbilities": [
+        "Own Tempo"
+      ],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lycanroc",
+            "form": "midday"
+          },
+          "method": "level_day",
+          "value": 25
+        },
+        {
+          "target": {
+            "species": "lycanroc",
+            "form": "midnight"
+          },
+          "method": "level_night",
+          "value": 25
+        },
+        {
+          "target": {
+            "species": "lycanroc",
+            "form": "dusk"
+          },
+          "method": "level_midday_special_ability",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 65,
+        "DEF": 40,
+        "SP_ATK": 30,
+        "SP_DEF": 40,
+        "SPD": 60
+      },
+      "height": 0.5,
+      "weight": 9.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 56,
+      "classification": "Puppy",
+      "isBaseForm": true
+    }
+  }
+}

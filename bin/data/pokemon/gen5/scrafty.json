@@ -1,0 +1,54 @@
+{
+  "name": "Scrafty",
+  "id": 560,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "Moxie",
+      "hiddenAbility": "Intimidate",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 90,
+        "DEF": 115,
+        "SP_ATK": 45,
+        "SP_DEF": 115,
+        "SPD": 58
+      },
+      "height": 1.1,
+      "weight": 30.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 171,
+      "classification": "Hoodlum",
+      "isBaseForm": true
+    }
+  }
+}

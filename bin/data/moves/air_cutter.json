@@ -1,0 +1,22 @@
+{
+	"name": "Air Cutter",
+	"type": "Flying",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 60,
+	"accuracy": 95,
+	"pp": 25,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"sharp"
+	],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

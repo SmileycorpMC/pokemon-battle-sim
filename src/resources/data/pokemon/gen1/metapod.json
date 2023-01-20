@@ -1,0 +1,57 @@
+{
+  "name": "Metapod",
+  "id": 11,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "butterfree",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 10
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 20,
+        "DEF": 55,
+        "SP_ATK": 25,
+        "SP_DEF": 25,
+        "SPD": 30
+      },
+      "height": 0.7,
+      "weight": 9.9,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Cocoon",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Chingling",
+  "id": 433,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "chimecho",
+            "form": "default"
+          },
+          "method": "happiness_night"
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 30,
+        "DEF": 50,
+        "SP_ATK": 65,
+        "SP_DEF": 50,
+        "SPD": 45
+      },
+      "height": 0.2,
+      "weight": 0.6,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 57,
+      "classification": "Bell",
+      "isBaseForm": true
+    }
+  }
+}

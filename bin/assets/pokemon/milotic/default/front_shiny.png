@@ -1,0 +1,66 @@
+  "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "hoenn-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "hiddenAbility": "Lightning Rod",
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "sinnoh-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "hiddenAbility": "Lightning Rod",
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "unova-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "hiddenAbility": "L

@@ -1,0 +1,16 @@
+{
+	"name": "Astral Barrage",
+	"type": "Ghost",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 120,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": 200,
+	"max_move_power": 140,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

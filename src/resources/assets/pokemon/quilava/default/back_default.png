@@ -1,0 +1,41 @@
+{
+  "name": "Regirock",
+  "id": 377,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 35,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Clear Body",
+      "hiddenAbility": "Sturdy",
+      "stats": {
+        "HP": 80,
+        "ATK": 100,
+        "DEF": 200,
+        "SP_ATK": 50,
+        "SP_DEF": 100,
+        "SPD": 50
+      },
+      "height": 1.7,
+      "weight": 230.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Rock Peak",
+      "isBas

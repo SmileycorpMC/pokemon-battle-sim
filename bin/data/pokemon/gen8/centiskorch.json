@@ -1,0 +1,79 @@
+{
+  "name": "Centiskorch",
+  "id": 851,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Bug"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "White Smoke",
+      "hiddenAbility": "Flame Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 115,
+        "DEF": 65,
+        "SP_ATK": 90,
+        "SP_DEF": 90,
+        "SPD": 65
+      },
+      "height": 3.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Radiator",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Fire",
+        "Bug"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "White Smoke",
+      "hiddenAbility": "Flame Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 115,
+        "DEF": 65,
+        "SP_ATK": 90,
+        "SP_DEF": 90,
+        "SPD": 65
+      },
+      "height": 75.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Radiator",
+      "isBaseForm": false
+    }
+  }
+}

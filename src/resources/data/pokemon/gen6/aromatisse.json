@@ -1,0 +1,48 @@
+{
+  "name": "Aromatisse",
+  "id": 683,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Healer",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 101,
+        "ATK": 72,
+        "DEF": 72,
+        "SP_ATK": 99,
+        "SP_DEF": 89,
+        "SPD": 29
+      },
+      "height": 0.8,
+      "weight": 15.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 162,
+      "classification": "Fragrance",
+      "isBaseForm": true
+    }
+  }
+}

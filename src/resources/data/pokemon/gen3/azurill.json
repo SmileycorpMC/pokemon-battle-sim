@@ -1,0 +1,57 @@
+{
+  "name": "Azurill",
+  "id": 298,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "ability1": "Thick Fat",
+      "ability2": "Huge Power",
+      "hiddenAbility": "Sap Sipper",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "marill",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 20,
+        "DEF": 40,
+        "SP_ATK": 20,
+        "SP_DEF": 40,
+        "SPD": 20
+      },
+      "height": 0.2,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 38,
+      "classification": "Polka Dot",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Heracross",
+  "id": 214,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Guts",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 125,
+        "DEF": 75,
+        "SP_ATK": 40,
+        "SP_DEF": 95,
+        "SPD": 85
+      },
+      "height": 1.5,
+      "weight": 54.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Single Horn",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "ability1": "Skill Link",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 185,
+        "DEF": 115,
+        "SP_ATK": 40,
+        "SP_DEF": 105,
+        "SPD": 75
+      },
+      "height": 1.7,
+      "weight": 62.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 210,
+      "classification": "Single Horn",
+      "isBaseForm": false
+    }
+  }
+}

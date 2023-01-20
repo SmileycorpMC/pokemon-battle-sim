@@ -1,0 +1,49 @@
+{
+  "name": "Volbeat",
+  "id": 313,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Bug",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Illuminate",
+      "ability2": "Swarm",
+      "hiddenAbility": "Prankster",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 73,
+        "DEF": 75,
+        "SP_ATK": 47,
+        "SP_DEF": 85,
+        "SPD": 85
+      },
+      "height": 0.7,
+      "weight": 17.7,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 151,
+      "classification": "Firefly",
+      "isBaseForm": true
+    }
+  }
+}

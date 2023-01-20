@@ -1,0 +1,132 @@
+{
+  "stat_modifiers": [],
+  "effects": [
+    {
+      "event": "on_first_apply",
+      "functions": [
+        {
+          "function": "create_turn_timer",
+          "value": {
+            "name": "confusion",
+            "start": {
+              "type": "random_value",
+              "target": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            "value": -1
+          },
+          "conditions": []
+        },
+        {
+          "event": "on_use_move_last",
+          "functions": [
+            {
+              "function": "multiple",
+              "value": [
+                {
+                  "function": "set_move_status",
+                  "value": "Confused",
+                  "conditions": []
+                },
+                {
+                  "function": "cause_attack",
+                  "value": {
+                    "target": "current_pokemon",
+                    "user": "current_pokemon",
+                    "attack": "confusion_self_attack"
+                  },
+                  "conditions": []
+                }
+              ],
+              "conditions": [
+                {
+                  "mode": "comparison",
+                  "value": {
+                    "type": "int",
+                    "value1": {
+                      "type": "from_turn_timer",
+                      "target": "confusion"
+                    },
+                    "operator": ">",
+                    "value2": 1
+                  }
+                },
+                {
+                  "mode": "comparison",
+                  "value": {
+                    "type": "string",
+                    "value1": {
+                      "target": "get_move_status"
+                    },
+                    "operator": "==",
+                    "value2": "Succeed"
+                  }
+                },
+                {
+                  "mode": "random_chance",
+                  "value": 0.33
+                }
+              ]
+            },
+            {
+              "function": "modify_battle_timer",
+              "value": {
+                "target": "confusion",
+                "mode": "add",
+                "value": 1
+              },
+              "conditions": [
+                {
+                  "mode": "comparison",
+                  "value": {
+                    "type": "string",
+                    "value1": {
+                      "type": "from_event",
+                      "target": "get_move_status"
+                    },
+                    "operator": "!=",
+                    "value2": [
+                      "Succeed",
+                      "Confused"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "remove_volatile_status",
+              "value": "confusion",
+              "conditions": [
+                {
+                  "mode": "comparison",
+                  "value": {
+                    "type": "int",
+                    "value1": {
+                      "type": "from_turn_timer",
+                      "target": "confusion"
+                    },
+                    "operator": "<=",
+                    "value2": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "on_effect_removed",
+      "functions": [
+        {
+          "function": "remove_turn_timer",
+          "value": "confusion",
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "immune_types": []
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Druddigon",
+  "id": 621,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rough Skin",
+      "ability2": "Sheer Force",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 77,
+        "ATK": 120,
+        "DEF": 90,
+        "SP_ATK": 60,
+        "SP_DEF": 90,
+        "SPD": 48
+      },
+      "height": 1.6,
+      "weight": 139.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Cave",
+      "isBaseForm": true
+    }
+  }
+}

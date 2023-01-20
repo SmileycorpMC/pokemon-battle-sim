@@ -1,0 +1,41 @@
+{
+  "name": "Brionne",
+  "id": 729,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "hiddenAbility": "Liquid Voice",
+      "stats": {
+        "HP": 60,
+        "ATK": 69,
+        "DEF": 69,
+        "SP_ATK": 91,
+        "SP_DEF": 81,
+        "SPD": 50
+      },
+      "height": 0.6,
+      "weight": 17.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Pop Star"

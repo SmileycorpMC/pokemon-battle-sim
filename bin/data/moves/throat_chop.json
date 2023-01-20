@@ -1,0 +1,22 @@
+{
+	"name": "Throat Chop",
+	"type": "Dark",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 80,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "silenced",
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

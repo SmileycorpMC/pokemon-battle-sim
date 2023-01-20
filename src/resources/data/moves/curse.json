@@ -1,0 +1,110 @@
+{
+	"name": "Curse",
+	"type": "Ghost",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+					"stat": "ATK",
+					"amount": 1
+				},
+				{
+					"stat": "DEF",
+					"amount": 1
+				},
+				{
+					"stat": "SPD",
+					"amount": -1
+				}
+			],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "types"
+					},
+					"operator": "!=",
+					"value2": "ghost"
+				}
+			}]
+		},
+		{
+			"function": "multiple",
+			"value": [{
+					"function": "change_targeting",
+					"value": "random_opponent",
+					"conditions": []
+				},
+				{
+					"function": "inflict_volatile_status",
+					"value": "curse",
+					"conditions": []
+				},
+				{
+					"function": "fractional_damage_user",
+					"value": 0.5,
+					"conditions": []
+				}
+			],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "types"
+					},
+					"operator": "==",
+					"value2": "ghost"
+				}
+			}]
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+				"stat": "ATK",
+				"amount": 1
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "types"
+					},
+					"operator": "!=",
+					"value2": "ghost"
+				}
+			}]
+		},
+		{
+			"function": "fractional_heal_user",
+			"value": 1,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "types"
+					},
+					"operator": "==",
+					"value2": "ghost"
+				}
+			}]
+		}
+	]
+}

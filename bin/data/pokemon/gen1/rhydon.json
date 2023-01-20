@@ -1,0 +1,59 @@
+{
+  "name": "Rhydon",
+  "id": 112,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "ability1": "Lightning Rod",
+      "ability2": "Rock Head",
+      "hiddenAbility": "Reckless",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "rhyperior",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "protector"
+        }
+      ],
+      "stats": {
+        "HP": 105,
+        "ATK": 130,
+        "DEF": 120,
+        "SP_ATK": 45,
+        "SP_DEF": 45,
+        "SPD": 40
+      },
+      "height": 1.9,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Drill",
+      "isBaseForm": true
+    }
+  }
+}

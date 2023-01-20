@@ -1,0 +1,25 @@
+{
+	"name": "Thunderous Kick",
+	"type": "Fighting",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "DEF",
+			"amount": -1
+		}],
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

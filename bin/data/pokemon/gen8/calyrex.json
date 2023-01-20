@@ -1,0 +1,115 @@
+{
+  "name": "Calyrex",
+  "id": 898,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Grass"
+      ],
+      "ability1": "Unnerve",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 80,
+        "DEF": 80,
+        "SP_ATK": 80,
+        "SP_DEF": 80,
+        "SPD": 80
+      },
+      "height": 1.1,
+      "weight": 7.7,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 250,
+      "classification": "King",
+      "isBaseForm": true
+    },
+    "ice": {
+      "types": [
+        "Psychic",
+        "Ice"
+      ],
+      "ability1": [
+        "Unnerve",
+        "Chilling Neigh"
+      ],
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 165,
+        "DEF": 150,
+        "SP_ATK": 85,
+        "SP_DEF": 130,
+        "SPD": 50
+      },
+      "height": 2.4,
+      "weight": 809.1,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "King",
+      "isBaseForm": true
+    },
+    "shadow": {
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "ability1": [
+        "Unnerve",
+        "Grim Neigh"
+      ],
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 85,
+        "DEF": 80,
+        "SP_ATK": 165,
+        "SP_DEF": 100,
+        "SPD": 150
+      },
+      "height": 2.4,
+      "weight": 53.6,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "King",
+      "isBaseForm": true
+    }
+  }
+}

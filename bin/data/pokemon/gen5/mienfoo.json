@@ -1,0 +1,58 @@
+{
+  "name": "Mienfoo",
+  "id": 619,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "Regenerator",
+      "hiddenAbility": "Reckless",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "mienshao",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 50
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 85,
+        "DEF": 50,
+        "SP_ATK": 55,
+        "SP_DEF": 50,
+        "SPD": 65
+      },
+      "height": 0.9,
+      "weight": 20.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Martial Arts",
+      "isBaseForm": true
+    }
+  }
+}

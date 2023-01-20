@@ -1,0 +1,31 @@
+DMDE Change Log
+
+Version 4.0.0.800 (2022-03-06)
+	new: Btrfs support (without RAID support)
+	new: new ReFS modifications support (up to v3.7)
+	improved: interface improvements
+	fixed: APFS reconstruction critical bug
+	fixed: support for APFS "duplicated" files
+	other improvements and fixes
+
+Version 3.8.0.790 (2020-11-08)
+	new: APFS support (without encryption)
+	new: image preview (for standard graphics)
+	new: Portuguese Brazilian, Simplified Chinese translations
+	fixed: HFS support critical bugs
+	fixed: extfs Full Scan critical bug processing damaged inodes
+	other improvements and fixes
+
+Version 3.6.1.773 (2019-10-12)
+	new: 64-bit version for macOS
+
+Version 3.6.0.770 (2019-09-14)
+	new: ReFS v1/v3 support
+	new: filtering Raw results by using cluster map
+	new: applying Raw results to FS data
+	new: support for VMDK disk image files
+	new: support for EWF disk image files (e01/etc., Professional Edition only)
+	improved: cluster map support (diff. FS types / damaged FS / reports)
+	improved: more presize detection of RAID parameters, fixed offset detection
+	fixed: HFS support critical bugs
+	fixed: extfs some rare parameters 

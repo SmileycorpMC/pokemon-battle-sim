@@ -1,0 +1,77 @@
+{
+  "name": "Kingler",
+  "id": 99,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 55,
+        "ATK": 130,
+        "DEF": 115,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 1.3,
+      "weight": 60.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Pincer",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 55,
+        "ATK": 130,
+        "DEF": 115,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 19.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Pincer",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Stunky",
+  "id": 434,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Dark"
+      ],
+      "ability1": "Stench",
+      "ability2": "Aftermath",
+      "hiddenAbility": "Keen Eye",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "skuntank",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 63,
+        "ATK": 63,
+        "DEF": 47,
+        "SP_ATK": 41,
+        "SP_DEF": 41,
+        "SPD": 74
+      },
+      "height": 0.4,
+      "weight": 19.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Skunk",
+      "isBaseForm": true
+    }
+  }
+}

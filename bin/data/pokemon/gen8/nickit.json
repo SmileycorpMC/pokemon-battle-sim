@@ -1,0 +1,57 @@
+{
+  "name": "Nickit",
+  "id": 827,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Unburden",
+      "hiddenAbility": "Stakeout",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "thievul",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 28,
+        "DEF": 28,
+        "SP_ATK": 47,
+        "SP_DEF": 52,
+        "SPD": 50
+      },
+      "height": 0.6,
+      "weight": 8.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 49,
+      "classification": "Fox",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Stufful",
+  "id": 759,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "ability1": "Fluffy",
+      "ability2": "Klutz",
+      "hiddenAbility": "Cute Charm",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "bewear",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 27
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 75,
+        "DEF": 50,
+        "SP_ATK": 45,
+        "SP_DEF": 50,
+        "SPD": 50
+      },
+      "height": 0.5,
+      "weight": 6.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 68,
+      "classification": "Flailing",
+      "isBaseForm": true
+    }
+  }
+}

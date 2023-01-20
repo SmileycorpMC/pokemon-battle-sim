@@ -1,0 +1,45 @@
+{
+  "name": "Rockruff",
+  "id": 744,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Vital Spirit",
+      "hiddenAbility": "Steadfast",
+      "stats": {
+        "HP": 45,
+        "ATK": 65,
+        "DEF": 40,
+        "SP_ATK": 30,
+        "SP_DEF": 40,
+        "SPD": 60
+      },
+      "height": 0.5,
+      "weight": 9.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 56,
+      "classification": "Puppy",
+      "isBaseForm": true
+    }
+  }
+}

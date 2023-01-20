@@ -1,0 +1,49 @@
+{
+  "name": "Cobalion",
+  "id": 638,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Fighting"
+      ],
+      "ability1": "Justified",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 91,
+        "ATK": 90,
+        "DEF": 129,
+        "SP_ATK": 90,
+        "SP_DEF": 72,
+        "SPD": 108
+      },
+      "height": 2.1,
+      "weight": 250.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Iron Will",
+      "isBaseForm": true
+    }
+  }
+}

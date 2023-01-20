@@ -1,0 +1,58 @@
+{
+  "name": "Staravia",
+  "id": 397,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "",
+      "hiddenAbility": "Reckless",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "staraptor",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 75,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 80
+      },
+      "height": 0.6,
+      "weight": 15.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 119,
+      "classification": "Starling",
+      "isBaseForm": true
+    }
+  }
+}

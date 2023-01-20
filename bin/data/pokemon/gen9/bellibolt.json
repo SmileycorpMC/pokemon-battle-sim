@@ -1,0 +1,48 @@
+{
+  "name": "Bellibolt",
+  "id": 939,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 50,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Electromorphosis",
+      "ability2": "Static",
+      "hiddenAbility": "Damp",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 109,
+        "ATK": 64,
+        "DEF": 91,
+        "SP_ATK": 103,
+        "SP_DEF": 83,
+        "SPD": 45
+      },
+      "height": 1.2,
+      "weight": 113.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "EleFrog",
+      "isBaseForm": true
+    }
+  }
+}

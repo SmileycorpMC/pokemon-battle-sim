@@ -1,0 +1,58 @@
+{
+  "name": "Pidove",
+  "id": 519,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Big Pecks",
+      "ability2": "Super Luck",
+      "hiddenAbility": "Rivalry",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "tranquill",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 21
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 55,
+        "DEF": 50,
+        "SP_ATK": 36,
+        "SP_DEF": 30,
+        "SPD": 43
+      },
+      "height": 0.3,
+      "weight": 2.1,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 53,
+      "classification": "Tiny Pigeon",
+      "isBaseForm": true
+    }
+  }
+}

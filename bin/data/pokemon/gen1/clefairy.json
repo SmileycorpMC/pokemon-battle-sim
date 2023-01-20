@@ -1,0 +1,57 @@
+{
+  "name": "Clefairy",
+  "id": 35,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Magic Guard",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "clefable",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "moon_stone"
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 45,
+        "DEF": 48,
+        "SP_ATK": 60,
+        "SP_DEF": 65,
+        "SPD": 35
+      },
+      "height": 0.6,
+      "weight": 7.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 113,
+      "classification": "Fairy",
+      "isBaseForm": true
+    }
+  }
+}

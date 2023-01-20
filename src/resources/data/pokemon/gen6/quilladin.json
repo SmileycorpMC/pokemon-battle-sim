@@ -1,0 +1,57 @@
+{
+  "name": "Quilladin",
+  "id": 651,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Bulletproof",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "chesnaught",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 61,
+        "ATK": 78,
+        "DEF": 95,
+        "SP_ATK": 56,
+        "SP_DEF": 58,
+        "SPD": 57
+      },
+      "height": 0.7,
+      "weight": 29.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Spiny Armor",
+      "isBaseForm": true
+    }
+  }
+}

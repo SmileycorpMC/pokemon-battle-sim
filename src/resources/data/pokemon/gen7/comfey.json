@@ -1,0 +1,48 @@
+{
+  "name": "Comfey",
+  "id": 764,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "Triage",
+      "hiddenAbility": "Natural Cure",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 51,
+        "ATK": 52,
+        "DEF": 90,
+        "SP_ATK": 82,
+        "SP_DEF": 110,
+        "SPD": 100
+      },
+      "height": 0.1,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Posy Picker",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Giratina",
+  "id": 487,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 150,
+        "ATK": 100,
+        "DEF": 120,
+        "SP_ATK": 100,
+        "SP_DEF": 120,
+        "SPD": 90
+      },
+      "height": 4.5,
+      "weight": 750.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Renegade",
+      "isBaseForm": true
+    },
+    "origin": {
+      "types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 150,
+        "ATK": 120,
+        "DEF": 100,
+        "SP_ATK": 120,
+        "SP_DEF": 100,
+        "SPD": 90
+      },
+      "height": 6.9,
+      "weight": 650.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Renegade",
+      "isBaseForm": false
+    }
+  }
+}

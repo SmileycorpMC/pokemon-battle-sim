@@ -1,0 +1,43 @@
+{
+  "name": "Scyther",
+  "id": 123,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Technician",
+      "hiddenAbility": "Steadfast",
+      "stats": {
+        "HP": 70,
+        "ATK": 110,
+        "DEF": 80,
+        "SP_ATK": 55,
+        "SP_DEF": 80,
+        "SPD": 105
+      },
+      "height": 1.5,
+      "weight": 56.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 100,
+      "classification": "Mantis",
+      "isBaseForm":

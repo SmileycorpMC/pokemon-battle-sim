@@ -1,0 +1,49 @@
+{
+  "name": "Dracovish",
+  "id": 882,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "ability1": "Water Absorb",
+      "ability2": "Strong Jaw",
+      "hiddenAbility": "Sand Rush",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 90,
+        "DEF": 100,
+        "SP_ATK": 70,
+        "SP_DEF": 80,
+        "SPD": 75
+      },
+      "height": 2.3,
+      "weight": 215.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 177,
+      "classification": "Fossil",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Palafin",
+  "id": 964,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Slow",
+  "eggGroups": [
+	"Field",
+	"Water2"
+  ],
+  "forms": {
+    "zero": {
+      "types": [
+		"Water"
+      ],
+      "ability1": "Zero to Hero",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 70,
+        "DEF": 72,
+        "SP_ATK": 53,
+        "SP_DEF": 62,
+        "SPD": 100
+      },
+      "height": 1.3,
+      "weight": 60.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 160,
+      "classification": "Dolphin",
+      "isBaseForm": true
+	},
+	"hero": {
+      "types": [
+		"Water"
+      ],
+      "ability1": "Zero to Hero",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 160,
+        "DEF": 97,
+        "SP_ATK": 106,
+        "SP_DEF": 87,
+        "SPD": 100
+      },
+      "height": 1.8,
+      "weight": 97.4,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 228,
+      "classification": "Hero",
+      "isBaseForm": true
+	}
+  }
+}

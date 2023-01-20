@@ -1,0 +1,62 @@
+{
+  "name": "Slowpoke",
+  "id": 79,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "stats": {
+        "HP": 90,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 15
+      },
+      "height": 1.2,
+      "weight": 36.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Dopey",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Gluttony",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "stats": {
+        "HP": 90,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 15
+      },
+      "height": 1.2,
+      "weight": 36.

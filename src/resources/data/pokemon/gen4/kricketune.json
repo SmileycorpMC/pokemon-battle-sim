@@ -1,0 +1,48 @@
+{
+  "name": "Kricketune",
+  "id": 402,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Swarm",
+      "ability2": "",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 77,
+        "ATK": 85,
+        "DEF": 51,
+        "SP_ATK": 55,
+        "SP_DEF": 51,
+        "SPD": 65
+      },
+      "height": 1.0,
+      "weight": 25.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 134,
+      "classification": "Cricket",
+      "isBaseForm": true
+    }
+  }
+}

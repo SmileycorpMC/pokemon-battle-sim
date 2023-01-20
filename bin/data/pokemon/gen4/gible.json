@@ -1,0 +1,59 @@
+{
+  "name": "Gible",
+  "id": 443,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "",
+      "hiddenAbility": "Rough Skin",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "gabite",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 24
+        }
+      ],
+      "stats": {
+        "HP": 58,
+        "ATK": 70,
+        "DEF": 45,
+        "SP_ATK": 40,
+        "SP_DEF": 45,
+        "SPD": 42
+      },
+      "height": 0.7,
+      "weight": 20.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Land Shark",
+      "isBaseForm": true
+    }
+  }
+}

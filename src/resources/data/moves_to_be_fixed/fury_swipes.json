@@ -1,0 +1,16 @@
+{
+  "name": "Fury Swipes",
+  "type": "Normal",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 18,
+  "accuracy": 80,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Assurance",
+	"type": "Dark",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 60,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "change_power",
+		"value": 120,
+		"conditions": [{
+			"mode": "target_recieved_damage",
+			"value": true
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Kabutops",
+  "id": 141,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Battle Armor",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 115,
+        "DEF": 105,
+        "SP_ATK": 65,
+        "SP_DEF": 70,
+        "SPD": 80
+      },
+      "height": 1.3,
+      "weight": 40.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Shellfish",
+      "isBaseForm": true
+    }
+  }
+}

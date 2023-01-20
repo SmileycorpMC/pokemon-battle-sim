@@ -1,0 +1,49 @@
+{
+  "name": "Naganadel",
+  "id": 804,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 73,
+        "ATK": 73,
+        "DEF": 73,
+        "SP_ATK": 127,
+        "SP_DEF": 73,
+        "SPD": 121
+      },
+      "height": 3.6,
+      "weight": 150.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Poison Pin",
+      "isBaseForm": true
+    }
+  }
+}

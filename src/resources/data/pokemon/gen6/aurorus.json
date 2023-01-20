@@ -1,0 +1,49 @@
+{
+  "name": "Aurorus",
+  "id": 699,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ice"
+      ],
+      "ability1": "Refrigerate",
+      "ability2": "",
+      "hiddenAbility": "Snow Warning",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 123,
+        "ATK": 77,
+        "DEF": 72,
+        "SP_ATK": 99,
+        "SP_DEF": 92,
+        "SPD": 58
+      },
+      "height": 2.7,
+      "weight": 225.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 104,
+      "classification": "Tundra",
+      "isBaseForm": true
+    }
+  }
+}

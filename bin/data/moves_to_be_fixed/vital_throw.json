@@ -1,0 +1,16 @@
+{
+  "name": "Vital Throw",
+  "type": "Fighting",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 70,
+  "accuracy": 101,
+  "pp": 10,
+  "priority": -1,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

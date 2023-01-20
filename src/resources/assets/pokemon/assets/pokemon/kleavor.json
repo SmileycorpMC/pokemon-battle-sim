@@ -1,0 +1,46 @@
+{
+  "name": "Kleavor",
+  "id": 900,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 50,
+  "catchRate": 25,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Rock"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Sheer Force",
+      "hiddenAbility": "Steadfast",
+      "stats": {
+        "HP": 70,
+        "ATK": 135,
+        "DEF": 95,
+        "SP_ATK": 45,
+        "SP_DEF": 70,
+        "SPD": 85
+      },
+      "height": 1.8,
+      "weight": 89.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Axe",
+      "isBaseForm": true
+    }
+  }
+}

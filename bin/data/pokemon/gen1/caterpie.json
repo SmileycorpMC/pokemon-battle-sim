@@ -1,0 +1,57 @@
+{
+  "name": "Caterpie",
+  "id": 10,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "",
+      "hiddenAbility": "Run Away",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "metapod",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 7
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 30,
+        "DEF": 35,
+        "SP_ATK": 20,
+        "SP_DEF": 20,
+        "SPD": 45
+      },
+      "height": 0.3,
+      "weight": 2.9,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 39,
+      "classification": "Worm",
+      "isBaseForm": true
+    }
+  }
+}

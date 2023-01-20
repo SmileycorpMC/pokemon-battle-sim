@@ -1,0 +1,54 @@
+{
+  "name": "Relicanth",
+  "id": 369,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1",
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Rock Head",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 90,
+        "DEF": 130,
+        "SP_ATK": 45,
+        "SP_DEF": 65,
+        "SPD": 55
+      },
+      "height": 1.0,
+      "weight": 23.4,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Longevity",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Metang",
+  "id": 375,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 35,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "ability1": "Clear Body",
+      "hiddenAbility": "Light Metal",
+      "stats": {
+        "HP": 60,
+        "ATK": 75,
+        "DEF": 100,
+        "SP_ATK": 55,
+        "SP_DEF": 80,
+        "SPD": 50
+      },
+      "height": 1.2,
+      "weight": 202.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Iron Claw",
+      "isBaseForm": 

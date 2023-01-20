@@ -1,0 +1,47 @@
+{
+  "name": "Wugtrio",
+  "id": 961,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 50,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+	"Water3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Water"
+      ],
+      "ability1": "Gooey",
+      "ability2": "Rattled",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 100,
+        "DEF": 50,
+        "SP_ATK": 50,
+        "SP_DEF": 70,
+        "SPD": 120
+      },
+      "height": 1.2,
+      "weight": 5.4,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 149,
+      "classification": "Garden Eel",
+      "isBaseForm": true
+	}
+  }
+}

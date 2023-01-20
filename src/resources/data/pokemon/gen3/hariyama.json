@@ -1,0 +1,48 @@
+{
+  "name": "Hariyama",
+  "id": 297,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Thick Fat",
+      "ability2": "Guts",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 144,
+        "ATK": 120,
+        "DEF": 60,
+        "SP_ATK": 40,
+        "SP_DEF": 60,
+        "SPD": 50
+      },
+      "height": 2.3,
+      "weight": 253.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Arm Thrust",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Flareon",
+  "id": 136,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "",
+      "hiddenAbility": "Guts",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 130,
+        "DEF": 60,
+        "SP_ATK": 95,
+        "SP_DEF": 110,
+        "SPD": 65
+      },
+      "height": 0.9,
+      "weight": 25.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Flame",
+      "isBaseForm": true
+    }
+  }
+}

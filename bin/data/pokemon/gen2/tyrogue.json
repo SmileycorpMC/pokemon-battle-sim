@@ -1,0 +1,73 @@
+{
+  "name": "Tyrogue",
+  "id": 236,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Guts",
+      "ability2": "Steadfast",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "hitmonchan",
+            "form": "default"
+          },
+          "method": "level_atk_less_than_def",
+          "value": 20
+        },
+        {
+          "target": {
+            "species": "hitmonlee",
+            "form": "default"
+          },
+          "method": "level_atk_greater_than_def",
+          "value": 20
+        },
+        {
+          "target": {
+            "species": "hitmontop",
+            "form": "default"
+          },
+          "method": "level_atk_equals_def",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 35,
+        "DEF": 35,
+        "SP_ATK": 35,
+        "SP_DEF": 35,
+        "SPD": 35
+      },
+      "height": 0.7,
+      "weight": 21.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 42,
+      "classification": "Scuffle",
+      "isBaseForm": true
+    }
+  }
+}

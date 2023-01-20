@@ -1,0 +1,11 @@
+{
+  "is_harsh": false,
+  "stat_modifiers": [
+    {
+      "type": "ice",
+      "stat": "DEF",
+      "multiplier": 1.5
+    }
+  ],
+  "effects": []
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Decorate",
+	"type": "Fairy",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"bypasses_protection"
+	],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+				"stat": "ATK",
+				"amount": 2
+			},
+			{
+				"stat": "SP_ATK",
+				"amount": 2
+			}
+		],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

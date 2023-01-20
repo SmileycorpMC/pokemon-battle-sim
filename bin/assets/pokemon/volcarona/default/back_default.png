@@ -1,0 +1,51 @@
+{
+  "name": "Coalossal",
+  "id": 839,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Fire"
+      ],
+      "ability1": "Steam Engine",
+      "ability2": "Flame Body",
+      "hiddenAbility": "Flash Fire",
+      "stats": {
+        "HP": 110,
+        "ATK": 80,
+        "DEF": 120,
+        "SP_ATK": 80,
+        "SP_DEF": 90,
+        "SPD": 30
+      },
+      "height": 2.8,
+      "weight": 310.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 255,
+      "classification": "Coal",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Rock",
+        "Fire"
+      ],
+      "ability1": "Steam Engine",
+      "ability2": "

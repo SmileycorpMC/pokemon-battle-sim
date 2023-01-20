@@ -1,0 +1,50 @@
+{
+  "name": "Pangoro",
+  "id": 675,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+        "Dark"
+      ],
+      "ability1": "Iron Fist",
+      "ability2": "Mold Breaker",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 124,
+        "DEF": 78,
+        "SP_ATK": 69,
+        "SP_DEF": 71,
+        "SPD": 58
+      },
+      "height": 2.1,
+      "weight": 136.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Daunting",
+      "isBaseForm": true
+    }
+  }
+}

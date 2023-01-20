@@ -1,0 +1,48 @@
+{
+  "name": "Boltund",
+  "id": 836,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Strong Jaw",
+      "ability2": "",
+      "hiddenAbility": "Competitive",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 69,
+        "ATK": 90,
+        "DEF": 60,
+        "SP_ATK": 90,
+        "SP_DEF": 60,
+        "SPD": 121
+      },
+      "height": 1.0,
+      "weight": 34.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Dog",
+      "isBaseForm": true
+    }
+  }
+}

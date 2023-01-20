@@ -1,0 +1,42 @@
+{
+  "name": "Blipbug",
+  "id": 824,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 255,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Telepathy",
+      "stats": {
+        "HP": 25,
+        "ATK": 20,
+        "DEF": 20,
+        "SP_ATK": 25,
+        "SP_DEF": 45,
+        "SPD": 45
+      },
+      "height": 0.4,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 36,
+      "classification": "Larva",
+      "isBase

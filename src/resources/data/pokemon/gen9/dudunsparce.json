@@ -1,0 +1,77 @@
+{
+  "name": "Dudunsparce",
+  "id": 982,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "two-segment": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Serene Grace",
+      "ability2": "Run Away",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 125,
+        "ATK": 100,
+        "DEF": 80,
+        "SP_ATK": 85,
+        "SP_DEF": 75,
+        "SPD": 55
+      },
+      "height": 3.6,
+      "weight": 39.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 182,
+      "classification": "Land Snake",
+      "isBaseForm": true
+    },
+	"three-segment": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Serene Grace",
+      "ability2": "Run Away",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 125,
+        "ATK": 100,
+        "DEF": 80,
+        "SP_ATK": 85,
+        "SP_DEF": 75,
+        "SPD": 55
+      },
+      "height": 4.5,
+      "weight": 47.4,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 182,
+      "classification": "Land Snake",
+      "isBaseForm": true
+    }
+  }
+}

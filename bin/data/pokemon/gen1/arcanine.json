@@ -1,0 +1,78 @@
+{
+  "name": "Arcanine",
+  "id": 59,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Flash Fire",
+      "hiddenAbility": "Justified",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 110,
+        "DEF": 80,
+        "SP_ATK": 100,
+        "SP_DEF": 80,
+        "SPD": 95
+      },
+      "height": 1.9,
+      "weight": 155.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 194,
+      "classification": "Legendary",
+      "isBaseForm": true
+    },
+    "hisui": {
+      "types": [
+        "Fire",
+        "Rock"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Flash Fire",
+      "hiddenAbility": "Rock Head",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 115,
+        "DEF": 80,
+        "SP_ATK": 95,
+        "SP_DEF": 80,
+        "SPD": 90
+      },
+      "height": 2.0,
+      "weight": 168.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 194,
+      "classification": "Legendary",
+      "isBaseForm": true
+    }
+  }
+}

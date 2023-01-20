@@ -1,0 +1,57 @@
+{
+  "name": "Cranidos",
+  "id": 408,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Mold Breaker",
+      "ability2": "",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "rampardos",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 67,
+        "ATK": 125,
+        "DEF": 40,
+        "SP_ATK": 30,
+        "SP_DEF": 30,
+        "SPD": 58
+      },
+      "height": 0.9,
+      "weight": 31.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Head Butt",
+      "isBaseForm": true
+    }
+  }
+}

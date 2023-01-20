@@ -1,0 +1,59 @@
+{
+  "name": "Nuzleaf",
+  "id": 274,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Early Bird",
+      "hiddenAbility": "Pickpocket",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "shiftry",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "leaf_stone"
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 70,
+        "DEF": 40,
+        "SP_ATK": 60,
+        "SP_DEF": 40,
+        "SPD": 60
+      },
+      "height": 1.0,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 119,
+      "classification": "Wily",
+      "isBaseForm": true
+    }
+  }
+}

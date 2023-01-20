@@ -1,0 +1,20 @@
+{
+	"name": "Absorb",
+	"type": "Grass",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 20,
+	"accuracy": 100,
+	"pp": 25,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "drain_hp_percent_of_damage",
+		"value": 0.5,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

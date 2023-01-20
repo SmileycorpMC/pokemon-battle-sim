@@ -1,0 +1,49 @@
+{
+  "name": "Annihilape",
+  "id": 979,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+		"Ghost"
+      ],
+      "ability1": "Vital Spirit",
+      "ability2": "Inner Focus",
+      "hiddenAbility": "Defiant",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 115,
+        "DEF": 80,
+        "SP_ATK": 50,
+        "SP_DEF": 90,
+        "SPD": 90
+      },
+      "height": 1.2,
+      "weight": 56.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 268,
+      "classification": "Rage Monkey",
+      "isBaseForm": true
+    }
+  }
+}

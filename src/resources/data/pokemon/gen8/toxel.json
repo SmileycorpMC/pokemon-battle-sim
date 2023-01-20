@@ -1,0 +1,49 @@
+{
+  "name": "Toxel",
+  "id": 848,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Poison"
+      ],
+      "ability1": "Rattled",
+      "ability2": "Static",
+      "hiddenAbility": "Klutz",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 40,
+        "ATK": 38,
+        "DEF": 35,
+        "SP_ATK": 54,
+        "SP_DEF": 35,
+        "SPD": 40
+      },
+      "height": 0.4,
+      "weight": 11.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 48,
+      "classification": "Baby",
+      "isBaseForm": true
+    }
+  }
+}

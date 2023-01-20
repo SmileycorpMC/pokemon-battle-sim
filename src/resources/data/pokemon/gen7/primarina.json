@@ -1,0 +1,50 @@
+{
+  "name": "Primarina",
+  "id": 730,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Fairy"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Liquid Voice",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 74,
+        "DEF": 74,
+        "SP_ATK": 126,
+        "SP_DEF": 116,
+        "SPD": 60
+      },
+      "height": 1.8,
+      "weight": 44.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Soloist",
+      "isBaseForm": true
+    }
+  }
+}

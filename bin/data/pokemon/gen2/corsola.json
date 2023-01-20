@@ -1,0 +1,92 @@
+{
+  "name": "Corsola",
+  "id": 222,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "ability1": "Hustle",
+      "ability2": "Natural Cure",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 55,
+        "DEF": 95,
+        "SP_ATK": 65,
+        "SP_DEF": 95,
+        "SPD": 35
+      },
+      "height": 0.6,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Coral",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Weak Armor",
+      "ability2": "",
+      "hiddenAbility": "Cursed Body",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "cursola",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 38
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 55,
+        "DEF": 100,
+        "SP_ATK": 65,
+        "SP_DEF": 100,
+        "SPD": 30
+      },
+      "height": 0.6,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Coral",
+      "isBaseForm": true
+    }
+  }
+}

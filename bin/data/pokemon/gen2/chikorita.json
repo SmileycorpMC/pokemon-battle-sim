@@ -1,0 +1,58 @@
+{
+  "name": "Chikorita",
+  "id": 152,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Leaf Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ivysaur",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 16
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 49,
+        "DEF": 65,
+        "SP_ATK": 49,
+        "SP_DEF": 65,
+        "SPD": 45
+      },
+      "height": 0.9,
+      "weight": 6.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Leaf",
+      "isBaseForm": true
+    }
+  }
+}

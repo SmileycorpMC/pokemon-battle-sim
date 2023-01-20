@@ -1,0 +1,57 @@
+{
+  "name": "Silcoon",
+  "id": 266,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "beautifly",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 10
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 35,
+        "DEF": 55,
+        "SP_ATK": 25,
+        "SP_DEF": 25,
+        "SPD": 15
+      },
+      "height": 0.6,
+      "weight": 10.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Cocoon",
+      "isBaseForm": true
+    }
+  }
+}

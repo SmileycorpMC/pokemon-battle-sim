@@ -1,0 +1,49 @@
+{
+  "name": "Wigglytuff",
+  "id": 40,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Competitive",
+      "hiddenAbility": "Frisk",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 140,
+        "ATK": 70,
+        "DEF": 45,
+        "SP_ATK": 85,
+        "SP_DEF": 50,
+        "SPD": 45
+      },
+      "height": 1.0,
+      "weight": 12.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 218,
+      "classification": "Balloon",
+      "isBaseForm": true
+    }
+  }
+}

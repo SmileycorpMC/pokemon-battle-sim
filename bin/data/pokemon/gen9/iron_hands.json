@@ -1,0 +1,49 @@
+{
+  "name": "Iron Hands",
+  "id": 992,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 50,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+		"Electric"
+      ],
+      "ability1": "Quark Drive",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 154,
+        "ATK": 140,
+        "DEF": 108,
+        "SP_ATK": 50,
+        "SP_DEF": 68,
+        "SPD": 50
+      },
+      "height": 0.8,
+      "weight": 11.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

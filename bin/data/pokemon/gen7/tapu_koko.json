@@ -1,0 +1,49 @@
+{
+  "name": "Tapu Koko",
+  "id": 785,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Fairy"
+      ],
+      "ability1": "Electric Surge",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 115,
+        "DEF": 85,
+        "SP_ATK": 95,
+        "SP_DEF": 75,
+        "SPD": 130
+      },
+      "height": 1.8,
+      "weight": 20.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Land Spirit",
+      "isBaseForm": true
+    }
+  }
+}

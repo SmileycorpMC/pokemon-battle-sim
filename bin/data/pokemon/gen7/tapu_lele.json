@@ -1,0 +1,49 @@
+{
+  "name": "Tapu Lele",
+  "id": 786,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "ability1": "Psychic Surge",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 85,
+        "DEF": 75,
+        "SP_ATK": 130,
+        "SP_DEF": 115,
+        "SPD": 95
+      },
+      "height": 1.2,
+      "weight": 18.6,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Land Spirit",
+      "isBaseForm": true
+    }
+  }
+}

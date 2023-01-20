@@ -1,0 +1,48 @@
+{
+  "name": "Stonjourner",
+  "id": 874,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Power Spot",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 125,
+        "DEF": 135,
+        "SP_ATK": 20,
+        "SP_DEF": 20,
+        "SPD": 70
+      },
+      "height": 2.5,
+      "weight": 520.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Big Rock",
+      "isBaseForm": true
+    }
+  }
+}

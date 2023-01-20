@@ -1,0 +1,49 @@
+{
+  "name": "Koraidon",
+  "id": 1007,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+        "Dragon"
+      ],
+      "ability1": "Orichalcum Pulse",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 135,
+        "DEF": 115,
+        "SP_ATK": 85,
+        "SP_DEF": 100,
+        "SPD": 135
+      },
+      "height": 2.5,
+      "weight": 303.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 335,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

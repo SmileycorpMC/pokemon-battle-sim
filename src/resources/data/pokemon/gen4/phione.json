@@ -1,0 +1,49 @@
+{
+  "name": "Phione",
+  "id": 489,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Hydration",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 80,
+        "DEF": 80,
+        "SP_ATK": 80,
+        "SP_DEF": 80,
+        "SPD": 80
+      },
+      "height": 0.4,
+      "weight": 3.1,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 216,
+      "classification": "Sea Drifter",
+      "isBaseForm": true
+    }
+  }
+}

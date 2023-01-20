@@ -1,0 +1,57 @@
+{
+  "name": "Nymble",
+  "id": 919,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 20,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Swarm",
+      "ability2": "",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lokix",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 24
+        }
+      ],
+      "stats": {
+        "HP": 33,
+        "ATK": 46,
+        "DEF": 40,
+        "SP_ATK": 21,
+        "SP_DEF": 25,
+        "SPD": 45
+      },
+      "height": 0.2,
+      "weight": 1.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 42,
+      "classification": "Grasshopper",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Dedenne",
+  "id": 702,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Fairy"
+      ],
+      "ability1": "Cheek Pouch",
+      "ability2": "Pickup",
+      "hiddenAbility": "Plus",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 67,
+        "ATK": 58,
+        "DEF": 57,
+        "SP_ATK": 81,
+        "SP_DEF": 67,
+        "SPD": 101
+      },
+      "height": 0.2,
+      "weight": 2.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 151,
+      "classification": "Antenna",
+      "isBaseForm": true
+    }
+  }
+}

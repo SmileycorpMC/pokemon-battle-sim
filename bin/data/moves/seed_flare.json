@@ -1,0 +1,26 @@
+{
+	"name": "Seed Flare",
+	"type": "Grass",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 120,
+	"accuracy": 85,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SP_DEF",
+			"amount": -2
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.40
+		}]
+	}],
+	"z-move_effects": []
+}

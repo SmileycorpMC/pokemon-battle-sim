@@ -1,0 +1,20 @@
+{
+	"name": "Flower Trick",
+	"type": "Grass",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 70,
+	"accuracy": 101,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 5,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

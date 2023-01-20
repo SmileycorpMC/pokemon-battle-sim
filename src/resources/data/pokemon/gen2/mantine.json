@@ -1,0 +1,49 @@
+{
+  "name": "Mantine",
+  "id": 226,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Water Absorb",
+      "hiddenAbility": "Water Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 40,
+        "DEF": 70,
+        "SP_ATK": 80,
+        "SP_DEF": 140,
+        "SPD": 70
+      },
+      "height": 2.1,
+      "weight": 220.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Kite",
+      "isBaseForm": true
+    }
+  }
+}

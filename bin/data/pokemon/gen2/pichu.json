@@ -1,0 +1,85 @@
+{
+  "name": "Pichu",
+  "id": 172,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pikachu",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 20,
+        "ATK": 40,
+        "DEF": 15,
+        "SP_ATK": 35,
+        "SP_DEF": 35,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 41,
+      "classification": "Tiny Mouse",
+      "isBaseForm": true
+    },
+    "spiky-eared": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 20,
+        "ATK": 40,
+        "DEF": 15,
+        "SP_ATK": 35,
+        "SP_DEF": 35,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 41,
+      "classification": "Tiny Mouse",
+      "isBaseForm": true
+    }
+  }
+}

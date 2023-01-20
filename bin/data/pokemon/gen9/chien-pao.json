@@ -1,0 +1,49 @@
+{
+  "name": "Chien-Pao",
+  "id": 1002,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 6,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Ice"
+      ],
+      "ability1": "Sword of Ruin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 120,
+        "DEF": 80,
+        "SP_ATK": 90,
+        "SP_DEF": 65,
+        "SPD": 135
+      },
+      "height": 1.9,
+      "weight": 152.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Ruinous",
+      "isBaseForm": true
+    }
+  }
+}

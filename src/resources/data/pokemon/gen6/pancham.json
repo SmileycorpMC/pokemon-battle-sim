@@ -1,0 +1,58 @@
+{
+  "name": "Pancham",
+  "id": 674,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Iron Fist",
+      "ability2": "Mold Breaker",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pangoro",
+            "form": "default"
+          },
+          "method": "level_move_of_type",
+          "value": "dark"
+        }
+      ],
+      "stats": {
+        "HP": 67,
+        "ATK": 82,
+        "DEF": 62,
+        "SP_ATK": 46,
+        "SP_DEF": 48,
+        "SPD": 43
+      },
+      "height": 0.6,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Playful",
+      "isBaseForm": true
+    }
+  }
+}

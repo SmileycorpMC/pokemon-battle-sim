@@ -1,0 +1,97 @@
+{
+  "name": "Geodude",
+  "id": 74,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "graveler",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 80,
+        "DEF": 100,
+        "SP_ATK": 30,
+        "SP_DEF": 30,
+        "SPD": 20
+      },
+      "height": 0.4,
+      "weight": 20.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Rock",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Rock",
+        "Electric"
+      ],
+      "ability1": "Magnet Pull",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Galvanize",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "graveler",
+            "form": "alola"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 80,
+        "DEF": 100,
+        "SP_ATK": 30,
+        "SP_DEF": 30,
+        "SPD": 20
+      },
+      "height": 0.4,
+      "weight": 20.3,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Rock",
+      "isBaseForm": true
+    }
+  }
+}

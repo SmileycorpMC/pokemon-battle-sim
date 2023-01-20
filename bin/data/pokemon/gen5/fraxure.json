@@ -1,0 +1,58 @@
+{
+  "name": "Fraxure",
+  "id": 611,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rivalry",
+      "ability2": "Mold Breaker",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "haxorus",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 48
+        }
+      ],
+      "stats": {
+        "HP": 66,
+        "ATK": 117,
+        "DEF": 70,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 67
+      },
+      "height": 1.0,
+      "weight": 36.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Axe Jaw",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Togedemaru",
+  "id": 777,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "ability1": "Iron Barbs",
+      "ability2": "Lightning Rod",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 98,
+        "DEF": 63,
+        "SP_ATK": 40,
+        "SP_DEF": 73,
+        "SPD": 96
+      },
+      "height": 0.3,
+      "weight": 3.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 152,
+      "classification": "Roly-Poly",
+      "isBaseForm": true
+    },
+    "totem": {
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "ability1": "Iron Barbs",
+      "ability2": "Lightning Rod",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 98,
+        "DEF": 63,
+        "SP_ATK": 40,
+        "SP_DEF": 73,
+        "SPD": 96
+      },
+      "height": 0.6,
+      "weight": 13.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 152,
+      "classification": "Roly-Poly",
+      "isBaseForm": true
+    }
+  }
+}

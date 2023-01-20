@@ -1,0 +1,49 @@
+{
+  "name": "Scolipede",
+  "id": 545,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Swarm",
+      "hiddenAbility": "Speed Boost",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 89,
+        "SP_ATK": 55,
+        "SP_DEF": 69,
+        "SPD": 112
+      },
+      "height": 2.5,
+      "weight": 200.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Megapede",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Gyarados",
+  "id": 130,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 5,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_2",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 125,
+        "DEF": 79,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 81
+      },
+      "height": 6.5,
+      "weight": 235.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 189,
+      "classification": "Atrocious",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "ability1": "Mold Breaker",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 155,
+        "DEF": 109,
+        "SP_ATK": 70,
+        "SP_DEF": 130,
+        "SPD": 81
+      },
+      "height": 6.5,
+      "weight": 305.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 224,
+      "classification": "Atrocious",
+      "isBaseForm": false
+    }
+  }
+}

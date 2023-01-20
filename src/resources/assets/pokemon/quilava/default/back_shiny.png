@@ -1,0 +1,42 @@
+{
+  "name": "Registeel",
+  "id": 379,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 35,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Clear Body",
+      "hiddenAbility": "Light Metal",
+      "stats": {
+        "HP": 80,
+        "ATK": 75,
+        "DEF": 150,
+        "SP_ATK": 75,
+        "SP_DEF": 150,
+        "SPD": 50
+      },
+      "height": 1.9,
+      "weight": 205.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+   

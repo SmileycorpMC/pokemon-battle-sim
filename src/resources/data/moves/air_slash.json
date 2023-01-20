@@ -1,0 +1,25 @@
+{
+	"name": "Air Slash",
+	"type": "Flying",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 75,
+	"accuracy": 95,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"sharp"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "flinch",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
+	"z-move_effects": []
+}

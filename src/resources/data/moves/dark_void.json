@@ -1,0 +1,53 @@
+{
+	"name": "Dark Void",
+	"type": "Dark",
+	"category": "status",
+	"target": "all_adjacent_opponents",
+	"power": -1,
+	"accuracy": 50,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": "#user",
+					"operator": "!=",
+					"value2": "darkrai"
+				}
+			}]
+		},
+		{
+			"function": "inflict_status_on_target",
+			"value": "sleep",
+			"conditions": []
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "reset_user_stat_modifiers",
+		"value": [
+			"ATK",
+			"DEF",
+			"SP_ATK",
+			"SP_DEF",
+			"SPD",
+			"Accuracy",
+			"Evasion"
+		],
+		"conditions": [{
+			"mode": "predicate_comparison",
+			"value": {
+				"type": "int",
+				"operator": "<",
+				"value": 0
+			}
+		}]
+	}]
+}

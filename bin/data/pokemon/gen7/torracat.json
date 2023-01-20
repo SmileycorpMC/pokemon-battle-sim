@@ -1,0 +1,57 @@
+{
+  "name": "Torracat",
+  "id": 726,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Intimidate",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "incineroar",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 85,
+        "DEF": 50,
+        "SP_ATK": 80,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.7,
+      "weight": 25.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Fire Cat",
+      "isBaseForm": true
+    }
+  }
+}

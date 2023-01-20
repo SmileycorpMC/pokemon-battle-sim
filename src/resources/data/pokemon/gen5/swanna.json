@@ -1,0 +1,50 @@
+{
+  "name": "Swanna",
+  "id": 581,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Big Pecks",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 87,
+        "DEF": 63,
+        "SP_ATK": 87,
+        "SP_DEF": 63,
+        "SPD": 98
+      },
+      "height": 1.3,
+      "weight": 24.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "White Bird",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Celesteela",
+  "id": 797,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Flying"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 101,
+        "DEF": 103,
+        "SP_ATK": 107,
+        "SP_DEF": 101,
+        "SPD": 61
+      },
+      "height": 9.2,
+      "weight": 999.9,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Launch",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Shiftry",
+  "id": 275,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Early Bird",
+      "hiddenAbility": "Pickpocket",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 90,
+        "SP_DEF": 60,
+        "SPD": 80
+      },
+      "height": 1.3,
+      "weight": 59.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 240,
+      "classification": "Wicked",
+      "isBaseForm": true
+    }
+  }
+}

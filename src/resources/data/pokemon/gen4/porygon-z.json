@@ -1,0 +1,48 @@
+{
+  "name": "Porygon-Z",
+  "id": 474,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Adaptability",
+      "ability2": "Download",
+      "hiddenAbility": "Analytic",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 80,
+        "DEF": 70,
+        "SP_ATK": 135,
+        "SP_DEF": 75,
+        "SPD": 90
+      },
+      "height": 0.9,
+      "weight": 34.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 268,
+      "classification": "Virtual",
+      "isBaseForm": true
+    }
+  }
+}

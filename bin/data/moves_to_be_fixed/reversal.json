@@ -1,0 +1,16 @@
+{
+  "name": "Reversal",
+  "type": "Fighting",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": -1,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

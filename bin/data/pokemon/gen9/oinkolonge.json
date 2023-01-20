@@ -1,0 +1,77 @@
+{
+  "name": "Oinkolonge",
+  "id": 916,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 100,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "male": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Lingering Aroma",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 100,
+        "DEF": 75,
+        "SP_ATK": 59,
+        "SP_DEF": 80,
+        "SPD": 65
+      },
+      "height": 1.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 171,
+      "classification": "Hog",
+      "isBaseForm": true
+    },
+    "female": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Aroma Veil",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 115,
+        "ATK": 90,
+        "DEF": 70,
+        "SP_ATK": 59,
+        "SP_DEF": 90,
+        "SPD": 65
+      },
+      "height": 1.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 171,
+      "classification": "Hog",
+      "isBaseForm": true
+    }
+  }
+}

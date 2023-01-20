@@ -1,0 +1,59 @@
+{
+  "name": "Kabuto",
+  "id": 140,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Battle Armor",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kabutops",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 80,
+        "DEF": 90,
+        "SP_ATK": 55,
+        "SP_DEF": 45,
+        "SPD": 55
+      },
+      "height": 0.5,
+      "weight": 11.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "Shellfish",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Talonflame",
+  "id": 663,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Gale Wings",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 78,
+        "ATK": 81,
+        "DEF": 71,
+        "SP_ATK": 74,
+        "SP_DEF": 69,
+        "SPD": 126
+      },
+      "height": 1.2,
+      "weight": 24.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Scorching",
+      "isBaseForm": true
+    }
+  }
+}

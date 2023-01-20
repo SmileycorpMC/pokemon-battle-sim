@@ -1,0 +1,50 @@
+{
+  "name": "Omastar",
+  "id": 139,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 60,
+        "DEF": 125,
+        "SP_ATK": 115,
+        "SP_DEF": 70,
+        "SPD": 55
+      },
+      "height": 1.0,
+      "weight": 35.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Spiral",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Clauncher",
+  "id": 692,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Mega Launcher",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "clawitzer",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 53,
+        "DEF": 62,
+        "SP_ATK": 58,
+        "SP_DEF": 63,
+        "SPD": 44
+      },
+      "height": 0.5,
+      "weight": 8.3,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Water Gun",
+      "isBaseForm": true
+    }
+  }
+}

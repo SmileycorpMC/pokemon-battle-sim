@@ -1,0 +1,29 @@
+{
+	"name": "Sleep Powder",
+	"type": "Grass",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 75,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"powder"
+	],
+	"primary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "sleep",
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "SP_ATK",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

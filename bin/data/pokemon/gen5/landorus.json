@@ -1,0 +1,79 @@
+{
+  "name": "Landorus",
+  "id": 645,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "incarnate": {
+      "types": [
+        "Ground",
+        "Flying"
+      ],
+      "ability1": "Sand Force",
+      "ability2": "",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 89,
+        "ATK": 125,
+        "DEF": 90,
+        "SP_ATK": 115,
+        "SP_DEF": 80,
+        "SPD": 101
+      },
+      "height": 1.5,
+      "weight": 68.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Abundance",
+      "isBaseForm": true
+    },
+    "therian": {
+      "types": [
+        "Ground",
+        "Flying"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 89,
+        "ATK": 145,
+        "DEF": 90,
+        "SP_ATK": 105,
+        "SP_DEF": 80,
+        "SPD": 91
+      },
+      "height": 1.3,
+      "weight": 68.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Abundance",
+      "isBaseForm": true
+    }
+  }
+}

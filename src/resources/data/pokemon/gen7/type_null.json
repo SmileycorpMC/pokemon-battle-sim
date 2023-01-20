@@ -1,0 +1,56 @@
+{
+  "name": "Type: Null",
+  "id": 772,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Battle Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "silvally",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 95,
+        "ATK": 95,
+        "DEF": 95,
+        "SP_ATK": 95,
+        "SP_DEF": 95,
+        "SPD": 59
+      },
+      "height": 1.9,
+      "weight": 120.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 107,
+      "classification": "Synthetic",
+      "isBaseForm": true
+    }
+  }
+}

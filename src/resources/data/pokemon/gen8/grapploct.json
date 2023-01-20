@@ -1,0 +1,49 @@
+{
+  "name": "Grapploct",
+  "id": 853,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Limber",
+      "ability2": "",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 118,
+        "DEF": 90,
+        "SP_ATK": 70,
+        "SP_DEF": 80,
+        "SPD": 42
+      },
+      "height": 1.6,
+      "weight": 39.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Jujitsu",
+      "isBaseForm": true
+    }
+  }
+}

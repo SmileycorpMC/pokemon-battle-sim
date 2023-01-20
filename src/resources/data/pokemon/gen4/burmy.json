@@ -1,0 +1,157 @@
+{
+  "name": "Burmy",
+  "id": 412,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "plant": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "wormadam",
+            "form": "plant"
+          },
+          "method": "level_female",
+          "value": 20
+        },
+        {
+          "target": {
+            "species": "mothim",
+            "form": "default"
+          },
+          "method": "level_male",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 29,
+        "DEF": 45,
+        "SP_ATK": 29,
+        "SP_DEF": 45,
+        "SPD": 36
+      },
+      "height": 0.2,
+      "weight": 3.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 45,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    },
+    "sandy": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "wormadam",
+            "form": "sandy"
+          },
+          "method": "level_female",
+          "value": 20
+        },
+        {
+          "target": {
+            "species": "mothim",
+            "form": "default"
+          },
+          "method": "level_male",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 29,
+        "DEF": 45,
+        "SP_ATK": 29,
+        "SP_DEF": 45,
+        "SPD": 36
+      },
+      "height": 0.2,
+      "weight": 3.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 45,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    },
+    "trash": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "wormadam",
+            "form": "trash"
+          },
+          "method": "level_female",
+          "value": 20
+        },
+        {
+          "target": {
+            "species": "mothim",
+            "form": "default"
+          },
+          "method": "level_male",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 29,
+        "DEF": 45,
+        "SP_ATK": 29,
+        "SP_DEF": 45,
+        "SPD": 36
+      },
+      "height": 0.2,
+      "weight": 3.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 45,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    }
+  }
+}

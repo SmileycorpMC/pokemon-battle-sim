@@ -1,0 +1,58 @@
+{
+  "name": "Chimchar",
+  "id": 390,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Iron Fist",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "monferno",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 58,
+        "DEF": 44,
+        "SP_ATK": 58,
+        "SP_DEF": 44,
+        "SPD": 61
+      },
+      "height": 0.5,
+      "weight": 6.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Chimp",
+      "isBaseForm": true
+    }
+  }
+}

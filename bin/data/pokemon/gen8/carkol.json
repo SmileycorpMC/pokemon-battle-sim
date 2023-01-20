@@ -1,0 +1,58 @@
+{
+  "name": "Carkol",
+  "id": 838,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Fire"
+      ],
+      "ability1": "Steam Engine",
+      "ability2": "Flame Body",
+      "hiddenAbility": "Flash Fire",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "coalossal",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 80,
+        "ATK": 60,
+        "DEF": 90,
+        "SP_ATK": 60,
+        "SP_DEF": 70,
+        "SPD": 50
+      },
+      "height": 1.1,
+      "weight": 78.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Coal",
+      "isBaseForm": true
+    }
+  }
+}

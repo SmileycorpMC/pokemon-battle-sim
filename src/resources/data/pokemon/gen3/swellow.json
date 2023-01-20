@@ -1,0 +1,49 @@
+{
+  "name": "Swellow",
+  "id": 277,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Guts",
+      "ability2": "",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 85,
+        "DEF": 60,
+        "SP_ATK": 75,
+        "SP_DEF": 50,
+        "SPD": 125
+      },
+      "height": 0.7,
+      "weight": 19.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Swallow",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Corphish",
+  "id": 341,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Adaptability",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "crawdaunt",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 43,
+        "ATK": 80,
+        "DEF": 65,
+        "SP_ATK": 50,
+        "SP_DEF": 35,
+        "SPD": 35
+      },
+      "height": 0.6,
+      "weight": 11.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Ruffian",
+      "isBaseForm": true
+    }
+  }
+}

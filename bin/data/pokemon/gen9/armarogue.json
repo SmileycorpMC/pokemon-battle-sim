@@ -1,0 +1,49 @@
+{
+  "name": "Armarogue",
+  "id": 936,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 20,
+  "catchRate": 25,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 125,
+        "SP_DEF": 80,
+        "SPD": 75
+      },
+      "height": 1.5,
+      "weight": 85.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 263,
+      "classification": "Fire Warrior",
+      "isBaseForm": true
+    }
+  }
+}

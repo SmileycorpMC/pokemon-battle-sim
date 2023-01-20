@@ -1,0 +1,59 @@
+{
+  "name": "Archen",
+  "id": 566,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Defeatist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "archeops",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 112,
+        "DEF": 45,
+        "SP_ATK": 74,
+        "SP_DEF": 45,
+        "SPD": 70
+      },
+      "height": 0.5,
+      "weight": 9.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "First Bird",
+      "isBaseForm": true
+    }
+  }
+}

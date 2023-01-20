@@ -1,0 +1,66 @@
+{
+  "name": "Charjabug",
+  "id": 737,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Electric"
+      ],
+      "ability1": "Battery",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "vikavolt",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "thunder_stone"
+        },
+        {
+          "target": {
+            "species": "vikavolt",
+            "form": "default"
+          },
+          "method": "location",
+          "value": "electric_rock"
+        }
+      ],
+      "stats": {
+        "HP": 57,
+        "ATK": 82,
+        "DEF": 95,
+        "SP_ATK": 55,
+        "SP_DEF": 75,
+        "SPD": 36
+      },
+      "height": 0.5,
+      "weight": 10.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 140,
+      "classification": "Battery",
+      "isBaseForm": true
+    }
+  }
+}

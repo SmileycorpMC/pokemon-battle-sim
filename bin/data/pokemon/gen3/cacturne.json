@@ -1,0 +1,54 @@
+{
+  "name": "Cacturne",
+  "id": 332,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Grass",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "",
+      "hiddenAbility": "Water Absorb",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 115,
+        "DEF": 60,
+        "SP_ATK": 115,
+        "SP_DEF": 60,
+        "SPD": 55
+      },
+      "height": 1.3,
+      "weight": 77.4,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Scarecrow",
+      "isBaseForm": true
+    }
+  }
+}

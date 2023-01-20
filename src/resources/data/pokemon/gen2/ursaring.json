@@ -1,0 +1,57 @@
+{
+  "name": "Ursaring",
+  "id": 217,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Guts",
+      "ability2": "Quick Feet",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ursaluna",
+            "form": "default"
+          },
+          "method": "item_full_moon",
+          "value": "peat_block"
+        }
+      ],
+      "stats": {
+        "HP": 90,
+        "ATK": 130,
+        "DEF": 75,
+        "SP_ATK": 75,
+        "SP_DEF": 75,
+        "SPD": 55
+      },
+      "height": 1.8,
+      "weight": 125.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Hibernator",
+      "isBaseForm": true
+    }
+  }
+}

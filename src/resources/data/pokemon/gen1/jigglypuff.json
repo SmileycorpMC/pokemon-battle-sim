@@ -1,0 +1,58 @@
+{
+  "name": "Jigglypuff",
+  "id": 39,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Competitive",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "wigglytuff",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "moon_stone"
+        }
+      ],
+      "stats": {
+        "HP": 115,
+        "ATK": 45,
+        "DEF": 20,
+        "SP_ATK": 45,
+        "SP_DEF": 25,
+        "SPD": 20
+      },
+      "height": 0.5,
+      "weight": 5.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 95,
+      "classification": "Balloon",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Luxray",
+  "id": 405,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Rivalry",
+      "ability2": "Intimidate",
+      "hiddenAbility": "Guts",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 120,
+        "DEF": 79,
+        "SP_ATK": 95,
+        "SP_DEF": 79,
+        "SPD": 70
+      },
+      "height": 1.4,
+      "weight": 42.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 262,
+      "classification": "Gleam Eyes",
+      "isBaseForm": true
+    }
+  }
+}

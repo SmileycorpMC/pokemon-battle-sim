@@ -1,0 +1,58 @@
+{
+  "name": "Sewaddle",
+  "id": 540,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Chlorophyll",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "swadloon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 53,
+        "DEF": 70,
+        "SP_ATK": 40,
+        "SP_DEF": 60,
+        "SPD": 42
+      },
+      "height": 0.3,
+      "weight": 2.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Sewing",
+      "isBaseForm": true
+    }
+  }
+}

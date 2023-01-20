@@ -1,0 +1,66 @@
+{
+  "name": "Mime Jr.",
+  "id": 439,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "Filter",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "mr_mime",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "mimic"
+        },
+        {
+          "target": {
+            "species": "mr_mime",
+            "form": "galar"
+          },
+          "method": "level_move_galar",
+          "value": "mimic"
+        }
+      ],
+      "stats": {
+        "HP": 20,
+        "ATK": 25,
+        "DEF": 45,
+        "SP_ATK": 70,
+        "SP_DEF": 90,
+        "SPD": 60
+      },
+      "height": 0.6,
+      "weight": 13.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Mime",
+      "isBaseForm": false
+    }
+  }
+}

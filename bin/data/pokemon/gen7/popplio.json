@@ -1,0 +1,58 @@
+{
+  "name": "Popplio",
+  "id": 728,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Liquid Voice",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "brionne",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 17
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 54,
+        "DEF": 54,
+        "SP_ATK": 66,
+        "SP_DEF": 56,
+        "SPD": 40
+      },
+      "height": 0.4,
+      "weight": 7.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Sea Lion",
+      "isBaseForm": true
+    }
+  }
+}

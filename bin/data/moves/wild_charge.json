@@ -1,0 +1,34 @@
+{
+	"name": "Wild Charge",
+	"type": "Electric",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"pprimary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "damage_user",
+			"value": {
+				"operation": "Divide",
+				"value": [{
+						"type": "from_last_move",
+						"target": "damage_dealt"
+					},
+					4
+				]
+			},
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

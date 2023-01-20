@@ -1,0 +1,49 @@
+{
+  "name": "Wailord",
+  "id": 321,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Field",
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Water Veil",
+      "ability2": "Oblivious",
+      "hiddenAbility": "Pressure",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 170,
+        "ATK": 90,
+        "DEF": 45,
+        "SP_ATK": 90,
+        "SP_DEF": 45,
+        "SPD": 60
+      },
+      "height": 14.5,
+      "weight": 398.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Float Whale",
+      "isBaseForm": true
+    }
+  }
+}

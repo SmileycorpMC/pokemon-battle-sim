@@ -1,0 +1,77 @@
+{
+  "name": "Snorlax",
+  "id": 143,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Immunity",
+      "ability2": "Thick Fat",
+      "hiddenAbility": "Gluttony",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 160,
+        "ATK": 110,
+        "DEF": 65,
+        "SP_ATK": 65,
+        "SP_DEF": 110,
+        "SPD": 30
+      },
+      "height": 2.1,
+      "weight": 460.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 189,
+      "classification": "Sleeping",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Immunity",
+      "ability2": "Thick Fat",
+      "hiddenAbility": "Gluttony",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 160,
+        "ATK": 110,
+        "DEF": 65,
+        "SP_ATK": 65,
+        "SP_DEF": 110,
+        "SPD": 30
+      },
+      "height": 35.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 189,
+      "classification": "Sleeping",
+      "isBaseForm": false
+    }
+  }
+}

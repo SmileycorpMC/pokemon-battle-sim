@@ -1,0 +1,26 @@
+{
+	"name": "Bite",
+	"type": "Dark",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 60,
+	"accuracy": 100,
+	"pp": 25,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"biting"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "flinch",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
+	"z-move_effects": []
+}

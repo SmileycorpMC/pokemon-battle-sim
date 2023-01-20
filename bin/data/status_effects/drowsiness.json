@@ -1,0 +1,31 @@
+{
+  "stat_modifiers": [],
+  "effects": [
+    {
+      "event": "on_use_move",
+      "functions": [
+        {
+          "function": "set_move_status",
+          "value": "Asleep",
+          "conditions": [
+            {
+              "mode": "random_chance",
+              "value": 0.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "hit_by_move",
+      "functions": [
+        {
+          "function": "apply_damage_modifier",
+          "value": 1.33,
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "immune_types": []
+}

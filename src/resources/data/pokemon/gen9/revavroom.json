@@ -1,0 +1,188 @@
+{
+  "name": "Revavroom",
+  "id": 966,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 75,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+	"Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Steel",
+		"Poison"
+      ],
+      "ability1": "Overcoat",
+      "ability2": "",
+      "hiddenAbility": "Filter",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 119,
+        "DEF": 90,
+        "SP_ATK": 54,
+        "SP_DEF": 67,
+        "SPD": 90
+      },
+      "height": 1.8,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Multi-Cyl",
+      "isBaseForm": true
+	},
+	"segin_starmobile": {
+      "types": [
+		"Dark"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 119,
+        "DEF": 90,
+        "SP_ATK": 54,
+        "SP_DEF": 67,
+        "SPD": 90
+      },
+      "height": 1.8,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Multi-Cyl",
+      "isBaseForm": true
+	},
+	"schedar_starmobile": {
+      "types": [
+		"Fire"
+      ],
+      "ability1": "Speed Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 119,
+        "DEF": 90,
+        "SP_ATK": 54,
+        "SP_DEF": 67,
+        "SPD": 90
+      },
+      "height": 1.8,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Multi-Cyl",
+      "isBaseForm": true
+	},
+	"navi_starmobile": {
+      "types": [
+		"Poison"
+      ],
+      "ability1": "Toxic Debris",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 119,
+        "DEF": 90,
+        "SP_ATK": 54,
+        "SP_DEF": 67,
+        "SPD": 90
+      },
+      "height": 1.8,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Multi-Cyl",
+      "isBaseForm": true
+	},
+	"ruchbah_starmobile": {
+      "types": [
+		"Fairy"
+      ],
+      "ability1": "Misty Surge",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 119,
+        "DEF": 90,
+        "SP_ATK": 54,
+        "SP_DEF": 67,
+        "SPD": 90
+      },
+      "height": 1.8,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Multi-Cyl",
+      "isBaseForm": true
+	},
+	"caph_starmobile": {
+      "types": [
+		"Fighting"
+      ],
+      "ability1": "Stamina",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 119,
+        "DEF": 90,
+        "SP_ATK": 54,
+        "SP_DEF": 67,
+        "SPD": 90
+      },
+      "height": 1.8,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 174,
+      "classification": "Multi-Cyl",
+      "isBaseForm": true
+	}
+  }
+}

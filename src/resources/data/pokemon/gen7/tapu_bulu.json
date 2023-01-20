@@ -1,0 +1,49 @@
+{
+  "name": "Tapu Bulu",
+  "id": 787,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Fairy"
+      ],
+      "ability1": "Grassy Surge",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 130,
+        "DEF": 115,
+        "SP_ATK": 85,
+        "SP_DEF": 95,
+        "SPD": 75
+      },
+      "height": 1.9,
+      "weight": 45.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Land Spirit",
+      "isBaseForm": true
+    }
+  }
+}

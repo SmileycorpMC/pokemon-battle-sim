@@ -1,0 +1,48 @@
+{
+  "name": "Gothitelle",
+  "id": 576,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Frisk",
+      "ability2": "Competitive",
+      "hiddenAbility": "Shadow Tag",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 55,
+        "DEF": 95,
+        "SP_ATK": 95,
+        "SP_DEF": 110,
+        "SPD": 65
+      },
+      "height": 1.5,
+      "weight": 44.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 245,
+      "classification": "Astral Body",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Crobat",
+  "id": 169,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "",
+      "hiddenAbility": "Infiltrator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 90,
+        "DEF": 80,
+        "SP_ATK": 70,
+        "SP_DEF": 80,
+        "SPD": 130
+      },
+      "height": 1.8,
+      "weight": 75.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 268,
+      "classification": "Bat",
+      "isBaseForm": true
+    }
+  }
+}

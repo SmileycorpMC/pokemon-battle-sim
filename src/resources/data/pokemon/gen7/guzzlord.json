@@ -1,0 +1,49 @@
+{
+  "name": "Guzzlord",
+  "id": 799,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Dragon"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 223,
+        "ATK": 101,
+        "DEF": 53,
+        "SP_ATK": 97,
+        "SP_DEF": 53,
+        "SPD": 43
+      },
+      "height": 5.5,
+      "weight": 888.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Junkivore",
+      "isBaseForm": true
+    }
+  }
+}

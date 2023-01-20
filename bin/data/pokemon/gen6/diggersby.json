@@ -1,0 +1,49 @@
+{
+  "name": "Diggersby",
+  "id": 660,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Ground"
+      ],
+      "ability1": "Pickup",
+      "ability2": "Cheek Pouch",
+      "hiddenAbility": "Huge Power",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 56,
+        "DEF": 77,
+        "SP_ATK": 50,
+        "SP_DEF": 77,
+        "SPD": 78
+      },
+      "height": 1.0,
+      "weight": 42.4,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 148,
+      "classification": "Digging",
+      "isBaseForm": true
+    }
+  }
+}

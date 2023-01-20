@@ -1,0 +1,26 @@
+{
+  "name": "Moonblast",
+  "type": "Fairy",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 95,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SP_ATK",
+			"amount": -1
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
+  "z-move_effects": []
+}

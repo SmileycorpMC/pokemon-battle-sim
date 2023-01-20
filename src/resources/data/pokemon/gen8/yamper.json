@@ -1,0 +1,57 @@
+{
+  "name": "Yamper",
+  "id": 835,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Ball Fetch",
+      "ability2": "",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "boltund",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 59,
+        "ATK": 45,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 26
+      },
+      "height": 0.3,
+      "weight": 13.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Puppy",
+      "isBaseForm": true
+    }
+  }
+}

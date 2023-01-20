@@ -1,0 +1,59 @@
+{
+  "name": "Togetic",
+  "id": 176,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Flying",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy",
+        "Flying"
+      ],
+      "ability1": "Hustle",
+      "ability2": "Serene Grace",
+      "hiddenAbility": "Super Luck",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "togekiss",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 40,
+        "DEF": 85,
+        "SP_ATK": 80,
+        "SP_DEF": 105,
+        "SPD": 40
+      },
+      "height": 0.6,
+      "weight": 3.2,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Happiness",
+      "isBaseForm": true
+    }
+  }
+}

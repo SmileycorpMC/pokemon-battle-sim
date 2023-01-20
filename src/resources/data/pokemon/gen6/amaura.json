@@ -1,0 +1,58 @@
+{
+  "name": "Amaura",
+  "id": 698,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ice"
+      ],
+      "ability1": "Refrigerate",
+      "ability2": "",
+      "hiddenAbility": "Snow Warning",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "aurourus",
+            "form": "default"
+          },
+          "method": "level_night",
+          "value": 39
+        }
+      ],
+      "stats": {
+        "HP": 77,
+        "ATK": 59,
+        "DEF": 50,
+        "SP_ATK": 67,
+        "SP_DEF": 63,
+        "SPD": 46
+      },
+      "height": 1.3,
+      "weight": 25.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Tundra",
+      "isBaseForm": true
+    }
+  }
+}

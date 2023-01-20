@@ -1,0 +1,58 @@
+{
+  "name": "Phantump",
+  "id": 708,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass",
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "Frisk",
+      "hiddenAbility": "Harvest",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "trevenant",
+            "form": "default"
+          },
+          "method": "trade"
+        }
+      ],
+      "stats": {
+        "HP": 43,
+        "ATK": 70,
+        "DEF": 48,
+        "SP_ATK": 50,
+        "SP_DEF": 60,
+        "SPD": 38
+      },
+      "height": 0.4,
+      "weight": 7.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Stump",
+      "isBaseForm": true
+    }
+  }
+}

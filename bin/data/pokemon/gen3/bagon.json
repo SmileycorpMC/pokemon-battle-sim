@@ -1,0 +1,57 @@
+{
+  "name": "Bagon",
+  "id": 371,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "shelgon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 75,
+        "DEF": 60,
+        "SP_ATK": 40,
+        "SP_DEF": 30,
+        "SPD": 50
+      },
+      "height": 0.6,
+      "weight": 42.1,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Rock Head",
+      "isBaseForm": true
+    }
+  }
+}

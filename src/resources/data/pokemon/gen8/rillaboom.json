@@ -1,0 +1,78 @@
+{
+  "name": "Rillaboom",
+  "id": 812,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Grassy Surge",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 125,
+        "DEF": 90,
+        "SP_ATK": 60,
+        "SP_DEF": 70,
+        "SPD": 85
+      },
+      "height": 2.1,
+      "weight": 90.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Drummer",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Grassy Surge",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 125,
+        "DEF": 90,
+        "SP_ATK": 60,
+        "SP_DEF": 70,
+        "SPD": 85
+      },
+      "height": 28.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Drummer",
+      "isBaseForm": false
+    }
+  }
+}

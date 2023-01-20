@@ -1,0 +1,52 @@
+{
+  "name": "Cosmoem",
+  "id": 790,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 43,
+        "ATK": 29,
+        "DEF": 131,
+        "SP_ATK": 29,
+        "SP_DEF": 131,
+        "SPD": 37
+      },
+      "height": 0.1,
+      "weight": 999.9,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 140,
+      "classification": "Protostar",
+      "isBaseForm": true
+    }
+  }
+}

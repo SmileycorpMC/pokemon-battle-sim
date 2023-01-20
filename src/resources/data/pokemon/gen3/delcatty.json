@@ -1,0 +1,53 @@
+{
+  "name": "Delcatty",
+  "id": 301,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Normalize",
+      "hiddenAbility": "Wonder Skin",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 90
+      },
+      "height": 1.1,
+      "weight": 32.6,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 140,
+      "classification": "Prim",
+      "isBaseForm": true
+    }
+  }
+}

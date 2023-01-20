@@ -1,0 +1,49 @@
+{
+  "name": "Celebi",
+  "id": 251,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Grass"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 100,
+        "DEF": 100,
+        "SP_ATK": 100,
+        "SP_DEF": 100,
+        "SPD": 100
+      },
+      "height": 0.6,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Time Travel",
+      "isBaseForm": true
+    }
+  }
+}

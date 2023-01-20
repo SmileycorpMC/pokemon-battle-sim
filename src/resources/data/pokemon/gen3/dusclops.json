@@ -1,0 +1,61 @@
+{
+  "name": "Dusclops",
+  "id": 356,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Frisk",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dusknoir",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "reaper_cloth"
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 70,
+        "DEF": 130,
+        "SP_ATK": 60,
+        "SP_DEF": 130,
+        "SPD": 25
+      },
+      "height": 1.6,
+      "weight": 30.6,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Beckon",
+      "isBaseForm": true
+    }
+  }
+}

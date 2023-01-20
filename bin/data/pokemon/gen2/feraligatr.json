@@ -1,0 +1,53 @@
+{
+  "name": "Feraligatr",
+  "id": 160,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 105,
+        "DEF": 100,
+        "SP_ATK": 79,
+        "SP_DEF": 83,
+        "SPD": 78
+      },
+      "height": 2.3,
+      "weight": 88.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 239,
+      "classification": "Big Jaw",
+      "isBaseForm": true
+    }
+  }
+}

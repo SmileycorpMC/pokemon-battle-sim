@@ -1,0 +1,23 @@
+{
+	"name": "Strange Steam",
+	"type": "Fairy",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 95,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "confusion",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.20
+		}]
+	}],
+	"z-move_effects": []
+}

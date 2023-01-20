@@ -1,0 +1,58 @@
+{
+  "name": "Loudred",
+  "id": 294,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "exploud",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 84,
+        "ATK": 71,
+        "DEF": 43,
+        "SP_ATK": 71,
+        "SP_DEF": 43,
+        "SPD": 48
+      },
+      "height": 1.0,
+      "weight": 40.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 126,
+      "classification": "Big Voice",
+      "isBaseForm": true
+    }
+  }
+}

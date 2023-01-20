@@ -1,0 +1,79 @@
+{
+  "name": "Moltres",
+  "id": 146,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Flame Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 100,
+        "DEF": 90,
+        "SP_ATK": 125,
+        "SP_DEF": 85,
+        "SPD": 90
+      },
+      "height": 2.0,
+      "weight": 60.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Flame",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "ability1": "Berserk",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 85,
+        "DEF": 90,
+        "SP_ATK": 100,
+        "SP_DEF": 125,
+        "SPD": 90
+      },
+      "height": 2.0,
+      "weight": 66.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Malevolent",
+      "isBaseForm": true
+    }
+  }
+}

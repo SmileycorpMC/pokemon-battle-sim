@@ -1,0 +1,23 @@
+{
+	"name": "Wicked Blow",
+	"type": "Dark",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 80,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"punching"
+	],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 5,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

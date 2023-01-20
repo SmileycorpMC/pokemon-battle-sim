@@ -1,0 +1,65 @@
+{
+  "name": "Koffing",
+  "id": 109,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Levitate",
+      "ability2": "Neutralizing Gas",
+      "hiddenAbility": "Stench",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "weezing",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        },
+        {
+          "target": {
+            "species": "weezing",
+            "form": "galar"
+          },
+          "method": "level_galar",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 65,
+        "DEF": 95,
+        "SP_ATK": 60,
+        "SP_DEF": 45,
+        "SPD": 35
+      },
+      "height": 0.6,
+      "weight": 1.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 68,
+      "classification": "Poison Gas",
+      "isBaseForm": true
+    }
+  }
+}

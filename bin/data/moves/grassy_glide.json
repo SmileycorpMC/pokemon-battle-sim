@@ -1,0 +1,46 @@
+{
+	"name": "Grassy Glide",
+	"type": "Grass",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 60,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "change_priority",
+		"value": 1,
+		"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "grassy_terrain"
+				}
+			},
+			{
+				"mode": "comparison",
+				"value": {
+					"type": "boolean",
+					"value1": {
+						"type": "from_current_pokemon",
+						"value": "grounded"
+					},
+					"operator": "==",
+					"value2": true
+				}
+			}
+		]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

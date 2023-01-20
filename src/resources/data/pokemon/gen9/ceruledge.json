@@ -1,0 +1,49 @@
+{
+  "name": "Ceruledge",
+  "id": 937,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 20,
+  "catchRate": 25,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Ghost"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 125,
+        "DEF": 80,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 85
+      },
+      "height": 1.6,
+      "weight": 62.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 263,
+      "classification": "Fire Blades",
+      "isBaseForm": true
+    }
+  }
+}

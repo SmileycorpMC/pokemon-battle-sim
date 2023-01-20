@@ -1,0 +1,48 @@
+{
+  "name": "Flamigo",
+  "id": 973,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 100,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+	"Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Flying",
+		"Fighting"
+      ],
+      "ability1": "Scrappy",
+      "ability2": "Tangled Feet",
+      "hiddenAbility": "Costar",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 82,
+        "ATK": 115,
+        "DEF": 74,
+        "SP_ATK": 75,
+        "SP_DEF": 64,
+        "SPD": 90
+      },
+      "height": 1.6,
+      "weight": 37.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Synchronize Dog",
+      "isBaseForm": true
+	}
+  }
+}

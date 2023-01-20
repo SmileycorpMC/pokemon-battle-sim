@@ -1,0 +1,58 @@
+{
+  "name": "Anorith",
+  "id": 347,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Bug"
+      ],
+      "ability1": "Battle Armor",
+      "ability2": "",
+      "hiddenAbility": "Swift Swim",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "armaldo",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 95,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 0.7,
+      "weight": 12.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "Old Shrimp",
+      "isBaseForm": true
+    }
+  }
+}

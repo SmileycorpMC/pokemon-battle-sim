@@ -1,0 +1,57 @@
+{
+  "name": "Corvisquire",
+  "id": 822,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Unnerve",
+      "hiddenAbility": "Big Pecks",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "corviknight",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 38
+        }
+      ],
+      "stats": {
+        "HP": 68,
+        "ATK": 67,
+        "DEF": 55,
+        "SP_ATK": 43,
+        "SP_DEF": 55,
+        "SPD": 77
+      },
+      "height": 0.8,
+      "weight": 16.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 128,
+      "classification": "Raven",
+      "isBaseForm": true
+    }
+  }
+}

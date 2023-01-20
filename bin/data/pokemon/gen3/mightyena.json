@@ -1,0 +1,48 @@
+{
+  "name": "Mightyena",
+  "id": 262,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Quick Feet",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 90,
+        "DEF": 70,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 70
+      },
+      "height": 1.0,
+      "weight": 37.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Bite",
+      "isBaseForm": true
+    }
+  }
+}

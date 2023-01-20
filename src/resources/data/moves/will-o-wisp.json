@@ -1,0 +1,27 @@
+{
+	"name": "Will-O-Wisp",
+	"type": "Fire",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 85,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "burn",
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "ATK",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

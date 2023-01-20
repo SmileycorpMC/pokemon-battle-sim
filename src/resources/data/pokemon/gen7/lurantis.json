@@ -1,0 +1,77 @@
+{
+  "name": "Lurantis",
+  "id": 754,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "",
+      "hiddenAbility": "Contrary",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 105,
+        "DEF": 90,
+        "SP_ATK": 80,
+        "SP_DEF": 90,
+        "SPD": 45
+      },
+      "height": 0.9,
+      "weight": 18.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Bloom Sickle",
+      "isBaseForm": true
+    },
+    "totem": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "",
+      "hiddenAbility": "Contrary",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 105,
+        "DEF": 90,
+        "SP_ATK": 80,
+        "SP_DEF": 90,
+        "SPD": 45
+      },
+      "height": 1.5,
+      "weight": 58.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Bloom Sickle",
+      "isBaseForm": true
+    }
+  }
+}

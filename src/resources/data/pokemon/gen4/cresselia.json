@@ -1,0 +1,48 @@
+{
+  "name": "Cresselia",
+  "id": 488,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 120,
+        "ATK": 70,
+        "DEF": 120,
+        "SP_ATK": 75,
+        "SP_DEF": 130,
+        "SPD": 85
+      },
+      "height": 1.5,
+      "weight": 85.6,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Lunar",
+      "isBaseForm": true
+    }
+  }
+}

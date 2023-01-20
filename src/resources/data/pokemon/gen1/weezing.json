@@ -1,0 +1,78 @@
+{
+  "name": "Weezing",
+  "id": 110,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Levitate",
+      "ability2": "Neutralizing Gas",
+      "hiddenAbility": "Stench",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 90,
+        "DEF": 120,
+        "SP_ATK": 85,
+        "SP_DEF": 70,
+        "SPD": 60
+      },
+      "height": 1.2,
+      "weight": 9.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Poison Gas",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Poison",
+        "Fairy"
+      ],
+      "ability1": "Levitate",
+      "ability2": "Neutralizing Gas",
+      "hiddenAbility": "Misty Surge",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 90,
+        "DEF": 120,
+        "SP_ATK": 85,
+        "SP_DEF": 70,
+        "SPD": 60
+      },
+      "height": 3.0,
+      "weight": 16.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Poison Gas",
+      "isBaseForm": true
+    }
+  }
+}

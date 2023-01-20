@@ -1,0 +1,58 @@
+{
+  "name": "Spearow",
+  "id": 21,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "",
+      "hiddenAbility": "Sniper",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "fearow",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 60,
+        "DEF": 30,
+        "SP_ATK": 31,
+        "SP_DEF": 31,
+        "SPD": 70
+      },
+      "height": 0.3,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 52,
+      "classification": "Tiny Bird",
+      "isBaseForm": true
+    }
+  }
+}

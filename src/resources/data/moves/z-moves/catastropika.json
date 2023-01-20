@@ -1,0 +1,12 @@
+{
+	"name": "Catastropika",
+	"type": "Electric",
+	"category": null,
+	"target": "select_ajacent",
+	"power": 210,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": []
+}

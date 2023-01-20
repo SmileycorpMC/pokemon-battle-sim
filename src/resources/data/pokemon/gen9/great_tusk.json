@@ -1,0 +1,49 @@
+{
+  "name": "Great Tusk",
+  "id": 984,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 30,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+		"Fighting"
+      ],
+      "ability1": "Protosynthesis",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 115,
+        "ATK": 131,
+        "DEF": 131,
+        "SP_ATK": 53,
+        "SP_DEF": 53,
+        "SPD": 87
+      },
+      "height": 2.2,
+      "weight": 320.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

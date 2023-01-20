@@ -1,0 +1,47 @@
+{
+  "name": "Rellor",
+  "id": 953,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Fast",
+  "eggGroups": [
+	"Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Bug"
+      ],
+      "ability1": "Compound Eyes",
+      "ability2": "",
+      "hiddenAbility": "Shed Skin",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 41,
+        "ATK": 150,
+        "DEF": 60,
+        "SP_ATK": 31,
+        "SP_DEF": 58,
+        "SPD": 30
+      },
+      "height": 0.2,
+      "weight": 1.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Rolling",
+      "isBaseForm": true
+	}
+  }
+}

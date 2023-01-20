@@ -1,0 +1,49 @@
+{
+  "name": "Staraptor",
+  "id": 398,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "",
+      "hiddenAbility": "Reckless",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 120,
+        "DEF": 70,
+        "SP_ATK": 50,
+        "SP_DEF": 60,
+        "SPD": 100
+      },
+      "height": 1.2,
+      "weight": 24.9,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 218,
+      "classification": "Predator",
+      "isBaseForm": true
+    }
+  }
+}

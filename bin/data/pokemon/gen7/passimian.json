@@ -1,0 +1,48 @@
+{
+  "name": "Passimian",
+  "id": 766,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Receiver",
+      "ability2": "",
+      "hiddenAbility": "Defiant",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 120,
+        "DEF": 90,
+        "SP_ATK": 40,
+        "SP_DEF": 60,
+        "SPD": 80
+      },
+      "height": 2.0,
+      "weight": 82.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Teamwork",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Zacian",
+  "id": 888,
+  "genderRatio": -1,
+  "canDynamax": false,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Intrepid Sword",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 92,
+        "ATK": 130,
+        "DEF": 115,
+        "SP_ATK": 80,
+        "SP_DEF": 115,
+        "SPD": 138
+      },
+      "height": 2.8,
+      "weight": 110.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 335,
+      "classification": "Warrior",
+      "isBaseForm": true
+    },
+    "crowned": {
+      "types": [
+        "Fairy",
+        "Steel"
+      ],
+      "ability1": "Intrepid Sword",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 92,
+        "ATK": 170,
+        "DEF": 115,
+        "SP_ATK": 80,
+        "SP_DEF": 115,
+        "SPD": 148
+      },
+      "height": 2.8,
+      "weight": 355.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 360,
+      "classification": "Warrior",
+      "isBaseForm": false
+    }
+  }
+}

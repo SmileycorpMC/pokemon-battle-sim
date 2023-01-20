@@ -1,0 +1,18 @@
+{
+	"name": "Aura Sphere",
+	"type": "Fighting",
+	"category": "special",
+	"target": "select_any",
+	"power": 80,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"pulse"
+	],
+	"primary_effects": [],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

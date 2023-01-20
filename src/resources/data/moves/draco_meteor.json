@@ -1,0 +1,27 @@
+{
+	"name": "Draco Meteor",
+	"type": "Dragon",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 130,
+	"accuracy": 90,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+				"stat": "SP_ATK",
+				"amount": -2
+			}],
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

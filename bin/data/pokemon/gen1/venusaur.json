@@ -1,0 +1,122 @@
+{
+  "name": "Venusaur",
+  "id": 3,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Chlorophyll",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 82,
+        "DEF": 83,
+        "SP_ATK": 100,
+        "SP_DEF": 100,
+        "SPD": 80
+      },
+      "height": 2.0,
+      "weight": 100.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 263,
+      "classification": "Seed",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability1": "Thick Fat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 100,
+        "DEF": 123,
+        "SP_ATK": 122,
+        "SP_DEF": 120,
+        "SPD": 80
+      },
+      "height": 2.4,
+      "weight": 155.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 281,
+      "classification": "Seed",
+      "isBaseForm": false
+    },
+    "gmax": {
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Chlorophyll",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 82,
+        "DEF": 83,
+        "SP_ATK": 100,
+        "SP_DEF": 100,
+        "SPD": 80
+      },
+      "height": 24.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 236,
+      "classification": "Seed",
+      "isBaseForm": false
+    }
+  }
+}

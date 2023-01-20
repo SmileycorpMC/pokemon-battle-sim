@@ -1,0 +1,57 @@
+{
+  "name": "Kricketot",
+  "id": 401,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Run Away",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kricketune",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 10
+        }
+      ],
+      "stats": {
+        "HP": 37,
+        "ATK": 25,
+        "DEF": 41,
+        "SP_ATK": 25,
+        "SP_DEF": 41,
+        "SPD": 25
+      },
+      "height": 0.3,
+      "weight": 2.2,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 39,
+      "classification": "Cricket",
+      "isBaseForm": true
+    }
+  }
+}

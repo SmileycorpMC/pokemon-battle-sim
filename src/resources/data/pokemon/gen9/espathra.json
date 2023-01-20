@@ -1,0 +1,47 @@
+{
+  "name": "Espathra",
+  "id": 956,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 60,
+  "expRate": "Medium_slow",
+  "eggGroups": [
+	"Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Psychic"
+      ],
+      "ability1": "Opportunist",
+      "ability2": "Frisk",
+      "hiddenAbility": "Speed Boost",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 60,
+        "DEF": 60,
+        "SP_ATK": 101,
+        "SP_DEF": 60,
+        "SPD": 105
+      },
+      "height": 1.9,
+      "weight": 90.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Ostrich",
+      "isBaseForm": true
+	}
+  }
+}

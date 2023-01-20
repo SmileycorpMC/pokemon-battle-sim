@@ -1,0 +1,31 @@
+{
+	"name": "First Impression",
+	"type": "Bug",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 2,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "set_move_status",
+		"value": "Fail",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "int",
+				"value1": {
+					"type": "from_user",
+					"value": "turns_active"
+				},
+				"operator": ">",
+				"value2": 0
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

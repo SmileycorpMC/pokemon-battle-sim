@@ -1,0 +1,48 @@
+{
+  "name": "Tangrowth",
+  "id": 465,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Leaf Guard",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 100,
+        "DEF": 125,
+        "SP_ATK": 110,
+        "SP_DEF": 50,
+        "SPD": 50
+      },
+      "height": 2.0,
+      "weight": 128.6,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 187,
+      "classification": "Vine",
+      "isBaseForm": true
+    }
+  }
+}

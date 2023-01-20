@@ -1,0 +1,58 @@
+{
+  "name": "Axew",
+  "id": 610,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rivalry",
+      "ability2": "Mold Breaker",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "fraxure",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 38
+        }
+      ],
+      "stats": {
+        "HP": 46,
+        "ATK": 87,
+        "DEF": 60,
+        "SP_ATK": 30,
+        "SP_DEF": 40,
+        "SPD": 57
+      },
+      "height": 0.6,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Tusk",
+      "isBaseForm": true
+    }
+  }
+}

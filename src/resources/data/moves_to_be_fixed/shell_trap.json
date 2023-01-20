@@ -1,0 +1,16 @@
+{
+  "name": "Shell Trap",
+  "type": "Fire",
+  "category": "special",
+  "target": "all_adjacent_opponents",
+  "power": 150,
+  "accuracy": 100,
+  "pp": 5,
+  "priority": -3,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

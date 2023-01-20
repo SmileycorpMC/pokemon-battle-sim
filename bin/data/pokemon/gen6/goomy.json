@@ -1,0 +1,65 @@
+{
+  "name": "Goomy",
+  "id": 704,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Sap Sipper",
+      "ability2": "Hydration",
+      "hiddenAbility": "Gooey",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sliggoo",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        },
+        {
+          "target": {
+            "species": "sliggoo",
+            "form": "hisui"
+          },
+          "method": "level_hisui",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 50,
+        "DEF": 35,
+        "SP_ATK": 55,
+        "SP_DEF": 75,
+        "SPD": 40
+      },
+      "height": 0.3,
+      "weight": 2.8,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Soft Tissue",
+      "isBaseForm": true
+    }
+  }
+}

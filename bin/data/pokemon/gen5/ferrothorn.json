@@ -1,0 +1,50 @@
+{
+  "name": "Ferrothorn",
+  "id": 598,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Steel"
+      ],
+      "ability1": "Iron Barbs",
+      "ability2": "",
+      "hiddenAbility": "Anticipation",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 94,
+        "DEF": 131,
+        "SP_ATK": 54,
+        "SP_DEF": 116,
+        "SPD": 20
+      },
+      "height": 1.0,
+      "weight": 110.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 171,
+      "classification": "Thorn Pod",
+      "isBaseForm": true
+    }
+  }
+}

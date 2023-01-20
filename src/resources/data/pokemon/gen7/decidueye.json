@@ -1,0 +1,49 @@
+{
+  "name": "Decidueye",
+  "id": 724,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Ghost"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 78,
+        "ATK": 107,
+        "DEF": 75,
+        "SP_ATK": 100,
+        "SP_DEF": 100,
+        "SPD": 70
+      },
+      "height": 1.6,
+      "weight": 36.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Arrow Quill",
+      "isBaseForm": true
+    }
+  }
+}

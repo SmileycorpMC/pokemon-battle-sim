@@ -1,0 +1,49 @@
+{
+  "name": "Iron Treads",
+  "id": 990,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 30,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+		"Steel"
+      ],
+      "ability1": "Quark Drive",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 112,
+        "DEF": 120,
+        "SP_ATK": 72,
+        "SP_DEF": 70,
+        "SPD": 106
+      },
+      "height": 0.9,
+      "weight": 240.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

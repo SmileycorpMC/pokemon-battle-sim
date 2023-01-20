@@ -1,0 +1,71 @@
+{
+  "name": "Enamorus",
+  "id": 905,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 90,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "incarnate": {
+      "types": [
+        "Fairy",
+        "Flying"
+      ],
+      "ability1": "Healer",
+      "hiddenAbility": "Contrary",
+      "stats": {
+        "HP": 74,
+        "ATK": 115,
+        "DEF": 70,
+        "SP_ATK": 135,
+        "SP_DEF": 80,
+        "SPD": 106
+      },
+      "height": 1.6,
+      "weight": 48.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Love-Hate",
+      "isBaseForm": true
+    },
+    "therian": {
+      "types": [
+        "Fairy",
+        "Flying"
+      ],
+      "ability1": "Overcoat",
+      "stats": {
+        "HP": 74,
+        "ATK": 115,
+        "DEF": 110,
+        "SP_ATK": 135,
+        "SP_DEF": 100,
+        "SPD": 46
+      },
+      "height": 1.6,
+      "weight": 48.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Love-Hate",
+      "isBaseForm": true
+    }
+  }
+}

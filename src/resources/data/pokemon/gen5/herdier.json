@@ -1,0 +1,57 @@
+{
+  "name": "Herdier",
+  "id": 507,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Sand Rush",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "stoutland",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 32
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 80,
+        "DEF": 65,
+        "SP_ATK": 35,
+        "SP_DEF": 65,
+        "SPD": 60
+      },
+      "height": 0.9,
+      "weight": 14.7,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 130,
+      "classification": "Loyal Dog",
+      "isBaseForm": true
+    }
+  }
+}

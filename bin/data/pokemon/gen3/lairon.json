@@ -1,0 +1,58 @@
+{
+  "name": "Lairon",
+  "id": 305,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Rock Head",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "aggron",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 42
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 90,
+        "DEF": 140,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 40
+      },
+      "height": 0.9,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 151,
+      "classification": "Iron Armor",
+      "isBaseForm": true
+    }
+  }
+}

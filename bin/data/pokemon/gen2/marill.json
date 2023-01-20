@@ -1,0 +1,59 @@
+{
+  "name": "Marill",
+  "id": 183,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Water_1",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Fairy"
+      ],
+      "ability1": "Thick Fat",
+      "ability2": "Huge Power",
+      "hiddenAbility": "Sap Sipper",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "azumarill",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 20,
+        "DEF": 50,
+        "SP_ATK": 20,
+        "SP_DEF": 50,
+        "SPD": 40
+      },
+      "height": 0.4,
+      "weight": 8.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 88,
+      "classification": "Aqua Mouse",
+      "isBaseForm": true
+    }
+  }
+}

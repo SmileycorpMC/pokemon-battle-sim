@@ -1,0 +1,49 @@
+{
+  "name": "Forretress",
+  "id": 205,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 90,
+        "DEF": 140,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 40
+      },
+      "height": 1.2,
+      "weight": 125.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 163,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    }
+  }
+}

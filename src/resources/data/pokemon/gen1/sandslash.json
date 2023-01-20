@@ -1,0 +1,78 @@
+{
+  "name": "Sandslash",
+  "id": 28,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "",
+      "hiddenAbility": "Sand Rush",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 100,
+        "DEF": 110,
+        "SP_ATK": 45,
+        "SP_DEF": 55,
+        "SPD": 65
+      },
+      "height": 1.0,
+      "weight": 29.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Ice",
+        "Steel"
+      ],
+      "ability1": "Snow Cloak",
+      "ability2": "",
+      "hiddenAbility": "Slush Rush",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 100,
+        "DEF": 120,
+        "SP_ATK": 25,
+        "SP_DEF": 65,
+        "SPD": 65
+      },
+      "height": 1.2,
+      "weight": 55.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Mouse",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Whismur",
+  "id": 293,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "loudred",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 64,
+        "ATK": 51,
+        "DEF": 23,
+        "SP_ATK": 51,
+        "SP_DEF": 23,
+        "SPD": 28
+      },
+      "height": 0.6,
+      "weight": 16.3,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 48,
+      "classification": "Whisper",
+      "isBaseForm": true
+    }
+  }
+}

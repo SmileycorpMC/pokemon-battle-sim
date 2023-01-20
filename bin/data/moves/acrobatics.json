@@ -1,0 +1,33 @@
+{
+	"name": "Acrobatics",
+	"type": "Flying",
+	"category": "physical",
+	"target": "select_any",
+	"power": 55,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "change_power",
+		"value": 110,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "held_item"
+				},
+				"operator": "==",
+				"value2": null
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

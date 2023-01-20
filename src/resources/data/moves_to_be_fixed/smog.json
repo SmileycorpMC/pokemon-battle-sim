@@ -1,0 +1,16 @@
+{
+  "name": "Smog",
+  "type": "Poison",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 30,
+  "accuracy": 70,
+  "pp": 20,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

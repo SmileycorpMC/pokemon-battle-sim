@@ -1,0 +1,40 @@
+{
+  "name": "Leafeon",
+  "id": 470,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 35,
+  "catchRate": 45,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "hiddenAbility": "Chlorophyll",
+      "stats": {
+        "HP": 65,
+        "ATK": 110,
+        "DEF": 130,
+        "SP_ATK": 60,
+        "SP_DEF": 65,
+        "SPD": 95
+      },
+      "height": 1.0,
+      "weight": 25.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "cla

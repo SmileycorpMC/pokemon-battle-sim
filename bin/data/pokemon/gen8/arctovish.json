@@ -1,0 +1,49 @@
+{
+  "name": "Arctovish",
+  "id": 883,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "ability1": "Water Absorb",
+      "ability2": "Ice Body",
+      "hiddenAbility": "Slush Rush",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 90,
+        "DEF": 100,
+        "SP_ATK": 80,
+        "SP_DEF": 90,
+        "SPD": 55
+      },
+      "height": 2.0,
+      "weight": 175.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 177,
+      "classification": "Fossil",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Boldore",
+  "id": 525,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Weak Armor",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "gigalith",
+            "form": "default"
+          },
+          "method": "trade"
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 105,
+        "DEF": 105,
+        "SP_ATK": 50,
+        "SP_DEF": 40,
+        "SPD": 20
+      },
+      "height": 0.9,
+      "weight": 102.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 137,
+      "classification": "Ore",
+      "isBaseForm": true
+    }
+  }
+}

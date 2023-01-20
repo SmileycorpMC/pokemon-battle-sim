@@ -1,0 +1,41 @@
+{
+  "name": "Volt Tackle",
+  "type": "Electric",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 120,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "damage_user",
+			"value": {
+				"operation": "Divide",
+				"value": [{
+						"type": "from_last_move",
+						"target": "damage_dealt"
+					},
+					3
+				]
+			},
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "paralysis",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}],
+  "z-move_effects": []
+}

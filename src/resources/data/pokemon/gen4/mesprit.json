@@ -1,0 +1,56 @@
+{
+  "name": "Mesprit",
+  "id": 481,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 105,
+        "DEF": 105,
+        "SP_ATK": 105,
+        "SP_DEF": 105,
+        "SPD": 80
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Emotion",
+      "isBaseForm": true
+    }
+  }
+}

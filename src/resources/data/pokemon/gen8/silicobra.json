@@ -1,0 +1,58 @@
+{
+  "name": "Silicobra",
+  "id": 843,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Sand Spit",
+      "ability2": "Shed Skin",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sandaconda",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 52,
+        "ATK": 57,
+        "DEF": 75,
+        "SP_ATK": 35,
+        "SP_DEF": 50,
+        "SPD": 46
+      },
+      "height": 2.2,
+      "weight": 7.6,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Sand Snake",
+      "isBaseForm": true
+    }
+  }
+}

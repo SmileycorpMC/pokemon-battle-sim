@@ -1,0 +1,49 @@
+{
+  "name": "Ninjask",
+  "id": 291,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Speed Boost",
+      "ability2": "",
+      "hiddenAbility": "Infiltrator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 61,
+        "ATK": 90,
+        "DEF": 45,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 160
+      },
+      "height": 0.8,
+      "weight": 12.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 160,
+      "classification": "Ninja",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Garchomp",
+  "id": 445,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "",
+      "hiddenAbility": "Rough Skin",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 108,
+        "ATK": 130,
+        "DEF": 95,
+        "SP_ATK": 80,
+        "SP_DEF": 85,
+        "SPD": 102
+      },
+      "height": 1.9,
+      "weight": 95.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Mach",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Sand Force",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 108,
+        "ATK": 170,
+        "DEF": 115,
+        "SP_ATK": 120,
+        "SP_DEF": 95,
+        "SPD": 92
+      },
+      "height": 1.9,
+      "weight": 95.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Mach",
+      "isBaseForm": false
+    }
+  }
+}

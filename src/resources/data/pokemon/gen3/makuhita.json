@@ -1,0 +1,57 @@
+{
+  "name": "Makuhita",
+  "id": 296,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Thick Fat",
+      "ability2": "Guts",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "hariyama",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 24
+        }
+      ],
+      "stats": {
+        "HP": 72,
+        "ATK": 60,
+        "DEF": 30,
+        "SP_ATK": 20,
+        "SP_DEF": 30,
+        "SPD": 25
+      },
+      "height": 1.0,
+      "weight": 86.4,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 47,
+      "classification": "Guts",
+      "isBaseForm": true
+    }
+  }
+}

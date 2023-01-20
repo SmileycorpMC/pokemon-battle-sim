@@ -1,0 +1,39 @@
+": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "rainbow-swirl": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "hiddenAbility": "Aroma Veil",
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "gm

@@ -1,0 +1,49 @@
+{
+  "name": "Exploud",
+  "id": 295,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 104,
+        "ATK": 91,
+        "DEF": 63,
+        "SP_ATK": 91,
+        "SP_DEF": 73,
+        "SPD": 68
+      },
+      "height": 1.5,
+      "weight": 84.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 245,
+      "classification": "Loud Noise",
+      "isBaseForm": true
+    }
+  }
+}

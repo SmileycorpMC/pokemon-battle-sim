@@ -1,0 +1,53 @@
+{
+  "name": "Mothim",
+  "id": 414,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Swarm",
+      "ability2": "",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 94,
+        "DEF": 50,
+        "SP_ATK": 94,
+        "SP_DEF": 50,
+        "SPD": 66
+      },
+      "height": 0.9,
+      "weight": 23.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 148,
+      "classification": "Moth",
+      "isBaseForm": true
+    }
+  }
+}

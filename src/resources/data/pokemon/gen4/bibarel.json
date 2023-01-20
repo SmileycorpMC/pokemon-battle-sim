@@ -1,0 +1,50 @@
+{
+  "name": "Bibarel",
+  "id": 400,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Water"
+      ],
+      "ability1": "Simple",
+      "ability2": "Unaware",
+      "hiddenAbility": "Moody",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 79,
+        "ATK": 85,
+        "DEF": 60,
+        "SP_ATK": 55,
+        "SP_DEF": 60,
+        "SPD": 71
+      },
+      "height": 1.0,
+      "weight": 31.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Beaver",
+      "isBaseForm": true
+    }
+  }
+}

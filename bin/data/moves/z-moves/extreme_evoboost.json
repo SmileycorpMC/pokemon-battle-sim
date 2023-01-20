@@ -1,0 +1,36 @@
+{
+	"name": "Extreme Evoboost",
+	"type": "Normal",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": 0,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+				"stat": "ATK",
+				"amount": 2
+			},
+			{
+				"stat": "DEF",
+				"amount": 2
+			},
+			{
+				"stat": "SP_ATK",
+				"amount": 2
+			},
+			{
+				"stat": "SP_DEF",
+				"amount": 2
+			},
+			{
+				"stat": "SPD",
+				"amount": 2
+			}
+		],
+		"conditions": []
+	}],
+	"secondary_effects": []
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Cleffa",
+  "id": 173,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Magic Guard",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "clefairy",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 25,
+        "DEF": 28,
+        "SP_ATK": 45,
+        "SP_DEF": 55,
+        "SPD": 15
+      },
+      "height": 0.3,
+      "weight": 3.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 44,
+      "classification": "Star Shape",
+      "isBaseForm": true
+    }
+  }
+}

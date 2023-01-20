@@ -1,0 +1,18 @@
+{
+	"name": "Aqua Jet",
+	"type": "Water",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 40,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 1,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

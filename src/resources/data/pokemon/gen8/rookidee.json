@@ -1,0 +1,57 @@
+{
+  "name": "Rookidee",
+  "id": 821,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Unnerve",
+      "hiddenAbility": "Big Pecks",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "corvisquire",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 38,
+        "ATK": 47,
+        "DEF": 35,
+        "SP_ATK": 33,
+        "SP_DEF": 35,
+        "SPD": 57
+      },
+      "height": 0.2,
+      "weight": 1.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 49,
+      "classification": "Tiny Bird",
+      "isBaseForm": true
+    }
+  }
+}

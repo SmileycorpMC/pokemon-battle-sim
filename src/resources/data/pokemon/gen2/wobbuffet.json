@@ -1,0 +1,48 @@
+{
+  "name": "Wobbuffet",
+  "id": 202,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Shadow Tag",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 190,
+        "ATK": 33,
+        "DEF": 58,
+        "SP_ATK": 33,
+        "SP_DEF": 58,
+        "SPD": 33
+      },
+      "height": 1.3,
+      "weight": 28.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Patient",
+      "isBaseForm": true
+    }
+  }
+}

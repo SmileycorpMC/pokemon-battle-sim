@@ -1,0 +1,38 @@
+{
+	"name": "Bulldoze",
+	"type": "Ground",
+	"category": "physical",
+	"target": "all_adjacent",
+	"power": 60,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": 120,
+	"max_move_power": 110,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_power",
+		"value": 50,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "terrain"
+				},
+				"operator": "==",
+				"value2": "grassy_terrain"
+			}
+		}]
+	}],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SPD",
+			"amount": -1
+		}],
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

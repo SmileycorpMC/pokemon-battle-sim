@@ -1,0 +1,58 @@
+{
+  "name": "Shroomish",
+  "id": 285,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Effect Spore",
+      "ability2": "Poison Heal",
+      "hiddenAbility": "Quick Feet",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "breloom",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 23
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 40,
+        "DEF": 60,
+        "SP_ATK": 40,
+        "SP_DEF": 60,
+        "SPD": 35
+      },
+      "height": 0.4,
+      "weight": 4.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 59,
+      "classification": "Mushroom",
+      "isBaseForm": true
+    }
+  }
+}

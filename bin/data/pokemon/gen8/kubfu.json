@@ -1,0 +1,65 @@
+{
+  "name": "Kubfu",
+  "id": 891,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "urshifu",
+            "form": "single-strike"
+          },
+          "method": "item",
+          "value": "scroll_of_darkness"
+        },
+        {
+          "target": {
+            "species": "urshifu",
+            "form": "rapid-strike"
+          },
+          "method": "item",
+          "value": "scroll_of_water"
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 90,
+        "DEF": 60,
+        "SP_ATK": 53,
+        "SP_DEF": 50,
+        "SPD": 72
+      },
+      "height": 0.6,
+      "weight": 12.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 77,
+      "classification": "Wushu",
+      "isBaseForm": true
+    }
+  }
+}

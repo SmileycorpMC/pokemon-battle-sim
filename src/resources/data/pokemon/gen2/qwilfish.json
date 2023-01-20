@@ -1,0 +1,88 @@
+{
+  "name": "Qwilfish",
+  "id": 211,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Swift Swim",
+      "hiddenAbility": "Intimidate",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 95,
+        "DEF": 85,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 85
+      },
+      "height": 0.5,
+      "weight": 3.9,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 88,
+      "classification": "Balloon",
+      "isBaseForm": true
+    },
+    "hisui": {
+      "types": [
+        "Dark",
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Swift Swim",
+      "hiddenAbility": "Intimidate",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "overqwil",
+            "form": "default"
+          },
+          "method": "use_move",
+          "value": "barb_barrage"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 95,
+        "DEF": 85,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 85
+      },
+      "height": 0.5,
+      "weight": 3.9,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 88,
+      "classification": "Balloon",
+      "isBaseForm": true
+    }
+  }
+}

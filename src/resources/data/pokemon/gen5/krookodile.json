@@ -1,0 +1,49 @@
+{
+  "name": "Krookodile",
+  "id": 553,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Moxie",
+      "hiddenAbility": "Anger Point",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 117,
+        "DEF": 80,
+        "SP_ATK": 65,
+        "SP_DEF": 70,
+        "SPD": 92
+      },
+      "height": 1.5,
+      "weight": 96.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 260,
+      "classification": "Intimidation",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Durant",
+  "id": 632,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Hustle",
+      "hiddenAbility": "Truant",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 58,
+        "ATK": 109,
+        "DEF": 112,
+        "SP_ATK": 48,
+        "SP_DEF": 48,
+        "SPD": 109
+      },
+      "height": 0.3,
+      "weight": 33.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 169,
+      "classification": "Iron Ant",
+      "isBaseForm": true
+    }
+  }
+}

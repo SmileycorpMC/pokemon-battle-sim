@@ -1,0 +1,58 @@
+{
+  "name": "Pawmo",
+  "id": 922,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 80,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Fighting"
+      ],
+      "ability1": "Volt Absorb",
+      "ability2": "Natural Cure",
+      "hiddenAbility": "Iron Fist",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pawmot",
+            "form": "default"
+          },
+          "method": "walk_with",
+          "value": 1000
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 75,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 40,
+        "SPD": 85
+      },
+      "height": 0.4,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 123,
+      "classification": "Mouse",
+      "isBaseForm": true
+    }
+  }
+}

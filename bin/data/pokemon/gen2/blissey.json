@@ -1,0 +1,48 @@
+{
+  "name": "Blissey",
+  "id": 242,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "Serene Grace",
+      "hiddenAbility": "Healer",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 255,
+        "ATK": 10,
+        "DEF": 10,
+        "SP_ATK": 75,
+        "SP_DEF": 135,
+        "SPD": 55
+      },
+      "height": 1.5,
+      "weight": 46.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 635,
+      "classification": "Happiness",
+      "isBaseForm": true
+    }
+  }
+}

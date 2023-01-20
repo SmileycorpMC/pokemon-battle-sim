@@ -1,0 +1,49 @@
+{
+  "name": "Emboar",
+  "id": 500,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Reckless",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 123,
+        "DEF": 65,
+        "SP_ATK": 100,
+        "SP_DEF": 65,
+        "SPD": 65
+      },
+      "height": 1.6,
+      "weight": 150.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 238,
+      "classification": "Mega Fire Pig",
+      "isBaseForm": true
+    }
+  }
+}

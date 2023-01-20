@@ -1,0 +1,53 @@
+{
+  "name": "Probopass",
+  "id": 476,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Steel"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Magnet Pull",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 55,
+        "DEF": 145,
+        "SP_ATK": 75,
+        "SP_DEF": 150,
+        "SPD": 40
+      },
+      "height": 1.4,
+      "weight": 340.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Compass",
+      "isBaseForm": true
+    }
+  }
+}

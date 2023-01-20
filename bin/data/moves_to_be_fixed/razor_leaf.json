@@ -1,0 +1,16 @@
+{
+  "name": "Razor Leaf",
+  "type": "Grass",
+  "category": "physical",
+  "target": "all_adjacent_opponents",
+  "power": 55,
+  "accuracy": 95,
+  "pp": 25,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

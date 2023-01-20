@@ -1,0 +1,48 @@
+{
+  "name": "Hitmonlee",
+  "id": 106,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Limber",
+      "ability2": "Reckless",
+      "hiddenAbility": "Unburden",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 120,
+        "DEF": 53,
+        "SP_ATK": 35,
+        "SP_DEF": 110,
+        "SPD": 87
+      },
+      "height": 1.5,
+      "weight": 49.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Kicking",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Wartortle",
+  "id": 8,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Rain Dish",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "blastoise",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 32
+        }
+      ],
+      "stats": {
+        "HP": 59,
+        "ATK": 63,
+        "DEF": 80,
+        "SP_ATK": 65,
+        "SP_DEF": 80,
+        "SPD": 58
+      },
+      "height": 1.0,
+      "weight": 22.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Turtle",
+      "isBaseForm": true
+    }
+  }
+}

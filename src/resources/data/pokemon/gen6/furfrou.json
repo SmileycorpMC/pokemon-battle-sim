@@ -1,0 +1,309 @@
+{
+  "name": "Furfrou",
+  "id": 676,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "natural": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "heart": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "star": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "diamond": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "debutante": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "matron": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "dandy": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "la-reine": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "kabuki": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    },
+    "pharaoh": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fur Coat",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 60,
+        "SP_ATK": 65,
+        "SP_DEF": 90,
+        "SPD": 102
+      },
+      "height": 1.2,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Poodle",
+      "isBaseForm": true
+    }
+  }
+}

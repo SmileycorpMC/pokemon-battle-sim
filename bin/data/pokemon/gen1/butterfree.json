@@ -1,0 +1,87 @@
+{
+  "name": "Butterfree",
+  "id": 12,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Compound Eyes",
+      "ability2": "",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 45,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 80,
+        "SPD": 70
+      },
+      "height": 1.1,
+      "weight": 32.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 198,
+      "classification": "Butterfly",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Compound Eyes",
+      "ability2": "",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 45,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 80,
+        "SPD": 70
+      },
+      "height": 17.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 178,
+      "classification": "Butterfly",
+      "isBaseForm": false
+    }
+  }
+}

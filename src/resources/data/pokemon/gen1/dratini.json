@@ -1,0 +1,58 @@
+{
+  "name": "Dratini",
+  "id": 147,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "Marvel Scale",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dragonair",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 41,
+        "ATK": 64,
+        "DEF": 45,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 50
+      },
+      "height": 1.8,
+      "weight": 3.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Dragon",
+      "isBaseForm": true
+    }
+  }
+}

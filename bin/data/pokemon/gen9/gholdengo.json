@@ -1,0 +1,49 @@
+{
+  "name": "Gholdengo",
+  "id": 1000,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "ability1": "Good as Gold",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 87,
+        "ATK": 60,
+        "DEF": 95,
+        "SP_ATK": 133,
+        "SP_DEF": 91,
+        "SPD": 84
+      },
+      "height": 1.2,
+      "weight": 30.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Coin Entity",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Fuecoco",
+  "id": 909,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Unaware",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "crocalor",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 16
+        }
+      ],
+      "stats": {
+        "HP": 67,
+        "ATK": 45,
+        "DEF": 59,
+        "SP_ATK": 63,
+        "SP_DEF": 40,
+        "SPD": 36
+      },
+      "height": 0.4,
+      "weight": 9.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Grass Cat",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Blitzle",
+  "id": 522,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Lightning Rod",
+      "ability2": "Motor Drive",
+      "hiddenAbility": "Sap Sipper",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "zebstrika",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 27
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 60,
+        "DEF": 32,
+        "SP_ATK": 50,
+        "SP_DEF": 32,
+        "SPD": 76
+      },
+      "height": 0.8,
+      "weight": 29.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 59,
+      "classification": "Electrified",
+      "isBaseForm": true
+    }
+  }
+}

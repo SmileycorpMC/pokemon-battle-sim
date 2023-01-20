@@ -1,0 +1,59 @@
+{
+  "name": "Roselia",
+  "id": 315,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "Poison Point",
+      "hiddenAbility": "Leaf Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "roserade",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 60,
+        "DEF": 45,
+        "SP_ATK": 100,
+        "SP_DEF": 80,
+        "SPD": 65
+      },
+      "height": 0.3,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 140,
+      "classification": "Thorn",
+      "isBaseForm": true
+    }
+  }
+}

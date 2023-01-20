@@ -1,0 +1,59 @@
+{
+  "name": "Tirtouga",
+  "id": 564,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "ability1": "Solid Rock",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Swift Swim",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "carracosta",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 78,
+        "DEF": 103,
+        "SP_ATK": 53,
+        "SP_DEF": 45,
+        "SPD": 22
+      },
+      "height": 0.7,
+      "weight": 16.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "Prototurtle",
+      "isBaseForm": true
+    }
+  }
+}

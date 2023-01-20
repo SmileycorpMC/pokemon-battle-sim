@@ -1,0 +1,57 @@
+{
+  "name": "Patrat",
+  "id": 504,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Keen Eye",
+      "hiddenAbility": "Analytic",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "watchog",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 55,
+        "DEF": 39,
+        "SP_ATK": 35,
+        "SP_DEF": 39,
+        "SPD": 42
+      },
+      "height": 0.5,
+      "weight": 11.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 51,
+      "classification": "Scout",
+      "isBaseForm": true
+    }
+  }
+}

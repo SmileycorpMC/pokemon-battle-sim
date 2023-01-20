@@ -1,0 +1,78 @@
+{
+  "name": "Groudon",
+  "id": 383,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Drought",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 150,
+        "DEF": 140,
+        "SP_ATK": 100,
+        "SP_DEF": 90,
+        "SPD": 90
+      },
+      "height": 3.5,
+      "weight": 950.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 335,
+      "classification": "Continent",
+      "isBaseForm": true
+    },
+    "primal": {
+      "types": [
+        "Ground",
+        "Fire"
+      ],
+      "ability1": "Desolate Land",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 180,
+        "DEF": 160,
+        "SP_ATK": 150,
+        "SP_DEF": 90,
+        "SPD": 90
+      },
+      "height": 5.0,
+      "weight": 999.7,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 347,
+      "classification": "Continent",
+      "isBaseForm": false
+    }
+  }
+}

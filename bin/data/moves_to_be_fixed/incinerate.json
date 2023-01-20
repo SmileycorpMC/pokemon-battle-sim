@@ -1,0 +1,16 @@
+{
+  "name": "Incinerate",
+  "type": "Fire",
+  "category": "special",
+  "target": "all_adjacent_opponents",
+  "power": 60,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

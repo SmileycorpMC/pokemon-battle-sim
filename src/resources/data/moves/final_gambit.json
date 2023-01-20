@@ -1,0 +1,29 @@
+{
+	"name": "Final Gambit",
+	"type": "Fighting",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "damage_target",
+			"value": {
+				"type": "from_user",
+				"target": "current_hp"
+			},
+			"conditions": []
+		},
+		{
+			"function": "set_user_hp",
+			"value": 0,
+			"conditions": []
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

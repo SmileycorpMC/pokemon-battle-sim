@@ -1,0 +1,58 @@
+{
+  "name": "Whirlipede",
+  "id": 544,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Swarm",
+      "hiddenAbility": "Speed Boost",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "scolipede",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 55,
+        "DEF": 99,
+        "SP_ATK": 40,
+        "SP_DEF": 79,
+        "SPD": 47
+      },
+      "height": 1.2,
+      "weight": 58.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 126,
+      "classification": "Curlipede",
+      "isBaseForm": true
+    }
+  }
+}

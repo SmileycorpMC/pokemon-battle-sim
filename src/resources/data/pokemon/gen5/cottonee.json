@@ -1,0 +1,59 @@
+{
+  "name": "Cottonee",
+  "id": 546,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Fairy"
+      ],
+      "ability1": "Prankster",
+      "ability2": "Infiltrator",
+      "hiddenAbility": "Chlorophyll",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "whimsicott",
+            "form": "default"
+          },
+          "method": "level",
+          "value": "sun_stone"
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 27,
+        "DEF": 60,
+        "SP_ATK": 37,
+        "SP_DEF": 50,
+        "SPD": 66
+      },
+      "height": 0.3,
+      "weight": 0.6,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 56,
+      "classification": "Cotton Puff",
+      "isBaseForm": true
+    }
+  }
+}

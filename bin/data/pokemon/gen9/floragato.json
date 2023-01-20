@@ -1,0 +1,58 @@
+{
+  "name": "Floragato",
+  "id": 907,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Protean",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "meowscarada",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 61,
+        "ATK": 80,
+        "DEF": 63,
+        "SP_ATK": 60,
+        "SP_DEF": 63,
+        "SPD": 83
+      },
+      "height": 0.9,
+      "weight": 12.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Grass Cat",
+      "isBaseForm": true
+    }
+  }
+}

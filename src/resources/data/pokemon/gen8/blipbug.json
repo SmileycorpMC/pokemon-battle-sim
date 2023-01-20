@@ -1,0 +1,57 @@
+{
+  "name": "Blipbug",
+  "id": 824,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dottler",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 10
+        }
+      ],
+      "stats": {
+        "HP": 25,
+        "ATK": 20,
+        "DEF": 20,
+        "SP_ATK": 25,
+        "SP_DEF": 45,
+        "SPD": 45
+      },
+      "height": 0.4,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 36,
+      "classification": "Larva",
+      "isBaseForm": true
+    }
+  }
+}

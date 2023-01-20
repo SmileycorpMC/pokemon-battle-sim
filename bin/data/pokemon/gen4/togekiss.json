@@ -1,0 +1,54 @@
+{
+  "name": "Togekiss",
+  "id": 468,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Flying",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy",
+        "Flying"
+      ],
+      "ability1": "Hustle",
+      "ability2": "Serene Grace",
+      "hiddenAbility": "Super Luck",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 50,
+        "DEF": 95,
+        "SP_ATK": 120,
+        "SP_DEF": 115,
+        "SPD": 80
+      },
+      "height": 1.5,
+      "weight": 38.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 273,
+      "classification": "Jubilee",
+      "isBaseForm": true
+    }
+  }
+}

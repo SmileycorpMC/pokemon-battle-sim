@@ -1,0 +1,77 @@
+{
+  "name": "Absol",
+  "id": 359,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Pressure",
+      "ability2": "Super Luck",
+      "hiddenAbility": "Justified",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 130,
+        "DEF": 60,
+        "SP_ATK": 75,
+        "SP_DEF": 60,
+        "SPD": 75
+      },
+      "height": 1.2,
+      "weight": 47.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 163,
+      "classification": "Disaster",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Magic Bounce",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 150,
+        "DEF": 60,
+        "SP_ATK": 115,
+        "SP_DEF": 60,
+        "SPD": 115
+      },
+      "height": 1.2,
+      "weight": 49.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 198,
+      "classification": "Disaster",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Attack Order",
+	"type": "Bug",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

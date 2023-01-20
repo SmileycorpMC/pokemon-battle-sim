@@ -1,0 +1,67 @@
+{
+  "name": "Palkia",
+  "id": 484,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "ability1": "Pressure",
+      "hiddenAbility": "Telepathy",
+      "stats": {
+        "HP": 90,
+        "ATK": 120,
+        "DEF": 100,
+        "SP_ATK": 150,
+        "SP_DEF": 120,
+        "SPD": 100
+      },
+      "height": 4.2,
+      "weight": 336.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Spatial",
+      "isBaseForm": true
+    },
+	"origin": {
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "ability1": "Pressure",
+      "hiddenAbility": "Telepathy",
+      "stats": {
+        "HP": 90,
+        "ATK": 100,
+        "DEF": 100,
+        "SP_ATK": 150,
+        "SP_DEF": 120,
+        "SPD": 120
+      },
+      "height": 6.3,
+      "weight": 660.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+     

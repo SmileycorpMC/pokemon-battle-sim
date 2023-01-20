@@ -1,0 +1,65 @@
+{
+  "name": "Nosepass",
+  "id": 299,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Magnet Pull",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "probopass",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "thunder_stone"
+        },
+        {
+          "target": {
+            "species": "probopass",
+            "form": "default"
+          },
+          "method": "location",
+          "value": "electric_rock"
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 45,
+        "DEF": 135,
+        "SP_ATK": 45,
+        "SP_DEF": 90,
+        "SPD": 30
+      },
+      "height": 1.0,
+      "weight": 97.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 75,
+      "classification": "Compass",
+      "isBaseForm": true
+    }
+  }
+}

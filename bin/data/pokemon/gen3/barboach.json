@@ -1,0 +1,58 @@
+{
+  "name": "Barboach",
+  "id": 339,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Anticipation",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "whiscash",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 48,
+        "DEF": 43,
+        "SP_ATK": 46,
+        "SP_DEF": 41,
+        "SPD": 60
+      },
+      "height": 0.4,
+      "weight": 1.9,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 58,
+      "classification": "Whiskers",
+      "isBaseForm": true
+    }
+  }
+}

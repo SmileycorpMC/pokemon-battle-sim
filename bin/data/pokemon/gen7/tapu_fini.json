@@ -1,0 +1,49 @@
+{
+  "name": "Tapu Fini",
+  "id": 788,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Fairy"
+      ],
+      "ability1": "Misty Surge",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 75,
+        "DEF": 115,
+        "SP_ATK": 95,
+        "SP_DEF": 130,
+        "SPD": 85
+      },
+      "height": 1.3,
+      "weight": 21.2,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Land Spirit",
+      "isBaseForm": true
+    }
+  }
+}

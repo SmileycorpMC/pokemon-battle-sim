@@ -1,0 +1,44 @@
+{
+	"name": "Parting Shot",
+	"type": "Dark",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"sound-based"
+	],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+				"stat": "ATK",
+				"amount": -1
+			},
+			{
+				"stat": "SP_ATK",
+				"amount": -1
+			}
+		],
+		"conditions": []
+	}],
+	"secondary_effects": [{
+		"function": "switch_out_user",
+		"value": null,
+		"conditions": []
+	}],
+	"z-move_effects": [{
+			"function": "remove_volatile_status",
+			"value": "silenced",
+			"conditions": []
+		},
+		{
+			"function": "fractional_heal_next",
+			"value": 1,
+			"conditions": []
+		}
+	]
+}

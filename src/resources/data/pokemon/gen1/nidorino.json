@@ -1,0 +1,58 @@
+{
+  "name": "Nidorino",
+  "id": 33,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Rivalry",
+      "hiddenAbility": "Hustle",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "nidoking",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "moon_stone"
+        }
+      ],
+      "stats": {
+        "HP": 61,
+        "ATK": 72,
+        "DEF": 57,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 65
+      },
+      "height": 0.9,
+      "weight": 19.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 128,
+      "classification": "Poison Pin",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Haxorus",
+  "id": 612,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rivalry",
+      "ability2": "Mold Breaker",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 76,
+        "ATK": 147,
+        "DEF": 90,
+        "SP_ATK": 60,
+        "SP_DEF": 70,
+        "SPD": 97
+      },
+      "height": 1.8,
+      "weight": 105.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Axe Jaw",
+      "isBaseForm": true
+    }
+  }
+}

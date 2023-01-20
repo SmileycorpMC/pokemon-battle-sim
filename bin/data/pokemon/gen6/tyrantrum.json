@@ -1,0 +1,50 @@
+{
+  "name": "Tyrantrum",
+  "id": 697,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Dragon"
+      ],
+      "ability1": "Strong Jaw",
+      "ability2": "",
+      "hiddenAbility": "Rock Head",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 82,
+        "ATK": 121,
+        "DEF": 119,
+        "SP_ATK": 69,
+        "SP_DEF": 59,
+        "SPD": 71
+      },
+      "height": 2.5,
+      "weight": 270.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 182,
+      "classification": "Despot",
+      "isBaseForm": true
+    }
+  }
+}

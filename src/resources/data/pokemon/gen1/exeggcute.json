@@ -1,0 +1,66 @@
+{
+  "name": "Exeggcute",
+  "id": 102,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "",
+      "hiddenAbility": "Harvest",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "exeggutor",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "leaf_stone"
+        },
+        {
+          "target": {
+            "species": "exeggutor",
+            "form": "alola"
+          },
+          "method": "item_alola",
+          "value": "leaf_stone"
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 40,
+        "DEF": 80,
+        "SP_ATK": 60,
+        "SP_DEF": 45,
+        "SPD": 40
+      },
+      "height": 0.4,
+      "weight": 2.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Egg",
+      "isBaseForm": true
+    }
+  }
+}

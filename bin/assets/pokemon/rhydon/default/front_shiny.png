@@ -1,0 +1,59 @@
+{
+  "name": "Lucario",
+  "id": 448,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "ability1": "Steadfast",
+      "ability2": "Inner Focus",
+      "hiddenAbility": "Justified",
+      "stats": {
+        "HP": 70,
+        "ATK": 110,
+        "DEF": 70,
+        "SP_ATK": 115,
+        "SP_DEF": 70,
+        "SPD": 90
+      },
+      "height": 1.2,
+      "weight": 54.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Aura",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "ability1": "Adaptability",
+      "stats": {
+        "HP": 70,
+        "ATK": 145,
+        "DEF": 8

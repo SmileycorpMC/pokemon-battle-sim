@@ -1,0 +1,49 @@
+{
+  "name": "Noctowl",
+  "id": 164,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "Keen Eye",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 50,
+        "DEF": 50,
+        "SP_ATK": 86,
+        "SP_DEF": 96,
+        "SPD": 70
+      },
+      "height": 1.6,
+      "weight": 40.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Owl",
+      "isBaseForm": true
+    }
+  }
+}

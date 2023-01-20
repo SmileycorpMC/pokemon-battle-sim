@@ -1,0 +1,57 @@
+{
+  "name": "Chespin",
+  "id": 650,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Bulletproof",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "quilladin",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 16
+        }
+      ],
+      "stats": {
+        "HP": 56,
+        "ATK": 61,
+        "DEF": 65,
+        "SP_ATK": 48,
+        "SP_DEF": 45,
+        "SPD": 38
+      },
+      "height": 0.4,
+      "weight": 9.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Spiny Nut",
+      "isBaseForm": true
+    }
+  }
+}

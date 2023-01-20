@@ -1,0 +1,58 @@
+{
+  "name": "Krokorok",
+  "id": 552,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Moxie",
+      "hiddenAbility": "Anger Point",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "krookodile",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 82,
+        "DEF": 45,
+        "SP_ATK": 45,
+        "SP_DEF": 45,
+        "SPD": 74
+      },
+      "height": 1.0,
+      "weight": 33.4,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 123,
+      "classification": "Desert Croc",
+      "isBaseForm": true
+    }
+  }
+}

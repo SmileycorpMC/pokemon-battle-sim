@@ -1,0 +1,48 @@
+{
+  "name": "Hippowdon",
+  "id": 450,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Sand Stream",
+      "ability2": "",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 108,
+        "ATK": 112,
+        "DEF": 118,
+        "SP_ATK": 68,
+        "SP_DEF": 72,
+        "SPD": 47
+      },
+      "height": 2.0,
+      "weight": 300.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Heavyweight",
+      "isBaseForm": true
+    }
+  }
+}

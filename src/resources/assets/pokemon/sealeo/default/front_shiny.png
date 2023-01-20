@@ -1,0 +1,44 @@
+{
+  "name": "Ambipom",
+  "id": 424,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 100,
+  "catchRate": 45,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Technician",
+      "ability2": "Pickup",
+      "hiddenAbility": "Skill Link",
+      "stats": {
+        "HP": 75,
+        "ATK": 100,
+        "DEF": 66,
+        "SP_ATK": 60,
+        "SP_DEF": 66,
+        "SPD": 115
+      },
+      "height": 1.2,
+      "weight": 20.3,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 169,
+      "classification": "Long Tail",
+      "isBaseForm": true
+    }
+  

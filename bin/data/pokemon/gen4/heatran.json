@@ -1,0 +1,49 @@
+{
+  "name": "Heatran",
+  "id": 485,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Steel"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "",
+      "hiddenAbility": "Flame Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 91,
+        "ATK": 90,
+        "DEF": 106,
+        "SP_ATK": 130,
+        "SP_DEF": 106,
+        "SPD": 77
+      },
+      "height": 1.7,
+      "weight": 430.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Lava Dome",
+      "isBaseForm": true
+    }
+  }
+}

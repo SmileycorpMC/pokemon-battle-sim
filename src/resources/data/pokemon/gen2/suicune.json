@@ -1,0 +1,52 @@
+{
+  "name": "Suicune",
+  "id": 245,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 75,
+        "DEF": 115,
+        "SP_ATK": 90,
+        "SP_DEF": 115,
+        "SPD": 85
+      },
+      "height": 2.0,
+      "weight": 187.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Aurora",
+      "isBaseForm": true
+    }
+  }
+}

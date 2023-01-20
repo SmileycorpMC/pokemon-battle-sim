@@ -1,0 +1,48 @@
+{
+  "name": "Umbreon",
+  "id": 197,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Synchronize",
+      "ability2": "",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 65,
+        "DEF": 110,
+        "SP_ATK": 60,
+        "SP_DEF": 130,
+        "SPD": 65
+      },
+      "height": 1.0,
+      "weight": 27.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Moonlight",
+      "isBaseForm": true
+    }
+  }
+}

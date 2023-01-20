@@ -1,0 +1,59 @@
+{
+  "name": "Dewpider",
+  "id": 751,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Bug"
+      ],
+      "ability1": "Water Bubble",
+      "ability2": "",
+      "hiddenAbility": "Water Absorb",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "araquanid",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 22
+        }
+      ],
+      "stats": {
+        "HP": 38,
+        "ATK": 40,
+        "DEF": 52,
+        "SP_ATK": 40,
+        "SP_DEF": 72,
+        "SPD": 27
+      },
+      "height": 0.3,
+      "weight": 4.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Water Bubble",
+      "isBaseForm": true
+    }
+  }
+}

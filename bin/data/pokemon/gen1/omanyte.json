@@ -1,0 +1,59 @@
+{
+  "name": "Omanyte",
+  "id": 138,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "omastar",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 40,
+        "DEF": 100,
+        "SP_ATK": 90,
+        "SP_DEF": 55,
+        "SPD": 35
+      },
+      "height": 0.4,
+      "weight": 7.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "Spiral",
+      "isBaseForm": true
+    }
+  }
+}

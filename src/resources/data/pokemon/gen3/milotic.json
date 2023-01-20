@@ -1,0 +1,49 @@
+{
+  "name": "Milotic",
+  "id": 350,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_1",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Marvel Scale",
+      "ability2": "Competitive",
+      "hiddenAbility": "Cute Charm",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 60,
+        "DEF": 79,
+        "SP_ATK": 100,
+        "SP_DEF": 125,
+        "SPD": 81
+      },
+      "height": 6.2,
+      "weight": 162.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 189,
+      "classification": "Tender",
+      "isBaseForm": true
+    }
+  }
+}

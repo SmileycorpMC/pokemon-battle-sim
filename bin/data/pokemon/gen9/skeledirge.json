@@ -1,0 +1,49 @@
+{
+  "name": "Skeledirge",
+  "id": 911,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Ghost"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Unaware",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 104,
+        "ATK": 74,
+        "DEF": 100,
+        "SP_ATK": 110,
+        "SP_DEF": 75,
+        "SPD": 66
+      },
+      "height": 1.6,
+      "weight": 326.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Singer",
+      "isBaseForm": true
+    }
+  }
+}

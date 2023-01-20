@@ -1,0 +1,53 @@
+{
+  "name": "Bronzong",
+  "id": 437,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "Heatproof",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 67,
+        "ATK": 89,
+        "DEF": 116,
+        "SP_ATK": 79,
+        "SP_DEF": 116,
+        "SPD": 33
+      },
+      "height": 1.3,
+      "weight": 187.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Bronze Bell",
+      "isBaseForm": true
+    }
+  }
+}

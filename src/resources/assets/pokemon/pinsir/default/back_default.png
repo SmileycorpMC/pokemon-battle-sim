@@ -1,0 +1,49 @@
+{
+  "name": "Morpeko",
+  "id": 877,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 50,
+  "catchRate": 180,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Dark"
+      ],
+      "ability1": "Hunger Switch",
+      "stats": {
+        "HP": 58,
+        "ATK": 95,
+        "DEF": 58,
+        "SP_ATK": 70,
+        "SP_DEF": 58,
+        "SPD": 97
+      },
+      "height": 0.3,
+      "weight": 3.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 153,
+      "classification": "Two-Sided",
+      "isBaseForm": true
+    },
+    "hangry": {
+      "types": [
+        "Electric",
+        "Dark"
+      ],
+      "ability

@@ -1,0 +1,79 @@
+{
+  "name": "Indeedee",
+  "id": 876,
+  "genderRatio": 3,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "male": {
+      "types": [
+        "Psychic",
+        "Normal"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "Synchronize",
+      "hiddenAbility": "Psychic Surge",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 65,
+        "DEF": 55,
+        "SP_ATK": 105,
+        "SP_DEF": 95,
+        "SPD": 95
+      },
+      "height": 0.9,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Emotion",
+      "isBaseForm": true
+    },
+    "female": {
+      "types": [
+        "Psychic",
+        "Normal"
+      ],
+      "ability1": "Own Tempo",
+      "ability2": "Synchronize",
+      "hiddenAbility": "Psychic Surge",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 55,
+        "DEF": 65,
+        "SP_ATK": 95,
+        "SP_DEF": 105,
+        "SPD": 85
+      },
+      "height": 0.9,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Emotion",
+      "isBaseForm": true
+    }
+  }
+}

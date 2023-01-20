@@ -1,0 +1,49 @@
+{
+  "name": "Golurk",
+  "id": 623,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "ability1": "Iron Fist",
+      "ability2": "Klutz",
+      "hiddenAbility": "No Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 89,
+        "ATK": 124,
+        "DEF": 80,
+        "SP_ATK": 55,
+        "SP_DEF": 80,
+        "SPD": 55
+      },
+      "height": 2.8,
+      "weight": 330.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 169,
+      "classification": "Automaton",
+      "isBaseForm": true
+    }
+  }
+}

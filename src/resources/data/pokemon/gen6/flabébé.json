@@ -1,0 +1,209 @@
+{
+  "name": "Flabébé",
+  "id": 669,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "red": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "floette",
+            "form": "red"
+          },
+          "method": "level",
+          "value": 19
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 38,
+        "DEF": 39,
+        "SP_ATK": 61,
+        "SP_DEF": 79,
+        "SPD": 42
+      },
+      "height": 0.1,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "yellow": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "floette",
+            "form": "yellow"
+          },
+          "method": "level",
+          "value": 19
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 38,
+        "DEF": 39,
+        "SP_ATK": 61,
+        "SP_DEF": 79,
+        "SPD": 42
+      },
+      "height": 0.1,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "orange": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "floette",
+            "form": "orange"
+          },
+          "method": "level",
+          "value": 19
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 38,
+        "DEF": 39,
+        "SP_ATK": 61,
+        "SP_DEF": 79,
+        "SPD": 42
+      },
+      "height": 0.1,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "blue": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "floette",
+            "form": "blue"
+          },
+          "method": "level",
+          "value": 19
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 38,
+        "DEF": 39,
+        "SP_ATK": 61,
+        "SP_DEF": 79,
+        "SPD": 42
+      },
+      "height": 0.1,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "white": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "floette",
+            "form": "white"
+          },
+          "method": "level",
+          "value": 19
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 38,
+        "DEF": 39,
+        "SP_ATK": 61,
+        "SP_DEF": 79,
+        "SPD": 42
+      },
+      "height": 0.1,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    }
+  }
+}

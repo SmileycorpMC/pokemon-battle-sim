@@ -1,0 +1,47 @@
+{
+  "name": "Capsakid",
+  "id": 951,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+	"Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Insomnia",
+      "hiddenAbility": "Klutz",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 62,
+        "DEF": 40,
+        "SP_ATK": 62,
+        "SP_DEF": 40,
+        "SPD": 50
+      },
+      "height": 0.3,
+      "weight": 3.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Spicy Pepper",
+      "isBaseForm": true
+	}
+  }
+}

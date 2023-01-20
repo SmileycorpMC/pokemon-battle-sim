@@ -1,0 +1,12 @@
+{
+	"name": "Hydro Vortex",
+	"type": "Water",
+	"category": null,
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": []
+}

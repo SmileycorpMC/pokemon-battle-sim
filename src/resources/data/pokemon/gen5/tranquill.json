@@ -1,0 +1,58 @@
+{
+  "name": "Tranquill",
+  "id": 520,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Big Pecks",
+      "ability2": "Super Luck",
+      "hiddenAbility": "Rivalry",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "unfezant",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 32
+        }
+      ],
+      "stats": {
+        "HP": 62,
+        "ATK": 77,
+        "DEF": 62,
+        "SP_ATK": 50,
+        "SP_DEF": 42,
+        "SPD": 65
+      },
+      "height": 0.6,
+      "weight": 15.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 125,
+      "classification": "Wild Pigeon",
+      "isBaseForm": true
+    }
+  }
+}

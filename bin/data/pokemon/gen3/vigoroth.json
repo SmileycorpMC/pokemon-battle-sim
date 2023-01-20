@@ -1,0 +1,57 @@
+{
+  "name": "Vigoroth",
+  "id": 288,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Vital Spirit",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "slaking",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 80,
+        "ATK": 80,
+        "DEF": 80,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 90
+      },
+      "height": 1.4,
+      "weight": 46.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Wild Monkey",
+      "isBaseForm": true
+    }
+  }
+}

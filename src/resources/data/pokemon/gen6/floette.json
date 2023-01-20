@@ -1,0 +1,238 @@
+{
+  "name": "Floette",
+  "id": 670,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "red": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "florges",
+            "form": "red"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 45,
+        "DEF": 47,
+        "SP_ATK": 75,
+        "SP_DEF": 98,
+        "SPD": 52
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 130,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "yellow": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "florges",
+            "form": "yellow"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 45,
+        "DEF": 47,
+        "SP_ATK": 75,
+        "SP_DEF": 98,
+        "SPD": 52
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 130,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "orange": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "florges",
+            "form": "orange"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 45,
+        "DEF": 47,
+        "SP_ATK": 75,
+        "SP_DEF": 98,
+        "SPD": 52
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 130,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "blue": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "florges",
+            "form": "blue"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 45,
+        "DEF": 47,
+        "SP_ATK": 75,
+        "SP_DEF": 98,
+        "SPD": 52
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 130,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "white": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "florges",
+            "form": "white"
+          },
+          "method": "item",
+          "value": "shiny_stone"
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 45,
+        "DEF": 47,
+        "SP_ATK": 75,
+        "SP_DEF": 98,
+        "SPD": 52
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 130,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    },
+    "eternal": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "Symbiosis",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 65,
+        "DEF": 67,
+        "SP_ATK": 125,
+        "SP_DEF": 128,
+        "SPD": 92
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Single Bloom",
+      "isBaseForm": true
+    }
+  }
+}

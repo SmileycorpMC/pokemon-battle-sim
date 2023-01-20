@@ -1,0 +1,58 @@
+{
+  "name": "Onix",
+  "id": 95,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "steelix",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "metal_coat"
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 45,
+        "DEF": 160,
+        "SP_ATK": 30,
+        "SP_DEF": 45,
+        "SPD": 70
+      },
+      "height": 8.8,
+      "weight": 210.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 77,
+      "classification": "Rock Snake",
+      "isBaseForm": true
+    }
+  }
+}

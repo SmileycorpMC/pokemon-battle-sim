@@ -1,0 +1,78 @@
+{
+  "name": "Audino",
+  "id": 531,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Healer",
+      "ability2": "Regenerator",
+      "hiddenAbility": "Klutz",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 103,
+        "ATK": 60,
+        "DEF": 86,
+        "SP_ATK": 60,
+        "SP_DEF": 86,
+        "SPD": 50
+      },
+      "height": 1.1,
+      "weight": 31.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 390,
+      "classification": "Hearing",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "ability1": "Healer",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 103,
+        "ATK": 60,
+        "DEF": 126,
+        "SP_ATK": 80,
+        "SP_DEF": 126,
+        "SPD": 50
+      },
+      "height": 1.5,
+      "weight": 32.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 425,
+      "classification": "Hearing",
+      "isBaseForm": false
+    }
+  }
+}

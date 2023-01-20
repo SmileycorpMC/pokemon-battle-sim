@@ -1,0 +1,58 @@
+{
+  "name": "Kakuna",
+  "id": 14,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "beedrill",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 10
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 25,
+        "DEF": 50,
+        "SP_ATK": 25,
+        "SP_DEF": 25,
+        "SPD": 35
+      },
+      "height": 0.6,
+      "weight": 10.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Cocoon",
+      "isBaseForm": true
+    }
+  }
+}

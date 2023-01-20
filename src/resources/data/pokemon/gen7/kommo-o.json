@@ -1,0 +1,79 @@
+{
+  "name": "Kommo-o",
+  "id": 784,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Fighting"
+      ],
+      "ability1": "Bulletproof",
+      "ability2": "Soundproof",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 110,
+        "DEF": 125,
+        "SP_ATK": 100,
+        "SP_DEF": 105,
+        "SPD": 85
+      },
+      "height": 1.6,
+      "weight": 78.2,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Scaly",
+      "isBaseForm": true
+    },
+    "totem": {
+      "types": [
+        "Dragon",
+        "Fighting"
+      ],
+      "ability1": "Bulletproof",
+      "ability2": "Soundproof",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 110,
+        "DEF": 125,
+        "SP_ATK": 100,
+        "SP_DEF": 105,
+        "SPD": 85
+      },
+      "height": 2.4,
+      "weight": 207.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Scaly",
+      "isBaseForm": true
+    }
+  }
+}

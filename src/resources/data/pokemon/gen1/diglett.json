@@ -1,0 +1,96 @@
+{
+  "name": "Diglett",
+  "id": 50,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "Arena Trap",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dugtrio",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 26
+        }
+      ],
+      "stats": {
+        "HP": 10,
+        "ATK": 55,
+        "DEF": 25,
+        "SP_ATK": 35,
+        "SP_DEF": 45,
+        "SPD": 95
+      },
+      "height": 0.2,
+      "weight": 0.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 53,
+      "classification": "Mole",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Ground",
+        "Steel"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "Tangling Hair",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dugtrio",
+            "form": "alola"
+          },
+          "method": "level",
+          "value": 26
+        }
+      ],
+      "stats": {
+        "HP": 10,
+        "ATK": 55,
+        "DEF": 30,
+        "SP_ATK": 35,
+        "SP_DEF": 45,
+        "SPD": 90
+      },
+      "height": 0.2,
+      "weight": 1.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 53,
+      "classification": "Mole",
+      "isBaseForm": true
+    }
+  }
+}

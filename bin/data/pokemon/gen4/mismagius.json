@@ -1,0 +1,52 @@
+{
+  "name": "Mismagius",
+  "id": 429,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 60,
+        "SP_ATK": 105,
+        "SP_DEF": 105,
+        "SPD": 105
+      },
+      "height": 0.9,
+      "weight": 4.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Magical",
+      "isBaseForm": true
+    }
+  }
+}

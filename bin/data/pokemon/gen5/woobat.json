@@ -1,0 +1,58 @@
+{
+  "name": "Woobat",
+  "id": 527,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "ability1": "Unaware",
+      "ability2": "Klutz",
+      "hiddenAbility": "Simple",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "swoobat",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 45,
+        "DEF": 43,
+        "SP_ATK": 55,
+        "SP_DEF": 43,
+        "SPD": 72
+      },
+      "height": 0.4,
+      "weight": 2.1,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Bat",
+      "isBaseForm": true
+    }
+  }
+}

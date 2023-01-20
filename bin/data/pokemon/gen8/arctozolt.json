@@ -1,0 +1,49 @@
+{
+  "name": "Arctozolt",
+  "id": 881,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "ability1": "Volt Absorb",
+      "ability2": "Static",
+      "hiddenAbility": "Slush Rush",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 100,
+        "DEF": 90,
+        "SP_ATK": 90,
+        "SP_DEF": 80,
+        "SPD": 55
+      },
+      "height": 2.3,
+      "weight": 150.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 177,
+      "classification": "Fossil",
+      "isBaseForm": true
+    }
+  }
+}

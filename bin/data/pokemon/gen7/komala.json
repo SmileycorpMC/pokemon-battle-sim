@@ -1,0 +1,48 @@
+{
+  "name": "Komala",
+  "id": 775,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Comatose",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 115,
+        "DEF": 65,
+        "SP_ATK": 75,
+        "SP_DEF": 95,
+        "SPD": 65
+      },
+      "height": 0.4,
+      "weight": 19.9,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Drowsing",
+      "isBaseForm": true
+    }
+  }
+}

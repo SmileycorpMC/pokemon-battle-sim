@@ -1,0 +1,52 @@
+{
+  "name": "Mr. Mime",
+  "id": 122,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "ability1": "Soundproof",
+      "ability2": "Filter",
+      "hiddenAbility": "Technician",
+      "stats": {
+        "HP": 40,
+        "ATK": 45,
+        "DEF": 65,
+        "SP_ATK": 100,
+        "SP_DEF": 120,
+        "SPD": 90
+      },
+      "height": 1.3,
+      "weight": 54.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Barrier",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "ability1": "Vital Spirit",
+      "ability2": "Screen Cleaner",
+      "hiddenAbility": 

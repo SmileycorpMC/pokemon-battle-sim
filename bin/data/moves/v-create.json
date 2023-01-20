@@ -1,0 +1,38 @@
+{
+	"name": "V-create",
+	"type": "Fire",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 180,
+	"accuracy": 95,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+					"stat": "DEF",
+					"amount": -1
+				},
+				{
+					"stat": "SP_DEF",
+					"amount": -1
+				},
+				{
+					"stat": "SPD",
+					"amount": -1
+				}
+			],
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

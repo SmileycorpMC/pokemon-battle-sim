@@ -1,0 +1,57 @@
+{
+  "name": "Tarountula",
+  "id": 917,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 255,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "",
+      "hiddenAbility": "Stakeout",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "spidops",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 15
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 41,
+        "DEF": 45,
+        "SP_ATK": 29,
+        "SP_DEF": 40,
+        "SPD": 20
+      },
+      "height": 0.3,
+      "weight": 4.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 42,
+      "classification": "String Ball",
+      "isBaseForm": true
+    }
+  }
+}

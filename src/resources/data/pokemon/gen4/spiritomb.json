@@ -1,0 +1,53 @@
+{
+  "name": "Spiritomb",
+  "id": 442,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Dark"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Infiltrator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 92,
+        "DEF": 108,
+        "SP_ATK": 92,
+        "SP_DEF": 108,
+        "SPD": 35
+      },
+      "height": 1.0,
+      "weight": 108.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Forbidden",
+      "isBaseForm": true
+    }
+  }
+}

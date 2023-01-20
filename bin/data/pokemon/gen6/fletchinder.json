@@ -1,0 +1,58 @@
+{
+  "name": "Fletchinder",
+  "id": 662,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Gale Wings",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "talonflame",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 62,
+        "ATK": 73,
+        "DEF": 55,
+        "SP_ATK": 56,
+        "SP_DEF": 52,
+        "SPD": 84
+      },
+      "height": 0.7,
+      "weight": 16.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 134,
+      "classification": "Ember",
+      "isBaseForm": true
+    }
+  }
+}

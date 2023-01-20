@@ -1,0 +1,16 @@
+{
+  "name": "Sparkly Swirl",
+  "type": "Fairy",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 120,
+  "accuracy": 85,
+  "pp": 5,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

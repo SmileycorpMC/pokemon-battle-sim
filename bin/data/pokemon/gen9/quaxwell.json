@@ -1,0 +1,58 @@
+{
+  "name": "Quaxwell",
+  "id": 913,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "quaquavel",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 85,
+        "DEF": 65,
+        "SP_ATK": 65,
+        "SP_DEF": 60,
+        "SPD": 65
+      },
+      "height": 1.2,
+      "weight": 21.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Practicing",
+      "isBaseForm": true
+    }
+  }
+}

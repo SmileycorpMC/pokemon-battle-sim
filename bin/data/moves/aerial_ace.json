@@ -1,0 +1,23 @@
+{
+	"name": "Aerial Ace",
+	"type": "Flying",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 60,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": 110,
+	"properties": [
+		"makes_contact",
+		"sharp"
+	],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

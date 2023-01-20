@@ -1,0 +1,49 @@
+{
+  "name": "Serperior",
+  "id": 497,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Contrary",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 75,
+        "DEF": 95,
+        "SP_ATK": 75,
+        "SP_DEF": 95,
+        "SPD": 113
+      },
+      "height": 3.3,
+      "weight": 63.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 238,
+      "classification": "Regal",
+      "isBaseForm": true
+    }
+  }
+}

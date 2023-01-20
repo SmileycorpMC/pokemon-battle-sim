@@ -1,0 +1,77 @@
+{
+  "name": "Garbodor",
+  "id": 569,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Stench",
+      "ability2": "Weak Armor",
+      "hiddenAbility": "Aftermath",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 95,
+        "DEF": 82,
+        "SP_ATK": 60,
+        "SP_DEF": 82,
+        "SPD": 75
+      },
+      "height": 1.9,
+      "weight": 107.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Trash Heap",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Stench",
+      "ability2": "Weak Armor",
+      "hiddenAbility": "Aftermath",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 95,
+        "DEF": 82,
+        "SP_ATK": 60,
+        "SP_DEF": 82,
+        "SPD": 75
+      },
+      "height": 21.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Trash Heap",
+      "isBaseForm": false
+    }
+  }
+}

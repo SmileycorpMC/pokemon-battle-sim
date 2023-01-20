@@ -1,0 +1,80 @@
+{
+  "name": "Stunfisk",
+  "id": 618,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "Limber",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 109,
+        "ATK": 66,
+        "DEF": 84,
+        "SP_ATK": 81,
+        "SP_DEF": 99,
+        "SPD": 32
+      },
+      "height": 0.7,
+      "weight": 11.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Trap",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Ground",
+        "Steel"
+      ],
+      "ability1": "Mimicry",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 109,
+        "ATK": 81,
+        "DEF": 99,
+        "SP_ATK": 66,
+        "SP_DEF": 84,
+        "SPD": 32
+      },
+      "height": 0.7,
+      "weight": 20.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Trap",
+      "isBaseForm": true
+    }
+  }
+}

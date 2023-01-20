@@ -1,0 +1,23 @@
+{
+	"name": "Bitter Blade",
+	"type": "Fire",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"sharp"
+	],
+	"primary_effects": [{
+		"function": "drain_hp_percent_of_damage",
+		"value": 0.5,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

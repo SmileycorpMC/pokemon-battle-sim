@@ -1,0 +1,43 @@
+{
+  "name": "Skwovet",
+  "id": 819,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 255,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Cheek Pouch",
+      "hiddenAbility": "Gluttony",
+      "stats": {
+        "HP": 70,
+        "ATK": 55,
+        "DEF": 55,
+        "SP_ATK": 35,
+        "SP_DEF": 35,
+        "SPD": 25
+      },
+      "height": 0.3,
+      "weight": 2.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 55,
+      "classification": "Cheeky",
+      "isBaseForm": true
+    }
+  }

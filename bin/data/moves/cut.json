@@ -1,0 +1,19 @@
+{
+	"name": "Cut",
+	"type": "Normal",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 50,
+	"accuracy": 95,
+	"pp": 30,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"sharp"
+	],
+	"primary_effects": [],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

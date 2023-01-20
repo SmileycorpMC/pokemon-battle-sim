@@ -1,0 +1,77 @@
+{
+  "name": "Kyogre",
+  "id": 382,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Drizzle",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 100,
+        "DEF": 90,
+        "SP_ATK": 150,
+        "SP_DEF": 140,
+        "SPD": 90
+      },
+      "height": 4.5,
+      "weight": 352.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 335,
+      "classification": "Sea Basin",
+      "isBaseForm": true
+    },
+    "primal": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Primordial Sea",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 150,
+        "DEF": 90,
+        "SP_ATK": 180,
+        "SP_DEF": 160,
+        "SPD": 90
+      },
+      "height": 9.8,
+      "weight": 430.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 347,
+      "classification": "Sea Basin",
+      "isBaseForm": false
+    }
+  }
+}

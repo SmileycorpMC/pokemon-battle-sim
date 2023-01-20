@@ -1,0 +1,79 @@
+{
+  "name": "Hoopa",
+  "id": 720,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "ability1": "Magician",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 110,
+        "DEF": 60,
+        "SP_ATK": 150,
+        "SP_DEF": 130,
+        "SPD": 70
+      },
+      "height": 0.5,
+      "weight": 9.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Mischief",
+      "isBaseForm": true
+    },
+    "unbound": {
+      "types": [
+        "Psychic",
+        "Dark"
+      ],
+      "ability1": "Magician",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 160,
+        "DEF": 60,
+        "SP_ATK": 170,
+        "SP_DEF": 130,
+        "SPD": 80
+      },
+      "height": 6.5,
+      "weight": 490.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 306,
+      "classification": "Mischief",
+      "isBaseForm": true
+    }
+  }
+}

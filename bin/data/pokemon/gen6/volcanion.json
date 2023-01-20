@@ -1,0 +1,49 @@
+{
+  "name": "Volcanion",
+  "id": 721,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Water"
+      ],
+      "ability1": "Water Absorb",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 110,
+        "DEF": 120,
+        "SP_ATK": 130,
+        "SP_DEF": 90,
+        "SPD": 70
+      },
+      "height": 1.7,
+      "weight": 195.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Steam",
+      "isBaseForm": true
+    }
+  }
+}

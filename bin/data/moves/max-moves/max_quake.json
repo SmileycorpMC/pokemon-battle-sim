@@ -1,0 +1,19 @@
+{
+	"name": "Max Quake",
+	"type": "Ground",
+	"category": null,
+	"target": "select_opponent",
+	"power": -1,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_team",
+		"value": [{
+			"stat": "SP_DEF",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

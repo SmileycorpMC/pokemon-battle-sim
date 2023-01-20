@@ -1,0 +1,175 @@
+{
+  "name": "Deerling",
+  "id": 585,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "spring": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Sap Sipper",
+      "hiddenAbility": "Serene Grace",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sawsbuck",
+            "form": "spring"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 0.6,
+      "weight": 19.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 67,
+      "classification": "Season",
+      "isBaseForm": true
+    },
+    "summer": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Sap Sipper",
+      "hiddenAbility": "Serene Grace",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sawsbuck",
+            "form": "summer"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 0.6,
+      "weight": 19.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 67,
+      "classification": "Season",
+      "isBaseForm": true
+    },
+    "autumn": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Sap Sipper",
+      "hiddenAbility": "Serene Grace",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sawsbuck",
+            "form": "autumn"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 0.6,
+      "weight": 19.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 67,
+      "classification": "Season",
+      "isBaseForm": true
+    },
+    "winter": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Sap Sipper",
+      "hiddenAbility": "Serene Grace",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sawsbuck",
+            "form": "winter"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 75
+      },
+      "height": 0.6,
+      "weight": 19.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 67,
+      "classification": "Season",
+      "isBaseForm": true
+    }
+  }
+}

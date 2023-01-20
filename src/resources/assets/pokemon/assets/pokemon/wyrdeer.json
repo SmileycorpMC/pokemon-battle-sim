@@ -1,0 +1,46 @@
+{
+  "name": "Wyrdeer",
+  "id": 899,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 70,
+  "catchRate": 45,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+		"Psychic"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Frisk",
+      "hiddenAbility": "Sap Sipper",
+      "stats": {
+        "HP": 103,
+        "ATK": 105,
+        "DEF": 72,
+        "SP_ATK": 105,
+        "SP_DEF": 75,
+        "SPD": 65
+      },
+      "height": 1.8,
+      "weight": 95.1,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 163,
+      "classification": "Big Horn",
+      "isBaseForm": true
+    }
+  }
+}

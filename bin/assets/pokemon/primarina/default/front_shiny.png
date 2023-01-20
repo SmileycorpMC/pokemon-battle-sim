@@ -1,0 +1,54 @@
+{
+  "name": "Graveler",
+  "id": 75,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 70,
+  "catchRate": 120,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Sand Veil",
+      "stats": {
+        "HP": 55,
+        "ATK": 95,
+        "DEF": 115,
+        "SP_ATK": 45,
+        "SP_DEF": 45,
+        "SPD": 35
+      },
+      "height": 1.0,
+      "weight": 105.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 137,
+      "classification": "Rock",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Rock",
+        "Electric"
+      ],
+      "ability1": "Magnet Pull",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Galvanize",
+      "stats": {
+        "HP": 55,

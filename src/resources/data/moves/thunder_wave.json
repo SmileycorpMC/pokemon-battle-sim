@@ -1,0 +1,38 @@
+{
+	"name": "Thunder Wave",
+	"type": "Electric",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 90,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "paralysis",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "boolean",
+				"value1": {
+					"type": "from_target",
+					"value": "types"
+				},
+				"operator": "!=",
+				"value2": "ground"
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "SP_DEF",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

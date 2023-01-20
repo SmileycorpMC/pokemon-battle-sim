@@ -1,0 +1,57 @@
+{
+  "name": "Elekid",
+  "id": 239,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "electabuzz",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 63,
+        "DEF": 37,
+        "SP_ATK": 65,
+        "SP_DEF": 55,
+        "SPD": 95
+      },
+      "height": 0.6,
+      "weight": 23.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Electric",
+      "isBaseForm": true
+    }
+  }
+}

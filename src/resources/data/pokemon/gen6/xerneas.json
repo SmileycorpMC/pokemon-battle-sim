@@ -1,0 +1,77 @@
+{
+  "name": "Xerneas",
+  "id": 716,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Fairy Aura",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 126,
+        "ATK": 131,
+        "DEF": 95,
+        "SP_ATK": 131,
+        "SP_DEF": 98,
+        "SPD": 99
+      },
+      "height": 3.0,
+      "weight": 215.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Life",
+      "isBaseForm": true
+    },
+    "active": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Fairy Aura",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 126,
+        "ATK": 131,
+        "DEF": 95,
+        "SP_ATK": 131,
+        "SP_DEF": 98,
+        "SPD": 99
+      },
+      "height": 3.0,
+      "weight": 215.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Life",
+      "isBaseForm": false
+    }
+  }
+}

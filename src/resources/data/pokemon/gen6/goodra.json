@@ -1,0 +1,78 @@
+{
+  "name": "Goodra",
+  "id": 706,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Sap Sipper",
+      "ability2": "Hydration",
+      "hiddenAbility": "Gooey",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 100,
+        "DEF": 70,
+        "SP_ATK": 110,
+        "SP_DEF": 150,
+        "SPD": 80
+      },
+      "height": 2.0,
+      "weight": 150.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Dragon",
+      "isBaseForm": true
+    },
+    "hisui": {
+      "types": [
+        "Steel",
+        "Dragon"
+      ],
+      "ability1": "Sap Sipper",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Gooey",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 100,
+        "DEF": 100,
+        "SP_ATK": 110,
+        "SP_DEF": 150,
+        "SPD": 60
+      },
+      "height": 1.7,
+      "weight": 334.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Shell Bunker",
+      "isBaseForm": true
+    }
+  }
+}

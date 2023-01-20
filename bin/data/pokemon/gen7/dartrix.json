@@ -1,0 +1,66 @@
+{
+  "name": "Dartrix",
+  "id": 723,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Long Reach",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "decidueye",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        },
+        {
+          "target": {
+            "species": "decidueye",
+            "form": "hisui"
+          },
+          "method": "level_hisui",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 78,
+        "ATK": 75,
+        "DEF": 75,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 52
+      },
+      "height": 0.7,
+      "weight": 16.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Blade Quill",
+      "isBaseForm": true
+    }
+  }
+}

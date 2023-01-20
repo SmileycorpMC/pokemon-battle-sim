@@ -1,0 +1,49 @@
+{
+  "name": "Nidoqueen",
+  "id": 31,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Rivalry",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 92,
+        "DEF": 87,
+        "SP_ATK": 75,
+        "SP_DEF": 85,
+        "SPD": 76
+      },
+      "height": 1.3,
+      "weight": 60.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 253,
+      "classification": "Drill",
+      "isBaseForm": true
+    }
+  }
+}

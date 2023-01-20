@@ -1,0 +1,57 @@
+{
+  "name": "Wooloo",
+  "id": 831,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Fluffy",
+      "ability2": "Run Away",
+      "hiddenAbility": "Bulletproof",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dubwool",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 24
+        }
+      ],
+      "stats": {
+        "HP": 42,
+        "ATK": 40,
+        "DEF": 55,
+        "SP_ATK": 40,
+        "SP_DEF": 45,
+        "SPD": 48
+      },
+      "height": 0.6,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 122,
+      "classification": "Sheep",
+      "isBaseForm": true
+    }
+  }
+}

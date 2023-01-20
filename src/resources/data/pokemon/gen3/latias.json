@@ -1,0 +1,79 @@
+{
+  "name": "Latias",
+  "id": 380,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 80,
+        "DEF": 90,
+        "SP_ATK": 110,
+        "SP_DEF": 130,
+        "SPD": 110
+      },
+      "height": 1.4,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Eon",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 100,
+        "DEF": 120,
+        "SP_ATK": 140,
+        "SP_DEF": 150,
+        "SPD": 110
+      },
+      "height": 1.8,
+      "weight": 52.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Eon",
+      "isBaseForm": false
+    }
+  }
+}

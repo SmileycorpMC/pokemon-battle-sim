@@ -1,0 +1,71 @@
+{
+  "name": "Thundurus",
+  "id": 642,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 90,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "incarnate": {
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "ability1": "Prankster",
+      "hiddenAbility": "Defiant",
+      "stats": {
+        "HP": 79,
+        "ATK": 115,
+        "DEF": 70,
+        "SP_ATK": 125,
+        "SP_DEF": 80,
+        "SPD": 111
+      },
+      "height": 1.5,
+      "weight": 61.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Bolt Strike",
+      "isBaseForm": true
+    },
+    "therian": {
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "ability1": "Volt Absorb",
+      "stats": {
+        "HP": 79,
+        "ATK": 105,
+        "DEF": 70,
+        "SP_ATK": 145,
+        "SP_DEF": 80,
+        "SPD": 101
+      },
+      "height": 3.0,
+      "weight": 61.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Bolt Strike",
+      "isBaseForm": true
+    }
+  }
+}

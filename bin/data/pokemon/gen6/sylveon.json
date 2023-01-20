@@ -1,0 +1,48 @@
+{
+  "name": "Sylveon",
+  "id": 700,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "",
+      "hiddenAbility": "Pixilate",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 110,
+        "SP_DEF": 130,
+        "SPD": 60
+      },
+      "height": 1.0,
+      "weight": 23.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Intertwining",
+      "isBaseForm": true
+    }
+  }
+}

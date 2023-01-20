@@ -1,0 +1,58 @@
+{
+  "name": "Bisharp",
+  "id": 625,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Steel"
+      ],
+      "ability1": "Defiant",
+      "ability2": "Inner Focus",
+      "hiddenAbility": "Pressure",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kingambit",
+            "form": "default"
+          },
+          "method": "defeat_holding",
+          "value": "leaders_crest"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 125,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 1.6,
+      "weight": 70.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Sword Blade",
+      "isBaseForm": true
+    }
+  }
+}

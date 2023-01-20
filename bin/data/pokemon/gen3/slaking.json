@@ -1,0 +1,48 @@
+{
+  "name": "Slaking",
+  "id": 289,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Truant",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 150,
+        "ATK": 160,
+        "DEF": 100,
+        "SP_ATK": 95,
+        "SP_DEF": 65,
+        "SPD": 100
+      },
+      "height": 2.0,
+      "weight": 130.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 252,
+      "classification": "Lazy",
+      "isBaseForm": true
+    }
+  }
+}

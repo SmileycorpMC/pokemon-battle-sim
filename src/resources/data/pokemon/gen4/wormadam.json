@@ -1,0 +1,113 @@
+{
+  "name": "Wormadam",
+  "id": 413,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "plant": {
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "ability1": "Anticipation",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 59,
+        "DEF": 85,
+        "SP_ATK": 79,
+        "SP_DEF": 105,
+        "SPD": 36
+      },
+      "height": 0.5,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 148,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    },
+    "sandy": {
+      "types": [
+        "Bug",
+        "Ground"
+      ],
+      "ability1": "Anticipation",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 79,
+        "DEF": 105,
+        "SP_ATK": 59,
+        "SP_DEF": 85,
+        "SPD": 36
+      },
+      "height": 0.5,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 148,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    },
+    "trash": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Anticipation",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 69,
+        "DEF": 95,
+        "SP_ATK": 69,
+        "SP_DEF": 95,
+        "SPD": 36
+      },
+      "height": 0.5,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 148,
+      "classification": "Bagworm",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Dottler",
+  "id": 825,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Psychic"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "orbeetle",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 35,
+        "DEF": 80,
+        "SP_ATK": 50,
+        "SP_DEF": 90,
+        "SPD": 30
+      },
+      "height": 0.4,
+      "weight": 19.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 117,
+      "classification": "Radome",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "After You",
+	"type": "Normal",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"bypasses_protection"
+	],
+	"primary_effects": [{
+		"function": "set_next_in_turn_order",
+		"value": "target"
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "SPD",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

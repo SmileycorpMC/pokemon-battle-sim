@@ -1,0 +1,58 @@
+{
+  "name": "Joltik",
+  "id": 595,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Electric"
+      ],
+      "ability1": "Compound Eyes",
+      "ability2": "Unnerve",
+      "hiddenAbility": "Swarm",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "galvantula",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 47,
+        "DEF": 50,
+        "SP_ATK": 57,
+        "SP_DEF": 50,
+        "SPD": 65
+      },
+      "height": 0.1,
+      "weight": 0.6,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Attaching",
+      "isBaseForm": true
+    }
+  }
+}

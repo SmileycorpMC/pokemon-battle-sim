@@ -1,0 +1,57 @@
+{
+  "name": "Rolycoly",
+  "id": 837,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Steam Engine",
+      "ability2": "Heatproof",
+      "hiddenAbility": "Flash Fire",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "carkol",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 40,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 30
+      },
+      "height": 0.3,
+      "weight": 12.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 48,
+      "classification": "Coal",
+      "isBaseForm": true
+    }
+  }
+}

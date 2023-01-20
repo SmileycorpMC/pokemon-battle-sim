@@ -1,0 +1,151 @@
+{
+  "name": "Deoxys",
+  "id": 386,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "normal": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 150,
+        "DEF": 50,
+        "SP_ATK": 150,
+        "SP_DEF": 50,
+        "SPD": 150
+      },
+      "height": 1.7,
+      "weight": 60.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 270,
+      "classification": "DNA",
+      "isBaseForm": false
+    },
+    "attack": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 180,
+        "DEF": 20,
+        "SP_ATK": 180,
+        "SP_DEF": 20,
+        "SPD": 150
+      },
+      "height": 1.7,
+      "weight": 60.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 270,
+      "classification": "DNA",
+      "isBaseForm": true
+    },
+    "defense": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 70,
+        "DEF": 160,
+        "SP_ATK": 70,
+        "SP_DEF": 160,
+        "SPD": 90
+      },
+      "height": 1.7,
+      "weight": 60.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 270,
+      "classification": "DNA",
+      "isBaseForm": true
+    },
+    "speed": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 95,
+        "DEF": 90,
+        "SP_ATK": 95,
+        "SP_DEF": 90,
+        "SPD": 180
+      },
+      "height": 1.7,
+      "weight": 60.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "DNA",
+      "isBaseForm": true
+    }
+  }
+}

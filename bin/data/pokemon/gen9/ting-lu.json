@@ -1,0 +1,49 @@
+{
+  "name": "Ting-Lu",
+  "id": 1003,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 6,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Ground"
+      ],
+      "ability1": "Vessel of Ruin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 155,
+        "ATK": 110,
+        "DEF": 125,
+        "SP_ATK": 55,
+        "SP_DEF": 80,
+        "SPD": 45
+      },
+      "height": 2.7,
+      "weight": 699.7,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Ruinous",
+      "isBaseForm": true
+    }
+  }
+}

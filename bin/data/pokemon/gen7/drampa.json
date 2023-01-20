@@ -1,0 +1,50 @@
+{
+  "name": "Drampa",
+  "id": 780,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Dragon"
+      ],
+      "ability1": "Berserk",
+      "ability2": "Sap Sipper",
+      "hiddenAbility": "Cloud Nine",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 78,
+        "ATK": 60,
+        "DEF": 85,
+        "SP_ATK": 135,
+        "SP_DEF": 91,
+        "SPD": 36
+      },
+      "height": 3.0,
+      "weight": 185.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Placid",
+      "isBaseForm": true
+    }
+  }
+}

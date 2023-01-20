@@ -1,0 +1,65 @@
+{
+  "name": "Charcadet",
+  "id": 935,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 50,
+  "catchRate": 90,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Flash Fire",
+      "ability2": "",
+      "hiddenAbility": "Flame Body",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "armarouge",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "auspicious_armor"
+        },
+        {
+          "target": {
+            "species": "ceruledge",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "malicious_armor"
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 50,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 40,
+        "SPD": 35
+      },
+      "height": 0.6,
+      "weight": 10.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 51,
+      "classification": "Fire Child",
+      "isBaseForm": true
+    }
+  }
+}

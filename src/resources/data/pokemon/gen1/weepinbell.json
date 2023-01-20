@@ -1,0 +1,58 @@
+{
+  "name": "Weepinbell",
+  "id": 70,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "",
+      "hiddenAbility": "Gluttony",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "victreebel",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "leaf_stone"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 90,
+        "DEF": 50,
+        "SP_ATK": 85,
+        "SP_DEF": 45,
+        "SPD": 55
+      },
+      "height": 1.0,
+      "weight": 6.4,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 137,
+      "classification": "Flycatcher",
+      "isBaseForm": true
+    }
+  }
+}

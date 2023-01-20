@@ -1,0 +1,79 @@
+{
+	"name": "Water Shuriken",
+	"type": "Water",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 15,
+	"accuracy": 100,
+	"pp": 20,
+	"priority": 1,
+	"z-move_power": 100,
+	"max_move_power": 100,
+	"properties": [
+		"multi-strike"
+	],
+	"primary_effects": [{
+			"function": "function_group",
+			"value": [{
+					"function": "set_hit_count",
+					"value": 3,
+					"conditions": []
+				},
+				{
+					"function": "change_power",
+					"value": 20,
+					"conditions": []
+				}
+			],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_user",
+						"value": "form"
+					},
+					"operation": "==",
+					"value2": "ash"
+				}
+			}]
+		},
+		{
+			"function": "set_hit_count",
+			"value": {
+				"type": "random_value_weighed",
+				"values": [{
+						"value": 2,
+						"weight": 3
+					},
+					{
+						"value": 3,
+						"weight": 3
+					},
+					{
+						"value": 4,
+						"weight": 1
+					},
+					{
+						"value": 5,
+						"weight": 1
+					}
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_user",
+						"value": "form"
+					},
+					"operation": "!=",
+					"value2": "ash"
+				}
+			}]
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

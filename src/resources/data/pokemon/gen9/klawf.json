@@ -1,0 +1,47 @@
+{
+  "name": "Klawf",
+  "id": 950,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 50,
+  "catchRate": 120,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+	"Water3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Rock"
+      ],
+      "ability1": "Anger Shell",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 100,
+        "DEF": 115,
+        "SP_ATK": 35,
+        "SP_DEF": 55,
+        "SPD": 75
+      },
+      "height": 1.3,
+      "weight": 79.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Ambush",
+      "isBaseForm": true
+	}
+  }
+}

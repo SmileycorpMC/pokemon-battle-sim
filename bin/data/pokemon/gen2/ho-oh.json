@@ -1,0 +1,49 @@
+{
+  "name": "Ho-Oh",
+  "id": 250,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 106,
+        "ATK": 130,
+        "DEF": 90,
+        "SP_ATK": 110,
+        "SP_DEF": 154,
+        "SPD": 90
+      },
+      "height": 3.8,
+      "weight": 199.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Rainbow",
+      "isBaseForm": true
+    }
+  }
+}

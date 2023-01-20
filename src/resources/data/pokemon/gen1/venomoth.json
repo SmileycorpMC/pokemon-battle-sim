@@ -1,0 +1,53 @@
+{
+  "name": "Venomoth",
+  "id": 49,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Tinted Lens",
+      "hiddenAbility": "Wonder Skin",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 65,
+        "DEF": 60,
+        "SP_ATK": 90,
+        "SP_DEF": 75,
+        "SPD": 90
+      },
+      "height": 1.5,
+      "weight": 12.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Poison Moth",
+      "isBaseForm": true
+    }
+  }
+}

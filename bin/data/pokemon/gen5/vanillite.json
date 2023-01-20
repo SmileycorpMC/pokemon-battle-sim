@@ -1,0 +1,57 @@
+{
+  "name": "Vanillite",
+  "id": 582,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Ice Body",
+      "ability2": "Snow Cloak",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "vanillish",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 36,
+        "ATK": 50,
+        "DEF": 50,
+        "SP_ATK": 65,
+        "SP_DEF": 60,
+        "SPD": 44
+      },
+      "height": 0.4,
+      "weight": 5.7,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Fresh Snow",
+      "isBaseForm": true
+    }
+  }
+}

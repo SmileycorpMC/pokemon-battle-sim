@@ -1,0 +1,530 @@
+{
+  "name": "Pikachu",
+  "id": 25,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "raichu",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "thunder_stone"
+        },
+        {
+          "target": {
+            "species": "raichu",
+            "form": "alola"
+          },
+          "method": "item_alola",
+          "value": "thunder_stone"
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "rock-star": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "belle": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "pop-star": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "phd": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "libre": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "cosplay": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "original-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "hoenn-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "sinnoh-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "unova-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "kalos-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "alola-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "partner-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "partner": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 80,
+        "DEF": 50,
+        "SP_ATK": 75,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 86,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "world-cap": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 21.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": false
+    }
+  }
+}

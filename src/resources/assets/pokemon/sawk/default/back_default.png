@@ -1,0 +1,44 @@
+{
+  "name": "Calyrex",
+  "id": 898,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 100,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Grass"
+      ],
+      "ability1": "Unnerve",
+      "stats": {
+        "HP": 100,
+        "ATK": 80,
+        "DEF": 80,
+        "SP_ATK": 80,
+        "SP_DEF": 80,
+        "SPD": 80
+      },
+      "height": 1.1,
+      "weight": 7.7,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 250,
+      "classification": "King",
+      "isBaseForm": true
+    },
+    "ice": {
+      "

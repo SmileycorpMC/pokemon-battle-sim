@@ -1,0 +1,58 @@
+{
+  "name": "Larvitar",
+  "id": 246,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "ability1": "Guts",
+      "ability2": "",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pupitar",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 64,
+        "DEF": 50,
+        "SP_ATK": 45,
+        "SP_DEF": 50,
+        "SPD": 41
+      },
+      "height": 0.6,
+      "weight": 72.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Rock Skin",
+      "isBaseForm": true
+    }
+  }
+}

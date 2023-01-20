@@ -1,0 +1,49 @@
+{
+  "name": "Kartana",
+  "id": 798,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Steel"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 59,
+        "ATK": 181,
+        "DEF": 131,
+        "SP_ATK": 59,
+        "SP_DEF": 31,
+        "SPD": 109
+      },
+      "height": 0.3,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Drawn Sword",
+      "isBaseForm": true
+    }
+  }
+}

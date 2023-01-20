@@ -1,0 +1,57 @@
+{
+  "name": "Gossifleur",
+  "id": 829,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Cotton Down",
+      "ability2": "Regenerator",
+      "hiddenAbility": "Effect Spore",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "eldegoss",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 40,
+        "DEF": 60,
+        "SP_ATK": 40,
+        "SP_DEF": 60,
+        "SPD": 10
+      },
+      "height": 0.4,
+      "weight": 2.2,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 50,
+      "classification": "Flowering",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Barbaracle",
+  "id": 689,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "ability1": "Tough Claws",
+      "ability2": "Sniper",
+      "hiddenAbility": "Pickpocket",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 72,
+        "ATK": 105,
+        "DEF": 115,
+        "SP_ATK": 54,
+        "SP_DEF": 86,
+        "SPD": 68
+      },
+      "height": 1.3,
+      "weight": 96.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Collective",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Drakloak",
+  "id": 886,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "Infiltrator",
+      "hiddenAbility": "Cursed Body",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "dragapult",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 60
+        }
+      ],
+      "stats": {
+        "HP": 68,
+        "ATK": 80,
+        "DEF": 50,
+        "SP_ATK": 60,
+        "SP_DEF": 50,
+        "SPD": 102
+      },
+      "height": 1.4,
+      "weight": 11.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Caretaker",
+      "isBaseForm": true
+    }
+  }
+}

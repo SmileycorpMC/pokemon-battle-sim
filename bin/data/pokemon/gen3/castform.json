@@ -1,0 +1,136 @@
+{
+  "name": "Castform",
+  "id": 351,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy",
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Forecast",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 70,
+        "DEF": 70,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 0.3,
+      "weight": 0.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Weather",
+      "isBaseForm": true
+    },
+    "sunny": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Forecast",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 70,
+        "DEF": 70,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 0.3,
+      "weight": 0.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Weather",
+      "isBaseForm": false
+    },
+    "rainy": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Forecast",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 70,
+        "DEF": 70,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 0.3,
+      "weight": 0.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Weather",
+      "isBaseForm": false
+    },
+    "snowy": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Forecast",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 70,
+        "DEF": 70,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 70
+      },
+      "height": 0.3,
+      "weight": 0.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Weather",
+      "isBaseForm": false
+    }
+  }
+}

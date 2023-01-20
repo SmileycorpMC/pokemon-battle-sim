@@ -1,0 +1,57 @@
+{
+  "name": "Shelmet",
+  "id": 616,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Hydration",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "accelgor",
+            "form": "default"
+          },
+          "method": "trade_with",
+          "value": "karrablast"
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 40,
+        "DEF": 85,
+        "SP_ATK": 40,
+        "SP_DEF": 65,
+        "SPD": 25
+      },
+      "height": 0.4,
+      "weight": 7.7,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Snail",
+      "isBaseForm": true
+    }
+  }
+}

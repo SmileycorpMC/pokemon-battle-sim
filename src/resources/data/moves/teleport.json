@@ -1,0 +1,24 @@
+{
+	"name": "Teleport",
+	"type": "Psychic",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": -6,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "switch_out_user",
+		"value": null,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "fractional_heal_user",
+		"value": 1,
+		"conditions": []
+	}]
+}

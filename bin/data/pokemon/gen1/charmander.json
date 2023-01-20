@@ -1,0 +1,58 @@
+{
+  "name": "Charmander",
+  "id": 4,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Solar Power",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "charmeleon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 16
+        }
+      ],
+      "stats": {
+        "HP": 39,
+        "ATK": 52,
+        "DEF": 43,
+        "SP_ATK": 60,
+        "SP_DEF": 50,
+        "SPD": 65
+      },
+      "height": 0.6,
+      "weight": 8.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Lizard",
+      "isBaseForm": true
+    }
+  }
+}

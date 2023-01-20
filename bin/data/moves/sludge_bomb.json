@@ -1,0 +1,25 @@
+{
+	"name": "Sludge Bomb",
+	"type": "Poison",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"ballistic"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "poison",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
+	"z-move_effects": []
+}

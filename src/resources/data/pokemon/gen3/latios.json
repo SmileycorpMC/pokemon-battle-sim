@@ -1,0 +1,79 @@
+{
+  "name": "Latios",
+  "id": 381,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 90,
+        "DEF": 80,
+        "SP_ATK": 130,
+        "SP_DEF": 110,
+        "SPD": 110
+      },
+      "height": 2.0,
+      "weight": 60.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Eon",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 130,
+        "DEF": 100,
+        "SP_ATK": 160,
+        "SP_DEF": 120,
+        "SPD": 110
+      },
+      "height": 2.3,
+      "weight": 70.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Eon",
+      "isBaseForm": false
+    }
+  }
+}

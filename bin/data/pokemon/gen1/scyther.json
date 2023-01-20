@@ -1,0 +1,66 @@
+{
+  "name": "Scyther",
+  "id": 123,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Technician",
+      "hiddenAbility": "Steadfast",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "scizor",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "metal_coat"
+        },
+        {
+          "target": {
+            "species": "kleavor",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "black_augerite"
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 110,
+        "DEF": 80,
+        "SP_ATK": 55,
+        "SP_DEF": 80,
+        "SPD": 105
+      },
+      "height": 1.5,
+      "weight": 56.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 100,
+      "classification": "Mantis",
+      "isBaseForm": true
+    }
+  }
+}

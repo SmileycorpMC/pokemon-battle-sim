@@ -1,0 +1,96 @@
+{
+  "name": "Rattata",
+  "id": 19,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Guts",
+      "hiddenAbility": "Hustle",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ratticate",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 56,
+        "DEF": 35,
+        "SP_ATK": 25,
+        "SP_DEF": 35,
+        "SPD": 72
+      },
+      "height": 0.3,
+      "weight": 3.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 51,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Dark",
+        "Normal"
+      ],
+      "ability1": "Gluttony",
+      "ability2": "Hustle",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ratticate",
+            "form": "alola"
+          },
+          "method": "level_night",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 56,
+        "DEF": 35,
+        "SP_ATK": 25,
+        "SP_DEF": 35,
+        "SPD": 72
+      },
+      "height": 0.3,
+      "weight": 3.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 51,
+      "classification": "Mouse",
+      "isBaseForm": true
+    }
+  }
+}

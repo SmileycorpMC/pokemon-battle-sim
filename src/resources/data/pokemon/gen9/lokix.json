@@ -1,0 +1,49 @@
+{
+  "name": "Lokix",
+  "id": 920,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 30,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Dark"
+      ],
+      "ability1": "Swarm",
+      "ability2": "",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 102,
+        "DEF": 78,
+        "SP_ATK": 52,
+        "SP_DEF": 55,
+        "SPD": 92
+      },
+      "height": 1.0,
+      "weight": 17.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Grasshopper",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Espeon",
+  "id": 196,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Synchronize",
+      "ability2": "",
+      "hiddenAbility": "Magic Bounce",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 65,
+        "DEF": 60,
+        "SP_ATK": 130,
+        "SP_DEF": 95,
+        "SPD": 110
+      },
+      "height": 0.9,
+      "weight": 26.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Sun",
+      "isBaseForm": true
+    }
+  }
+}

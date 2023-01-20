@@ -1,0 +1,57 @@
+{
+  "name": "Tynamo",
+  "id": 602,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "eelektrik",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 39
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 45,
+        "SP_DEF": 40,
+        "SPD": 60
+      },
+      "height": 0.2,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 55,
+      "classification": "EleFish",
+      "isBaseForm": true
+    }
+  }
+}

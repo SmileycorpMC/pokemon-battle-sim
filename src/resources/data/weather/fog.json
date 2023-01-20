@@ -1,0 +1,11 @@
+{
+  "is_harsh": false,
+  "stat_modifiers": [
+    {
+      "type": "",
+      "stat": "Accuracy",
+      "multiplier": 0.6
+    }
+  ],
+  "effects": []
+}

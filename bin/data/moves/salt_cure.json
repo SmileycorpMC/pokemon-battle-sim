@@ -1,0 +1,20 @@
+{
+	"name": "Salt Cure",
+	"type": "Rock",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 40,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "salt_cure",
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

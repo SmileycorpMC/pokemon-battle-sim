@@ -1,0 +1,108 @@
+{
+  "name": "Raticate",
+  "id": 20,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Guts",
+      "hiddenAbility": "Hustle",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 55,
+        "ATK": 81,
+        "DEF": 60,
+        "SP_ATK": 50,
+        "SP_DEF": 70,
+        "SPD": 97
+      },
+      "height": 0.7,
+      "weight": 18.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 145,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Dark",
+        "Normal"
+      ],
+      "ability1": "Gluttony",
+      "ability2": "Hustle",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 71,
+        "DEF": 70,
+        "SP_ATK": 40,
+        "SP_DEF": 80,
+        "SPD": 77
+      },
+      "height": 0.7,
+      "weight": 25.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 145,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "totem": {
+      "types": [
+        "Dark",
+        "Normal"
+      ],
+      "ability1": "Gluttony",
+      "ability2": "Hustle",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 71,
+        "DEF": 70,
+        "SP_ATK": 40,
+        "SP_DEF": 80,
+        "SPD": 77
+      },
+      "height": 1.4,
+      "weight": 105.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 145,
+      "classification": "Mouse",
+      "isBaseForm": true
+    }
+  }
+}

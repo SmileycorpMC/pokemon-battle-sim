@@ -1,0 +1,34 @@
+{
+	"name": "Conversion 2",
+	"type": "Normal",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [
+		"bypasses_protection"
+	],
+	"primary_effects": [{
+		"function": "change_user_type",
+		"value": {
+			"type": "get_best_adavantage_type",
+			"value": {
+				"type": "get_type_from_move",
+				"value": {
+					"value": {
+						"type": "from_target_pokemon",
+						"value": "last_used_move"
+					}
+				}
+			}
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "fractional_heal_user",
+		"value": 1,
+		"conditions": []
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Explosion",
+	"type": "Normal",
+	"category": "physical",
+	"target": "all_adjacent",
+	"power": 250,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

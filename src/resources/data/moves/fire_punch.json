@@ -1,0 +1,26 @@
+{
+	"name": "Fire Punch",
+	"type": "Fire",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 75,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"punching"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "burn",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}],
+	"z-move_effects": []
+}

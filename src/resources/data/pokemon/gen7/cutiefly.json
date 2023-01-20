@@ -1,0 +1,59 @@
+{
+  "name": "Cutiefly",
+  "id": 742,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Fairy"
+      ],
+      "ability1": "Honey Gather",
+      "ability2": "Shield Dust",
+      "hiddenAbility": "Sweet Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ribombee",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 45,
+        "DEF": 40,
+        "SP_ATK": 55,
+        "SP_DEF": 40,
+        "SPD": 84
+      },
+      "height": 0.1,
+      "weight": 0.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Bee Fly",
+      "isBaseForm": true
+    }
+  }
+}

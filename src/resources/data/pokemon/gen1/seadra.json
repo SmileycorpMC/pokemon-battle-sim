@@ -1,0 +1,62 @@
+{
+  "name": "Seadra",
+  "id": 117,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Sniper",
+      "hiddenAbility": "Damp",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kingdra",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "dragon_scale"
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 65,
+        "DEF": 95,
+        "SP_ATK": 95,
+        "SP_DEF": 45,
+        "SPD": 85
+      },
+      "height": 1.2,
+      "weight": 25.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Dragon",
+      "isBaseForm": true
+    }
+  }
+}

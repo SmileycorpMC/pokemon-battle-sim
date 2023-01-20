@@ -1,0 +1,50 @@
+{
+  "name": "Quaquaval",
+  "id": 914,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 120,
+        "DEF": 80,
+        "SP_ATK": 85,
+        "SP_DEF": 75,
+        "SPD": 85
+      },
+      "height": 1.8,
+      "weight": 61.9,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Dancer",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"name": "Make It Rain",
+	"type": "Steel",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 120,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+				"stat": "SP_ATK",
+				"amount": -1
+			}],
+			"conditions": []
+		}],
+		"conditions": []
+	}, {
+		"function": "scatter_coins",
+		"value": "5",
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

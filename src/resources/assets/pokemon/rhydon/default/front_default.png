@@ -1,0 +1,60 @@
+{
+  "name": "Lopunny",
+  "id": 428,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 140,
+  "catchRate": 60,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Klutz",
+      "hiddenAbility": "Limber",
+      "stats": {
+        "HP": 65,
+        "ATK": 76,
+        "DEF": 84,
+        "SP_ATK": 54,
+        "SP_DEF": 96,
+        "SPD": 105
+      },
+      "height": 1.2,
+      "weight": 33.3,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Rabbit",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "ability1": "Scrappy",
+      "stats": {
+        "HP": 65,
+        "ATK": 136,
+        "DEF": 94,
+        "SP_ATK": 54,
+        "SP_DEF": 96,
+        "SPD": 135
+      },
+      "height": 1.3,
+  

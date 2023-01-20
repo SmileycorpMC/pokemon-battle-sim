@@ -1,0 +1,57 @@
+{
+  "name": "Golbat",
+  "id": 42,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "",
+      "hiddenAbility": "Infiltrator",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "crobat",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 75,
+        "ATK": 80,
+        "DEF": 70,
+        "SP_ATK": 65,
+        "SP_DEF": 75,
+        "SPD": 90
+      },
+      "height": 1.6,
+      "weight": 55.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Bat",
+      "isBaseForm": true
+    }
+  }
+}

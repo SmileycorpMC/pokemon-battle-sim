@@ -1,0 +1,77 @@
+{
+  "name": "Wishiwashi",
+  "id": 746,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Schooling",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 20,
+        "DEF": 20,
+        "SP_ATK": 25,
+        "SP_DEF": 25,
+        "SPD": 40
+      },
+      "height": 0.2,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Small Fry",
+      "isBaseForm": true
+    },
+    "school": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Schooling",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 140,
+        "DEF": 130,
+        "SP_ATK": 140,
+        "SP_DEF": 135,
+        "SPD": 30
+      },
+      "height": 8.2,
+      "weight": 78.6,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 217,
+      "classification": "Small Fry",
+      "isBaseForm": false
+    }
+  }
+}

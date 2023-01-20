@@ -1,0 +1,69 @@
+{
+  "stat_modifiers": [
+    {
+      "stat": "SP_ATK",
+      "multiplier": 0.5
+    }
+  ],
+  "effects": [
+    {
+      "event": "hit_by_move",
+      "functions": [
+        {
+          "function": "remove_status",
+          "value": "frostbite",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_move",
+                  "target": "types"
+                },
+                "operation": "==",
+                "value2": "fire"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "on_use_move",
+      "functions": [
+        {
+          "function": "remove_status",
+          "value": "frostbite",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_move",
+                  "target": "types"
+                },
+                "operation": "==",
+                "value2": "fire"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "on_turn_end",
+      "functions": [
+        {
+          "function": "fractional_damage",
+          "value": 0.0625,
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "immune_types": [
+    "ice"
+  ]
+}

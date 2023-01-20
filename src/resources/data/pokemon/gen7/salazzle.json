@@ -1,0 +1,80 @@
+{
+  "name": "Salazzle",
+  "id": 758,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Fire"
+      ],
+      "ability1": "Corrosion",
+      "ability2": "",
+      "hiddenAbility": "Oblivious",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 68,
+        "ATK": 64,
+        "DEF": 60,
+        "SP_ATK": 111,
+        "SP_DEF": 60,
+        "SPD": 117
+      },
+      "height": 1.2,
+      "weight": 22.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Toxic Lizard",
+      "isBaseForm": true
+    },
+    "totem": {
+      "types": [
+        "Poison",
+        "Fire"
+      ],
+      "ability1": "Corrosion",
+      "ability2": "",
+      "hiddenAbility": "Oblivious",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 68,
+        "ATK": 64,
+        "DEF": 60,
+        "SP_ATK": 111,
+        "SP_DEF": 60,
+        "SPD": 117
+      },
+      "height": 2.1,
+      "weight": 81.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Toxic Lizard",
+      "isBaseForm": true
+    }
+  }
+}

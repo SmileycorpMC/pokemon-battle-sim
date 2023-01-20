@@ -1,0 +1,50 @@
+{
+  "name": "Ludicolo",
+  "id": 272,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Rain Dish",
+      "hiddenAbility": "Own Tempo",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 70,
+        "DEF": 70,
+        "SP_ATK": 90,
+        "SP_DEF": 100,
+        "SPD": 70
+      },
+      "height": 1.5,
+      "weight": 55.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 240,
+      "classification": "Carefree",
+      "isBaseForm": true
+    }
+  }
+}

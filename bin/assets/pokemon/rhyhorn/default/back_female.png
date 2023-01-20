@@ -1,0 +1,43 @@
+{
+  "name": "Ledian",
+  "id": 166,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 70,
+  "catchRate": 90,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Early Bird",
+      "hiddenAbility": "Iron Fist",
+      "stats": {
+        "HP": 55,
+        "ATK": 35,
+        "DEF": 50,
+        "SP_ATK": 55,
+        "SP_DEF": 110,
+        "SPD": 85
+      },
+      "height": 1.4,
+      "weight": 35.6,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 137,
+      "classification": "Five Star",
+      "isBaseForm": tru

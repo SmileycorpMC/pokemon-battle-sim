@@ -1,0 +1,67 @@
+{
+  "name": "Pikachu",
+  "id": 25,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "hiddenAbility": "Lightning Rod",
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "rock-star": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "hiddenAbility": "Lightning Rod",
+      "stats": {
+        "HP": 35,
+        "ATK": 55,
+        "DEF": 40,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 6.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 112,
+      "classification": "Mou

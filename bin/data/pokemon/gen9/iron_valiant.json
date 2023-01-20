@@ -1,0 +1,49 @@
+{
+  "name": "Iron Valiant",
+  "id": 1006,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 10,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy",
+        "Fighting"
+      ],
+      "ability1": "Quark Drive",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 130,
+        "DEF": 90,
+        "SP_ATK": 120,
+        "SP_DEF": 60,
+        "SPD": 116
+      },
+      "height": 1.4,
+      "weight": 35.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 295,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

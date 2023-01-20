@@ -1,0 +1,58 @@
+{
+  "name": "Infernape",
+  "id": 392,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "ability1": "Blaze",
+      "ability2": "",
+      "hiddenAbility": "Iron Fist",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 76,
+        "ATK": 104,
+        "DEF": 71,
+        "SP_ATK": 104,
+        "SP_DEF": 71,
+        "SPD": 108
+      },
+      "height": 1.2,
+      "weight": 55.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 240,
+      "classification": "Flame",
+      "isBaseForm": true
+    }
+  }
+}

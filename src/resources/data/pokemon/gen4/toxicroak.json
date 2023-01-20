@@ -1,0 +1,49 @@
+{
+  "name": "Toxicroak",
+  "id": 454,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Fighting"
+      ],
+      "ability1": "Anticipation",
+      "ability2": "Dry Skin",
+      "hiddenAbility": "Poison Touch",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 83,
+        "ATK": 106,
+        "DEF": 65,
+        "SP_ATK": 86,
+        "SP_DEF": 65,
+        "SPD": 85
+      },
+      "height": 1.3,
+      "weight": 44.4,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Toxic Mouth",
+      "isBaseForm": true
+    }
+  }
+}

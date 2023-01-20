@@ -1,0 +1,77 @@
+{
+  "name": "Tornadus",
+  "id": 641,
+  "genderRatio": 0,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "incarnate": {
+      "types": [
+        "Flying"
+      ],
+      "ability1": "Prankster",
+      "ability2": "",
+      "hiddenAbility": "Defiant",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 79,
+        "ATK": 115,
+        "DEF": 70,
+        "SP_ATK": 125,
+        "SP_DEF": 80,
+        "SPD": 111
+      },
+      "height": 1.5,
+      "weight": 63.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Cyclone",
+      "isBaseForm": true
+    },
+    "therian": {
+      "types": [
+        "Flying"
+      ],
+      "ability1": "Regenerator",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 79,
+        "ATK": 100,
+        "DEF": 80,
+        "SP_ATK": 110,
+        "SP_DEF": 90,
+        "SPD": 121
+      },
+      "height": 1.4,
+      "weight": 63.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Cyclone",
+      "isBaseForm": true
+    }
+  }
+}

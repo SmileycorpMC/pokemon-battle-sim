@@ -1,0 +1,79 @@
+{
+  "name": "Medicham",
+  "id": 308,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+        "Psychic"
+      ],
+      "ability1": "Pure Power",
+      "ability2": "",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 60,
+        "SP_DEF": 75,
+        "SPD": 80
+      },
+      "height": 1.3,
+      "weight": 31.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Meditate",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Fighting",
+        "Psychic"
+      ],
+      "ability1": "Pure Power",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 85,
+        "SP_ATK": 80,
+        "SP_DEF": 85,
+        "SPD": 100
+      },
+      "height": 1.3,
+      "weight": 31.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 179,
+      "classification": "Meditate",
+      "isBaseForm": false
+    }
+  }
+}

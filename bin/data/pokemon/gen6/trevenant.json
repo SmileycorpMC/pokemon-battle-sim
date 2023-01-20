@@ -1,0 +1,50 @@
+{
+  "name": "Trevenant",
+  "id": 709,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass",
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "Frisk",
+      "hiddenAbility": "Harvest",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 110,
+        "DEF": 76,
+        "SP_ATK": 65,
+        "SP_DEF": 82,
+        "SPD": 56
+      },
+      "height": 1.5,
+      "weight": 71.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Elder Tree",
+      "isBaseForm": true
+    }
+  }
+}

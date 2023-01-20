@@ -1,0 +1,79 @@
+{
+  "name": "Exeggutor",
+  "id": 103,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "",
+      "hiddenAbility": "Harvest",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 95,
+        "DEF": 85,
+        "SP_ATK": 125,
+        "SP_DEF": 75,
+        "SPD": 55
+      },
+      "height": 2.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 186,
+      "classification": "Coconut",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "ability1": "Frisk",
+      "ability2": "",
+      "hiddenAbility": "Harvest",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 105,
+        "DEF": 85,
+        "SP_ATK": 125,
+        "SP_DEF": 75,
+        "SPD": 45
+      },
+      "height": 10.9,
+      "weight": 415.6,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 186,
+      "classification": "Coconut",
+      "isBaseForm": true
+    }
+  }
+}

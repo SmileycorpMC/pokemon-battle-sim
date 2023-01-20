@@ -1,0 +1,16 @@
+{
+  "is_harsh": false,
+  "stat_modifiers": [
+    {
+      "type": "water",
+      "stat": "Damage",
+      "multiplier": 0.5
+    },
+    {
+      "type": "fire",
+      "stat": "Damage",
+      "multiplier": 1.5
+    }
+  ],
+  "effects": []
+}

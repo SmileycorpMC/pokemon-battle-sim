@@ -1,0 +1,35 @@
+{
+	"name": "Steel Roller",
+	"type": "Steel",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 130,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "set_move_status",
+		"value": "Fail",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "terrain"
+				},
+				"operator": "==",
+				"value2": null
+			}
+		}]
+	}],
+	"secondary_effects": [{
+		"function": "remove_terrain",
+		"value": "all",
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

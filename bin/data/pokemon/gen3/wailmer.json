@@ -1,0 +1,58 @@
+{
+  "name": "Wailmer",
+  "id": 320,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Field",
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Water Veil",
+      "ability2": "Oblivious",
+      "hiddenAbility": "Pressure",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "wailord",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 130,
+        "ATK": 70,
+        "DEF": 35,
+        "SP_ATK": 70,
+        "SP_DEF": 35,
+        "SPD": 60
+      },
+      "height": 2.0,
+      "weight": 130.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 80,
+      "classification": "Ball Whale",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Overqwil",
+  "id": 904,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Swift Swim",
+      "hiddenAbility": "Intimidate",
+      "stats": {
+        "HP": 85,
+        "ATK": 115,
+        "DEF": 95,
+        "SP_ATK": 65,
+        "SP_DEF": 65,
+        "SPD": 85
+      },
+      "height": 2.5,
+      "weight": 60.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 88,
+      "classification": "Pin Cluster",
+      "isBaseForm": true
+    }
+  }
+}

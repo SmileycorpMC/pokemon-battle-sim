@@ -1,0 +1,65 @@
+{
+  "name": "Minior",
+  "id": 774,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 70,
+  "catchRate": 30,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "red-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 154,
+      "classification": "Meteor",
+      "isBaseForm": true
+    },
+    "orange-meteor": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "stats": {
+        "HP": 60,
+        "ATK": 60,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 60
+      },
+      "height": 0.3,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",

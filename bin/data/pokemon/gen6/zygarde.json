@@ -1,0 +1,113 @@
+{
+  "name": "Zygarde",
+  "id": 718,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "50-percent": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Aura Break",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [
+        "Power Construct"
+      ],
+      "evolutions": [],
+      "stats": {
+        "HP": 108,
+        "ATK": 100,
+        "DEF": 121,
+        "SP_ATK": 81,
+        "SP_DEF": 95,
+        "SPD": 95
+      },
+      "height": 5.0,
+      "weight": 305.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Order",
+      "isBaseForm": true
+    },
+    "10-percent": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Aura Break",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [
+        "Power Construct"
+      ],
+      "evolutions": [],
+      "stats": {
+        "HP": 54,
+        "ATK": 100,
+        "DEF": 71,
+        "SP_ATK": 61,
+        "SP_DEF": 85,
+        "SPD": 115
+      },
+      "height": 1.2,
+      "weight": 33.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Order",
+      "isBaseForm": true
+    },
+    "complete": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Power Construct",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 216,
+        "ATK": 100,
+        "DEF": 121,
+        "SP_ATK": 91,
+        "SP_DEF": 95,
+        "SPD": 85
+      },
+      "height": 4.5,
+      "weight": 610.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 354,
+      "classification": "Order",
+      "isBaseForm": false
+    }
+  }
+}

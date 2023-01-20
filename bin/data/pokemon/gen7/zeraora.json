@@ -1,0 +1,48 @@
+{
+  "name": "Zeraora",
+  "id": 807,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Volt Absorb",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 88,
+        "ATK": 112,
+        "DEF": 75,
+        "SP_ATK": 102,
+        "SP_DEF": 80,
+        "SPD": 143
+      },
+      "height": 1.5,
+      "weight": 44.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Thunderclap",
+      "isBaseForm": true
+    }
+  }
+}

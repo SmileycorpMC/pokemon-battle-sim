@@ -1,0 +1,33 @@
+{
+	"name": "Dynamax Cannon",
+	"type": "Dragon",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 100,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"ignores_encore"
+	],
+	"primary_effects": [{
+		"function": "change_power",
+		"value": 200,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "boolean",
+				"value1": {
+					"type": "from_target",
+					"value": "is_dynamaxed"
+				},
+				"operator": "==",
+				"value2": true
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

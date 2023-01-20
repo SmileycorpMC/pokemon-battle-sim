@@ -1,0 +1,54 @@
+{
+  "name": "Carbink",
+  "id": 703,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 50,
+        "DEF": 150,
+        "SP_ATK": 50,
+        "SP_DEF": 150,
+        "SPD": 50
+      },
+      "height": 0.3,
+      "weight": 5.7,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 100,
+      "classification": "Jewel",
+      "isBaseForm": true
+    }
+  }
+}

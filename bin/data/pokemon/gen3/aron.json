@@ -1,0 +1,58 @@
+{
+  "name": "Aron",
+  "id": 304,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Rock Head",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lairon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 32
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 70,
+        "DEF": 100,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 30
+      },
+      "height": 0.4,
+      "weight": 60.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Iron Armor",
+      "isBaseForm": true
+    }
+  }
+}

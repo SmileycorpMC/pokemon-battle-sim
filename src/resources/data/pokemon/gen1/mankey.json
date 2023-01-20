@@ -1,0 +1,57 @@
+{
+  "name": "Mankey",
+  "id": 56,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Vital Spirit",
+      "ability2": "Anger Point",
+      "hiddenAbility": "Defiant",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "primeape",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 28
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 80,
+        "DEF": 35,
+        "SP_ATK": 35,
+        "SP_DEF": 45,
+        "SPD": 70
+      },
+      "height": 0.5,
+      "weight": 28.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Pig Monkey",
+      "isBaseForm": true
+    }
+  }
+}

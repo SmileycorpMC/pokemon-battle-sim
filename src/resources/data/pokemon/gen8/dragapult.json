@@ -1,0 +1,50 @@
+{
+  "name": "Dragapult",
+  "id": 887,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "Infiltrator",
+      "hiddenAbility": "Cursed Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 88,
+        "ATK": 120,
+        "DEF": 75,
+        "SP_ATK": 100,
+        "SP_DEF": 75,
+        "SPD": 142
+      },
+      "height": 3.0,
+      "weight": 50.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Stealth",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Zorua",
+  "id": 570,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Illusion",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "zoroark",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 65,
+        "DEF": 40,
+        "SP_ATK": 80,
+        "SP_DEF": 40,
+        "SPD": 65
+      },
+      "height": 0.7,
+      "weight": 12.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Tricky Fox",
+      "isBaseForm": true
+    },
+    "hisui": {
+      "types": [
+        "Normal",
+        "Ghost"
+      ],
+      "ability1": "Illusion",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "zoroark",
+            "form": "hisui"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 60,
+        "DEF": 40,
+        "SP_ATK": 85,
+        "SP_DEF": 40,
+        "SPD": 70
+      },
+      "height": 0.7,
+      "weight": 12.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Tricky Fox",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Nidorina",
+  "id": 30,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Rivalry",
+      "hiddenAbility": "Hustle",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "nidoqueen",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "moon_stone"
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 62,
+        "DEF": 67,
+        "SP_ATK": 55,
+        "SP_DEF": 55,
+        "SPD": 56
+      },
+      "height": 0.8,
+      "weight": 20.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 128,
+      "classification": "Poison Pin",
+      "isBaseForm": true
+    }
+  }
+}

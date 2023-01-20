@@ -1,0 +1,123 @@
+{
+  "name": "Basculin",
+  "id": 550,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "red-striped": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Reckless",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 92,
+        "DEF": 65,
+        "SP_ATK": 80,
+        "SP_DEF": 55,
+        "SPD": 98
+      },
+      "height": 1.0,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Hostile",
+      "isBaseForm": true
+    },
+    "blue-striped": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 92,
+        "DEF": 65,
+        "SP_ATK": 80,
+        "SP_DEF": 55,
+        "SPD": 98
+      },
+      "height": 1.0,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Hostile",
+      "isBaseForm": true
+    },
+    "white-striped": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Rattled",
+      "ability2": "Adaptability",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "basculegion",
+            "form": "female"
+          },
+          "method": "recoil_female",
+          "value": 294
+        },
+        {
+          "target": {
+            "species": "basculegion",
+            "form": "male"
+          },
+          "method": "recoil_male",
+          "value": 294
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 92,
+        "DEF": 65,
+        "SP_ATK": 80,
+        "SP_DEF": 55,
+        "SPD": 98
+      },
+      "height": 1.0,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Hostile",
+      "isBaseForm": true
+    }
+  }
+}

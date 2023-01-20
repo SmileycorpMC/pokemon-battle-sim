@@ -1,0 +1,48 @@
+{
+  "name": "Stoutland",
+  "id": 508,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "Sand Rush",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 110,
+        "DEF": 90,
+        "SP_ATK": 45,
+        "SP_DEF": 90,
+        "SPD": 80
+      },
+      "height": 1.2,
+      "weight": 61.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 250,
+      "classification": "Big-Hearted",
+      "isBaseForm": true
+    }
+  }
+}

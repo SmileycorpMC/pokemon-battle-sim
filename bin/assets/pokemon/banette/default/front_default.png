@@ -1,0 +1,41 @@
+{
+  "name": "Silvally",
+  "id": 773,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Rks System",
+      "stats": {
+        "HP": 95,
+        "ATK": 95,
+        "DEF": 95,
+        "SP_ATK": 95,
+        "SP_DEF": 95,
+        "SPD": 95
+      },
+      "height": 2.3,
+      "weight": 100.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Synthetic",
+      "isBaseForm": true
+    

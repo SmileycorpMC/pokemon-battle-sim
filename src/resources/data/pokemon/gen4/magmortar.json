@@ -1,0 +1,48 @@
+{
+  "name": "Magmortar",
+  "id": 467,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 95,
+        "DEF": 67,
+        "SP_ATK": 125,
+        "SP_DEF": 95,
+        "SPD": 83
+      },
+      "height": 1.6,
+      "weight": 68.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Blast",
+      "isBaseForm": true
+    }
+  }
+}

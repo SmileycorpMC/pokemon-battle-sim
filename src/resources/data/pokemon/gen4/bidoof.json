@@ -1,0 +1,58 @@
+{
+  "name": "Bidoof",
+  "id": 399,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Simple",
+      "ability2": "Unaware",
+      "hiddenAbility": "Moody",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "bibarrel",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 15
+        }
+      ],
+      "stats": {
+        "HP": 59,
+        "ATK": 45,
+        "DEF": 40,
+        "SP_ATK": 35,
+        "SP_DEF": 40,
+        "SPD": 31
+      },
+      "height": 0.5,
+      "weight": 20.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 50,
+      "classification": "Plump Mouse",
+      "isBaseForm": true
+    }
+  }
+}

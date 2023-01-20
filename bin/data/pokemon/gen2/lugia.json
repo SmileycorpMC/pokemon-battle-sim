@@ -1,0 +1,49 @@
+{
+  "name": "Lugia",
+  "id": 249,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Multiscale",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 106,
+        "ATK": 90,
+        "DEF": 130,
+        "SP_ATK": 90,
+        "SP_DEF": 154,
+        "SPD": 110
+      },
+      "height": 5.2,
+      "weight": 216.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Diving",
+      "isBaseForm": true
+    }
+  }
+}

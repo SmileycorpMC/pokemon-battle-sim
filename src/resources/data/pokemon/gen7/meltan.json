@@ -1,0 +1,48 @@
+{
+  "name": "Meltan",
+  "id": 808,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Magnet Pull",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 46,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 55,
+        "SP_DEF": 35,
+        "SPD": 34
+      },
+      "height": 0.2,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 150,
+      "classification": "Hex Nut",
+      "isBaseForm": true
+    }
+  }
+}

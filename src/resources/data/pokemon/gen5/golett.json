@@ -1,0 +1,58 @@
+{
+  "name": "Golett",
+  "id": 622,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "ability1": "Iron Fist",
+      "ability2": "Klutz",
+      "hiddenAbility": "No Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "golurk",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 43
+        }
+      ],
+      "stats": {
+        "HP": 59,
+        "ATK": 74,
+        "DEF": 50,
+        "SP_ATK": 35,
+        "SP_DEF": 50,
+        "SPD": 35
+      },
+      "height": 1.0,
+      "weight": 92.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Automaton",
+      "isBaseForm": true
+    }
+  }
+}

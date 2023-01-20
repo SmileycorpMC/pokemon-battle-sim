@@ -1,0 +1,80 @@
+{
+  "name": "Slowking",
+  "id": 199,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 75,
+        "DEF": 80,
+        "SP_ATK": 100,
+        "SP_DEF": 110,
+        "SPD": 30
+      },
+      "height": 2.0,
+      "weight": 79.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Royal",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Poison",
+        "Psychic"
+      ],
+      "ability1": "Curious Medicine",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 65,
+        "DEF": 80,
+        "SP_ATK": 110,
+        "SP_DEF": 110,
+        "SPD": 30
+      },
+      "height": 1.8,
+      "weight": 79.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Hexpert",
+      "isBaseForm": true
+    }
+  }
+}

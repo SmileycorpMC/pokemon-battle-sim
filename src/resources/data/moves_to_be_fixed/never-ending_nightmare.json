@@ -1,0 +1,16 @@
+{
+  "name": "Never-Ending Nightmare",
+  "type": "Ghost",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": -1,
+  "accuracy": 101,
+  "pp": 1,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

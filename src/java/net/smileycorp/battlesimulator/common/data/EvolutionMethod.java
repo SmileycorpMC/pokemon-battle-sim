@@ -1,0 +1,64 @@
+package net.smileycorp.battlesimulator.common.data;
+
+public enum EvolutionMethod {
+
+	LEVEL,
+	LEVEL_NIGHT,
+	LEVEL_DAY,
+	LEVEL_MALE,
+	LEVEL_FEMALE,
+	LEVEL_ITEM,
+	LEVEL_ITEM_DAY,
+	LEVEL_ITEM_NIGHT,
+	LEVEL_MOVE,
+	LEVEL_MOVE_OF_TYPE,
+	LEVEL_RAIN,
+	LEVEL_WITH,
+	LEVEL_ALOLA,
+	LEVEL_ALOLA_NIGHT,
+	LEVEL_ALOLA_DAY,
+	LEVEL_GALAR,
+	LEVEL_MOVE_GALAR,
+	LEVEL_HISUI,
+	LEVEL_ATK_GREATER_THAN_DEF,
+	LEVEL_ATK_LESS_THAN_DEF,
+	LEVEL_ATK_EQUALS_DEF,
+	LEVEL_FREE_SPACE,
+	LEVEL_FLIP,
+	LEVEL_MIDDAY_SPECIAL_ABILITY,
+	LEVEL_MULTIPLAYER,
+	ITEM,
+	ITEM_MALE,
+	ITEM_FEMALE,
+	ITEM_FULL_MOON,
+	ITEM_ALOLA,
+	ITEM_HISUI,
+	TRADE,
+	TRADE_ITEM,
+	TRADE_WITH,
+	HAPPINESS,
+	HAPPINESS_DAY,
+	HAPPINESS_NIGHT,
+	HAPPINESS_MOVE_OF_TYPE,
+	LOCATION,
+	USE_MOVE,
+	MAX_CONTEST_STAT,
+	CRIT,
+	DEFEAT_HOLDING,
+	TAKE_DAMAGE,
+	RECOIL,
+	RECOIL_MALE,
+	RECOIL_FEMALE,
+	WALK_WITH;
+
+	@Override
+	public String toString() {
+		return name().toLowerCase();
+	}
+
+	public static EvolutionMethod get(String name) {
+		try { return valueOf(name.toUpperCase());
+		} catch (Exception e) { return null;}
+	}
+
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Turtwig",
+  "id": 387,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Shell Armor",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "grotle",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 68,
+        "DEF": 64,
+        "SP_ATK": 45,
+        "SP_DEF": 55,
+        "SPD": 31
+      },
+      "height": 0.4,
+      "weight": 10.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Tiny Leaf",
+      "isBaseForm": true
+    }
+  }
+}

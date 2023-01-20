@@ -1,0 +1,48 @@
+{
+  "name": "Glimmora",
+  "id": 970,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 50,
+  "catchRate": 25,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+	"Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Rock",
+		"Poison"
+      ],
+      "ability1": "Toxic Debris",
+      "ability2": "",
+      "hiddenAbility": "Corrosion",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 83,
+        "ATK": 55,
+        "DEF": 90,
+        "SP_ATK": 130,
+        "SP_DEF": 81,
+        "SPD": 86
+      },
+      "height": 1.5,
+      "weight": 45.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 184,
+      "classification": "Ore",
+      "isBaseForm": true
+    }
+  }
+}

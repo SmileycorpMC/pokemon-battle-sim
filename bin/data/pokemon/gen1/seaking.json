@@ -1,0 +1,48 @@
+{
+  "name": "Seaking",
+  "id": 119,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Water Veil",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 92,
+        "DEF": 65,
+        "SP_ATK": 65,
+        "SP_DEF": 80,
+        "SPD": 68
+      },
+      "height": 1.3,
+      "weight": 39.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Goldfish",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Zapdos",
+  "id": 145,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Static",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 90,
+        "DEF": 85,
+        "SP_ATK": 125,
+        "SP_DEF": 90,
+        "SPD": 100
+      },
+      "height": 1.6,
+      "weight": 52.6,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Electric",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Fighting",
+        "Flying"
+      ],
+      "ability1": "Defiant",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 125,
+        "DEF": 90,
+        "SP_ATK": 85,
+        "SP_DEF": 90,
+        "SPD": 100
+      },
+      "height": 1.6,
+      "weight": 58.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Strong Legs",
+      "isBaseForm": true
+    }
+  }
+}

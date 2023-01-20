@@ -1,0 +1,58 @@
+{
+  "name": "Mareanie",
+  "id": 747,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Water"
+      ],
+      "ability1": "Merciless",
+      "ability2": "Limber",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "toxapex",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 38
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 53,
+        "DEF": 62,
+        "SP_ATK": 43,
+        "SP_DEF": 52,
+        "SPD": 45
+      },
+      "height": 0.4,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Brutal Star",
+      "isBaseForm": true
+    }
+  }
+}

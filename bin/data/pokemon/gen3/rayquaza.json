@@ -1,0 +1,87 @@
+{
+  "name": "Rayquaza",
+  "id": 384,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "ability1": "Air Lock",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 105,
+        "ATK": 150,
+        "DEF": 90,
+        "SP_ATK": 150,
+        "SP_DEF": 90,
+        "SPD": 95
+      },
+      "height": 7.0,
+      "weight": 206.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Sky High",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "ability1": "Delta Stream",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 105,
+        "ATK": 180,
+        "DEF": 100,
+        "SP_ATK": 180,
+        "SP_DEF": 100,
+        "SPD": 115
+      },
+      "height": 10.8,
+      "weight": 392.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 351,
+      "classification": "Sky High",
+      "isBaseForm": false
+    }
+  }
+}

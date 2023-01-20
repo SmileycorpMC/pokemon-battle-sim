@@ -1,0 +1,49 @@
+{
+  "name": "Iron Thorns",
+  "id": 995,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 30,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+		"Electric"
+      ],
+      "ability1": "Quark Drive",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 134,
+        "DEF": 110,
+        "SP_ATK": 70,
+        "SP_DEF": 84,
+        "SPD": 72
+      },
+      "height": 1.6,
+      "weight": 303.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

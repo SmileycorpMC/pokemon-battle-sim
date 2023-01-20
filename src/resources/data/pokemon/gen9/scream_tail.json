@@ -1,0 +1,49 @@
+{
+  "name": "Scream Tail",
+  "id": 985,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 50,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy",
+		"Psychic"
+      ],
+      "ability1": "Protosynthesis",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 115,
+        "ATK": 65,
+        "DEF": 99,
+        "SP_ATK": 65,
+        "SP_DEF": 115,
+        "SPD": 111
+      },
+      "height": 1.2,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

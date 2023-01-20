@@ -1,0 +1,49 @@
+{
+  "name": "Volcarona",
+  "id": 637,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Fire"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Swarm",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 60,
+        "DEF": 65,
+        "SP_ATK": 135,
+        "SP_DEF": 105,
+        "SPD": 100
+      },
+      "height": 1.6,
+      "weight": 46.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Sun",
+      "isBaseForm": true
+    }
+  }
+}

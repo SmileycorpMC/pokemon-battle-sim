@@ -1,0 +1,50 @@
+{
+	"name": "Conversion",
+	"type": "Normal",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 30,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_user_type",
+		"value": {
+			"type": "get_type_from_move",
+			"value": {
+				"type": "from_current_pokemon",
+				"value": "move_slot_1"
+			}
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+				"stat": "ATK",
+				"amount": 1
+			},
+			{
+				"stat": "DEF",
+				"amount": 1
+			},
+			{
+				"stat": "SP_ATK",
+				"amount": 1
+			},
+			{
+				"stat": "SP_DEF",
+				"amount": 1
+			},
+			{
+				"stat": "SPD",
+				"amount": 1
+			}
+		],
+		"conditions": []
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Genesis Supernova",
+	"type": "Psychic",
+	"category": null,
+	"target": "select_ajacent",
+	"power": 185,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "set_terrain",
+		"value": "psychic_terrain",
+		"conditions": []
+	}]
+}

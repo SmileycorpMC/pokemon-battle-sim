@@ -1,0 +1,58 @@
+{
+  "name": "Trapinch",
+  "id": 328,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Arena Trap",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "vibrava",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 100,
+        "DEF": 45,
+        "SP_ATK": 45,
+        "SP_DEF": 45,
+        "SPD": 10
+      },
+      "height": 0.7,
+      "weight": 15.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 58,
+      "classification": "Ant Pit",
+      "isBaseForm": true
+    }
+  }
+}

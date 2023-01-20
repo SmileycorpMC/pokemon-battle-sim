@@ -1,0 +1,48 @@
+{
+  "name": "Mudsdale",
+  "id": 750,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Own Tempo",
+      "ability2": "Stamina",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 125,
+        "DEF": 100,
+        "SP_ATK": 55,
+        "SP_DEF": 85,
+        "SPD": 35
+      },
+      "height": 2.5,
+      "weight": 920.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Draft Horse",
+      "isBaseForm": true
+    }
+  }
+}

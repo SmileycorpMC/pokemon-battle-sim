@@ -1,0 +1,49 @@
+{
+  "name": "Blacephalon",
+  "id": 806,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire",
+        "Ghost"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 53,
+        "ATK": 127,
+        "DEF": 53,
+        "SP_ATK": 151,
+        "SP_DEF": 79,
+        "SPD": 107
+      },
+      "height": 1.8,
+      "weight": 13.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Fireworks",
+      "isBaseForm": true
+    }
+  }
+}

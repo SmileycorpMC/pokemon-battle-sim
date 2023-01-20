@@ -1,0 +1,48 @@
+{
+  "name": "Electivire",
+  "id": 466,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Motor Drive",
+      "ability2": "",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 123,
+        "DEF": 67,
+        "SP_ATK": 95,
+        "SP_DEF": 85,
+        "SPD": 95
+      },
+      "height": 1.8,
+      "weight": 138.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Thunderbolt",
+      "isBaseForm": true
+    }
+  }
+}

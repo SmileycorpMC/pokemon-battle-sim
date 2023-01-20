@@ -1,0 +1,49 @@
+{
+  "name": "Cofagrigus",
+  "id": 563,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral",
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Mummy",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 58,
+        "ATK": 50,
+        "DEF": 145,
+        "SP_ATK": 95,
+        "SP_DEF": 105,
+        "SPD": 30
+      },
+      "height": 1.7,
+      "weight": 76.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 169,
+      "classification": "Coffin",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"name": "Expanding Force",
+	"type": "Psychic",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 80,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"primary_effects": [{
+		"function": "multiple",
+		"value": [{
+				"function": "change_targeting",
+				"value": "all_adjacent_opponents",
+				"conditions": []
+			},
+			{
+				"function": "change_power",
+				"value": 120,
+				"conditions": []
+			}
+		],
+		"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "psychic_terrain"
+				}
+			},
+			{
+				"mode": "comparison",
+				"value": {
+					"type": "boolean",
+					"value1": {
+						"type": "from_current_pokemon",
+						"value": "grounded"
+					},
+					"operator": "==",
+					"value2": true
+				}
+			}
+		]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Rock Slide",
+	"type": "Rock",
+	"category": "physical",
+	"target": "all_adjacent_opponents",
+	"power": 75,
+	"accuracy": 90,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_volatile_status_on_target",
+		"value": "flinch",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
+	"z-move_effects": []
+}

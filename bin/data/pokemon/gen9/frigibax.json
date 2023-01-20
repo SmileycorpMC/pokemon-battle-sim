@@ -1,0 +1,50 @@
+{
+  "name": "Frigibax",
+  "id": 996,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon",
+	"Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+		"Ice"
+      ],
+      "ability1": "Thermal Exchange",
+      "ability2": "",
+      "hiddenAbility": "Ice Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 75,
+        "DEF": 45,
+        "SP_ATK": 35,
+        "SP_DEF": 45,
+        "SPD": 55
+      },
+      "height": 0.5,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Ice Fin",
+      "isBaseForm": true
+    }
+  }
+}

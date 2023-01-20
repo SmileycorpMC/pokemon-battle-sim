@@ -1,0 +1,78 @@
+{
+  "name": "Aggron",
+  "id": 306,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Rock Head",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 110,
+        "DEF": 180,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 50
+      },
+      "height": 2.1,
+      "weight": 360.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Iron Armor",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Filter",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 140,
+        "DEF": 230,
+        "SP_ATK": 60,
+        "SP_DEF": 80,
+        "SPD": 50
+      },
+      "height": 2.2,
+      "weight": 395.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 284,
+      "classification": "Iron Armor",
+      "isBaseForm": false
+    }
+  }
+}

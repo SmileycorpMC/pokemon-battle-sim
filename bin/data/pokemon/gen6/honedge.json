@@ -1,0 +1,58 @@
+{
+  "name": "Honedge",
+  "id": 679,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "ability1": "No Guard",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "doublade",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 80,
+        "DEF": 100,
+        "SP_ATK": 35,
+        "SP_DEF": 37,
+        "SPD": 28
+      },
+      "height": 0.8,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Sword",
+      "isBaseForm": true
+    }
+  }
+}

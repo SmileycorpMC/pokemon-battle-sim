@@ -1,0 +1,57 @@
+{
+  "name": "Bounsweet",
+  "id": 761,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "Oblivious",
+      "hiddenAbility": "Sweet Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "steenee",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 42,
+        "ATK": 30,
+        "DEF": 38,
+        "SP_ATK": 30,
+        "SP_DEF": 38,
+        "SPD": 32
+      },
+      "height": 0.3,
+      "weight": 3.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 42,
+      "classification": "Fruit",
+      "isBaseForm": true
+    }
+  }
+}

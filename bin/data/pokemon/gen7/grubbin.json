@@ -1,0 +1,57 @@
+{
+  "name": "Grubbin",
+  "id": 736,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Swarm",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "charjabug",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 47,
+        "ATK": 62,
+        "DEF": 45,
+        "SP_ATK": 55,
+        "SP_DEF": 45,
+        "SPD": 46
+      },
+      "height": 0.4,
+      "weight": 4.4,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Larva",
+      "isBaseForm": true
+    }
+  }
+}

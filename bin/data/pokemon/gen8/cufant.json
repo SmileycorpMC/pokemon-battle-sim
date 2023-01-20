@@ -1,0 +1,58 @@
+{
+  "name": "Cufant",
+  "id": 878,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Sheer Force",
+      "ability2": "",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "copperajah",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 72,
+        "ATK": 80,
+        "DEF": 49,
+        "SP_ATK": 40,
+        "SP_DEF": 49,
+        "SPD": 40
+      },
+      "height": 1.2,
+      "weight": 100.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Copperderm",
+      "isBaseForm": true
+    }
+  }
+}

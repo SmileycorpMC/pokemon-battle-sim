@@ -1,0 +1,28 @@
+{
+	"name": "Bleakwind Storm",
+	"type": "Flying",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 100,
+	"accuracy": 80,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"wind"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SPD",
+			"amount": -1
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
+	"z-move_effects": []
+}

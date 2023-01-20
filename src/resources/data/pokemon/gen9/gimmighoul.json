@@ -1,0 +1,77 @@
+{
+  "name": "Gimmighoul",
+  "id": 999,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "chest": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Rattled",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 30,
+        "DEF": 70,
+        "SP_ATK": 75,
+        "SP_DEF": 70,
+        "SPD": 10
+      },
+      "height": 0.3,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Coin Chest",
+      "isBaseForm": true
+    },
+	"roaming": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Run Away",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 30,
+        "DEF": 25,
+        "SP_ATK": 75,
+        "SP_DEF": 45,
+        "SPD": 80
+      },
+      "height": 0.1,
+      "weight": 0.1,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Coin Hunter",
+      "isBaseForm": true
+    }
+  }
+}

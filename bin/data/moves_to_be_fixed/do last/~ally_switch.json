@@ -1,0 +1,32 @@
+{
+	"name": "Ally Switch",
+	"type": "Psychic",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 15,
+	"priority": 2,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"bypasses_protection"
+	],
+	"primary_effects": [{
+		"function": "switch_positions",
+		"value": {
+			"position1": "user",
+			"position2": "opposite_ally"
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "SPD",
+			"amount": 2
+		}],
+		"conditions": []
+	}]
+}

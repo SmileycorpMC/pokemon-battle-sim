@@ -1,0 +1,57 @@
+{
+  "name": "Happiny",
+  "id": 440,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Natural Cure",
+      "ability2": "Serene Grace",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "chansey",
+            "form": "default"
+          },
+          "method": "level_item_day",
+          "value": "oval_stone"
+        }
+      ],
+      "stats": {
+        "HP": 100,
+        "ATK": 5,
+        "DEF": 5,
+        "SP_ATK": 15,
+        "SP_DEF": 65,
+        "SPD": 30
+      },
+      "height": 0.6,
+      "weight": 24.4,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 110,
+      "classification": "Playhouse",
+      "isBaseForm": true
+    }
+  }
+}

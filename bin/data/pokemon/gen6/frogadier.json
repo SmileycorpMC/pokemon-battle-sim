@@ -1,0 +1,57 @@
+{
+  "name": "Frogadier",
+  "id": 657,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Protean",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "greninja",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 54,
+        "ATK": 63,
+        "DEF": 52,
+        "SP_ATK": 83,
+        "SP_DEF": 56,
+        "SPD": 97
+      },
+      "height": 0.6,
+      "weight": 10.9,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Bubble Frog",
+      "isBaseForm": true
+    }
+  }
+}

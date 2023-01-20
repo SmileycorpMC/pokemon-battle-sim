@@ -1,0 +1,33 @@
+{
+	"name": "Belly Drum",
+	"type": "Normal",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+				"stat": "ATK",
+				"amount": 12
+			}],
+			"conditions": []
+		},
+		{
+			"function": "fractional_damage_user",
+			"value": 0.5,
+			"conditions": []
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "fractional_heal_user",
+		"value": 1,
+		"conditions": []
+	}]
+}

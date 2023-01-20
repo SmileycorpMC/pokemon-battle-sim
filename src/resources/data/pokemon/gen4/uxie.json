@@ -1,0 +1,52 @@
+{
+  "name": "Uxie",
+  "id": 480,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 75,
+        "DEF": 130,
+        "SP_ATK": 75,
+        "SP_DEF": 130,
+        "SPD": 95
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Knowledge",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Regice",
+  "id": 378,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "",
+      "hiddenAbility": "Ice Body",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 50,
+        "DEF": 100,
+        "SP_ATK": 100,
+        "SP_DEF": 200,
+        "SPD": 50
+      },
+      "height": 1.8,
+      "weight": 175.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Iceberg",
+      "isBaseForm": true
+    }
+  }
+}

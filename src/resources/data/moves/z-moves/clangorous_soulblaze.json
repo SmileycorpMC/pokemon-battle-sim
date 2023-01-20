@@ -1,0 +1,38 @@
+{
+	"name": "Clangorous Soulblaze",
+	"type": "Dragon",
+	"category": null,
+	"target": "all_adjacent_opponents",
+	"power": 185,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [
+		"sound_based"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+				"stat": "ATK",
+				"amount": 1
+			},
+			{
+				"stat": "DEF",
+				"amount": 1
+			},
+			{
+				"stat": "SP_ATK",
+				"amount": 1
+			},
+			{
+				"stat": "SP_DEF",
+				"amount": 1
+			},
+			{
+				"stat": "SPD",
+				"amount": 1
+			}
+		],
+		"conditions": []
+	}]
+}

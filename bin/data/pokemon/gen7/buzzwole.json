@@ -1,0 +1,53 @@
+{
+  "name": "Buzzwole",
+  "id": 794,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 107,
+        "ATK": 139,
+        "DEF": 139,
+        "SP_ATK": 53,
+        "SP_DEF": 53,
+        "SPD": 79
+      },
+      "height": 2.4,
+      "weight": 333.6,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Swollen",
+      "isBaseForm": true
+    }
+  }
+}

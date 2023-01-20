@@ -1,0 +1,77 @@
+{
+  "name": "Kangaskhan",
+  "id": 115,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Early Bird",
+      "ability2": "Scrappy",
+      "hiddenAbility": "Inner Focus",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 105,
+        "ATK": 95,
+        "DEF": 80,
+        "SP_ATK": 40,
+        "SP_DEF": 80,
+        "SPD": 90
+      },
+      "height": 2.2,
+      "weight": 80.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Parent",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Parental Bond",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 105,
+        "ATK": 125,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 100,
+        "SPD": 100
+      },
+      "height": 2.2,
+      "weight": 100.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 207,
+      "classification": "Parent",
+      "isBaseForm": false
+    }
+  }
+}

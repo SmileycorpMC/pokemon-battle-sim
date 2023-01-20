@@ -1,0 +1,69 @@
+ification": "Meteor",
+      "isBaseForm": true
+    },
+    "red-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "orange-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability1": "Shields Down",
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 60,
+        "SP_ATK": 100,
+        "SP_DEF": 60,
+        "SPD": 120
+      },
+      "height": 0.3,
+      "weight": 0.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Meteor",
+      "isBaseForm": false
+    },
+    "yellow-core": {
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "ability

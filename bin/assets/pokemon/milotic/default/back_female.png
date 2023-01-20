@@ -1,0 +1,24 @@
+emplate
+	fixed: DOS version bugs (device selection when copy sectors)
+	fixed: DOS ATA reset option is not visible
+	other fixes
+
+Version 2.8.0.542 (2014-02-13)
+	added: Basic Ext2/3/4 support
+	added: Disk Editor: custom template support
+	fixed: critical error when open some USB devices
+	minor improvements and fixes
+
+Version 2.6.0.522 (2013-11-18)
+	added: GUID partitioning (GPT) support (edit mode)
+	added: Disk images/clones: load/save parameters, write log; resume using log (Prof. Edition)
+	added: Disk images/clones: simultaneous read and write in two threads (Linux and Windows)
+	added: Bad I/O option: replace bad sector data by filler
+	added: RAID: RAID-6 support (only XOR recovery), custom striping, load/save parameters
+	added: Undo, Redo support (Disk Editor, Partition Manager)
+	added: ATA software reset (DOS ATA)
+	added: Unicode support for Windows console interface, Linux terminal interface, Disk Editor
+	added: NTFS reconstruction: MFT fragment manager
+	added: additional NTFS features to recover lost or damaged files
+	added: NTFS Search: search shifted MFT records
+	improved: NTFS Search: handling many MFT fragments optimizat

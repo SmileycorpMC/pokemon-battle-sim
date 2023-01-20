@@ -1,0 +1,49 @@
+{
+  "name": "Seismitoad",
+  "id": 537,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Poison Touch",
+      "hiddenAbility": "Water Absorb",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 105,
+        "ATK": 95,
+        "DEF": 75,
+        "SP_ATK": 85,
+        "SP_DEF": 75,
+        "SPD": 74
+      },
+      "height": 1.5,
+      "weight": 62.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 255,
+      "classification": "Vibration",
+      "isBaseForm": true
+    }
+  }
+}

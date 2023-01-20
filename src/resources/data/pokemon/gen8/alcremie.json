@@ -1,0 +1,310 @@
+{
+  "name": "Alcremie",
+  "id": 869,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy",
+    "Amorphous"
+  ],
+  "forms": {
+    "vanilla-cream": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "ruby-cream": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "matcha-cream": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "mint-cream": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "lemon-cream": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "salted-cream": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "ruby-swirl": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "caramel-swirl": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "rainbow-swirl": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 0.3,
+      "weight": 0.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Sweet Veil",
+      "ability2": "",
+      "hiddenAbility": "Aroma Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 60,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 121,
+        "SPD": 64
+      },
+      "height": 30.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Cream",
+      "isBaseForm": false
+    }
+  }
+}

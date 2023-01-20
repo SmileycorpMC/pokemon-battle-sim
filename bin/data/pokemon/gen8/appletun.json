@@ -1,0 +1,80 @@
+{
+  "name": "Appletun",
+  "id": 842,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "ability1": "Ripen",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 85,
+        "DEF": 80,
+        "SP_ATK": 100,
+        "SP_DEF": 80,
+        "SPD": 30
+      },
+      "height": 0.4,
+      "weight": 13.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Apple Nectar",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "ability1": "Ripen",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 85,
+        "DEF": 80,
+        "SP_ATK": 100,
+        "SP_DEF": 80,
+        "SPD": 30
+      },
+      "height": 24.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Apple Nectar",
+      "isBaseForm": false
+    }
+  }
+}

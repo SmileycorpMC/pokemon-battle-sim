@@ -1,0 +1,42 @@
+{
+  "name": "Cinderace",
+  "id": 815,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Blaze",
+      "hiddenAbility": "Libero",
+      "stats": {
+        "HP": 80,
+        "ATK": 116,
+        "DEF": 75,
+        "SP_ATK": 65,
+        "SP_DEF": 75,
+        "SPD": 119
+      },
+      "height": 1.4,
+      "weight": 33.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Striker",
+      "isBaseForm

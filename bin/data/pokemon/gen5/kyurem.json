@@ -1,0 +1,117 @@
+{
+  "name": "Kyurem",
+  "id": 646,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 125,
+        "ATK": 130,
+        "DEF": 90,
+        "SP_ATK": 130,
+        "SP_DEF": 90,
+        "SPD": 95
+      },
+      "height": 3.0,
+      "weight": 325.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 330,
+      "classification": "Boundary",
+      "isBaseForm": true
+    },
+    "black": {
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "ability1": "Teravolt",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 125,
+        "ATK": 170,
+        "DEF": 100,
+        "SP_ATK": 120,
+        "SP_DEF": 90,
+        "SPD": 95
+      },
+      "height": 3.3,
+      "weight": 325.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 350,
+      "classification": "Boundary",
+      "isBaseForm": true
+    },
+    "white": {
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "ability1": "Turboblaze",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 125,
+        "ATK": 120,
+        "DEF": 90,
+        "SP_ATK": 170,
+        "SP_DEF": 100,
+        "SPD": 95
+      },
+      "height": 3.6,
+      "weight": 325.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 350,
+      "classification": "Boundary",
+      "isBaseForm": true
+    }
+  }
+}

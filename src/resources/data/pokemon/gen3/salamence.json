@@ -1,0 +1,79 @@
+{
+  "name": "Salamence",
+  "id": 373,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "ability1": "Intimidate",
+      "ability2": "",
+      "hiddenAbility": "Moxie",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 135,
+        "DEF": 80,
+        "SP_ATK": 110,
+        "SP_DEF": 80,
+        "SPD": 100
+      },
+      "height": 1.5,
+      "weight": 102.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Dragon",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "ability1": "Aerilate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 145,
+        "DEF": 130,
+        "SP_ATK": 120,
+        "SP_DEF": 90,
+        "SPD": 120
+      },
+      "height": 1.8,
+      "weight": 112.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Dragon",
+      "isBaseForm": false
+    }
+  }
+}

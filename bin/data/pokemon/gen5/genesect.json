@@ -1,0 +1,209 @@
+{
+  "name": "Genesect",
+  "id": 649,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Download",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 120,
+        "DEF": 95,
+        "SP_ATK": 120,
+        "SP_DEF": 95,
+        "SPD": 99
+      },
+      "height": 1.5,
+      "weight": 82.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Paleozoic",
+      "isBaseForm": true
+    },
+    "douse": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Download",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 120,
+        "DEF": 95,
+        "SP_ATK": 120,
+        "SP_DEF": 95,
+        "SPD": 99
+      },
+      "height": 1.5,
+      "weight": 82.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Paleozoic",
+      "isBaseForm": false
+    },
+    "shock": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Download",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 120,
+        "DEF": 95,
+        "SP_ATK": 120,
+        "SP_DEF": 95,
+        "SPD": 99
+      },
+      "height": 1.5,
+      "weight": 82.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Paleozoic",
+      "isBaseForm": false
+    },
+    "burn": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Download",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 120,
+        "DEF": 95,
+        "SP_ATK": 120,
+        "SP_DEF": 95,
+        "SPD": 99
+      },
+      "height": 1.5,
+      "weight": 82.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Paleozoic",
+      "isBaseForm": false
+    },
+    "chill": {
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "ability1": "Download",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 120,
+        "DEF": 95,
+        "SP_ATK": 120,
+        "SP_DEF": 95,
+        "SPD": 99
+      },
+      "height": 1.5,
+      "weight": 82.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Paleozoic",
+      "isBaseForm": false
+    }
+  }
+}

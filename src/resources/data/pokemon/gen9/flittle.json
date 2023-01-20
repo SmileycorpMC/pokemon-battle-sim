@@ -1,0 +1,47 @@
+{
+  "name": "Flittle",
+  "id": 955,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 120,
+  "expRate": "Medium_slow",
+  "eggGroups": [
+	"Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Psychic"
+      ],
+      "ability1": "Anticipation",
+      "ability2": "Frisk",
+      "hiddenAbility": "Speed Boost",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 30,
+        "ATK": 35,
+        "DEF": 30,
+        "SP_ATK": 55,
+        "SP_DEF": 30,
+        "SPD": 75
+      },
+      "height": 0.2,
+      "weight": 1.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 51,
+      "classification": "Frill",
+      "isBaseForm": true
+    }
+  }
+}

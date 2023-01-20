@@ -1,0 +1,57 @@
+{
+  "name": "Goldeen",
+  "id": 118,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Water Veil",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "seaking",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 33
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 67,
+        "DEF": 60,
+        "SP_ATK": 35,
+        "SP_DEF": 50,
+        "SPD": 63
+      },
+      "height": 0.6,
+      "weight": 15.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Goldfish",
+      "isBaseForm": true
+    }
+  }
+}

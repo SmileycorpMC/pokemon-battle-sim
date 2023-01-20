@@ -1,0 +1,87 @@
+{
+  "name": "Sableye",
+  "id": 302,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Ghost"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Stall",
+      "hiddenAbility": "Prankster",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 75,
+        "DEF": 75,
+        "SP_ATK": 65,
+        "SP_DEF": 65,
+        "SPD": 50
+      },
+      "height": 0.5,
+      "weight": 11.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 133,
+      "classification": "Darkness",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Dark",
+        "Ghost"
+      ],
+      "ability1": "Magic Bounce",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 85,
+        "DEF": 125,
+        "SP_ATK": 85,
+        "SP_DEF": 115,
+        "SPD": 20
+      },
+      "height": 0.5,
+      "weight": 161.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 168,
+      "classification": "Darkness",
+      "isBaseForm": false
+    }
+  }
+}

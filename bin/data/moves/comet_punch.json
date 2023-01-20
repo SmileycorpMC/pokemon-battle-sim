@@ -1,0 +1,43 @@
+{
+	"name": "Comet Punch",
+	"type": "Normal",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 18,
+	"accuracy": 85,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": 100,
+	"max_move_power": 100,
+	"properties": [
+		"makes_contact",
+		"punching",
+		"multi-strike"
+	],
+	"primary_effects": [{
+		"function": "set_hit_count",
+		"value": {
+			"type": "random_value_weighed",
+			"values": [{
+					"value": 2,
+					"weight": 3
+				},
+				{
+					"value": 3,
+					"weight": 3
+				},
+				{
+					"value": 4,
+					"weight": 1
+				},
+				{
+					"value": 5,
+					"weight": 1
+				}
+			]
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

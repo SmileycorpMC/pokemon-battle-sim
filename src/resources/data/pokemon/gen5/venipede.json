@@ -1,0 +1,58 @@
+{
+  "name": "Venipede",
+  "id": 543,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Poison Point",
+      "ability2": "Swarm",
+      "hiddenAbility": "Speed Boost",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "whirlipede",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 22
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 45,
+        "DEF": 59,
+        "SP_ATK": 30,
+        "SP_DEF": 39,
+        "SPD": 57
+      },
+      "height": 0.4,
+      "weight": 5.3,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 52,
+      "classification": "Centipede",
+      "isBaseForm": true
+    }
+  }
+}

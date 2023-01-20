@@ -1,0 +1,62 @@
+{
+  "name": "Bayleef",
+  "id": 153,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "ability2": "",
+      "hiddenAbility": "Leaf Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "venusaur",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 32
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 62,
+        "DEF": 80,
+        "SP_ATK": 63,
+        "SP_DEF": 80,
+        "SPD": 60
+      },
+      "height": 1.2,
+      "weight": 15.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Leaf",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Cetitan",
+  "id": 975,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 50,
+  "catchRate": 50,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+	"Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Ice"
+      ],
+      "ability1": "Thick Fat",
+      "ability2": "Slush Rush",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 170,
+        "ATK": 113,
+        "DEF": 65,
+        "SP_ATK": 45,
+        "SP_DEF": 55,
+        "SPD": 73
+      },
+      "height": 4.5,
+      "weight": 700.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 182,
+      "classification": "Terra Whale",
+      "isBaseForm": true
+	}
+  }
+}

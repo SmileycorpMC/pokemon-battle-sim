@@ -1,0 +1,50 @@
+{
+  "name": "Carracosta",
+  "id": 565,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "ability1": "Solid Rock",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Swift Swim",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 108,
+        "DEF": 133,
+        "SP_ATK": 83,
+        "SP_DEF": 65,
+        "SPD": 32
+      },
+      "height": 1.2,
+      "weight": 81.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Prototurtle",
+      "isBaseForm": true
+    }
+  }
+}

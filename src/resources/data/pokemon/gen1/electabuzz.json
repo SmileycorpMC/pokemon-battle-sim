@@ -1,0 +1,57 @@
+{
+  "name": "Electabuzz",
+  "id": 125,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "electivire",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "electirizer"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 83,
+        "DEF": 57,
+        "SP_ATK": 95,
+        "SP_DEF": 85,
+        "SPD": 105
+      },
+      "height": 1.1,
+      "weight": 30.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Electric",
+      "isBaseForm": true
+    }
+  }
+}

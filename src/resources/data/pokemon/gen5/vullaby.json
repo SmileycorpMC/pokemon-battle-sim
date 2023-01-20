@@ -1,0 +1,58 @@
+{
+  "name": "Vullaby",
+  "id": 629,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "ability1": "Big Pecks",
+      "ability2": "Overcoat",
+      "hiddenAbility": "Weak Armor",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "mandibuzz",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 54
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 55,
+        "DEF": 75,
+        "SP_ATK": 45,
+        "SP_DEF": 65,
+        "SPD": 60
+      },
+      "height": 0.5,
+      "weight": 9.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 74,
+      "classification": "Diapered",
+      "isBaseForm": true
+    }
+  }
+}

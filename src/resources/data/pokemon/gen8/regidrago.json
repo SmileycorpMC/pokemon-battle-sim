@@ -1,0 +1,48 @@
+{
+  "name": "Regidrago",
+  "id": 895,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Dragons Maw",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 200,
+        "ATK": 100,
+        "DEF": 50,
+        "SP_ATK": 100,
+        "SP_DEF": 50,
+        "SPD": 80
+      },
+      "height": 2.1,
+      "weight": 200.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Dragon Orb",
+      "isBaseForm": true
+    }
+  }
+}

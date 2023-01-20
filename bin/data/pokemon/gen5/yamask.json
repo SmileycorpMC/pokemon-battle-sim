@@ -1,0 +1,97 @@
+{
+  "name": "Yamask",
+  "id": 562,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral",
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Mummy",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "coffagrigus",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 38,
+        "ATK": 30,
+        "DEF": 85,
+        "SP_ATK": 55,
+        "SP_DEF": 65,
+        "SPD": 30
+      },
+      "height": 0.5,
+      "weight": 1.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Spirit",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "ability1": "Wandering Spirit",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "runerigus",
+            "form": "default"
+          },
+          "method": "take_damage",
+          "value": 49
+        }
+      ],
+      "stats": {
+        "HP": 38,
+        "ATK": 55,
+        "DEF": 85,
+        "SP_ATK": 30,
+        "SP_DEF": 65,
+        "SPD": 30
+      },
+      "height": 0.5,
+      "weight": 1.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Spirit",
+      "isBaseForm": true
+    }
+  }
+}

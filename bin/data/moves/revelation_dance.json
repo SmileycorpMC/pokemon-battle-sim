@@ -1,0 +1,25 @@
+{
+	"name": "Revelation Dance",
+	"type": "Normal",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"dance"
+	],
+	"primary_effects": [{
+		"function": "change_type",
+		"value": {
+			"type": "from_user",
+			"value": "primary_type"
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

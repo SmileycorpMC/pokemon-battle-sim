@@ -1,0 +1,59 @@
+{
+  "name": "Salandit",
+  "id": 757,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Fire"
+      ],
+      "ability1": "Corrosion",
+      "ability2": "",
+      "hiddenAbility": "Oblivious",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "salazzle",
+            "form": "default"
+          },
+          "method": "level_female",
+          "value": 33
+        }
+      ],
+      "stats": {
+        "HP": 48,
+        "ATK": 44,
+        "DEF": 40,
+        "SP_ATK": 71,
+        "SP_DEF": 40,
+        "SPD": 77
+      },
+      "height": 0.6,
+      "weight": 4.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Toxic Lizard",
+      "isBaseForm": true
+    }
+  }
+}

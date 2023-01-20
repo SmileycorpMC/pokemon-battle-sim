@@ -1,0 +1,58 @@
+{
+  "name": "Taillow",
+  "id": 276,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Guts",
+      "ability2": "",
+      "hiddenAbility": "Scrappy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "swellow",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 22
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 55,
+        "DEF": 30,
+        "SP_ATK": 30,
+        "SP_DEF": 30,
+        "SPD": 85
+      },
+      "height": 0.3,
+      "weight": 2.3,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Tiny Swallow",
+      "isBaseForm": true
+    }
+  }
+}

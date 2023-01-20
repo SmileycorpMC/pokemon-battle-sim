@@ -1,0 +1,50 @@
+{
+  "name": "Tropius",
+  "id": 357,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Solar Power",
+      "hiddenAbility": "Harvest",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 99,
+        "ATK": 68,
+        "DEF": 83,
+        "SP_ATK": 72,
+        "SP_DEF": 87,
+        "SPD": 51
+      },
+      "height": 2.0,
+      "weight": 100.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Fruit",
+      "isBaseForm": true
+    }
+  }
+}

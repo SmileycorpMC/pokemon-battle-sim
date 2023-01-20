@@ -1,0 +1,57 @@
+{
+  "name": "Magmar",
+  "id": 126,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "magmortar",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "magmarizer"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 95,
+        "DEF": 57,
+        "SP_ATK": 100,
+        "SP_DEF": 85,
+        "SPD": 93
+      },
+      "height": 1.3,
+      "weight": 44.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Spitfire",
+      "isBaseForm": true
+    }
+  }
+}

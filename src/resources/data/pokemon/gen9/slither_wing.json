@@ -1,0 +1,49 @@
+{
+  "name": "Slither Wing",
+  "id": 988,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 30,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+		"Fighting"
+      ],
+      "ability1": "Protosynthesis",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 135,
+        "DEF": 79,
+        "SP_ATK": 85,
+        "SP_DEF": 105,
+        "SPD": 81
+      },
+      "height": 3.2,
+      "weight": 92.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

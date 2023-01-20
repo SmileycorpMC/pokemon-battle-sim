@@ -1,0 +1,48 @@
+{
+  "name": "Spidops",
+  "id": 918,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 50,
+  "catchRate": 120,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "",
+      "hiddenAbility": "Stakeout",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 79,
+        "DEF": 92,
+        "SP_ATK": 52,
+        "SP_DEF": 86,
+        "SPD": 35
+      },
+      "height": 1.0,
+      "weight": 16.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 141,
+      "classification": "Trap",
+      "isBaseForm": true
+    }
+  }
+}

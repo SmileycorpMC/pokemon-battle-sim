@@ -1,0 +1,57 @@
+{
+  "name": "Shellder",
+  "id": 90,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Shell Armor",
+      "ability2": "Skill Link",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "cloyster",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "water_stone"
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 65,
+        "DEF": 100,
+        "SP_ATK": 45,
+        "SP_DEF": 25,
+        "SPD": 40
+      },
+      "height": 0.3,
+      "weight": 4.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Bivalve",
+      "isBaseForm": true
+    }
+  }
+}

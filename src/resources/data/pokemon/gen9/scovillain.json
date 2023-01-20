@@ -1,0 +1,48 @@
+{
+  "name": "Scovillain",
+  "id": 952,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 75,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+	"Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Grass",
+		"Fire"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "Insomnia",
+      "hiddenAbility": "Moody",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 108,
+        "DEF": 65,
+        "SP_ATK": 108,
+        "SP_DEF": 56,
+        "SPD": 75
+      },
+      "height": 0.9,
+      "weight": 15.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Spicy Pepper",
+      "isBaseForm": true
+	}
+  }
+}

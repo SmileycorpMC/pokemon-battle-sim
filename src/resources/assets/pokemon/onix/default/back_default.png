@@ -1,0 +1,65 @@
+{
+  "name": "Keldeo",
+  "id": 647,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 35,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "ability1": "Justified",
+      "stats": {
+        "HP": 91,
+        "ATK": 72,
+        "DEF": 90,
+        "SP_ATK": 129,
+        "SP_DEF": 90,
+        "SPD": 108
+      },
+      "height": 1.4,
+      "weight": 48.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Colt",
+      "isBaseForm": true
+    },
+    "resolute": {
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "ability1": "Justified",
+      "stats": {
+        "HP": 91,
+        "ATK": 72,
+        "DEF": 90,
+        "SP_ATK": 129,
+        "SP_DEF": 90,
+        "SPD": 108
+      },
+      "height": 1.4,
+      "weight": 48.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDr

@@ -1,0 +1,50 @@
+{
+  "name": "Golisopod",
+  "id": 768,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "ability1": "Emergency Exit",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 125,
+        "DEF": 140,
+        "SP_ATK": 60,
+        "SP_DEF": 90,
+        "SPD": 40
+      },
+      "height": 2.0,
+      "weight": 108.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 186,
+      "classification": "Hard Scale",
+      "isBaseForm": true
+    }
+  }
+}

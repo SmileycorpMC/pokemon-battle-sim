@@ -1,0 +1,49 @@
+{
+  "name": "Armaldo",
+  "id": 348,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Bug"
+      ],
+      "ability1": "Battle Armor",
+      "ability2": "",
+      "hiddenAbility": "Swift Swim",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 125,
+        "DEF": 100,
+        "SP_ATK": 70,
+        "SP_DEF": 80,
+        "SPD": 45
+      },
+      "height": 1.5,
+      "weight": 68.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Plate",
+      "isBaseForm": true
+    }
+  }
+}

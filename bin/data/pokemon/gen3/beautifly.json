@@ -1,0 +1,49 @@
+{
+  "name": "Beautifly",
+  "id": 267,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Swarm",
+      "ability2": "",
+      "hiddenAbility": "Rivalry",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 70,
+        "DEF": 50,
+        "SP_ATK": 100,
+        "SP_DEF": 50,
+        "SPD": 65
+      },
+      "height": 1.0,
+      "weight": 28.4,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 178,
+      "classification": "Butterfly",
+      "isBaseForm": true
+    }
+  }
+}

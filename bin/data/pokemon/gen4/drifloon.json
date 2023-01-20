@@ -1,0 +1,58 @@
+{
+  "name": "Drifloon",
+  "id": 425,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Flying"
+      ],
+      "ability1": "Aftermath",
+      "ability2": "Unburden",
+      "hiddenAbility": "Flare Boost",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "drifblim",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 28
+        }
+      ],
+      "stats": {
+        "HP": 90,
+        "ATK": 50,
+        "DEF": 34,
+        "SP_ATK": 60,
+        "SP_DEF": 44,
+        "SPD": 70
+      },
+      "height": 0.4,
+      "weight": 1.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Balloon",
+      "isBaseForm": true
+    }
+  }
+}

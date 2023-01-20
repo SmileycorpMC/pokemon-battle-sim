@@ -1,0 +1,49 @@
+{
+  "name": "Dracozolt",
+  "id": 880,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 35,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "ability1": "Volt Absorb",
+      "ability2": "Hustle",
+      "hiddenAbility": "Sand Rush",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 100,
+        "DEF": 90,
+        "SP_ATK": 80,
+        "SP_DEF": 70,
+        "SPD": 75
+      },
+      "height": 1.8,
+      "weight": 190.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 177,
+      "classification": "Fossil",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Crawdaunt",
+  "id": 342,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Water_1",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Adaptability",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 63,
+        "ATK": 120,
+        "DEF": 85,
+        "SP_ATK": 90,
+        "SP_DEF": 55,
+        "SPD": 55
+      },
+      "height": 1.1,
+      "weight": 32.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 164,
+      "classification": "Rogue",
+      "isBaseForm": true
+    }
+  }
+}

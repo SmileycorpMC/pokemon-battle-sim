@@ -1,0 +1,48 @@
+{
+  "name": "Glimmet",
+  "id": 969,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 50,
+  "catchRate": 70,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+	"Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Rock",
+		"Poison"
+      ],
+      "ability1": "Toxic Debris",
+      "ability2": "",
+      "hiddenAbility": "Corrosion",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 35,
+        "DEF": 42,
+        "SP_ATK": 105,
+        "SP_DEF": 60,
+        "SPD": 60
+      },
+      "height": 0.7,
+      "weight": 8.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Ore",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Musharna",
+  "id": 518,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Forewarn",
+      "ability2": "Synchronize",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 116,
+        "ATK": 55,
+        "DEF": 85,
+        "SP_ATK": 107,
+        "SP_DEF": 95,
+        "SPD": 29
+      },
+      "height": 1.1,
+      "weight": 60.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Drowsing",
+      "isBaseForm": true
+    }
+  }
+}

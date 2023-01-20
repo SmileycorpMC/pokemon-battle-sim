@@ -1,0 +1,52 @@
+{
+  "name": "Dusknoir",
+  "id": 477,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Frisk",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 100,
+        "DEF": 135,
+        "SP_ATK": 65,
+        "SP_DEF": 135,
+        "SPD": 45
+      },
+      "height": 2.2,
+      "weight": 106.6,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 263,
+      "classification": "Gripper",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Pheromosa",
+  "id": 795,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 71,
+        "ATK": 137,
+        "DEF": 37,
+        "SP_ATK": 137,
+        "SP_DEF": 37,
+        "SPD": 151
+      },
+      "height": 1.8,
+      "weight": 25.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Lissome",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Magikarp",
+  "id": 129,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 5,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_2",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "gyarados",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 20,
+        "ATK": 10,
+        "DEF": 55,
+        "SP_ATK": 15,
+        "SP_DEF": 20,
+        "SPD": 80
+      },
+      "height": 0.9,
+      "weight": 10.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 40,
+      "classification": "Fish",
+      "isBaseForm": true
+    }
+  }
+}

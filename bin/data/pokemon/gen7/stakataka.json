@@ -1,0 +1,49 @@
+{
+  "name": "Stakataka",
+  "id": 805,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Steel"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 61,
+        "ATK": 131,
+        "DEF": 211,
+        "SP_ATK": 53,
+        "SP_DEF": 101,
+        "SPD": 13
+      },
+      "height": 5.5,
+      "weight": 820.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Rampart",
+      "isBaseForm": true
+    }
+  }
+}

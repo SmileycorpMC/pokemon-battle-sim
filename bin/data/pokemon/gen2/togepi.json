@@ -1,0 +1,56 @@
+{
+  "name": "Togepi",
+  "id": 175,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Hustle",
+      "ability2": "Serene Grace",
+      "hiddenAbility": "Super Luck",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "togetic",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 35,
+        "ATK": 20,
+        "DEF": 65,
+        "SP_ATK": 40,
+        "SP_DEF": 65,
+        "SPD": 20
+      },
+      "height": 0.3,
+      "weight": 1.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 49,
+      "classification": "Spike Ball",
+      "isBaseForm": true
+    }
+  }
+}

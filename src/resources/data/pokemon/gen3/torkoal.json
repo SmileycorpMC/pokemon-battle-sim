@@ -1,0 +1,48 @@
+{
+  "name": "Torkoal",
+  "id": 324,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "White Smoke",
+      "ability2": "Drought",
+      "hiddenAbility": "Shell Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 85,
+        "DEF": 140,
+        "SP_ATK": 85,
+        "SP_DEF": 70,
+        "SPD": 20
+      },
+      "height": 0.5,
+      "weight": 80.4,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Coal",
+      "isBaseForm": true
+    }
+  }
+}

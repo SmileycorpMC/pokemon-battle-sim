@@ -1,0 +1,49 @@
+{
+  "name": "Lunala",
+  "id": 792,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "ability1": "Shadow Shield",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 137,
+        "ATK": 113,
+        "DEF": 89,
+        "SP_ATK": 137,
+        "SP_DEF": 107,
+        "SPD": 97
+      },
+      "height": 4.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Moone",
+      "isBaseForm": true
+    }
+  }
+}

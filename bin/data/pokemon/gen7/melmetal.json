@@ -1,0 +1,77 @@
+{
+  "name": "Melmetal",
+  "id": 809,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Iron Fist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 135,
+        "ATK": 143,
+        "DEF": 143,
+        "SP_ATK": 80,
+        "SP_DEF": 65,
+        "SPD": 34
+      },
+      "height": 2.5,
+      "weight": 800.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Hex Nut",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Iron Fist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 135,
+        "ATK": 143,
+        "DEF": 143,
+        "SP_ATK": 80,
+        "SP_DEF": 65,
+        "SPD": 34
+      },
+      "height": 25.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Hex Nut",
+      "isBaseForm": false
+    }
+  }
+}

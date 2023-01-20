@@ -1,0 +1,22 @@
+{
+	"name": "Double Hit",
+	"type": "Normal",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 35,
+	"accuracy": 90,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": 140,
+	"max_move_power": 120,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "set_hit_count",
+		"value": 2,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

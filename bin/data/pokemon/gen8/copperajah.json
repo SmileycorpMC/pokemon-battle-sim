@@ -1,0 +1,78 @@
+{
+  "name": "Copperajah",
+  "id": 879,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Sheer Force",
+      "ability2": "",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 122,
+        "ATK": 130,
+        "DEF": 69,
+        "SP_ATK": 80,
+        "SP_DEF": 69,
+        "SPD": 30
+      },
+      "height": 3.0,
+      "weight": 650.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Copperderm",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Steel"
+      ],
+      "ability1": "Sheer Force",
+      "ability2": "",
+      "hiddenAbility": "Heavy Metal",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 122,
+        "ATK": 130,
+        "DEF": 69,
+        "SP_ATK": 80,
+        "SP_DEF": 69,
+        "SPD": 30
+      },
+      "height": 23.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Copperderm",
+      "isBaseForm": false
+    }
+  }
+}

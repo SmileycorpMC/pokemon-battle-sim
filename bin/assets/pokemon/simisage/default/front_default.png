@@ -1,0 +1,57 @@
+{
+  "name": "Eternatus",
+  "id": 890,
+  "genderRatio": -1,
+  "canDynamax": false,
+  "isLegendary": true,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 255,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "ability1": "Pressure",
+      "stats": {
+        "HP": 140,
+        "ATK": 85,
+        "DEF": 95,
+        "SP_ATK": 145,
+        "SP_DEF": 95,
+        "SPD": 130
+      },
+      "height": 20.0,
+      "weight": 950.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 345,
+      "classification": "Gigantic",
+      "isBaseForm": true
+    },
+    "eternamax": {
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "ability1": "Pressure",
+      "stats": {
+        "HP": 255,
+        "ATK": 115,
+        "DEF": 250,
+        "SP_ATK": 125,
+        "SP_DEF": 250,
+        "SPD": 130
+      },
+      "he

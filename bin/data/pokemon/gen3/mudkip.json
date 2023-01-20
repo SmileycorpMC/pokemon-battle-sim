@@ -1,0 +1,58 @@
+{
+  "name": "Mudkip",
+  "id": 258,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Damp",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "marshtomp",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 16
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 70,
+        "DEF": 50,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 40
+      },
+      "height": 0.4,
+      "weight": 7.6,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Mud Fish",
+      "isBaseForm": true
+    }
+  }
+}

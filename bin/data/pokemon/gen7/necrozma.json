@@ -1,0 +1,150 @@
+{
+  "name": "Necrozma",
+  "id": 800,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Prism Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 107,
+        "DEF": 101,
+        "SP_ATK": 127,
+        "SP_DEF": 89,
+        "SPD": 79
+      },
+      "height": 2.4,
+      "weight": 230.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Prism",
+      "isBaseForm": true
+    },
+    "dusk": {
+      "types": [
+        "Psychic",
+        "Steel"
+      ],
+      "ability1": "Prism Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 157,
+        "DEF": 127,
+        "SP_ATK": 113,
+        "SP_DEF": 109,
+        "SPD": 77
+      },
+      "height": 3.8,
+      "weight": 460.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Prism",
+      "isBaseForm": true
+    },
+    "dawn": {
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "ability1": "Prism Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 113,
+        "DEF": 109,
+        "SP_ATK": 157,
+        "SP_DEF": 127,
+        "SPD": 77
+      },
+      "height": 4.2,
+      "weight": 350.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Prism",
+      "isBaseForm": true
+    },
+    "ultra": {
+      "types": [
+        "Psychic",
+        "Dragon"
+      ],
+      "ability1": "Neuroforce",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 167,
+        "DEF": 97,
+        "SP_ATK": 167,
+        "SP_DEF": 97,
+        "SPD": 129
+      },
+      "height": 7.5,
+      "weight": 230.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 339,
+      "classification": "Prism",
+      "isBaseForm": false
+    }
+  }
+}

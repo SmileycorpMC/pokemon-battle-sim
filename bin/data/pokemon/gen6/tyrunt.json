@@ -1,0 +1,59 @@
+{
+  "name": "Tyrunt",
+  "id": 696,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Dragon"
+      ],
+      "ability1": "Strong Jaw",
+      "ability2": "",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "tyrantrum",
+            "form": "default"
+          },
+          "method": "level_day",
+          "value": 39
+        }
+      ],
+      "stats": {
+        "HP": 58,
+        "ATK": 89,
+        "DEF": 77,
+        "SP_ATK": 45,
+        "SP_DEF": 45,
+        "SPD": 48
+      },
+      "height": 0.8,
+      "weight": 26.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Royal Heir",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "is_harsh": false,
+  "stat_modifiers": [
+    {
+      "type": "rock",
+      "stat": "SP_DEF",
+      "multiplier": 1.5
+    }
+  ],
+  "effects": [
+    {
+      "effects": [
+        {
+          "event": "on_turn_end",
+          "functions": [
+            {
+              "function": "fractional_damage",
+              "value": 0.0625,
+              "conditions": [
+                {
+                  "mode": "comparison",
+                  "value": {
+                    "type": "string",
+                    "value1": {
+                      "type": "from_current_pokemon",
+                      "target": "types"
+                    },
+                    "operator": "!=",
+                    "value2": [
+                      "rock",
+                      "ground",
+                      "steel"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+5,
+        "DEF": 95,
+        "SP_ATK": 95,
+        "SP_DEF": 95,
+        "SPD": 95
+      },
+      "height": 2.3,
+      "weight": 100.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Synthetic",
+      "isBaseForm": false
+    },
+    "fire": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Rks System",
+      "stats": {
+        "HP": 95,
+        "ATK": 95,
+        "DEF": 95,
+        "SP_ATK": 95,
+        "SP_DEF": 95,
+        "SPD": 95
+      },
+      "height": 2.3,
+      "weight": 100.5,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Synthetic",
+  

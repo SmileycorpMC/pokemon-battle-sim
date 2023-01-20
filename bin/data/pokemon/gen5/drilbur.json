@@ -1,0 +1,57 @@
+{
+  "name": "Drilbur",
+  "id": 529,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ground"
+      ],
+      "ability1": "Sand Rush",
+      "ability2": "Sand Force",
+      "hiddenAbility": "Mold Breaker",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "excadrill",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 31
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 85,
+        "DEF": 40,
+        "SP_ATK": 30,
+        "SP_DEF": 45,
+        "SPD": 68
+      },
+      "height": 0.3,
+      "weight": 8.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 66,
+      "classification": "Mole",
+      "isBaseForm": true
+    }
+  }
+}

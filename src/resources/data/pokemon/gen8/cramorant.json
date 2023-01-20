@@ -1,0 +1,110 @@
+{
+  "name": "Cramorant",
+  "id": 845,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Flying",
+        "Water"
+      ],
+      "ability1": "Gulp Missile",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 85,
+        "DEF": 55,
+        "SP_ATK": 85,
+        "SP_DEF": 95,
+        "SPD": 85
+      },
+      "height": 0.8,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Gulp",
+      "isBaseForm": true
+    },
+    "gulping": {
+      "types": [
+        "Flying",
+        "Water"
+      ],
+      "ability1": "Gulp Missile",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 85,
+        "DEF": 55,
+        "SP_ATK": 85,
+        "SP_DEF": 95,
+        "SPD": 85
+      },
+      "height": 0.8,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Gulp",
+      "isBaseForm": false
+    },
+    "gorging": {
+      "types": [
+        "Flying",
+        "Water"
+      ],
+      "ability1": "Gulp Missile",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 85,
+        "DEF": 55,
+        "SP_ATK": 85,
+        "SP_DEF": 95,
+        "SPD": 85
+      },
+      "height": 0.8,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Gulp",
+      "isBaseForm": false
+    }
+  }
+}

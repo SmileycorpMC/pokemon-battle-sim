@@ -1,0 +1,49 @@
+{
+  "name": "Illumise",
+  "id": 314,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Bug",
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Tinted Lens",
+      "hiddenAbility": "Prankster",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 47,
+        "DEF": 75,
+        "SP_ATK": 73,
+        "SP_DEF": 85,
+        "SPD": 85
+      },
+      "height": 0.6,
+      "weight": 17.7,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 151,
+      "classification": "Firefly",
+      "isBaseForm": true
+    }
+  }
+}

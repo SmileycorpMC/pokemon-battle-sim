@@ -1,0 +1,58 @@
+{
+  "name": "Yanma",
+  "id": 193,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Speed Boost",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Frisk",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "yanmega",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "ancient_powe"
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 65,
+        "DEF": 45,
+        "SP_ATK": 75,
+        "SP_DEF": 45,
+        "SPD": 95
+      },
+      "height": 1.2,
+      "weight": 38.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 78,
+      "classification": "Clear Wing",
+      "isBaseForm": true
+    }
+  }
+}

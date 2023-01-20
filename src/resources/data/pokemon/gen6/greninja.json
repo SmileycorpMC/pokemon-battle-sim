@@ -1,0 +1,81 @@
+{
+  "name": "Greninja",
+  "id": 658,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Protean",
+      "eventAbilities": [
+        "Battle Bond"
+      ],
+      "evolutions": [],
+      "stats": {
+        "HP": 72,
+        "ATK": 95,
+        "DEF": 67,
+        "SP_ATK": 103,
+        "SP_DEF": 71,
+        "SPD": 122
+      },
+      "height": 1.5,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 239,
+      "classification": "Ninja",
+      "isBaseForm": true
+    },
+    "ash": {
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "ability1": "Battle Bond",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 72,
+        "ATK": 145,
+        "DEF": 67,
+        "SP_ATK": 153,
+        "SP_DEF": 71,
+        "SPD": 132
+      },
+      "height": 1.5,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 288,
+      "classification": "Ninja",
+      "isBaseForm": false
+    }
+  }
+}

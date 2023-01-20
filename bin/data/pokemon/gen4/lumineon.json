@@ -1,0 +1,48 @@
+{
+  "name": "Lumineon",
+  "id": 457,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Storm Drain",
+      "hiddenAbility": "Water Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 69,
+        "ATK": 69,
+        "DEF": 76,
+        "SP_ATK": 69,
+        "SP_DEF": 86,
+        "SPD": 91
+      },
+      "height": 1.2,
+      "weight": 24.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Neon",
+      "isBaseForm": true
+    }
+  }
+}

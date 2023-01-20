@@ -1,0 +1,45 @@
+{
+	"name": "Acupressure",
+	"type": "Normal",
+	"category": "status",
+	"target": "select_self_or_adjacent_ally",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 30,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"bypasses_protection"
+	],
+	"primary_effects": [{
+		"function": "raise_random_stat_target",
+		"value": {
+			"stats": [
+				"ATK",
+				"DEF",
+				"SP_ATK",
+				"SP_DEF",
+				"SPD",
+				"Accuracy",
+				"Evasion"
+			],
+			"amount": 2,
+			"conditions": [{
+				"mode": "predicate_comparison",
+				"value": {
+					"type": "int",
+					"operator": "<",
+					"value": 6
+				}
+			}]
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "permanently_increase_crit_chance",
+		"value": 2,
+		"conditions": []
+	}]
+}

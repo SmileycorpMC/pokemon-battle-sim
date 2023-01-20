@@ -1,0 +1,139 @@
+{
+  "name": "Urshifu",
+  "id": 892,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "single-strike": {
+      "types": [
+        "Fighting",
+        "Dark"
+      ],
+      "ability1": "Unseen Fist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 130,
+        "DEF": 100,
+        "SP_ATK": 63,
+        "SP_DEF": 60,
+        "SPD": 97
+      },
+      "height": 1.9,
+      "weight": 105.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Wushu",
+      "isBaseForm": true
+    },
+    "rapid-strike": {
+      "types": [
+        "Fighting",
+        "Water"
+      ],
+      "ability1": "Unseen Fist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 130,
+        "DEF": 100,
+        "SP_ATK": 63,
+        "SP_DEF": 60,
+        "SPD": 97
+      },
+      "height": 1.9,
+      "weight": 105.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Wushu",
+      "isBaseForm": true
+    },
+    "single-strike-gmax": {
+      "types": [
+        "Fighting",
+        "Dark"
+      ],
+      "ability1": "Unseen Fist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 130,
+        "DEF": 100,
+        "SP_ATK": 63,
+        "SP_DEF": 60,
+        "SPD": 97
+      },
+      "height": 29.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Wushu",
+      "isBaseForm": false
+    },
+    "rapid-strike-gmax": {
+      "types": [
+        "Fighting",
+        "Water"
+      ],
+      "ability1": "Unseen Fist",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 130,
+        "DEF": 100,
+        "SP_ATK": 63,
+        "SP_DEF": 60,
+        "SPD": 97
+      },
+      "height": 26.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 275,
+      "classification": "Wushu",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Igglybuff",
+  "id": 174,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "ability1": "Cute Charm",
+      "ability2": "Competitive",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "jigglypuff",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 90,
+        "ATK": 30,
+        "DEF": 15,
+        "SP_ATK": 40,
+        "SP_DEF": 20,
+        "SPD": 15
+      },
+      "height": 0.3,
+      "weight": 1.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 42,
+      "classification": "Balloon",
+      "isBaseForm": true
+    }
+  }
+}

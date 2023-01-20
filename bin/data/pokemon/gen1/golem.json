@@ -1,0 +1,79 @@
+{
+  "name": "Golem",
+  "id": 76,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 120,
+        "DEF": 130,
+        "SP_ATK": 55,
+        "SP_DEF": 65,
+        "SPD": 45
+      },
+      "height": 1.4,
+      "weight": 300.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 223,
+      "classification": "Megaton",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Rock",
+        "Electric"
+      ],
+      "ability1": "Magnet Pull",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Galvanize",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 120,
+        "DEF": 130,
+        "SP_ATK": 55,
+        "SP_DEF": 65,
+        "SPD": 45
+      },
+      "height": 1.7,
+      "weight": 316.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 223,
+      "classification": "Megaton",
+      "isBaseForm": true
+    }
+  }
+}

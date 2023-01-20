@@ -1,0 +1,49 @@
+{
+  "name": "Unfezant",
+  "id": 521,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Big Pecks",
+      "ability2": "Super Luck",
+      "hiddenAbility": "Rivalry",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 115,
+        "DEF": 80,
+        "SP_ATK": 65,
+        "SP_DEF": 55,
+        "SPD": 93
+      },
+      "height": 1.2,
+      "weight": 29.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 244,
+      "classification": "Proud",
+      "isBaseForm": true
+    }
+  }
+}

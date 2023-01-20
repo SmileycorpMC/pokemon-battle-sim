@@ -1,0 +1,48 @@
+{
+  "name": "Varoom",
+  "id": 965,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+	"Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Steel",
+		"Poison"
+      ],
+      "ability1": "Overcoat",
+      "ability2": "",
+      "hiddenAbility": "Slow Start",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 45,
+        "ATK": 70,
+        "DEF": 63,
+        "SP_ATK": 30,
+        "SP_DEF": 35,
+        "SPD": 47
+      },
+      "height": 1.0,
+      "weight": 35.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Single-Cyl",
+      "isBaseForm": true
+	}
+  }
+}

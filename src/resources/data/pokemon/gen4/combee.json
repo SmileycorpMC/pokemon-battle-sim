@@ -1,0 +1,58 @@
+{
+  "name": "Combee",
+  "id": 415,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Honey Gather",
+      "ability2": "",
+      "hiddenAbility": "Hustle",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "vespiquen",
+            "form": "default"
+          },
+          "method": "level_female",
+          "value": 21
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 30,
+        "DEF": 42,
+        "SP_ATK": 30,
+        "SP_DEF": 42,
+        "SPD": 70
+      },
+      "height": 0.3,
+      "weight": 5.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 49,
+      "classification": "Tiny Bee",
+      "isBaseForm": true
+    }
+  }
+}

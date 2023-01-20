@@ -1,0 +1,79 @@
+{
+  "name": "Articuno",
+  "id": 144,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 80,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Snow Cloak",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 85,
+        "DEF": 100,
+        "SP_ATK": 95,
+        "SP_DEF": 125,
+        "SPD": 85
+      },
+      "height": 1.7,
+      "weight": 55.4,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Freeze",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "ability1": "Competitive",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 85,
+        "DEF": 85,
+        "SP_ATK": 125,
+        "SP_DEF": 100,
+        "SPD": 95
+      },
+      "height": 1.7,
+      "weight": 50.9,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Cruel",
+      "isBaseForm": true
+    }
+  }
+}

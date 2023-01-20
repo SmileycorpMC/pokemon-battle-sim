@@ -1,0 +1,80 @@
+{
+  "name": "Lapras",
+  "id": 131,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "ability1": "Water Absorb",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 130,
+        "ATK": 85,
+        "DEF": 80,
+        "SP_ATK": 85,
+        "SP_DEF": 95,
+        "SPD": 60
+      },
+      "height": 2.5,
+      "weight": 220.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 187,
+      "classification": "Transport",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "ability1": "Water Absorb",
+      "ability2": "Shell Armor",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 130,
+        "ATK": 85,
+        "DEF": 80,
+        "SP_ATK": 85,
+        "SP_DEF": 95,
+        "SPD": 60
+      },
+      "height": 24.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 187,
+      "classification": "Transport",
+      "isBaseForm": false
+    }
+  }
+}

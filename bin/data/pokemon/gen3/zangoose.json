@@ -1,0 +1,48 @@
+{
+  "name": "Zangoose",
+  "id": 335,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Immunity",
+      "ability2": "",
+      "hiddenAbility": "Toxic Boost",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 73,
+        "ATK": 115,
+        "DEF": 60,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 90
+      },
+      "height": 1.3,
+      "weight": 40.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 160,
+      "classification": "Cat Ferret",
+      "isBaseForm": true
+    }
+  }
+}

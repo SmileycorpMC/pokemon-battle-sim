@@ -1,0 +1,56 @@
+{
+  "name": "Munchlax",
+  "id": 446,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Pickup",
+      "ability2": "Thick Fat",
+      "hiddenAbility": "Gluttony",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "snorlax",
+            "form": "default"
+          },
+          "method": "happiness"
+        }
+      ],
+      "stats": {
+        "HP": 135,
+        "ATK": 85,
+        "DEF": 40,
+        "SP_ATK": 40,
+        "SP_DEF": 85,
+        "SPD": 5
+      },
+      "height": 0.6,
+      "weight": 105.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 78,
+      "classification": "Big Eater",
+      "isBaseForm": true
+    }
+  }
+}

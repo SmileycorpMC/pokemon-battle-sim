@@ -1,0 +1,59 @@
+{
+  "name": "Surskit",
+  "id": 283,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "",
+      "hiddenAbility": "Rain Dish",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "masquerain",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 22
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 30,
+        "DEF": 32,
+        "SP_ATK": 50,
+        "SP_DEF": 52,
+        "SPD": 65
+      },
+      "height": 0.5,
+      "weight": 1.7,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Pond Skater",
+      "isBaseForm": true
+    }
+  }
+}

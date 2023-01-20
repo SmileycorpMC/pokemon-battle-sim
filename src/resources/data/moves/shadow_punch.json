@@ -1,0 +1,19 @@
+{
+	"name": "Shadow Punch",
+	"type": "Ghost",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 60,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact",
+		"punching"
+	],
+	"primary_effects": [],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

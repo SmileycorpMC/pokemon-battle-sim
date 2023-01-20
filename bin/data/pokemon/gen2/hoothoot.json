@@ -1,0 +1,58 @@
+{
+  "name": "Hoothoot",
+  "id": 163,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "Keen Eye",
+      "hiddenAbility": "Tinted Lens",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "noctowl",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 30,
+        "DEF": 30,
+        "SP_ATK": 36,
+        "SP_DEF": 56,
+        "SPD": 50
+      },
+      "height": 0.7,
+      "weight": 21.2,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 52,
+      "classification": "Owl",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Tinkatink",
+  "id": 957,
+  "genderRatio": 8,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 50,
+  "catchRate": 190,
+  "expRate": "Medium_slow",
+  "eggGroups": [
+	"Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+		"Fairy",
+		"Steel"
+      ],
+      "ability1": "Mold Breaker",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Pickpocket",
+      "eventAbilities": [],
+      "stats": {
+        "HP": 50,
+        "ATK": 45,
+        "DEF": 45,
+        "SP_ATK": 35,
+        "SP_DEF": 64,
+        "SPD": 58
+      },
+      "height": 0.4,
+      "weight": 8.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 59,
+      "classification": "Metalsmith",
+      "isBaseForm": true
+	}
+  }
+}

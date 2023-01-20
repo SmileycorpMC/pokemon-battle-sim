@@ -1,0 +1,57 @@
+{
+  "name": "Glameow",
+  "id": 431,
+  "genderRatio": 6,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Limber",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Keen Eye",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "purugly",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 38
+        }
+      ],
+      "stats": {
+        "HP": 49,
+        "ATK": 55,
+        "DEF": 42,
+        "SP_ATK": 42,
+        "SP_DEF": 37,
+        "SPD": 85
+      },
+      "height": 0.5,
+      "weight": 3.9,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 62,
+      "classification": "Catty",
+      "isBaseForm": true
+    }
+  }
+}

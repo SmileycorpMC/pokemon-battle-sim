@@ -1,0 +1,57 @@
+{
+  "name": "Roggenrola",
+  "id": 524,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Weak Armor",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "boldore",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 75,
+        "DEF": 85,
+        "SP_ATK": 25,
+        "SP_DEF": 25,
+        "SPD": 15
+      },
+      "height": 0.4,
+      "weight": 18.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 56,
+      "classification": "Mantle",
+      "isBaseForm": true
+    }
+  }
+}

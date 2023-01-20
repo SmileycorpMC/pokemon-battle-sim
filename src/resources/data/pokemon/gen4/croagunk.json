@@ -1,0 +1,58 @@
+{
+  "name": "Croagunk",
+  "id": 453,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison",
+        "Fighting"
+      ],
+      "ability1": "Anticipation",
+      "ability2": "Dry Skin",
+      "hiddenAbility": "Poison Touch",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "toxicroak",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        }
+      ],
+      "stats": {
+        "HP": 48,
+        "ATK": 61,
+        "DEF": 40,
+        "SP_ATK": 61,
+        "SP_DEF": 40,
+        "SPD": 50
+      },
+      "height": 0.7,
+      "weight": 23.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Toxic Mouth",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Fomantis",
+  "id": 753,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "",
+      "hiddenAbility": "Contrary",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lurantis",
+            "form": "default"
+          },
+          "method": "level_day",
+          "value": 34
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 55,
+        "DEF": 35,
+        "SP_ATK": 50,
+        "SP_DEF": 35,
+        "SPD": 35
+      },
+      "height": 0.3,
+      "weight": 1.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 50,
+      "classification": "Sickle Grass",
+      "isBaseForm": true
+    }
+  }
+}

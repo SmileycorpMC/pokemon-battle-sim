@@ -1,0 +1,79 @@
+{
+  "name": "Raichu",
+  "id": 26,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Static",
+      "ability2": "",
+      "hiddenAbility": "Lightning Rod",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 90,
+        "DEF": 55,
+        "SP_ATK": 90,
+        "SP_DEF": 80,
+        "SPD": 110
+      },
+      "height": 0.8,
+      "weight": 30.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Mouse",
+      "isBaseForm": true
+    },
+    "alola": {
+      "types": [
+        "Electric",
+        "Psychic"
+      ],
+      "ability1": "Surge Surfer",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 85,
+        "DEF": 50,
+        "SP_ATK": 95,
+        "SP_DEF": 85,
+        "SPD": 110
+      },
+      "height": 0.7,
+      "weight": 21.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Mouse",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Avalugg",
+  "id": 713,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Own Tempo",
+      "ability2": "Ice Body",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 117,
+        "DEF": 184,
+        "SP_ATK": 44,
+        "SP_DEF": 46,
+        "SPD": 28
+      },
+      "height": 2.0,
+      "weight": 505.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 180,
+      "classification": "Iceberg",
+      "isBaseForm": true
+    },
+    "hisui": {
+      "types": [
+        "Ice",
+        "Rock"
+      ],
+      "ability1": "Strong Jaw",
+      "ability2": "Ice Body",
+      "hiddenAbility": "Sturdy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 127,
+        "DEF": 184,
+        "SP_ATK": 34,
+        "SP_DEF": 36,
+        "SPD": 38
+      },
+      "height": 1.4,
+      "weight": 262.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 180,
+      "classification": "Iceberg",
+      "isBaseForm": true
+    }
+  }
+}

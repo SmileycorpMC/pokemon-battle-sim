@@ -1,0 +1,58 @@
+{
+  "name": "Weedle",
+  "id": 13,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "",
+      "hiddenAbility": "Run Away",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kakuna",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 7
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 35,
+        "DEF": 30,
+        "SP_ATK": 20,
+        "SP_DEF": 20,
+        "SPD": 50
+      },
+      "height": 0.3,
+      "weight": 3.2,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 39,
+      "classification": "Hairy Bug",
+      "isBaseForm": true
+    }
+  }
+}

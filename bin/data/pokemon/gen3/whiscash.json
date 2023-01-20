@@ -1,0 +1,49 @@
+{
+  "name": "Whiscash",
+  "id": 340,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Anticipation",
+      "hiddenAbility": "Hydration",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 78,
+        "DEF": 73,
+        "SP_ATK": 76,
+        "SP_DEF": 71,
+        "SPD": 60
+      },
+      "height": 0.9,
+      "weight": 23.6,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 2
+        }
+      ],
+      "expDrop": 164,
+      "classification": "Whiskers",
+      "isBaseForm": true
+    }
+  }
+}

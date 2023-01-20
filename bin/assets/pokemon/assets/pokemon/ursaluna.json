@@ -1,0 +1,44 @@
+{
+  "name": "Grimer",
+  "id": 88,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 70,
+  "catchRate": 190,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Poison"
+      ],
+      "ability1": "Stench",
+      "ability2": "Sticky Hold",
+      "hiddenAbility": "Poison Touch",
+      "stats": {
+        "HP": 80,
+        "ATK": 80,
+        "DEF": 50,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 25
+      },
+      "height": 0.9,
+      "weight": 30.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Sludge",
+      "isBaseForm": true
+    },
+    "alola

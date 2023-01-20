@@ -1,0 +1,96 @@
+{
+  "name": "Zigzagoon",
+  "id": 263,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Pickup",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Quick Feet",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "linoone",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 38,
+        "ATK": 30,
+        "DEF": 41,
+        "SP_ATK": 30,
+        "SP_DEF": 41,
+        "SPD": 60
+      },
+      "height": 0.4,
+      "weight": 17.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 56,
+      "classification": "Tiny Raccoon",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Dark",
+        "Normal"
+      ],
+      "ability1": "Pickup",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Quick Feet",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "linoone",
+            "form": "galar"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 38,
+        "ATK": 30,
+        "DEF": 41,
+        "SP_ATK": 30,
+        "SP_DEF": 41,
+        "SPD": 60
+      },
+      "height": 0.4,
+      "weight": 17.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 56,
+      "classification": "Tiny Raccoon",
+      "isBaseForm": true
+    }
+  }
+}

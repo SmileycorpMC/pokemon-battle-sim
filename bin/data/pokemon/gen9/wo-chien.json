@@ -1,0 +1,49 @@
+{
+  "name": "Wo-Chien",
+  "id": 1001,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 6,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Grass"
+      ],
+      "ability1": "Tablets of Ruin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 85,
+        "DEF": 100,
+        "SP_ATK": 95,
+        "SP_DEF": 135,
+        "SPD": 70
+      },
+      "height": 1.5,
+      "weight": 74.2,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Ruinous",
+      "isBaseForm": true
+    }
+  }
+}

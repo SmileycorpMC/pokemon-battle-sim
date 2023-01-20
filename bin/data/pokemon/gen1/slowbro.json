@@ -1,0 +1,110 @@
+{
+  "name": "Slowbro",
+  "id": 80,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 75,
+        "DEF": 110,
+        "SP_ATK": 100,
+        "SP_DEF": 80,
+        "SPD": 30
+      },
+      "height": 1.6,
+      "weight": 78.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Hermit Crab",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Shell Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 75,
+        "DEF": 180,
+        "SP_ATK": 130,
+        "SP_DEF": 80,
+        "SPD": 30
+      },
+      "height": 2.0,
+      "weight": 120.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 207,
+      "classification": "Hermit Crab",
+      "isBaseForm": false
+    },
+    "galar": {
+      "types": [
+        "Poison",
+        "Psychic"
+      ],
+      "ability1": "Quick Draw",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 100,
+        "DEF": 95,
+        "SP_ATK": 100,
+        "SP_DEF": 70,
+        "SPD": 30
+      },
+      "height": 1.6,
+      "weight": 70.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 172,
+      "classification": "Hermit Crab",
+      "isBaseForm": true
+    }
+  }
+}

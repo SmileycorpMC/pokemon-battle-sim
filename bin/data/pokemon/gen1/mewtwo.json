@@ -1,0 +1,107 @@
+{
+  "name": "Mewtwo",
+  "id": 150,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Pressure",
+      "ability2": "",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 106,
+        "ATK": 110,
+        "DEF": 90,
+        "SP_ATK": 154,
+        "SP_DEF": 90,
+        "SPD": 130
+      },
+      "height": 2.0,
+      "weight": 122.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Genetic",
+      "isBaseForm": true
+    },
+    "mega-x": {
+      "types": [
+        "Psychic",
+        "Fighting"
+      ],
+      "ability1": "Steadfast",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 106,
+        "ATK": 190,
+        "DEF": 100,
+        "SP_ATK": 154,
+        "SP_DEF": 100,
+        "SPD": 130
+      },
+      "height": 2.3,
+      "weight": 127.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 351,
+      "classification": "Genetic",
+      "isBaseForm": false
+    },
+    "mega-y": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 106,
+        "ATK": 150,
+        "DEF": 70,
+        "SP_ATK": 194,
+        "SP_DEF": 120,
+        "SPD": 140
+      },
+      "height": 1.5,
+      "weight": 33.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 351,
+      "classification": "Genetic",
+      "isBaseForm": false
+    }
+  }
+}

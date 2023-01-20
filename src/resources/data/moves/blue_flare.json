@@ -1,0 +1,23 @@
+{
+	"name": "Blue Flare",
+	"type": "Fire",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 130,
+	"accuracy": 85,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "burn",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.20
+		}]
+	}],
+	"z-move_effects": []
+}

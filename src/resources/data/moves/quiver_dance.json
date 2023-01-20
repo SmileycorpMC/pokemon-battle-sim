@@ -1,0 +1,53 @@
+{
+	"name": "Quiver Dance",
+	"type": "Bug",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"dance"
+	],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+				"stat": "SP_ATK",
+				"amount": 1
+			},
+			{
+				"stat": "SP_DEF",
+				"amount": 1
+			},
+			{
+				"stat": "SPD",
+				"amount": 1
+			}
+		],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "reset_user_stat_modifiers",
+		"value": [
+			"ATK",
+			"DEF",
+			"SP_ATK",
+			"SP_DEF",
+			"SPD",
+			"Accuracy",
+			"Evasion"
+		],
+		"conditions": [{
+			"mode": "predicate_comparison",
+			"value": {
+				"type": "int",
+				"operator": "<",
+				"value": 0
+			}
+		}]
+	}]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Dhelmise",
+  "id": 781,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "ability1": "Steelworker",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 70,
+        "ATK": 131,
+        "DEF": 100,
+        "SP_ATK": 86,
+        "SP_DEF": 90,
+        "SPD": 40
+      },
+      "height": 3.9,
+      "weight": 210.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 181,
+      "classification": "Sea Creeper",
+      "isBaseForm": true
+    }
+  }
+}

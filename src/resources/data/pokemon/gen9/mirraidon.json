@@ -1,0 +1,49 @@
+{
+  "name": "Miraidon",
+  "id": 1008,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 3,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "ability1": "Hadron Engine",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 85,
+        "DEF": 100,
+        "SP_ATK": 135,
+        "SP_DEF": 115,
+        "SPD": 135
+      },
+      "height": 3.5,
+      "weight": 240.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 335,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

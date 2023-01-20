@@ -1,0 +1,58 @@
+{
+  "name": "Shieldon",
+  "id": 410,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Steel"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "",
+      "hiddenAbility": "Soundproof",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "bastiodon",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 30,
+        "ATK": 42,
+        "DEF": 118,
+        "SP_ATK": 42,
+        "SP_DEF": 88,
+        "SPD": 30
+      },
+      "height": 0.5,
+      "weight": 57.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 70,
+      "classification": "Shield",
+      "isBaseForm": true
+    }
+  }
+}

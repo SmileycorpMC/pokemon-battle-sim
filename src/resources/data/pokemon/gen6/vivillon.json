@@ -1,0 +1,779 @@
+{
+  "name": "Vivillon",
+  "id": 666,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "meadow": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "icy-snow": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "polar": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "tundra": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "continental": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "garden": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "elegant": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "modern": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "marine": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "archipelago": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "high-plains": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "sandstorm": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "river": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "monsoon": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "savanna": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "sun": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "ocean": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "jungle": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "fancy": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    },
+    "poke-ball": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "ability1": "Shield Dust",
+      "ability2": "Compound Eyes",
+      "hiddenAbility": "Friend Guard",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 52,
+        "DEF": 50,
+        "SP_ATK": 90,
+        "SP_DEF": 50,
+        "SPD": 89
+      },
+      "height": 1.2,
+      "weight": 17.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 185,
+      "classification": "Scale Pokémon",
+      "isBaseForm": true
+    }
+  }
+}

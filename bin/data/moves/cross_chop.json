@@ -1,0 +1,22 @@
+{
+	"name": "Cross Chop",
+	"type": "Fighting",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 100,
+	"accuracy": 80,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

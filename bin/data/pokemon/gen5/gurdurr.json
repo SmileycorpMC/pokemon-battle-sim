@@ -1,0 +1,56 @@
+{
+  "name": "Gurdurr",
+  "id": 533,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Human-like"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Guts",
+      "ability2": "Sheer Force",
+      "hiddenAbility": "Iron Fist",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "conkeldurr",
+            "form": "default"
+          },
+          "method": "trade"
+        }
+      ],
+      "stats": {
+        "HP": 85,
+        "ATK": 105,
+        "DEF": 85,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 40
+      },
+      "height": 1.2,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 142,
+      "classification": "Muscular",
+      "isBaseForm": true
+    }
+  }
+}

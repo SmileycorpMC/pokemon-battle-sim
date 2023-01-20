@@ -1,0 +1,48 @@
+{
+  "name": "Cryogonal",
+  "id": 615,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 50,
+        "DEF": 50,
+        "SP_ATK": 95,
+        "SP_DEF": 135,
+        "SPD": 105
+      },
+      "height": 1.1,
+      "weight": 148.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 180,
+      "classification": "Crystallizing",
+      "isBaseForm": true
+    }
+  }
+}

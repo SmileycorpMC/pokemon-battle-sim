@@ -1,0 +1,79 @@
+{
+  "name": "Tyranitar",
+  "id": 248,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "ability1": "Sand Stream",
+      "ability2": "",
+      "hiddenAbility": "Unnerve",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 134,
+        "DEF": 110,
+        "SP_ATK": 95,
+        "SP_DEF": 100,
+        "SPD": 61
+      },
+      "height": 2.0,
+      "weight": 202.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Armor",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "ability1": "Sand Stream",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 164,
+        "DEF": 150,
+        "SP_ATK": 95,
+        "SP_DEF": 120,
+        "SPD": 71
+      },
+      "height": 2.5,
+      "weight": 255.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Armor",
+      "isBaseForm": false
+    }
+  }
+}

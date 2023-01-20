@@ -1,0 +1,57 @@
+{
+  "name": "Flutter Mane",
+  "id": 987,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 30,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+		"Fairy"
+      ],
+      "ability1": "Protosynthesis",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 55,
+        "ATK": 55,
+        "DEF": 55,
+        "SP_ATK": 135,
+        "SP_DEF": 135,
+        "SPD": 135
+      },
+      "height": 1.4,
+      "weight": 4.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+		{
+          "stat": "SP_DEF",
+          "value": 1
+        },
+		{
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Linoone",
+  "id": 264,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Pickup",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Quick Feet",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 78,
+        "ATK": 70,
+        "DEF": 61,
+        "SP_ATK": 50,
+        "SP_DEF": 61,
+        "SPD": 100
+      },
+      "height": 0.5,
+      "weight": 32.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Rushing",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Dark",
+        "Normal"
+      ],
+      "ability1": "Pickup",
+      "ability2": "Gluttony",
+      "hiddenAbility": "Quick Feet",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "obstagoon",
+            "form": "default"
+          },
+          "method": "level_night",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 78,
+        "ATK": 70,
+        "DEF": 61,
+        "SP_ATK": 50,
+        "SP_DEF": 61,
+        "SPD": 100
+      },
+      "height": 0.5,
+      "weight": 32.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Rushing",
+      "isBaseForm": true
+    }
+  }
+}

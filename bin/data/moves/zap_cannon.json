@@ -1,0 +1,22 @@
+{
+	"name": "Zap Cannon",
+	"type": "Electric",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 120,
+	"accuracy": 50,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"ballistic"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "paralysis",
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

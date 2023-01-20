@@ -1,0 +1,95 @@
+{
+  "name": "Meloetta",
+  "id": 648,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Psychic"
+      ],
+      "ability1": "Serene Grace",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 77,
+        "DEF": 77,
+        "SP_ATK": 128,
+        "SP_DEF": 128,
+        "SPD": 90
+      },
+      "height": 0.6,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Melody",
+      "isBaseForm": true
+    },
+    "pirouette": {
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "ability1": "Serene Grace",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 128,
+        "DEF": 90,
+        "SP_ATK": 77,
+        "SP_DEF": 77,
+        "SPD": 128
+      },
+      "height": 0.6,
+      "weight": 6.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 270,
+      "classification": "Melody",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Steel Wing",
+	"type": "Steel",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 70,
+	"accuracy": 90,
+	"pp": 25,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "DEF",
+			"amount": 1
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.1
+		}]
+	}],
+	"z-move_effects": []
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Liepard",
+  "id": 510,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark"
+      ],
+      "ability1": "Limber",
+      "ability2": "Unburden",
+      "hiddenAbility": "Prankster",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 64,
+        "ATK": 88,
+        "DEF": 50,
+        "SP_ATK": 88,
+        "SP_DEF": 50,
+        "SPD": 106
+      },
+      "height": 1.1,
+      "weight": 37.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 156,
+      "classification": "Cruel",
+      "isBaseForm": true
+    }
+  }
+}

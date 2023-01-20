@@ -1,0 +1,57 @@
+{
+  "name": "Magby",
+  "id": 240,
+  "genderRatio": 2,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fire"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Vital Spirit",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "magmar",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 75,
+        "DEF": 37,
+        "SP_ATK": 70,
+        "SP_DEF": 55,
+        "SPD": 83
+      },
+      "height": 0.7,
+      "weight": 21.4,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 73,
+      "classification": "Live Coal",
+      "isBaseForm": true
+    }
+  }
+}

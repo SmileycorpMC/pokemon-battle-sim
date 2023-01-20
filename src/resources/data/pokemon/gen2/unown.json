@@ -1,0 +1,943 @@
+{
+  "name": "Unown",
+  "id": 201,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "a": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "b": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "c": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "d": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "e": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "f": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "g": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "h": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "i": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "j": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "k": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "l": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "m": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "n": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "o": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "p": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "q": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "r": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "s": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "t": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "u": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "v": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "w": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "x": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "y": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "z": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "exclamation": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    },
+    "question": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 48,
+        "ATK": 72,
+        "DEF": 48,
+        "SP_ATK": 72,
+        "SP_DEF": 48,
+        "SPD": 48
+      },
+      "height": 0.5,
+      "weight": 5.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 118,
+      "classification": "Symbol Pokémon",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Mantyke",
+  "id": 458,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Water Absorb",
+      "hiddenAbility": "Water Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "mantine",
+            "form": "default"
+          },
+          "method": "level_with",
+          "value": "remoraid"
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 20,
+        "DEF": 50,
+        "SP_ATK": 60,
+        "SP_DEF": 120,
+        "SPD": 50
+      },
+      "height": 1.0,
+      "weight": 65.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 69,
+      "classification": "Kite",
+      "isBaseForm": true
+    }
+  }
+}

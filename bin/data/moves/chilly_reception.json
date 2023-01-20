@@ -1,0 +1,26 @@
+{
+	"name": "Snowscape",
+	"type": "Ice",
+	"category": "status",
+	"target": "all",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "set_weather",
+			"value": "snowstorm",
+			"conditions": []
+		},
+		{
+			"function": "switch_out_user",
+			"value": null,
+			"conditions": []
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

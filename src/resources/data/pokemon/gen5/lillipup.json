@@ -1,0 +1,57 @@
+{
+  "name": "Lillipup",
+  "id": 506,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Vital Spirit",
+      "ability2": "Pickup",
+      "hiddenAbility": "Run Away",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "herdier",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 16
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 60,
+        "DEF": 45,
+        "SP_ATK": 25,
+        "SP_DEF": 45,
+        "SPD": 55
+      },
+      "height": 0.4,
+      "weight": 4.1,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 55,
+      "classification": "Puppy",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Espurr",
+  "id": 677,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Infiltrator",
+      "hiddenAbility": "Own Tempo",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "meowstic",
+            "form": "female"
+          },
+          "method": "level_female",
+          "value": 25
+        },
+        {
+          "target": {
+            "species": "meowstic",
+            "form": "male"
+          },
+          "method": "level_male",
+          "value": 25
+        }
+      ],
+      "stats": {
+        "HP": 62,
+        "ATK": 48,
+        "DEF": 54,
+        "SP_ATK": 63,
+        "SP_DEF": 60,
+        "SPD": 68
+      },
+      "height": 0.3,
+      "weight": 3.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "Restraint",
+      "isBaseForm": true
+    }
+  }
+}

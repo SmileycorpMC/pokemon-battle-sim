@@ -1,0 +1,79 @@
+{
+  "name": "Pidgeot",
+  "id": 18,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Tangled Feet",
+      "hiddenAbility": "Big Pecks",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 83,
+        "ATK": 80,
+        "DEF": 75,
+        "SP_ATK": 70,
+        "SP_DEF": 70,
+        "SPD": 101
+      },
+      "height": 1.5,
+      "weight": 39.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 216,
+      "classification": "Bird",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "No Guard",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 83,
+        "ATK": 80,
+        "DEF": 80,
+        "SP_ATK": 135,
+        "SP_DEF": 80,
+        "SPD": 121
+      },
+      "height": 2.2,
+      "weight": 50.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 261,
+      "classification": "Bird",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Wimpod",
+  "id": 767,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug",
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "ability1": "Wimp Out",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "golisopod",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 25,
+        "ATK": 35,
+        "DEF": 40,
+        "SP_ATK": 20,
+        "SP_DEF": 30,
+        "SPD": 80
+      },
+      "height": 0.5,
+      "weight": 12.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 46,
+      "classification": "Turn Tail",
+      "isBaseForm": true
+    }
+  }
+}

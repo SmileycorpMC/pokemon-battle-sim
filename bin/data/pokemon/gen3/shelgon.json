@@ -1,0 +1,57 @@
+{
+  "name": "Shelgon",
+  "id": 372,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "salamence",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 50
+        }
+      ],
+      "stats": {
+        "HP": 65,
+        "ATK": 95,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 50,
+        "SPD": 50
+      },
+      "height": 1.1,
+      "weight": 110.5,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Endurance",
+      "isBaseForm": true
+    }
+  }
+}

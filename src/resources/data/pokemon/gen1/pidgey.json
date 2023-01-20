@@ -1,0 +1,58 @@
+{
+  "name": "Pidgey",
+  "id": 16,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Tangled Feet",
+      "hiddenAbility": "Big Pecks",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pidgeotto",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 18
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 45,
+        "DEF": 40,
+        "SP_ATK": 35,
+        "SP_DEF": 35,
+        "SPD": 56
+      },
+      "height": 0.3,
+      "weight": 1.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 50,
+      "classification": "Tiny Bird",
+      "isBaseForm": true
+    }
+  }
+}

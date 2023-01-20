@@ -1,0 +1,79 @@
+{
+  "name": "Steelix",
+  "id": 208,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Ground"
+      ],
+      "ability1": "Rock Head",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Sheer Force",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 85,
+        "DEF": 200,
+        "SP_ATK": 55,
+        "SP_DEF": 65,
+        "SPD": 30
+      },
+      "height": 9.2,
+      "weight": 400.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 179,
+      "classification": "Iron Snake",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Steel",
+        "Ground"
+      ],
+      "ability1": "Sand Force",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 125,
+        "DEF": 230,
+        "SP_ATK": 55,
+        "SP_DEF": 95,
+        "SPD": 30
+      },
+      "height": 10.5,
+      "weight": 740.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 214,
+      "classification": "Iron Snake",
+      "isBaseForm": false
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Riolu",
+  "id": 447,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Steadfast",
+      "ability2": "Inner Focus",
+      "hiddenAbility": "Prankster",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lucario",
+            "form": "default"
+          },
+          "method": "happiness_day"
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 70,
+        "DEF": 40,
+        "SP_ATK": 35,
+        "SP_DEF": 40,
+        "SPD": 60
+      },
+      "height": 0.7,
+      "weight": 20.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 57,
+      "classification": "Emanation",
+      "isBaseForm": true
+    }
+  }
+}

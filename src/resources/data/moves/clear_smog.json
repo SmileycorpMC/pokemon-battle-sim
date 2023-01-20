@@ -1,0 +1,28 @@
+{
+	"name": "Clear Smog",
+	"type": "Poison",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 50,
+	"accuracy": 101,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "reset_target_stat_modifiers",
+		"value": [
+			"ATK",
+			"DEF",
+			"SP_ATK",
+			"SP_DEF",
+			"SPD",
+			"Accuracy",
+			"Evasion"
+		],
+		"conditions": []
+	}],
+	"z-move_effects": []
+}

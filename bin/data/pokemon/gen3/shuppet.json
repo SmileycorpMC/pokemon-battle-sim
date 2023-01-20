@@ -1,0 +1,57 @@
+{
+  "name": "Shuppet",
+  "id": 353,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost"
+      ],
+      "ability1": "Insomnia",
+      "ability2": "Frisk",
+      "hiddenAbility": "Cursed Body",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "banette",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        }
+      ],
+      "stats": {
+        "HP": 44,
+        "ATK": 75,
+        "DEF": 35,
+        "SP_ATK": 63,
+        "SP_DEF": 33,
+        "SPD": 45
+      },
+      "height": 0.6,
+      "weight": 2.3,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 59,
+      "classification": "Puppet",
+      "isBaseForm": true
+    }
+  }
+}

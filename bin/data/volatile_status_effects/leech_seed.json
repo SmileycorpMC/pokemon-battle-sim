@@ -1,0 +1,73 @@
+{
+  "stat_modifiers": [],
+  "effects": [
+    {
+      "event": "on_turn_end",
+      "functions": [
+        {
+          "function": "remove_volatile_status",
+          "value": "leech_seed",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_battle_instance",
+                  "target": {
+                    "type": "get_pokemon_in_slot",
+                    "target": {
+                      "type": "from_current_pokemon",
+                      "target": "slot"
+                    }
+                  }
+                },
+                "operator": "==",
+                "value2": ""
+              }
+            }
+          ]
+        },
+        {
+          "function": "fractional_damage",
+          "value": 0.125,
+          "conditions": []
+        },
+        {
+          "function": "apply_pokemon_in_slot",
+          "value": {
+            "slot": {
+              "type": "from_battle_instance",
+              "target": {
+                "type": "get_pokemon_in_slot",
+                "target": {
+                  "type": "from_current_pokemon",
+                  "target": "slot"
+                }
+              }
+            },
+            "functions": [
+              {
+                "function": "fractional_heal",
+                "value": 0.125,
+                "conditions": []
+              }
+            ]
+          },
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "event": "on_effect_removed",
+      "functions": [
+        {
+          "function": "remove_pokemon_variable",
+          "value": "slot",
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "immune_types": []
+}

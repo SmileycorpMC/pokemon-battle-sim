@@ -1,0 +1,58 @@
+{
+  "name": "Carvanha",
+  "id": 318,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "ability1": "Rough Skin",
+      "ability2": "",
+      "hiddenAbility": "Speed Boost",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sharpedo",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 90,
+        "DEF": 20,
+        "SP_ATK": 65,
+        "SP_DEF": 20,
+        "SPD": 65
+      },
+      "height": 0.8,
+      "weight": 20.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Savage",
+      "isBaseForm": true
+    }
+  }
+}

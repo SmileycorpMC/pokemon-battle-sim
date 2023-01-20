@@ -1,0 +1,64 @@
+{
+  "stat_modifiers": [],
+  "effects": [
+    {
+      "event": "on_first_apply",
+      "functions": [
+        {
+          "function": "create_turn_timer",
+          "value": {
+            "name": "sleep",
+            "start": {
+              "type": "random_value",
+              "target": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            "value": -1
+          },
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "event": "on_use_move",
+      "functions": [
+        {
+          "function": "remove_status",
+          "value": "sleep",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "int",
+                "value1": {
+                  "type": "from_turn_timer",
+                  "target": "sleep"
+                },
+                "operator": "<=",
+                "value2": 1
+              }
+            }
+          ]
+        },
+        {
+          "function": "set_move_status",
+          "value": "Asleep",
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "event": "on_effect_removed",
+      "functions": [
+        {
+          "function": "remove_turn_timer",
+          "value": "sleep",
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "immune_types": []
+}

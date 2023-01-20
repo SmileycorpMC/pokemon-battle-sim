@@ -1,0 +1,30 @@
+{
+	"name": "Baby-Doll Eyes",
+	"type": "Fairy",
+	"category": "status",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 100,
+	"pp": 30,
+	"priority": 1,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "ATK",
+			"amount": -1
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "DEF",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

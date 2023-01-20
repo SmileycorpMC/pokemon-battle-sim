@@ -1,0 +1,79 @@
+{
+  "name": "Vikavolt",
+  "id": 738,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Electric"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 77,
+        "ATK": 70,
+        "DEF": 90,
+        "SP_ATK": 145,
+        "SP_DEF": 75,
+        "SPD": 43
+      },
+      "height": 1.5,
+      "weight": 45.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 250,
+      "classification": "Stag Beetle",
+      "isBaseForm": true
+    },
+    "totem": {
+      "types": [
+        "Bug",
+        "Electric"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 77,
+        "ATK": 70,
+        "DEF": 90,
+        "SP_ATK": 145,
+        "SP_DEF": 75,
+        "SPD": 43
+      },
+      "height": 2.6,
+      "weight": 147.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 225,
+      "classification": "Stag Beetle",
+      "isBaseForm": true
+    }
+  }
+}

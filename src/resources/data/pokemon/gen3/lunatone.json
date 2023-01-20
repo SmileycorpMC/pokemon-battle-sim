@@ -1,0 +1,49 @@
+{
+  "name": "Lunatone",
+  "id": 337,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 55,
+        "DEF": 65,
+        "SP_ATK": 95,
+        "SP_DEF": 85,
+        "SPD": 70
+      },
+      "height": 1.0,
+      "weight": 168.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Meteorite",
+      "isBaseForm": true
+    }
+  }
+}

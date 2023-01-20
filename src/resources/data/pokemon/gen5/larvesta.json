@@ -1,0 +1,58 @@
+{
+  "name": "Larvesta",
+  "id": 636,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Fire"
+      ],
+      "ability1": "Flame Body",
+      "ability2": "",
+      "hiddenAbility": "Swarm",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "volcarona",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 59
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 85,
+        "DEF": 55,
+        "SP_ATK": 50,
+        "SP_DEF": 55,
+        "SPD": 60
+      },
+      "height": 1.1,
+      "weight": 28.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 72,
+      "classification": "Torch",
+      "isBaseForm": true
+    }
+  }
+}

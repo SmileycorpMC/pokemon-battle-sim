@@ -1,0 +1,50 @@
+{
+  "name": "Breloom",
+  "id": 286,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fluctuating",
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "ability1": "Effect Spore",
+      "ability2": "Poison Heal",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 130,
+        "DEF": 80,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 70
+      },
+      "height": 1.2,
+      "weight": 39.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Mushroom",
+      "isBaseForm": true
+    }
+  }
+}

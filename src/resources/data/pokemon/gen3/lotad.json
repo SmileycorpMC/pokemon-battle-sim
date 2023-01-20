@@ -1,0 +1,59 @@
+{
+  "name": "Lotad",
+  "id": 270,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Rain Dish",
+      "hiddenAbility": "Own Tempo",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "lombre",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 14
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 30,
+        "DEF": 30,
+        "SP_ATK": 40,
+        "SP_DEF": 50,
+        "SPD": 30
+      },
+      "height": 0.5,
+      "weight": 2.6,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 44,
+      "classification": "Water Weed",
+      "isBaseForm": true
+    }
+  }
+}

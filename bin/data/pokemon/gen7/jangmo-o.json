@@ -1,0 +1,57 @@
+{
+  "name": "Jangmo-o",
+  "id": 782,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Bulletproof",
+      "ability2": "Soundproof",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "hakamo-o",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
+      "stats": {
+        "HP": 45,
+        "ATK": 55,
+        "DEF": 65,
+        "SP_ATK": 45,
+        "SP_DEF": 45,
+        "SPD": 45
+      },
+      "height": 0.6,
+      "weight": 29.7,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Scaly",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Lombre",
+  "id": 271,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Water_1",
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "ability1": "Swift Swim",
+      "ability2": "Rain Dish",
+      "hiddenAbility": "Own Tempo",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "ludicolo",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "water_stone"
+        }
+      ],
+      "stats": {
+        "HP": 60,
+        "ATK": 50,
+        "DEF": 50,
+        "SP_ATK": 60,
+        "SP_DEF": 70,
+        "SPD": 50
+      },
+      "height": 1.2,
+      "weight": 32.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 119,
+      "classification": "Jolly",
+      "isBaseForm": true
+    }
+  }
+}

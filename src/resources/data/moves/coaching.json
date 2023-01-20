@@ -1,0 +1,31 @@
+{
+	"name": "Coaching",
+	"id": 811,
+	"type": "Fighting",
+	"category": "status",
+	"target": "all_ally",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"bypasses_protection"
+	],
+	"primary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+				"stat": "ATK",
+				"amount": 1
+			},
+			{
+				"stat": "DEF",
+				"amount": 1
+			}
+		],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

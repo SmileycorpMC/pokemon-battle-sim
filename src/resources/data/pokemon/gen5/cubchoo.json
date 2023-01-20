@@ -1,0 +1,57 @@
+{
+  "name": "Cubchoo",
+  "id": 613,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Snow Cloak",
+      "ability2": "Slush Rush",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "beartic",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 70,
+        "DEF": 40,
+        "SP_ATK": 60,
+        "SP_DEF": 40,
+        "SPD": 40
+      },
+      "height": 0.5,
+      "weight": 8.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 61,
+      "classification": "Chill",
+      "isBaseForm": true
+    }
+  }
+}

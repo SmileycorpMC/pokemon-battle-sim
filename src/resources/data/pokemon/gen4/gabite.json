@@ -1,0 +1,59 @@
+{
+  "name": "Gabite",
+  "id": 444,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Sand Veil",
+      "ability2": "",
+      "hiddenAbility": "Rough Skin",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "garchomp",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 48
+        }
+      ],
+      "stats": {
+        "HP": 68,
+        "ATK": 90,
+        "DEF": 65,
+        "SP_ATK": 50,
+        "SP_DEF": 55,
+        "SPD": 82
+      },
+      "height": 1.4,
+      "weight": 56.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Cave",
+      "isBaseForm": true
+    }
+  }
+}

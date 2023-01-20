@@ -1,0 +1,23 @@
+{
+	"name": "Endeavor",
+	"type": "Normal",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": -1,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "set_target_hp",
+		"value": {
+			"type": "from_user",
+			"target": "current_hp"
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Piloswine",
+  "id": 221,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice",
+        "Ground"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Snow Cloak",
+      "hiddenAbility": "Thick Fat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "mamoswine",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "ancient_powe"
+        }
+      ],
+      "stats": {
+        "HP": 100,
+        "ATK": 100,
+        "DEF": 80,
+        "SP_ATK": 60,
+        "SP_DEF": 60,
+        "SPD": 50
+      },
+      "height": 1.1,
+      "weight": 55.8,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 158,
+      "classification": "Swine",
+      "isBaseForm": true
+    }
+  }
+}

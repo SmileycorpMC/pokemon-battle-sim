@@ -1,0 +1,49 @@
+{
+  "name": "Zekrom",
+  "id": 644,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": true,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Electric"
+      ],
+      "ability1": "Teravolt",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 150,
+        "DEF": 120,
+        "SP_ATK": 120,
+        "SP_DEF": 100,
+        "SPD": 90
+      },
+      "height": 2.9,
+      "weight": 345.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 340,
+      "classification": "Deep Black",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"name": "Clamp",
+	"type": "Water",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 35,
+	"accuracy": 85,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"binding"
+	],
+	"primary_effects": [],
+	"secondary_effects": [{
+			"function": "inflict_volatile_status_on_target",
+			"value": "bound",
+			"conditions": []
+		},
+		{
+			"function": "delayed_event",
+			"value": {
+				"event": "on_switch_out",
+				"functions": [{
+					"function": "remove_volatile_status",
+					"value": {
+						"from": "parent$move_target",
+						"status": "bound"
+					},
+					"conditions": []
+				}]
+			},
+			"conditions": []
+		}
+	],
+	"z-move_effects": []
+}

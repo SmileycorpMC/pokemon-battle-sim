@@ -1,0 +1,58 @@
+{
+  "name": "Pupitar",
+  "id": 247,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Monster"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "ability1": "Shed Skin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "tyranitar",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 55
+        }
+      ],
+      "stats": {
+        "HP": 70,
+        "ATK": 84,
+        "DEF": 70,
+        "SP_ATK": 65,
+        "SP_DEF": 70,
+        "SPD": 51
+      },
+      "height": 1.2,
+      "weight": 152.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 144,
+      "classification": "Hard Shell",
+      "isBaseForm": true
+    }
+  }
+}

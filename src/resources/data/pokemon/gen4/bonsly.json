@@ -1,0 +1,57 @@
+{
+  "name": "Bonsly",
+  "id": 438,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": true,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock"
+      ],
+      "ability1": "Sturdy",
+      "ability2": "Rock Head",
+      "hiddenAbility": "Rattled",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "sudowoodo",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "mimic"
+        }
+      ],
+      "stats": {
+        "HP": 50,
+        "ATK": 80,
+        "DEF": 95,
+        "SP_ATK": 10,
+        "SP_DEF": 45,
+        "SPD": 10
+      },
+      "height": 0.5,
+      "weight": 15.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 58,
+      "classification": "Bonsai",
+      "isBaseForm": true
+    }
+  }
+}

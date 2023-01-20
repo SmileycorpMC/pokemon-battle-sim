@@ -1,0 +1,58 @@
+{
+  "name": "Sandygast",
+  "id": 769,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ghost",
+        "Ground"
+      ],
+      "ability1": "Water Compaction",
+      "ability2": "",
+      "hiddenAbility": "Sand Veil",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "palossand",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 42
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 55,
+        "DEF": 80,
+        "SP_ATK": 70,
+        "SP_DEF": 45,
+        "SPD": 15
+      },
+      "height": 0.5,
+      "weight": 70.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 64,
+      "classification": "Sand Heap",
+      "isBaseForm": true
+    }
+  }
+}

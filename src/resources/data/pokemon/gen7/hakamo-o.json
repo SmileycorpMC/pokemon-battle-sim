@@ -1,0 +1,58 @@
+{
+  "name": "Hakamo-o",
+  "id": 783,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Fighting"
+      ],
+      "ability1": "Bulletproof",
+      "ability2": "Soundproof",
+      "hiddenAbility": "Overcoat",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kommo-o",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 45
+        }
+      ],
+      "stats": {
+        "HP": 55,
+        "ATK": 75,
+        "DEF": 90,
+        "SP_ATK": 65,
+        "SP_DEF": 70,
+        "SPD": 65
+      },
+      "height": 1.2,
+      "weight": 47.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 147,
+      "classification": "Scaly",
+      "isBaseForm": true
+    }
+  }
+}

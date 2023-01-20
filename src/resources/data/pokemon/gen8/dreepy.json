@@ -1,0 +1,59 @@
+{
+  "name": "Dreepy",
+  "id": 885,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "Infiltrator",
+      "hiddenAbility": "Cursed Body",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "drakloak",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 50
+        }
+      ],
+      "stats": {
+        "HP": 28,
+        "ATK": 60,
+        "DEF": 30,
+        "SP_ATK": 40,
+        "SP_DEF": 30,
+        "SPD": 82
+      },
+      "height": 0.5,
+      "weight": 2.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 54,
+      "classification": "Lingering",
+      "isBaseForm": true
+    }
+  }
+}

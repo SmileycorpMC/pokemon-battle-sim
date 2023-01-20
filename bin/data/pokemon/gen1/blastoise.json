@@ -1,0 +1,107 @@
+{
+  "name": "Blastoise",
+  "id": 9,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Rain Dish",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 79,
+        "ATK": 83,
+        "DEF": 100,
+        "SP_ATK": 85,
+        "SP_DEF": 105,
+        "SPD": 78
+      },
+      "height": 1.6,
+      "weight": 85.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 265,
+      "classification": "Shellfish",
+      "isBaseForm": true
+    },
+    "mega": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Mega Launcher",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 79,
+        "ATK": 103,
+        "DEF": 120,
+        "SP_ATK": 135,
+        "SP_DEF": 115,
+        "SPD": 78
+      },
+      "height": 1.6,
+      "weight": 101.1,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 284,
+      "classification": "Shellfish",
+      "isBaseForm": false
+    },
+    "gmax": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Torrent",
+      "ability2": "",
+      "hiddenAbility": "Rain Dish",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 79,
+        "ATK": 83,
+        "DEF": 100,
+        "SP_ATK": 85,
+        "SP_DEF": 105,
+        "SPD": 78
+      },
+      "height": 25.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 239,
+      "classification": "Shellfish",
+      "isBaseForm": false
+    }
+  }
+}

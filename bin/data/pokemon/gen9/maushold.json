@@ -1,0 +1,78 @@
+{
+  "name": "Maushold",
+  "id": 925,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 50,
+  "catchRate": 75,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Fairy",
+    "Field"
+  ],
+  "forms": {
+    "family_of_three": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Friend Guard",
+      "ability2": "Cheek Pouch",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 75,
+        "DEF": 70,
+        "SP_ATK": 65,
+        "SP_DEF": 75,
+        "SPD": 111
+      },
+      "height": 0.3,
+      "weight": 2.3,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Family",
+      "isBaseForm": true
+    },
+    "family_of_four": {
+      "types": [
+        "Normal"
+      ],
+      "ability1": "Friend Guard",
+      "ability2": "Cheek Pouch",
+      "hiddenAbility": "Technician",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 75,
+        "DEF": 70,
+        "SP_ATK": 65,
+        "SP_DEF": 75,
+        "SPD": 111
+      },
+      "height": 0.3,
+      "weight": 2.8,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Family",
+      "isBaseForm": true
+    }
+  }
+}

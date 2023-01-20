@@ -1,0 +1,48 @@
+{
+  "name": "Glastrier",
+  "id": 896,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Ice"
+      ],
+      "ability1": "Chilling Neigh",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 100,
+        "ATK": 145,
+        "DEF": 130,
+        "SP_ATK": 65,
+        "SP_DEF": 110,
+        "SPD": 30
+      },
+      "height": 2.2,
+      "weight": 800.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 290,
+      "classification": "Wild Horse",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Nihilego",
+  "id": 793,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Poison"
+      ],
+      "ability1": "Beast Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 109,
+        "ATK": 53,
+        "DEF": 47,
+        "SP_ATK": 127,
+        "SP_DEF": 131,
+        "SPD": 103
+      },
+      "height": 1.2,
+      "weight": 55.5,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 285,
+      "classification": "Parasite",
+      "isBaseForm": true
+    }
+  }
+}

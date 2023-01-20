@@ -1,0 +1,58 @@
+{
+  "name": "Lileep",
+  "id": 345,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 30,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Erratic",
+  "eggGroups": [
+    "Water_3"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Grass"
+      ],
+      "ability1": "Suction Cups",
+      "ability2": "",
+      "hiddenAbility": "Storm Drain",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "cradilly",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
+      "stats": {
+        "HP": 66,
+        "ATK": 41,
+        "DEF": 77,
+        "SP_ATK": 61,
+        "SP_DEF": 87,
+        "SPD": 23
+      },
+      "height": 1.0,
+      "weight": 23.8,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 71,
+      "classification": "Sea Lily",
+      "isBaseForm": true
+    }
+  }
+}

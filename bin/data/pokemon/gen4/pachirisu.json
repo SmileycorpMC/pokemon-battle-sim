@@ -1,0 +1,49 @@
+{
+  "name": "Pachirisu",
+  "id": 417,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Run Away",
+      "ability2": "Pickup",
+      "hiddenAbility": "Volt Absorb",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 45,
+        "DEF": 70,
+        "SP_ATK": 45,
+        "SP_DEF": 90,
+        "SPD": 95
+      },
+      "height": 0.4,
+      "weight": 3.9,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 142,
+      "classification": "EleSquirrel",
+      "isBaseForm": true
+    }
+  }
+}

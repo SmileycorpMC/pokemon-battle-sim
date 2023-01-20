@@ -1,0 +1,92 @@
+{
+	"name": "Camouflage",
+	"type": "Normal",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "change_user_type",
+			"value": "normal",
+			"conditions": []
+		},
+		{
+			"function": "change_user_type",
+			"value": "electric",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "electric_terrain"
+				}
+			}]
+		},
+		{
+			"function": "change_user_type",
+			"value": "grass",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "grassy_terrain"
+				}
+			}]
+		},
+		{
+			"function": "change_user_type",
+			"value": "fairy",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "misty_terrain"
+				}
+			}]
+		},
+		{
+			"function": "change_user_type",
+			"value": "psychic",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "psychic_terrain"
+				}
+			}]
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "Evasion",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

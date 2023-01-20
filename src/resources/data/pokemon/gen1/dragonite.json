@@ -1,0 +1,50 @@
+{
+  "name": "Dragonite",
+  "id": 149,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Water_1",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "ability1": "Inner Focus",
+      "ability2": "",
+      "hiddenAbility": "Multiscale",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 91,
+        "ATK": 134,
+        "DEF": 95,
+        "SP_ATK": 100,
+        "SP_DEF": 100,
+        "SPD": 80
+      },
+      "height": 2.2,
+      "weight": 210.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Dragon",
+      "isBaseForm": true
+    }
+  }
+}

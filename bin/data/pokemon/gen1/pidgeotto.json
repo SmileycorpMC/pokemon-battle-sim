@@ -1,0 +1,58 @@
+{
+  "name": "Pidgeotto",
+  "id": 17,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "ability1": "Keen Eye",
+      "ability2": "Tangled Feet",
+      "hiddenAbility": "Big Pecks",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "pidgeot",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 36
+        }
+      ],
+      "stats": {
+        "HP": 63,
+        "ATK": 60,
+        "DEF": 55,
+        "SP_ATK": 50,
+        "SP_DEF": 50,
+        "SPD": 71
+      },
+      "height": 1.1,
+      "weight": 30.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 122,
+      "classification": "Bird",
+      "isBaseForm": true
+    }
+  }
+}

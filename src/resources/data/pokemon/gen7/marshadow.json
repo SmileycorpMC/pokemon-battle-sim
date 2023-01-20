@@ -1,0 +1,53 @@
+{
+  "name": "Marshadow",
+  "id": 802,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": true,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 120,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting",
+        "Ghost"
+      ],
+      "ability1": "Technician",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 125,
+        "DEF": 80,
+        "SP_ATK": 90,
+        "SP_DEF": 90,
+        "SPD": 125
+      },
+      "height": 0.7,
+      "weight": 22.2,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        },
+        {
+          "stat": "SPD",
+          "value": 1
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Gloomdweller",
+      "isBaseForm": true
+    }
+  }
+}

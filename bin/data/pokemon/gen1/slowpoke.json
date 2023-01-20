@@ -1,0 +1,113 @@
+{
+  "name": "Slowpoke",
+  "id": 79,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Monster",
+    "Water_1"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Oblivious",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "slowbro",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 37
+        },
+        {
+          "target": {
+            "species": "slowking",
+            "form": "default"
+          },
+          "method": "trade_item",
+          "value": "kings_rock"
+        }
+      ],
+      "stats": {
+        "HP": 90,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 15
+      },
+      "height": 1.2,
+      "weight": 36.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Dopey",
+      "isBaseForm": true
+    },
+    "galar": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Gluttony",
+      "ability2": "Own Tempo",
+      "hiddenAbility": "Regenerator",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "slowbro",
+            "form": "galar"
+          },
+          "method": "item",
+          "value": "galarica_cuff"
+        },
+        {
+          "target": {
+            "species": "slowking",
+            "form": "galar"
+          },
+          "method": "item",
+          "value": "galarica_wreath"
+        }
+      ],
+      "stats": {
+        "HP": 90,
+        "ATK": 65,
+        "DEF": 65,
+        "SP_ATK": 40,
+        "SP_DEF": 40,
+        "SPD": 15
+      },
+      "height": 1.2,
+      "weight": 36.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 63,
+      "classification": "Dopey",
+      "isBaseForm": true
+    }
+  }
+}

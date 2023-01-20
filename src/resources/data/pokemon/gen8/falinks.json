@@ -1,0 +1,53 @@
+{
+  "name": "Falinks",
+  "id": 870,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Battle Armor",
+      "ability2": "",
+      "hiddenAbility": "Defiant",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 100,
+        "DEF": 100,
+        "SP_ATK": 70,
+        "SP_DEF": 60,
+        "SPD": 75
+      },
+      "height": 3.0,
+      "weight": 62.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Formation",
+      "isBaseForm": true
+    }
+  }
+}

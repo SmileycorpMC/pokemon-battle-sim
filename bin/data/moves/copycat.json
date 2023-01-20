@@ -1,0 +1,34 @@
+{
+	"name": "Copycat",
+	"type": "Normal",
+	"category": "status",
+	"target": "self",
+	"power": -1,
+	"accuracy": 101,
+	"pp": 20,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "cause_attack",
+		"value": {
+			"target": "random_target",
+			"user": "user",
+			"attack": {
+				"type": "from_battle_instance",
+				"value": "last_used_move"
+			}
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "Accuracy",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+}

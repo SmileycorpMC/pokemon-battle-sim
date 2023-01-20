@@ -1,0 +1,96 @@
+{
+  "name": "Shellos",
+  "id": 422,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Amorphous"
+  ],
+  "forms": {
+    "west": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Sticky Hold",
+      "ability2": "Storm Drain",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "gastrodon",
+            "form": "west"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 76,
+        "ATK": 48,
+        "DEF": 48,
+        "SP_ATK": 57,
+        "SP_DEF": 62,
+        "SPD": 34
+      },
+      "height": 0.3,
+      "weight": 6.3,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Sea Slug",
+      "isBaseForm": true
+    },
+    "east": {
+      "types": [
+        "Water"
+      ],
+      "ability1": "Sticky Hold",
+      "ability2": "Storm Drain",
+      "hiddenAbility": "Sand Force",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "gastrodon",
+            "form": "east"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
+      "stats": {
+        "HP": 76,
+        "ATK": 48,
+        "DEF": 48,
+        "SP_ATK": 57,
+        "SP_DEF": 62,
+        "SPD": 34
+      },
+      "height": 0.3,
+      "weight": 6.3,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 65,
+      "classification": "Sea Slug",
+      "isBaseForm": true
+    }
+  }
+}

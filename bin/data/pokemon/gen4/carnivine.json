@@ -1,0 +1,48 @@
+{
+  "name": "Carnivine",
+  "id": 455,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Grass"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 100,
+        "DEF": 72,
+        "SP_ATK": 90,
+        "SP_DEF": 72,
+        "SPD": 46
+      },
+      "height": 1.4,
+      "weight": 27.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Bug Catcher",
+      "isBaseForm": true
+    }
+  }
+}

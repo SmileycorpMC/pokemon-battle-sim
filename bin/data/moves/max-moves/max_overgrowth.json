@@ -1,0 +1,16 @@
+{
+	"name": "Max Overgrowth",
+	"type": "Grass",
+	"category": null,
+	"target": "select_opponent",
+	"power": -1,
+	"accuracy": 101,
+	"priority": 0,
+	"properties": [],
+	"primary_effects": [],
+	"secondary_effects": [{
+		"function": "set_terrain",
+		"value": "grassy_terrain",
+		"conditions": []
+	}]
+}

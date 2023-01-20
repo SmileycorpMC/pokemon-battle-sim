@@ -1,0 +1,28 @@
+{
+  "stat_modifiers": [
+    {
+      "stat": "SPD",
+      "multiplier": 0.5
+    }
+  ],
+  "effects": [
+    {
+      "event": "on_use_move",
+      "functions": [
+        {
+          "function": "set_move_status",
+          "value": "Paralyzed",
+          "conditions": [
+            {
+              "mode": "random_chance",
+              "value": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "immune_types": [
+    "electric"
+  ]
+}

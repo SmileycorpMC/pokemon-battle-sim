@@ -1,0 +1,49 @@
+{
+  "name": "Solrock",
+  "id": 338,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 25,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Rock",
+        "Psychic"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 95,
+        "DEF": 85,
+        "SP_ATK": 55,
+        "SP_DEF": 65,
+        "SPD": 70
+      },
+      "height": 1.2,
+      "weight": 154.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 161,
+      "classification": "Meteorite",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Munna",
+  "id": 517,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 10,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Fast",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Psychic"
+      ],
+      "ability1": "Forewarn",
+      "ability2": "Synchronize",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "musharna",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "moon_stone"
+        }
+      ],
+      "stats": {
+        "HP": 76,
+        "ATK": 25,
+        "DEF": 45,
+        "SP_ATK": 67,
+        "SP_DEF": 55,
+        "SPD": 24
+      },
+      "height": 0.6,
+      "weight": 23.3,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 1
+        }
+      ],
+      "expDrop": 58,
+      "classification": "Dream Eater",
+      "isBaseForm": true
+    }
+  }
+}

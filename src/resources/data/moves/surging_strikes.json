@@ -1,0 +1,29 @@
+{
+	"name": "Surging Strikes",
+	"type": "Water",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 25,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": 140,
+	"max_move_power": 130,
+	"properties": [
+		"makes_contact",
+		"punching"
+	],
+	"primary_effects": [{
+			"function": "temporarily_increase_crit_chance",
+			"value": 5,
+			"conditions": []
+		},
+		{
+			"function": "set_hit_count",
+			"value": 3,
+			"conditions": []
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

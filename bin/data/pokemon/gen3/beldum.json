@@ -1,0 +1,58 @@
+{
+  "name": "Beldum",
+  "id": 374,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 40,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "ability1": "Clear Body",
+      "ability2": "",
+      "hiddenAbility": "Light Metal",
+      "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "metang",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 20
+        }
+      ],
+      "stats": {
+        "HP": 40,
+        "ATK": 55,
+        "DEF": 80,
+        "SP_ATK": 35,
+        "SP_DEF": 60,
+        "SPD": 30
+      },
+      "height": 0.6,
+      "weight": 95.2,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 60,
+      "classification": "Iron Ball",
+      "isBaseForm": true
+    }
+  }
+}

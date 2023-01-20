@@ -1,0 +1,40 @@
+{
+  "name": "Quilladin",
+  "id": 651,
+  "genderRatio": 1,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 70,
+  "catchRate": 45,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Field"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass"
+      ],
+      "ability1": "Overgrow",
+      "hiddenAbility": "Bulletproof",
+      "stats": {
+        "HP": 61,
+        "ATK": 78,
+        "DEF": 95,
+        "SP_ATK": 56,
+        "SP_DEF": 58,
+        "SPD": 57
+      },
+      "height": 0.7,
+      "weight": 29.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 142,
+      "classificat

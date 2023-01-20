@@ -1,0 +1,50 @@
+{
+  "name": "Malamar",
+  "id": 687,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 20,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Water_1",
+    "Water_2"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Dark",
+        "Psychic"
+      ],
+      "ability1": "Contrary",
+      "ability2": "Suction Cups",
+      "hiddenAbility": "Infiltrator",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 86,
+        "ATK": 92,
+        "DEF": 88,
+        "SP_ATK": 68,
+        "SP_DEF": 75,
+        "SPD": 73
+      },
+      "height": 1.5,
+      "weight": 47.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 169,
+      "classification": "Overturning",
+      "isBaseForm": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Orbeetle",
+  "id": 826,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Bug"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Bug",
+        "Psychic"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Frisk",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 45,
+        "DEF": 110,
+        "SP_ATK": 80,
+        "SP_DEF": 120,
+        "SPD": 90
+      },
+      "height": 0.4,
+      "weight": 40.8,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 253,
+      "classification": "Seven Spot",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Bug",
+        "Psychic"
+      ],
+      "ability1": "Swarm",
+      "ability2": "Frisk",
+      "hiddenAbility": "Telepathy",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 45,
+        "DEF": 110,
+        "SP_ATK": 80,
+        "SP_DEF": 120,
+        "SPD": 90
+      },
+      "height": 14.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 253,
+      "classification": "Seven Spot",
+      "isBaseForm": false
+    }
+  }
+}

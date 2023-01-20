@@ -1,0 +1,79 @@
+{
+  "name": "Corviknight",
+  "id": 823,
+  "genderRatio": 4,
+  "canDynamax": true,
+  "isLegendary": false,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 15,
+  "baseHappiness": 0,
+  "catchRate": 0,
+  "expRate": "Medium_Slow",
+  "eggGroups": [
+    "Flying"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Flying",
+        "Steel"
+      ],
+      "ability1": "Pressure",
+      "ability2": "Unnerve",
+      "hiddenAbility": "Mirror Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 98,
+        "ATK": 87,
+        "DEF": 105,
+        "SP_ATK": 53,
+        "SP_DEF": 85,
+        "SPD": 67
+      },
+      "height": 2.2,
+      "weight": 75.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 248,
+      "classification": "Raven",
+      "isBaseForm": true
+    },
+    "gmax": {
+      "types": [
+        "Flying",
+        "Steel"
+      ],
+      "ability1": "Pressure",
+      "ability2": "Unnerve",
+      "hiddenAbility": "Mirror Armor",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 98,
+        "ATK": 87,
+        "DEF": 105,
+        "SP_ATK": 53,
+        "SP_DEF": 85,
+        "SPD": 67
+      },
+      "height": 14.0,
+      "weight": 1000.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 248,
+      "classification": "Raven",
+      "isBaseForm": false
+    }
+  }
+}

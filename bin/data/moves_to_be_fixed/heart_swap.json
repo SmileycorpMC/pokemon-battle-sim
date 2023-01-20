@@ -1,0 +1,16 @@
+{
+  "name": "Heart Swap",
+  "type": "Psychic",
+  "category": "status",
+  "target": "select_ajacent",
+  "power": -1,
+  "accuracy": 101,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}
