@@ -2,14 +2,10 @@
   "name": "Hatenna",
   "id": 856,
   "genderRatio": 8,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 235,
   "expRate": "Slow",
   "eggGroups": [
     "Fairy"

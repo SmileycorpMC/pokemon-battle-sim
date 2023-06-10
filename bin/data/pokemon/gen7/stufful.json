@@ -2,14 +2,10 @@
   "name": "Stufful",
   "id": 759,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 15,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 140,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Field"

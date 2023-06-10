@@ -2,14 +2,12 @@
   "name": "Buzzwole",
   "id": 794,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"ultra_beast"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 45,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

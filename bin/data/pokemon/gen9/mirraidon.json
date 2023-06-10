@@ -2,11 +2,12 @@
   "name": "Miraidon",
   "id": 1008,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"restricted",
+	"paradox",
+	"future"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 3,

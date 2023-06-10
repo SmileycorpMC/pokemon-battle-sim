@@ -2,14 +2,10 @@
   "name": "Basculegion",
   "id": 902,
   "genderRatio": 0,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 40,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 135,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Water_2"

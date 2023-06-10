@@ -2,11 +2,7 @@
   "name": "Dudunsparce",
   "id": 982,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 45,
@@ -44,7 +40,7 @@
       "classification": "Land Snake",
       "isBaseForm": true
     },
-	"three-segment": {
+    "three-segment": {
       "types": [
         "Normal"
       ],

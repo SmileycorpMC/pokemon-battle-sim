@@ -2,14 +2,10 @@
   "name": "Dhelmise",
   "id": 781,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 25,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 25,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Mineral"

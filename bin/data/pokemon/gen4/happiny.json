@@ -2,14 +2,12 @@
   "name": "Happiny",
   "id": 440,
   "genderRatio": 8,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": true,
+  "tags": [
+	"baby"
+  ],
   "hatchCounter": 40,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 140,
+  "catchRate": 130,
   "expRate": "Fast",
   "eggGroups": [
     "Undiscovered"

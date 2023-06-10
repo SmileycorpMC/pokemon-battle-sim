@@ -2,14 +2,10 @@
   "name": "Mantyke",
   "id": 458,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": true,
+  "tags": [],
   "hatchCounter": 25,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 25,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

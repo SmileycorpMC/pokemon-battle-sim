@@ -2,11 +2,9 @@
   "name": "Meowscarada",
   "id": 908,
   "genderRatio": 1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"starter"
+  ],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 45,

@@ -2,28 +2,34 @@
   "name": "Varoom",
   "id": 965,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 190,
   "expRate": "Medium_Fast",
   "eggGroups": [
-	"Mineral"
+    "Mineral"
   ],
   "forms": {
     "default": {
       "types": [
-		"Steel",
-		"Poison"
+        "Steel",
+        "Poison"
       ],
       "ability1": "Overcoat",
       "ability2": "",
       "hiddenAbility": "Slow Start",
       "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "revavroom",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 40
+        }
+      ],
       "stats": {
         "HP": 45,
         "ATK": 70,
@@ -43,6 +49,6 @@
       "expDrop": 60,
       "classification": "Single-Cyl",
       "isBaseForm": true
-	}
+    }
   }
 }

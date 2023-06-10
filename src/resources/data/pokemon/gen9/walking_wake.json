@@ -1,0 +1,49 @@
+{
+  "name": "Walking Wake",
+  "id": 1009,
+  "genderRatio": -1,
+  "canDynamax": true,
+  "isLegendary": true,
+  "isMythical": false,
+  "isRestricted": false,
+  "isBaby": false,
+  "hatchCounter": 50,
+  "baseHappiness": 0,
+  "catchRate": 5,
+  "expRate": "Slow",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "ability1": "Protosynthesis",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 99,
+        "ATK": 83,
+        "DEF": 91,
+        "SP_ATK": 125,
+        "SP_DEF": 83,
+        "SPD": 109
+      },
+      "height": 3.5,
+      "weight": 280.0,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 295,
+      "classification": "Paradox",
+      "isBaseForm": true
+    }
+  }
+}

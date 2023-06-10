@@ -2,14 +2,12 @@
   "name": "Chingling",
   "id": 433,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": true,
+  "tags": [
+	"baby"
+  ],
   "hatchCounter": 25,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 70,
+  "catchRate": 120,
   "expRate": "Fast",
   "eggGroups": [
     "Undiscovered"

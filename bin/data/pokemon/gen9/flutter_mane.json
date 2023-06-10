@@ -2,11 +2,10 @@
   "name": "Flutter Mane",
   "id": 987,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"paradox",
+	"past"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 30,
@@ -18,7 +17,7 @@
     "default": {
       "types": [
         "Ghost",
-		"Fairy"
+        "Fairy"
       ],
       "ability1": "Protosynthesis",
       "ability2": "",
@@ -37,14 +36,14 @@
       "weight": 4.0,
       "evs": [
         {
-          "stat": "SP_ATK",
-          "value": 1
-        },
-		{
           "stat": "SP_DEF",
           "value": 1
         },
-		{
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        },
+        {
           "stat": "SPD",
           "value": 1
         }

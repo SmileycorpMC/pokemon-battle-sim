@@ -2,14 +2,12 @@
   "name": "Eevee",
   "id": 133,
   "genderRatio": 1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"starter"
+  ],
   "hatchCounter": 35,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 45,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Field"

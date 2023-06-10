@@ -2,11 +2,10 @@
   "name": "Iron Moth",
   "id": 994,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"paradox",
+	"future"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 30,
@@ -18,7 +17,7 @@
     "default": {
       "types": [
         "Fire",
-		"Poison"
+        "Poison"
       ],
       "ability1": "Quark Drive",
       "ability2": "",

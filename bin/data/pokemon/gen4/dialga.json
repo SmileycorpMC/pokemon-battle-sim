@@ -2,14 +2,14 @@
   "name": "Dialga",
   "id": 483,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": true,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"restricted",
+	"creation_trio"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

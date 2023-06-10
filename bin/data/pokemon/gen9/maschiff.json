@@ -2,17 +2,13 @@
   "name": "Maschiff",
   "id": 942,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 150,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Field"
+    "Field"
   ],
   "forms": {
     "default": {
@@ -23,6 +19,16 @@
       "ability2": "Run Away",
       "hiddenAbility": "Stakeout",
       "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "mabosstiff",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 30
+        }
+      ],
       "stats": {
         "HP": 60,
         "ATK": 78,

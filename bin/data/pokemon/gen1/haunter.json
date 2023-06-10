@@ -2,14 +2,10 @@
   "name": "Haunter",
   "id": 93,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 90,
   "expRate": "Medium_Slow",
   "eggGroups": [
     "Amorphous"

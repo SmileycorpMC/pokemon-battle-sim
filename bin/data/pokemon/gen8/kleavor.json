@@ -2,14 +2,10 @@
   "name": "Kleavor",
   "id": 900,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 25,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 115,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Bug"

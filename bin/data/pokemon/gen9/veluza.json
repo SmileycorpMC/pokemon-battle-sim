@@ -2,28 +2,25 @@
   "name": "Veluza",
   "id": 976,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 100,
   "expRate": "Fast",
   "eggGroups": [
-	"Water2"
+    "Water_2"
   ],
   "forms": {
     "default": {
       "types": [
-		"Water",
-		"Psychic"
+        "Water",
+        "Psychic"
       ],
       "ability1": "Mold Breaker",
       "ability2": "",
       "hiddenAbility": "Sharpness",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 90,
         "ATK": 102,

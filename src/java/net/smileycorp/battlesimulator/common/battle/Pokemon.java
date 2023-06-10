@@ -3,12 +3,16 @@ package net.smileycorp.battlesimulator.common.battle;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.google.gson.JsonObject;
+
 import net.smileycorp.battlesimulator.common.battle.status.Status;
+import net.smileycorp.battlesimulator.common.battle.status.Status.VolatileStatus;
 import net.smileycorp.battlesimulator.common.data.PokemonSpecies;
+import net.smileycorp.battlesimulator.common.stat.BasicStatMap;
 
 public class Pokemon {
 
-	protected PokemonSpecies baseData;
+	protected PokemonSpecies species;
 
 	protected int form;
 
@@ -16,8 +20,15 @@ public class Pokemon {
 
 	protected Status status;
 
-	protected Map<String, Object> variables = new HashMap<String, Object>();
+	protected BasicStatMap stats;
 
+	protected Map<String, VolatileStatus> volatileStatuses = new HashMap<>();
+
+	protected Map<String, Object> variables = new HashMap<>();
+
+	public Pokemon(JsonObject json) {
+
+	}
 
 	public boolean addStatus(Status status) {
 		if (this.status!=null) return false;

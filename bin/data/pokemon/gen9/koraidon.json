@@ -2,11 +2,12 @@
   "name": "Koraidon",
   "id": 1007,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"restricted",
+	"paradox",
+	"past"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 3,

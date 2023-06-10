@@ -2,14 +2,12 @@
   "name": "Tyrantrum",
   "id": 697,
   "genderRatio": 1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"fossil"
+  ],
   "hatchCounter": 30,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 45,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Monster",

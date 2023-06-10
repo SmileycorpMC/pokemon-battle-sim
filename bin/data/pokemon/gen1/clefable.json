@@ -2,14 +2,10 @@
   "name": "Clefable",
   "id": 36,
   "genderRatio": 6,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 10,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 140,
+  "catchRate": 25,
   "expRate": "Fast",
   "eggGroups": [
     "Fairy"

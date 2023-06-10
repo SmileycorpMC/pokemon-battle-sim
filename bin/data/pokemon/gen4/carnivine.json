@@ -2,14 +2,10 @@
   "name": "Carnivine",
   "id": 455,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 25,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 70,
+  "catchRate": 200,
   "expRate": "Slow",
   "eggGroups": [
     "Grass"

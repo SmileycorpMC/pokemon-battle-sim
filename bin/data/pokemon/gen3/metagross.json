@@ -2,14 +2,12 @@
   "name": "Metagross",
   "id": 376,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"pseudo-legendary"
+  ],
   "hatchCounter": 40,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 35,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Mineral"

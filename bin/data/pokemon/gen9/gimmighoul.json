@@ -2,11 +2,7 @@
   "name": "Gimmighoul",
   "id": 999,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 50,
   "baseHappiness": 50,
   "catchRate": 45,
@@ -44,7 +40,7 @@
       "classification": "Coin Chest",
       "isBaseForm": true
     },
-	"roaming": {
+    "roaming": {
       "types": [
         "Ghost"
       ],

@@ -2,14 +2,15 @@
   "name": "Zacian",
   "id": 888,
   "genderRatio": -1,
-  "canDynamax": false,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": true,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"restricted",
+	"cant_dynamax",
+	"hero_duo"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 10,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

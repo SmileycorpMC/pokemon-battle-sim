@@ -74,9 +74,9 @@ public class DataGenerator {
 			pokemon.id = speciesJson.get("id").getAsInt();
 			pokemon.genderRatio = speciesJson.get("gender_rate").getAsInt();
 			pokemon.hatchCounter = speciesJson.get("hatch_counter").getAsInt();
-			pokemon.isBaby = speciesJson.get("is_baby").getAsBoolean();
-			pokemon.isLegendary = speciesJson.get("is_legendary").getAsBoolean();
-			pokemon.isMythical = speciesJson.get("is_mythical").getAsBoolean();
+			if (speciesJson.get("is_baby").getAsBoolean()) pokemon.tags.add("baby");
+			if (speciesJson.get("is_legendary").getAsBoolean()) pokemon.tags.add("legendary");
+			if (speciesJson.get("is_mythical").getAsBoolean()) pokemon.tags.add("mythical");
 			pokemon.baseHappiness = speciesJson.get("base_happiness").getAsInt();
 			pokemon.catchRate = speciesJson.get("capture_rate").getAsInt();
 			pokemon.expRate = EnumExpRate.get(speciesJson.get("growth_rate").getAsJsonObject().get("name").getAsString());
@@ -220,12 +220,12 @@ public class DataGenerator {
 					System.out.println(file);
 					PokemonSpecies pokemon = PokemonSpecies.fromJson(file.getName().replace(".json", ""), JsonParser.parseReader(reader).getAsJsonObject());
 					reader.close();
-					/*if (pokemon.id <= 905)  {
+					if (pokemon.id <= 905)  {
 						JsonObject speciesJson = fetchJson("https://pokeapi.co/api/v2/pokemon-species/"+pokemon.id);
 						if (speciesJson.get("base_happiness").isJsonNull()) missing_happiness.add(pokemon.unlocalizedName);
 						else pokemon.baseHappiness = speciesJson.get("base_happiness").getAsInt();
 						pokemon.catchRate = speciesJson.get("capture_rate").getAsInt();
-					}*/
+					}
 					System.out.println(pokemon.unlocalizedName);
 					List<Entry<Form, Entry<FormReference, EvolutionData>>> evolutions = new ArrayList<>();
 					for (Entry<FormReference, EvolutionData> entry : evolutionTable) {
@@ -289,7 +289,7 @@ public class DataGenerator {
 
 	private static List<Entry<FormReference, EvolutionData>> readEvolutionTable(String path) throws Exception {
 		List<Entry<FormReference, EvolutionData>> table = new ArrayList<>();
-		try (Scanner scanner = new Scanner(new File(path+"/data/evolutions.csv"));) {
+		try (Scanner scanner = new Scanner(new File(path+"/data/evolutions.csv"))) {
 			while (scanner.hasNextLine()) {
 				String[] values = scanner.nextLine().split(",");
 				for (int i = 0; i < values.length; i++) {
@@ -320,6 +320,7 @@ public class DataGenerator {
 				}
 				table.add(new SimpleEntry<>(ref, data));
 			}
+			scanner.close();
 		}
 		return table;
 	}

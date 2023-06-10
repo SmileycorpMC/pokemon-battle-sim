@@ -2,14 +2,10 @@
   "name": "Litleo",
   "id": 667,
   "genderRatio": 7,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 70,
+  "catchRate": 220,
   "expRate": "Medium_Slow",
   "eggGroups": [
     "Field"

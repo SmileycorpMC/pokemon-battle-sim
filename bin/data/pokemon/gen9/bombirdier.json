@@ -2,28 +2,25 @@
   "name": "Bombirdier",
   "id": 962,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 35,
   "baseHappiness": 50,
   "catchRate": 25,
   "expRate": "Slow",
   "eggGroups": [
-	"Flying"
+    "Flying"
   ],
   "forms": {
     "default": {
       "types": [
-		"Flying",
-		"Dark"
+        "Flying",
+        "Dark"
       ],
       "ability1": "Big Pecks",
       "ability2": "Keen Eye",
       "hiddenAbility": "Rocky Payload",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 70,
         "ATK": 103,
@@ -43,6 +40,6 @@
       "expDrop": 243,
       "classification": "Item Drop",
       "isBaseForm": true
-	}
+    }
   }
 }

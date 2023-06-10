@@ -2,14 +2,10 @@
   "name": "Hitmonlee",
   "id": 106,
   "genderRatio": 0,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 25,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 45,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Human-like"

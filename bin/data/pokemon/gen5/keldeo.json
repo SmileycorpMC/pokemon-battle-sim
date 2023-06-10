@@ -2,14 +2,13 @@
   "name": "Keldeo",
   "id": 647,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": true,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"mythical",
+	"swords_of_justice"
+  ],
   "hatchCounter": 80,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 35,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"
