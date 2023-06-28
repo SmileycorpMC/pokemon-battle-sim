@@ -14,7 +14,7 @@
 	],
 	"primary_effects": [{
 		"function": "inflict_volatile_status_on_target",
-		"value": "taunt",
+		"value": "taunted",
 		"conditions": []
 	}],
 	"secondary_effects": [],

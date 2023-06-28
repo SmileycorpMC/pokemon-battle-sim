@@ -14,8 +14,8 @@
 		"punching"
 	],
 	"primary_effects": [{
-		"function": "temporarily_increase_crit_chance",
-		"value": 5,
+		"function": "set_crit_chance",
+		"value": 3,
 		"conditions": []
 	}],
 	"secondary_effects": [],

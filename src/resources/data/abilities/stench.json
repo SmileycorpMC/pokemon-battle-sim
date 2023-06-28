@@ -1,0 +1,23 @@
+{
+	"name": "Stench",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_volatile_status",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "get_status_type",
+						"value": null
+					},
+					"operation": "==",
+					"value2": "flinch"
+				}
+			}]
+		}]
+	}]
+}

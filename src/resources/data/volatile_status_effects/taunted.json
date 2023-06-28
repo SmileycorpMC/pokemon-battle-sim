@@ -7,7 +7,7 @@
         {
           "function": "create_turn_timer",
           "value": {
-            "name": "taunt",
+            "name": "taunted",
             "start": 3,
             "value": -1
           },
@@ -43,7 +43,7 @@
       "functions": [
         {
           "function": "remove_volatile_status",
-          "value": "taunt",
+          "value": "taunted",
           "conditions": [
             {
               "mode": "comparison",
@@ -51,7 +51,7 @@
                 "type": "int",
                 "value1": {
                   "type": "from_turn_timer",
-                  "target": "taunt"
+                  "target": "taunted"
                 },
                 "operator": "<=",
                 "value2": 1
@@ -66,7 +66,7 @@
       "functions": [
         {
           "function": "remove_turn_timer",
-          "value": "taunt",
+          "value": "taunted",
           "conditions": []
         }
       ]
