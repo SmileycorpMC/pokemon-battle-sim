@@ -1,0 +1,95 @@
+{
+	"name": "Terrain Pulse",
+	"type": "Normal",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 50,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"pulse"
+	],
+	"primary_effects": [{
+			"function": "change_power",
+			"value": 100,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "!=",
+					"value2": null
+				}
+			}]
+		},
+		{
+			"function": "change_type",
+			"value": "electric",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "electric_terrain"
+				}
+			}]
+		}, {
+			"function": "change_type",
+			"value": "grass",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "grassy_terrain"
+				}
+			}]
+		}, {
+			"function": "change_type",
+			"value": "fairy",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "misty_terrain"
+				}
+			}]
+		}, {
+			"function": "change_type",
+			"value": "psychic",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "terrain"
+					},
+					"operator": "==",
+					"value2": "psychic_terrain"
+				}
+			}]
+		}
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

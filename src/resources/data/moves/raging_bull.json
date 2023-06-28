@@ -1,0 +1,91 @@
+{
+	"name": "Raging Bull",
+	"type": "Normal",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 90,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+			"function": "remove_sided_field_effects",
+			"value": {
+				"targets": [
+					"light_screen",
+					"reflect"
+				],
+				"side": "target"
+			},
+			"conditions": []
+		},
+		{
+			"function": "function_group",
+			"value": [{
+				"function": "change_type",
+				"value": "fighting",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "form"
+						},
+						"operation": "==",
+						"value2": "paldea"
+					}
+				}]
+			}, {
+				"function": "change_type",
+				"value": "fire",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "form"
+						},
+						"operation": "==",
+						"value2": "blaze_breed"
+					}
+				}]
+			}, {
+				"function": "change_type",
+				"value": "water",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "form"
+						},
+						"operation": "==",
+						"value2": "aqua_breed"
+					}
+				}]
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_user",
+						"value": "species"
+					},
+					"operation": "==",
+					"value2": "tauros"
+				}
+			}]
+		}
+
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

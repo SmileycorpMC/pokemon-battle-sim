@@ -1,0 +1,48 @@
+{
+	"name": "Brick Break",
+	"type": "Fighting",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 75,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"makes_contact"
+	],
+	"primary_effects": [{
+		"function": "remove_sided_field_effects",
+		"value": {
+			"targets": [
+				"light_screen",
+				"reflect"
+			],
+			"side": "target"
+		},
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "int",
+				"value1": {
+					"type": "get_type_effectiveness",
+					"value": {
+						"attacking_type": {
+							"type": "from_current_move",
+							"value": "types"
+						},
+						"defending_type": {
+							"type": "from_target",
+							"value": "types"
+						}
+					}
+				},
+				"operator": ">",
+				"value2": 0
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

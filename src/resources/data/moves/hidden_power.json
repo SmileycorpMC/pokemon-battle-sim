@@ -1,0 +1,130 @@
+{
+	"name": "Hidden Power",
+	"type": "Normal",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 60,
+	"accuracy": 100,
+	"pp": 15,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_type",
+		"value": {
+			"type": "from_type_list",
+			"value": {
+				"type": "ordinal",
+				"value": {
+					"operation": "Divide",
+					"value": [{
+							"operation": "Add",
+							"value": [{
+								"operation": "Mod",
+								"value": [{
+										"type": "from_user",
+										"value": {
+											"type": "individual_value",
+											"value": "HP"
+										}
+									},
+									2
+								]
+							}, {
+								"operation": "Multiply",
+								"value": [
+									2,
+									{
+										"operation": "Mod",
+										"value": [{
+												"type": "from_user",
+												"value": {
+													"type": "individual_value",
+													"value": "ATK"
+												}
+											},
+											2
+										]
+									}
+								]
+							}, {
+								"operation": "Multiply",
+								"value": [
+									4,
+									{
+										"operation": "Mod",
+										"value": [{
+												"type": "from_user",
+												"value": {
+													"type": "individual_value",
+													"value": "DEF"
+												}
+											},
+											2
+										]
+									}
+								]
+							}, {
+								"operation": "Multiply",
+								"value": [
+									8,
+									{
+										"operation": "Mod",
+										"value": [{
+												"type": "from_user",
+												"value": {
+													"type": "individual_value",
+													"value": "SPD"
+												}
+											},
+											2
+										]
+									}
+								]
+							}, {
+								"operation": "Multiply",
+								"value": [
+									16,
+									{
+										"operation": "Mod",
+										"value": [{
+												"type": "from_user",
+												"value": {
+													"type": "individual_value",
+													"value": "SP_ATK"
+												}
+											},
+											2
+										]
+									}
+								]
+							}, {
+								"operation": "Multiply",
+								"value": [
+									32,
+									{
+										"operation": "Mod",
+										"value": [{
+												"type": "from_user",
+												"value": {
+													"type": "individual_value",
+													"value": "SP_DEF"
+												}
+											},
+											2
+										]
+									}
+								]
+							}]
+						},
+						63
+					]
+				}
+			}
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

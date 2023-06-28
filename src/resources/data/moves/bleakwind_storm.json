@@ -12,7 +12,25 @@
 	"properties": [
 		"wind"
 	],
-	"primary_effects": [],
+	"primary_effects": [{
+		"function": "change_accuracy",
+		"value": 101,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					"rain",
+					"heavy_rain"
+				]
+			}
+		}]
+	}],
 	"secondary_effects": [{
 		"function": "apply_stat_modifiers_to_target",
 		"value": [{

@@ -1,0 +1,34 @@
+{
+	"name": "Tera Blast",
+	"type": "Normal",
+	"category": "special",
+	"target": "select_ajacent",
+	"power": 80,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_type",
+		"value": {
+			"type": "from_user",
+			"value": "tera_type"
+		},
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "boolean",
+				"value1": {
+					"type": "from_target",
+					"value": "is_terastallized"
+				},
+				"operator": "==",
+				"value2": true
+			}
+		}]
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

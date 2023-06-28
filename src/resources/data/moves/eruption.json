@@ -1,0 +1,37 @@
+{
+	"name": "Eruption",
+	"type": "Fire",
+	"category": "special",
+	"target": "all_adjacent_opponents",
+	"power": 150,
+	"accuracy": 100,
+	"pp": 5,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+		"function": "change_power",
+		"value": {
+			"operation": "Divide",
+			"value": [{
+					"operation": "Multiply",
+					"value": [
+						150,
+						{
+							"type": "from_user",
+							"target": "current_hp"
+						}
+					]
+				},
+				{
+					"type": "from_user",
+					"target": "max_hp"
+				}
+			]
+		},
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": []
+}
