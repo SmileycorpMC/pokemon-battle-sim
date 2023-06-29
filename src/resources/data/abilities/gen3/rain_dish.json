@@ -1,0 +1,27 @@
+{
+	"name": "Rain Dish",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_heal",
+			"value": 0.0625,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "weather"
+					},
+					"operator": "==",
+					"value2": [
+						"rain",
+						"heavy_rain"
+					]
+				}
+			}]
+		}]
+	}]
+}

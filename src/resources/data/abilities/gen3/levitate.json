@@ -1,0 +1,24 @@
+{
+	"name": "Levitate",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "change_move_type_effectiveness",
+			"value": 0,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "ground"
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	"name": "Immunity",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_status",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "get_status_type"
+					},
+					"operation": "==",
+					"value2": [
+						"poison",
+						"bad_poison"
+					]
+				}
+			}]
+		}]
+	},
+	{
+		"event": "on_first_apply",
+		"functions": [{
+			"function": "remove_status",
+			"value": "poison",
+			"conditions": []
+		},
+		{
+			"function": "remove_status",
+			"value": "bad_poison",
+			"conditions": []
+		}]
+	}]
+}

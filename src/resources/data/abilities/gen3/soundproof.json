@@ -1,0 +1,24 @@
+{
+	"name": "Soundproof",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "set_damage",
+			"value": 0,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "==",
+					"value2": "sound_based"
+				}
+			}]
+		}]
+	}]
+}

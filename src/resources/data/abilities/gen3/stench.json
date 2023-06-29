@@ -1,0 +1,13 @@
+{
+	"name": "Stench",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_damaged_target",
+		"functions": [{
+			"function": "inflict_volatile_status_on_target",
+			"value": "flinch",
+			"conditions": []
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Inner Focus",
+	"notification": "None",
+	"properties": [
+		"blocks_intimidate"
+	],
+	"effects": [{
+		"event": "on_apply_volatile_status",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "get_status_type"
+					},
+					"operation": "==",
+					"value2": "flinch"
+				}
+			}]
+		}]
+	}]
+}

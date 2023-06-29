@@ -1,0 +1,16 @@
+{
+	"name": "Color Change",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "set_target_types",
+			"value": {
+				"type": "from_current_move",
+				"target": "type"
+			},
+			"conditions": []
+		}]
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	"name": "Lightning Rod",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_other_use_move",
+		"functions": [{
+			"function": "set_target",
+			"value": "user",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "electric"
+				}
+			}]
+		}]
+	}, {
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+					"function": "set_move_status",
+					"value": "Fail",
+					"conditions": []
+				},
+				{
+					"function": "apply_stat_modifiers_to_target",
+					"value": [{
+						"stat": "SP_ATK",
+						"amount": 1
+					}],
+					"conditions": []
+				}
+			],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "electric"
+				}
+			}]
+		}]
+	}]
+}

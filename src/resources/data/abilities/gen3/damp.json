@@ -1,0 +1,24 @@
+{
+	"name": "Damp",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "pokemon_used_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "==",
+					"value2": "explosive"
+				}
+			}]
+		}]
+	}]
+}

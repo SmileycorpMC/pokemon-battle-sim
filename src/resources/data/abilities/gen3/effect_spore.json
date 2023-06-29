@@ -1,0 +1,46 @@
+{
+	"name": "Effect Spore",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "Multiple",
+			"value" [{
+				"function": "apply_status_to_attacker",
+				"value": "poison",
+				"conditions": [{
+					"mode": "random_chance",
+					"value": 0.9
+				}]
+			}, {
+				"function": "apply_status_to_attacker",
+				"value": "paralysis",
+				"conditions": [{
+					"mode": "random_chance",
+					"value": 0.10
+				}]
+			}, {
+				"function": "apply_status_to_attacker",
+				"value": "sleep",
+				"conditions": [{
+					"mode": "random_chance",
+					"value": 0.11
+				}]
+			}]
+			"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"target": "properties"
+						},
+						"operation": "==",
+						"value2": "makes_contact"
+					}
+				}
+			]
+		}]
+	}]
+}

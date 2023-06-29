@@ -1,0 +1,16 @@
+{
+	"name": "Speed Boost",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "apply_stat_modifiers",
+			"value": [{
+				"stat": "SPD",
+				"amount": 1
+			}],
+			"conditions": []
+		}]
+	}]
+}

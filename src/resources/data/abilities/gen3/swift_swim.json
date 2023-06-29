@@ -1,0 +1,30 @@
+{
+	"name": "Swift Swim",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_calculate_stats",
+		"functions": [{
+			"function": "add_multiplier",
+			"value": [{
+				"stat": "SPD",
+				"amount": 2
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "weather"
+					},
+					"operator": "==",
+					"value2": [
+						"rain",
+						"heavy_rain"
+					]
+				}
+			}]
+		}]
+	}]
+}

@@ -20,12 +20,13 @@
               "value": {
                 "type": "string",
                 "value1": {
-                  "type": "get_status_type"
+					"type": "from_event",
+					"value": "get_status_type"
                 },
                 "operation": "==",
                 "value2": [
-                  "freeze",
-                  "frostbite"
+					"freeze",
+					"frostbite"
                 ]
               }
             }

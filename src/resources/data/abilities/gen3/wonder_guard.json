@@ -1,0 +1,33 @@
+{
+	"name": "Wonder Guard",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "change_move_type_effectiveness",
+			"value": 0,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "get_type_effectiveness",
+						"value": {
+							"attacking_type": {
+								"type": "from_current_move",
+								"value": "types"
+							},
+							"defending_type": {
+								"type": "from_target",
+								"value": "types"
+							}
+						}
+					},
+					"operator": "<",
+					"value2": 1
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Magnet Pull",
+	"notification": "Enter",
+	"properties": [],
+	"effects": [{
+		"event": "on_enemy_switch",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "is_manual"
+					},
+					"operation": "==",
+					"value2": true
+				}
+			},
+			{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "steel"
+				}
+			}]
+		}]
+	}]
+}

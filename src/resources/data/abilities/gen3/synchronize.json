@@ -1,0 +1,16 @@
+{
+	"name": "Synchronize",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_status",
+		"functions": [{
+			"function": "apply_status_to_attacker",
+			"value": {
+				"type": "from_event",
+				"value": "get_status_type"
+			},
+			"conditions": []
+		}]
+	}]
+}
