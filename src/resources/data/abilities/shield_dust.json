@@ -1,0 +1,12 @@
+{
+	"name": "Shield Dust",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "remove_secondary_effect",
+			"value": null,
+			"conditions": []
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Intimidate",
+	"properties": [],
+	"effects": [{
+		"event": "on_first_apply",
+		"functions": [{
+			"function": "apply_stat_modifiers_to_targets",
+			"value": {
+				"target": "all_adjacent_opponents",
+				"value": [{
+					"stat": "ATK",
+					"amount": -1
+				}],
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_target_ability",
+							"target": "properties"
+						},
+						"operation": "!=",
+						"value2": "blocks_intimidate"
+					}
+				}]
+			},
+			"conditions": []
+		}]
+	}]
+}

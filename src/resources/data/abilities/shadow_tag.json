@@ -1,0 +1,23 @@
+{
+	"name": "Shadow Tag",
+	"properties": [],
+	"effects": [{
+		"event": "on_enemy_switch",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "is_manual"
+					},
+					"operation": "==",
+					"value2": true
+				}
+			}]
+		}]
+	}]
+}

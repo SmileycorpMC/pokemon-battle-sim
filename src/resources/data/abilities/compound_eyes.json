@@ -1,0 +1,34 @@
+{
+	"name": "Compound Eyes",
+	"properties": [
+		"blocks_intimidate"
+	],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_accuracy",
+			"value": {
+				"operation": "Multiply",
+				"value": [
+					1.3,
+					{
+						"type": "from_current_move",
+						"value": "accuracy"
+					}
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "!=",
+					"value2": "one_hit_ko"
+				}
+			}]
+		}]
+	}]
+}

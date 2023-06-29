@@ -1,0 +1,15 @@
+{
+	"name": "Color Change",
+	"properties": [],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "set_user_types",
+			"value": {
+				"type": "from_current_move",
+				"target": "type"
+			},
+			"conditions": []
+		}]
+	}]
+}
