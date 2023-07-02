@@ -1,0 +1,87 @@
+{
+	"name": "Forecast",
+	"notification": "Trigger",
+	"properties": [
+		"cant_be_copied"
+	],
+	"effects": [{
+		"event": "on_change_weather",
+		"functions": [{
+				"function": "change_user_form",
+				"value": "default",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_battle_instance",
+							"value": "weather"
+						},
+						"operator": "==",
+						"value2": [
+							null,
+							"fog",
+							"strong_winds",
+							"sandstorm"
+						]
+					}
+				}]
+			}, {
+				"function": "change_user_form",
+				"value": "sunny",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_battle_instance",
+							"value": "weather"
+						},
+						"operator": "==",
+						"value2": [
+							"extremely_harsh_sunlight",
+							"harsh_sunlight"
+						]
+					}
+				}]
+			}, {
+				"function": "change_user_form",
+				"value": "snowy",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_battle_instance",
+							"value": "weather"
+						},
+						"operator": "==",
+						"value2": [
+							"hail",
+							"snowstorm"
+						]
+					}
+				}]
+			},
+			{
+				"function": "change_user_form",
+				"value": "rainy",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_battle_instance",
+							"value": "weather"
+						},
+						"operator": "==",
+						"value2": [
+							"heavy_rain",
+							"rain"
+						]
+					}
+				}]
+			}
+		]
+	}]
+}

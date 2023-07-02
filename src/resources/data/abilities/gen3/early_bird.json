@@ -1,0 +1,35 @@
+{
+	"name": "Early Bird",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_create_turn_timer",
+		"functions": [{
+			"function": "change_turn_timer",
+			"value": {
+				"operation": "Floor",
+				"value": {
+					"operation": "Divide",
+					"value": [{
+							"type": "from_event",
+							"target": "turn_timer_count"
+						},
+						2
+					]
+				}
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "turn_timer"
+					},
+					"operation": "==",
+					"value2": "sleep"
+				}
+			}]
+		}]
+	}]
+}

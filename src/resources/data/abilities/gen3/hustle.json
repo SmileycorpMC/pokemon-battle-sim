@@ -1,0 +1,65 @@
+{
+	"name": "Hustle",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+					"function": "change_power",
+					"value": {
+						"operation": "Multiply",
+						"value": [
+							1.5,
+							{
+								"type": "from_current_move",
+								"target": "power"
+							}
+						]
+					},
+					"conditions": []
+				},
+				{
+					"function": "change_accuracy",
+					"value": {
+						"operation": "Multiply",
+						"value": [
+							0.8,
+							{
+								"type": "from_current_move",
+								"target": "accuracy"
+							}
+						]
+					},
+					"conditions": []
+				}
+			],
+			"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"value": "category"
+						},
+						"operator": "!=",
+						"value2": "status"
+					}
+				},
+				{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"target": "properties"
+						},
+						"operation": "!=",
+						"value2": "one_hit_ko"
+					}
+				}
+			]
+		}]
+	}]
+}

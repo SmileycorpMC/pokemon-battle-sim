@@ -1,0 +1,24 @@
+{
+	"name": "Sticky Hold",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_item_removed",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "is_forced"
+					},
+					"operation": "==",
+					"value2": true
+				}
+			}]
+		}]
+	}]
+}

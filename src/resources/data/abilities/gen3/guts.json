@@ -1,0 +1,76 @@
+{
+	"name": "Guts",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+			"event": "on_use_move",
+			"functions": [{
+				"function": "change_power",
+				"value": {
+					"operation": "Multiply",
+					"value": [
+						1.5,
+						{
+							"type": "from_current_move",
+							"target": "power"
+						}
+					]
+				},
+				"conditions": [{
+						"mode": "comparison",
+						"value": {
+							"type": "string",
+							"value1": {
+								"type": "from_current_move",
+								"value": "category"
+							},
+							"operator": "==",
+							"value2": "physical"
+						}
+					}, {
+						"mode": "comparison",
+						"value": {
+							"type": "string",
+							"value1": {
+								"type": "from_current_pokemon",
+								"value": "status"
+							},
+							"operator": "!=",
+							"value2": "null"
+						}
+					}
+				]
+			}]
+		}, {
+			"event": "apply_stat_modifier",
+			"functions": [{
+				"function": "set_event_status",
+				"value": "Deny",
+				"conditions": [{
+						"mode": "comparison",
+						"value": {
+							"type": "string",
+							"value1": {
+								"type": "from_event",
+								"value": "source"
+							},
+							"operator": "==",
+							"value2": "status"
+						}
+					}, {
+						"mode": "comparison",
+						"value": {
+							"type": "string",
+							"value1": {
+								"type": "from_current_pokemon",
+								"value": "status"
+							},
+							"operator": "==",
+							"value2": "burn"
+						}
+					}
+				]
+			}]
+		}
+	]
+}

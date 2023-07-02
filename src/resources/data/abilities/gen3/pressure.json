@@ -1,0 +1,22 @@
+{
+	"name": "Pressure",
+	"notification": "Enter",
+	"properties": [],
+	"effects": [{
+		"event": "on_opponent_use_move",
+		"functions": [{
+			"function": "set_move_pp",
+			"value": {
+				"operation": "Subtract",
+				"value": [
+					{
+						"type": "from_current_move",
+						"target": "pp"
+					},
+					1
+				]
+			},
+			"conditions": []
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	"name": "Natural Cure",
-	"notification": "Enter",
+	"notification": "None",
 	"properties": [],
 	"effects": [{
 		"event": "on_user_switch",

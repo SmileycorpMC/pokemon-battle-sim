@@ -1,0 +1,13 @@
+{
+	"name": "Pickup",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "pickup_last_used_item",
+			"value": "user",
+			"conditions": []
+		}]
+	}]
+}

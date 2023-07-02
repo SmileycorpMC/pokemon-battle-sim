@@ -1,0 +1,45 @@
+{
+	"name": "Plus",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "change_power",
+			"value": {
+				"operation": "Multiply",
+				"value": [
+					1.5,
+					{
+						"type": "from_current_move",
+						"target": "power"
+					}
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"value": "category"
+					},
+					"operator": "==",
+					"value2": "special"
+				}
+			},
+			{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_ally_pokemon",
+						"value": "ability"
+					},
+					"operator": "==",
+					"value2": "minus"
+				}
+			}]
+		}]
+	}]
+}

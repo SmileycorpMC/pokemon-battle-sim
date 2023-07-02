@@ -1,0 +1,49 @@
+{
+	"name": "Hyper Cutter",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_stat_modifier_to_user",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_event",
+							"target": "stat"
+						},
+						"operation": "==",
+						"value2": "ATK"
+					}
+				},
+				{
+					"mode": "comparison",
+					"value": {
+						"type": "int",
+						"value1": {
+							"type": "from_event",
+							"target": "amount"
+						},
+						"operation": "<",
+						"value2": 0
+					}
+				},
+				{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_event",
+							"target": "source"
+						},
+						"operation": "==",
+						"value2": "opponent"
+					}
+				}
+			]
+		}]
+	}]
+}
