@@ -1,0 +1,12 @@
+{
+	"name": "Leftovers",
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_heal",
+			"value": 0.0625,
+			"conditions": []
+		}]
+	}]
+}

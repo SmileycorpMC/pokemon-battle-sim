@@ -1,0 +1,21 @@
+{
+	"name": "Bright Powder",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "set_accuracy",
+			"value": {
+				"operation": "Multiply",
+				"value": [
+					0.9,
+					{
+						"type": "from_current_move",
+						"value": "accuracy"
+					}
+				]
+			},
+			"conditions": []
+		}]
+	}]
+}

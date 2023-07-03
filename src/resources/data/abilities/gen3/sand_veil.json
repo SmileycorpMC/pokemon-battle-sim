@@ -16,7 +16,20 @@
 						}
 					]
 				},
-				"conditions": []
+				"conditions": [{
+						"mode": "comparison",
+						"value": {
+							"type": "string",
+							"value1": {
+								"type": "from_battle_instance",
+								"value": "weather"
+							},
+							"operator": "==",
+							"value2": [
+								"sandstorm"
+							]
+						}
+					}]
 			}]
 		},
 		{
