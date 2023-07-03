@@ -1,0 +1,26 @@
+{
+	"name": "Beserk Gene",
+	"properties": [],
+	"effects": [{
+		"event": "on_enter_battlefield",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": []
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": {
+				"stat": "ATK",
+				"amount": 1
+			},
+			"conditions": []
+		}, {
+			"function": "apply_volatile_status_to_user",
+			"value": "confusion",
+			"conditions": []
+		}]
+	}]
+}

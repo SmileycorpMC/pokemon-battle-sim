@@ -1,5 +1,6 @@
 {
-	"stat_modifiers": [],
+	"name": "Magnet",
+	"properties": [],
 	"effects": [{
 		"event": "on_use_move",
 		"functions": [{
@@ -10,7 +11,7 @@
 						"type": "from_move",
 						"target": "power"
 					},
-					1.5
+					1.2
 				]
 			},
 			"conditions": [{
@@ -22,10 +23,9 @@
 						"value": "types"
 					},
 					"operator": "==",
-					"value2": "fire"
+					"value2": "electric"
 				}
 			}]
 		}]
-	}],
-	"immune_types": []
+	}]
 }
