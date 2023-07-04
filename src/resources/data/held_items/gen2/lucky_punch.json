@@ -1,5 +1,6 @@
 {
 	"name": "Lucky Punch",
+	"fling_power": 40,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

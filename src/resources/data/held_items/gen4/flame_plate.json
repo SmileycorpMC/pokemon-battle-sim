@@ -1,0 +1,34 @@
+{
+	"name": "Flame Plate",
+	"fling_power": 90,
+	"properties": [
+		"plate"
+	],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "change_power",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+						"type": "from_move",
+						"target": "power"
+					},
+					1.2
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"attacking_type": {
+						"type": "from_current_move",
+						"value": "types"
+					},
+					"operator": "==",
+					"value2": "fire"
+				}
+			}]
+		}]
+	}]
+}

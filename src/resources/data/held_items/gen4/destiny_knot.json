@@ -1,0 +1,29 @@
+{
+	"name": "Destiny Knot",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_volatile_status",
+		"functions": [{
+			"function": "apply_volatile_status",
+			"value": {
+				"target": {
+					"target": "from_event",
+					"value": "cause_pokemon"
+				}
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "status"
+					},
+					"operator": "==",
+					"value2": "infatuated"
+				}
+			}]
+		}]
+	}]
+}

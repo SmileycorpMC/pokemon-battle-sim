@@ -1,0 +1,13 @@
+{
+	"name": "Lagging_Tail",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "calculate_turn_order",
+		"functions": [{
+			"function": "move_to_bottom_of_bracket",
+			"value": "user",
+			"conditions": []
+		}]
+	}]
+}

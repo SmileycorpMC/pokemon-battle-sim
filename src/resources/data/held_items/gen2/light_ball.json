@@ -1,5 +1,6 @@
 {
 	"name": "Light Ball",
+	"fling_power": 30,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",
@@ -26,6 +27,17 @@
 					"value2": "pikachu"
 				}
 			}]
+		}]
+	}, {
+		"event": "on_thrown",
+		"functions": [{
+			"function": "add_secondary_effect",
+			"value": {
+				"function": "inflict_status_on_target",
+				"value": "paralysis",
+				"conditions": []
+			},
+			"conditions": []
 		}]
 	}]
 }

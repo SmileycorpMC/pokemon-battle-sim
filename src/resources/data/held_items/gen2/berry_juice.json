@@ -1,5 +1,6 @@
 {
 	"name": "Berry Juice",
+	"fling_power": 30,
 	"properties": [],
 	"effects": [{
 		"event": "damaged_by_move",

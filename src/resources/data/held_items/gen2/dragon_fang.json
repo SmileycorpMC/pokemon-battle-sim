@@ -1,5 +1,6 @@
 {
 	"name": "Dragon Fang",
+	"fling_power": 70,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

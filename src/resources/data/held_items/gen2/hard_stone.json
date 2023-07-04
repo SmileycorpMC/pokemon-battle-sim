@@ -1,5 +1,6 @@
 {
 	"name": "Hard Stone",
+	"fling_power": 100,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

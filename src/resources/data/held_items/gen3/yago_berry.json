@@ -1,5 +1,6 @@
 {
 	"name": "Yago Berry",
+	"fling_power": 10,
 	"properties": [
 		"berry",
 		"e-reader",

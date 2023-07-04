@@ -1,5 +1,6 @@
 {
 	"name": "Beserk Gene",
+	"fling_power": 30,
 	"properties": [
 		"gen2_exclusive"
 	],

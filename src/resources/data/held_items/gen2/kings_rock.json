@@ -1,19 +1,32 @@
 {
 	"name": "King's Rock",
+	"fling_power": 30,
 	"properties": [],
 	"effects": [{
-		"event": "on_use_move",
-		"functions": [{
-			"function": "add_secondary_effect",
-			"value": {
-				"function": "inflict_volatile_status_on_target",
-				"value": "flinch",
-				"conditions": [{
-					"mode": "random_chance",
-					"value": 0.10
-				}]
-			},
-			"conditions": []
-		}]
-	}]
+			"event": "on_use_move",
+			"functions": [{
+				"function": "add_secondary_effect",
+				"value": {
+					"function": "inflict_volatile_status_on_target",
+					"value": "flinch",
+					"conditions": [{
+						"mode": "random_chance",
+						"value": 0.10
+					}]
+				},
+				"conditions": []
+			}]
+		}, {
+			"event": "on_thrown",
+			"functions": [{
+				"function": "add_secondary_effect",
+				"value": {
+					"function": "inflict_volatile_status_on_target",
+					"value": "flinch",
+					"conditions": []
+				},
+				"conditions": []
+			}]
+		}
+	]
 }

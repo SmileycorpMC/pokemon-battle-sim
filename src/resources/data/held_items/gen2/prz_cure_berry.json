@@ -1,5 +1,6 @@
 {
 	"name": "Prz Cure Berry",
+	"fling_power": 10,
 	"properties": [
 		"berry",
 		"gen2_exclusive"

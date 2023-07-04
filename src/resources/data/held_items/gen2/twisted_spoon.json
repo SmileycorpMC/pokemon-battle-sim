@@ -1,5 +1,6 @@
 {
 	"name": "Twisted Spoon",
+	"fling_power": 30,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

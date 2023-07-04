@@ -1,5 +1,6 @@
 {
 	"name": "Sharp Beak",
+	"fling_power": 50,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

@@ -1,5 +1,6 @@
 {
 	"name": "Lax Incense",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "hit_by_move",

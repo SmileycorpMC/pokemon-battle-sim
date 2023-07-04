@@ -1,5 +1,6 @@
 {
 	"name": "Leftovers",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "on_turn_end",

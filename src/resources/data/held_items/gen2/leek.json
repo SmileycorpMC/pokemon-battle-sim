@@ -1,5 +1,6 @@
 {
 	"name": "Leek",
+	"fling_power": 60,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

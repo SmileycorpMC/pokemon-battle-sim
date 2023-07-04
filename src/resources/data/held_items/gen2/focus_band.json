@@ -1,5 +1,6 @@
 {
 	"name": "Focus Band",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "damaged_by_move",

@@ -1,5 +1,6 @@
 {
 	"name": "Pink Bow",
+	"fling_power": 10,
 	"properties": [
 		"gen2_exclusive"
 	],

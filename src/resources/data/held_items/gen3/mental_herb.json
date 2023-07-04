@@ -1,5 +1,6 @@
 {
 	"name": "Mental Herb",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "on_apply_volatile_status",
@@ -50,6 +51,25 @@
 			"conditions": []
 		}, {
 			"function": "remove_move_disabled",
+			"value": "all",
+			"conditions": []
+		}]
+	}, {
+		"event": "on_throwwn",
+		"functions": [{
+			"function": "remove_volatile_status_from_target",
+			"value": [
+						"embargo",
+						"encore",
+						"heal_block",
+						"infatuated",
+						"heal_block",
+						"taunt",
+						"torment"
+					],
+			"conditions": []
+		}, {
+			"function": "remove_move_disabled_from_target",
 			"value": "all",
 			"conditions": []
 		}]

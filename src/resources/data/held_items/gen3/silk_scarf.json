@@ -1,5 +1,6 @@
 {
 	"name": "Silk Scarf",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",
@@ -11,7 +12,7 @@
 						"type": "from_move",
 						"target": "power"
 					},
-					1.1
+					1.2
 				]
 			},
 			"conditions": [{

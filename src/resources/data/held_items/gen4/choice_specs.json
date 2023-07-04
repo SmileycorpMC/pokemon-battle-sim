@@ -1,0 +1,45 @@
+{
+	"name": "Choice Specs",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "on_calculate_stat",
+		"functions": [{
+			"function": "apply_modifier",
+			"value": 1.5,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"attacking_type": {
+						"type": "from_event",
+						"value": "stat"
+					},
+					"operator": "==",
+					"value2": "SP_ATK"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "name"
+					},
+					"operator": "!=",
+					"value2": {
+						"type": "from_current_pokemon",
+						"target": "last_used_move"
+					}
+				}
+			}]
+		}]
+	}]
+}

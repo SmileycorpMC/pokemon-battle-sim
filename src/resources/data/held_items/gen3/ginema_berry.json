@@ -1,5 +1,6 @@
 {
 	"name": "Ginema Berry",
+	"fling_power": 10,
 	"properties": [
 		"berry",
 		"e-reader",

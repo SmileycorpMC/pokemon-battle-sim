@@ -1,5 +1,6 @@
 {
 	"name": "Figy Berry",
+	"fling_power": 10,
 	"properties": [
 		"berry"
 	],

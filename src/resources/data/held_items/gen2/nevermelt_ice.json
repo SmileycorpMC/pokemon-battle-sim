@@ -1,5 +1,6 @@
 {
-	"name": "Nevermelt Ice",
+	"name": "Never-Melt Ice",
+	"fling_power": 30,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

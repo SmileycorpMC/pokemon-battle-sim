@@ -1,0 +1,41 @@
+{
+	"name": "Black Sludge",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+				"function": "fractional_heal",
+				"value": 0.0625,
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"attacking_type": {
+							"type": "from_user",
+							"value": "types"
+						},
+						"operator": "==",
+						"value2": "poison"
+					}
+				}]
+			},
+			{
+				"function": "fractional_damage",
+				"value": 0.125,
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"attacking_type": {
+							"type": "from_user",
+							"value": "types"
+						},
+						"operator": "!=",
+						"value2": "poison"
+					}
+				}]
+			}
+		]
+	}]
+}

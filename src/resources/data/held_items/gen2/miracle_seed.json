@@ -1,5 +1,6 @@
 {
 	"name": "Miracle Seed",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

@@ -1,5 +1,6 @@
 {
 	"name": "Deep Sea Tooth",
+	"fling_power": 90,
 	"properties": [],
 	"effects": [{
 		"event": "on_calculate_stat",

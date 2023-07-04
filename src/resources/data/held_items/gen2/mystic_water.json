@@ -1,5 +1,6 @@
 {
 	"name": "Mystic Water",
+	"fling_power": 30,
 	"properties": [],
 	"effects": [{
 		"event": "on_use_move",

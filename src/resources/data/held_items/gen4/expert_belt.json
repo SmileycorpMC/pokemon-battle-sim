@@ -1,0 +1,41 @@
+{
+	"name": "Expert Belt",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "change_power",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+						"type": "from_move",
+						"target": "power"
+					},
+					1.2
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "get_type_effectiveness",
+						"value": {
+							"attacking_type": {
+								"type": "from_current_move",
+								"value": "types"
+							},
+							"defending_type": {
+								"type": "from_defender",
+								"value": "types"
+							}
+						}
+					},
+					"operator": ">",
+					"value2": 0
+				}
+			}]
+		}]
+	}]
+}
