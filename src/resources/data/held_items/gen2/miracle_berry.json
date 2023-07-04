@@ -1,0 +1,41 @@
+{
+	"name": "Miracle Berry",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_status",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": []
+		}]
+	}, {
+		"event": "on_apply_volatile_status",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "status"
+					},
+					"operator": "==",
+					"value2": "confusion"
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "remove_status",
+			"value": "all",
+			"conditions": []
+		}, {
+			"function": "remove_volatile_status",
+			"value": "confusion",
+			"conditions": []
+		}]
+	}]
+}

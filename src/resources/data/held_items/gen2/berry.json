@@ -1,0 +1,38 @@
+{
+	"name": "Berry",
+	"properties": [],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_target",
+						"value": "current_hp"
+					},
+					"operator": "<=",
+					"value2": {
+						"operation": "Divide",
+						"value": [{
+								"type": "from_target",
+								"target": "max_hp"
+							},
+							2
+						]
+					}
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "heal_user",
+			"value": 10,
+			"conditions": []
+		}]
+	}]
+}

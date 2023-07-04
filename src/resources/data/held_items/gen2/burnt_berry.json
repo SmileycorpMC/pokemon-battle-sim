@@ -1,0 +1,36 @@
+{
+	"name": "Burnt Berry",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_status",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "status"
+					},
+					"operator": "==",
+					"value2": [
+						"freeze",
+						"frostbite"
+					]
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "remove_status",
+			"value": [
+				"freeze",
+				"frostbite"
+			],
+			"conditions": []
+		}]
+	}]
+}

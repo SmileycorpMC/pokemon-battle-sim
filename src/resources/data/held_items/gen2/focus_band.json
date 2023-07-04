@@ -1,0 +1,37 @@
+{
+	"name": "Focus Band",
+	"properties": [],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "set_damage",
+			"value": {
+				"operation": "Subtract",
+				"value": [{
+						"type": "from_current_pokemon",
+						"value": "current_hp"
+					},
+					1
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"value": "damage"
+					},
+					"operator": ">=",
+					"value2": {
+						"type": "from_current_pokemon",
+						"value": "current_hp"
+					}
+				}
+			}, {
+				"mode": "random_chance",
+				"value": 0.10
+			}]
+		}]
+	}]
+}

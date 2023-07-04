@@ -1,0 +1,30 @@
+{
+	"name": "Mystery Berry",
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_current_move",
+						"value": "pp"
+					},
+					"operator": "<=",
+					"value2": 0
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "restore_pp_to_last_used_move",
+			"value": 5,
+			"conditions": []
+		}
+	}]
+}

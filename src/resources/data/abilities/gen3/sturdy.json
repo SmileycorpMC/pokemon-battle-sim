@@ -20,8 +20,7 @@
 					}
 				}]
 			}]
-		},
-		{
+		}, {
 			"event": "damaged_by_move",
 			"functions": [{
 				"function": "set_damage",
@@ -42,10 +41,24 @@
 							"type": "from_current_pokemon",
 							"value": "current_hp"
 						},
-						"operator": "==",
+						"operator": ">=",
 						"value2": {
 							"type": "from_current_pokemon",
 							"value": "max_hp"
+						}
+					}
+				}, {
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"value": "damage"
+						},
+						"operator": ">=",
+						"value2": {
+							"type": "from_current_pokemon",
+							"value": "current_hp"
 						}
 					}
 				}]
