@@ -1,11 +1,12 @@
 {
-	"name": "Mint Berry",
+	"name": "Touga Berry",
 	"properties": [
 		"berry",
-		"gen2_exclusive"
+		"e-reader",
+		"cant_be_stolen"
 	],
 	"effects": [{
-		"event": "on_apply_status",
+		"event": "on_apply_volatile_status",
 		"functions": [{
 			"function": "consume_user_item",
 			"value": null,
@@ -18,21 +19,15 @@
 						"value": "status"
 					},
 					"operator": "==",
-					"value2": [
-						"sleep",
-						"drowsiness"
-					]
+					"value2": "infatuated"
 				}
 			}]
 		}]
 	}, {
 		"event": "consume_item",
 		"functions": [{
-			"function": "remove_status",
-			"value": [
-				"sleep",
-				"drowsiness"
-			],
+			"function": "remove_volatile_status",
+			"value": "infatuated",
 			"conditions": []
 		}]
 	}]

@@ -1,8 +1,9 @@
 {
-	"name": "Mint Berry",
+	"name": "Yago Berry",
 	"properties": [
 		"berry",
-		"gen2_exclusive"
+		"e-reader",
+		"cant_be_stolen"
 	],
 	"effects": [{
 		"event": "on_apply_status",
@@ -18,10 +19,7 @@
 						"value": "status"
 					},
 					"operator": "==",
-					"value2": [
-						"sleep",
-						"drowsiness"
-					]
+					"value2": "burn"
 				}
 			}]
 		}]
@@ -29,10 +27,7 @@
 		"event": "consume_item",
 		"functions": [{
 			"function": "remove_status",
-			"value": [
-				"sleep",
-				"drowsiness"
-			],
+			"value": "burn",
 			"conditions": []
 		}]
 	}]

@@ -1,8 +1,6 @@
 {
-	"name": "Polkadot Bow",
-	"properties": [
-		"gen2_exclusive"
-	],
+	"name": "Sea Incense",
+	"properties": [],
 	"effects": [{
 		"event": "on_use_move",
 		"functions": [{
@@ -13,7 +11,7 @@
 						"type": "from_move",
 						"target": "power"
 					},
-					1.1
+					1.2
 				]
 			},
 			"conditions": [{
@@ -25,7 +23,7 @@
 						"value": "types"
 					},
 					"operator": "==",
-					"value2": "normal"
+					"value2": "water"
 				}
 			}]
 		}]

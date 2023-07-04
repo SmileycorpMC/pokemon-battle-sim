@@ -1,0 +1,49 @@
+{
+	"name": "Ginema Berry",
+	"properties": [
+		"berry",
+		"e-reader",
+		"cant_be_stolen"
+	],
+	"effects": [{
+		"event": "on_apply_stat_modifier_to_user",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_event",
+						"target": "amount"
+					},
+					"operation": "<",
+					"value2": 0
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "reset_user_stat_modifiers",
+			"value": [
+				"ATK",
+				"DEF",
+				"SP_ATK",
+				"SP_DEF",
+				"SPD",
+				"Accuracy",
+				"Evasion"
+			],
+			"conditions": [{
+				"mode": "predicate_comparison",
+				"value": {
+					"type": "int",
+					"operator": "<",
+					"value": 0
+				}
+			}]
+		}]
+	}]
+}

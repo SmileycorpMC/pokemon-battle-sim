@@ -1,0 +1,15 @@
+{
+	"name": "Quick Claw",
+	"properties": [],
+	"effects": [{
+		"event": "calculate_turn_order",
+		"functions": [{
+			"function": "move_to_top_of_bracket",
+			"value": "user",
+			"conditions": [{
+				"mode": "random_chance",
+				"value": 0.20
+			}]
+		}]
+	}]
+}

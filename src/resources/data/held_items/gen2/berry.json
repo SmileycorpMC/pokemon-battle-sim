@@ -1,6 +1,9 @@
 {
 	"name": "Berry",
-	"properties": [],
+	"properties": [
+		"berry",
+		"gen2_exclusive"
+	],
 	"effects": [{
 		"event": "damaged_by_move",
 		"functions": [{

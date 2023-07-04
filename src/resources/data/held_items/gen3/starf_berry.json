@@ -1,8 +1,7 @@
 {
-	"name": "Berry",
+	"name": "Starf Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
 		"event": "damaged_by_move",
@@ -24,18 +23,32 @@
 								"type": "from_target",
 								"target": "max_hp"
 							},
-							2
+							4
 						]
 					}
 				}
 			}]
 		}]
 	}, {
-		"event": "consume_item",
-		"functions": [{
-			"function": "heal_user",
-			"value": 30,
-			"conditions": []
-		}]
+		"function": "raise_random_stat_target",
+		"value": {
+			"stats": [
+				"ATK",
+				"DEF",
+				"SP_ATK",
+				"SP_DEF",
+				"SPD"
+			],
+			"amount": 2,
+			"conditions": [{
+				"mode": "predicate_comparison",
+				"value": {
+					"type": "int",
+					"operator": "<",
+					"value": 6
+				}
+			}]
+		},
+		"conditions": []
 	}]
 }

@@ -1,8 +1,9 @@
 {
-	"name": "Mint Berry",
+	"name": "Pumkin Berry",
 	"properties": [
 		"berry",
-		"gen2_exclusive"
+		"e-reader",
+		"cant_be_stolen"
 	],
 	"effects": [{
 		"event": "on_apply_status",
@@ -19,8 +20,8 @@
 					},
 					"operator": "==",
 					"value2": [
-						"sleep",
-						"drowsiness"
+						"freeze",
+						"frostbite"
 					]
 				}
 			}]
@@ -30,8 +31,8 @@
 		"functions": [{
 			"function": "remove_status",
 			"value": [
-				"sleep",
-				"drowsiness"
+				"freeze",
+				"frostbite"
 			],
 			"conditions": []
 		}]

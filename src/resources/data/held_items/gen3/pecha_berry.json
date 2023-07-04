@@ -1,8 +1,7 @@
 {
-	"name": "Mint Berry",
+	"name": "Pecha Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
 		"event": "on_apply_status",
@@ -19,8 +18,8 @@
 					},
 					"operator": "==",
 					"value2": [
-						"sleep",
-						"drowsiness"
+						"poison",
+						"bad_poison"
 					]
 				}
 			}]
@@ -30,8 +29,8 @@
 		"functions": [{
 			"function": "remove_status",
 			"value": [
-				"sleep",
-				"drowsiness"
+				"poison",
+				"bad_poison"
 			],
 			"conditions": []
 		}]

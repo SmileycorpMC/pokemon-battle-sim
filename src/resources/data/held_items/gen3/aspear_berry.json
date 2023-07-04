@@ -1,8 +1,7 @@
 {
-	"name": "Mint Berry",
+	"name": "Aspear Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
 		"event": "on_apply_status",
@@ -19,8 +18,8 @@
 					},
 					"operator": "==",
 					"value2": [
-						"sleep",
-						"drowsiness"
+						"freeze",
+						"frostbite"
 					]
 				}
 			}]
@@ -30,8 +29,8 @@
 		"functions": [{
 			"function": "remove_status",
 			"value": [
-				"sleep",
-				"drowsiness"
+				"freeze",
+				"frostbite"
 			],
 			"conditions": []
 		}]

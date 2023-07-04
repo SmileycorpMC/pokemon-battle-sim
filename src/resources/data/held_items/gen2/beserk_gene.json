@@ -1,6 +1,8 @@
 {
 	"name": "Beserk Gene",
-	"properties": [],
+	"properties": [
+		"gen2_exclusive"
+	],
 	"effects": [{
 		"event": "on_enter_battlefield",
 		"functions": [{

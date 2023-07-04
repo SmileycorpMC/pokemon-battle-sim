@@ -1,0 +1,57 @@
+{
+	"name": "Mental Herb",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_volatile_status",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "status"
+					},
+					"operator": "==",
+					"value2": [
+						"embargo",
+						"encore",
+						"heal_block",
+						"infatuated",
+						"heal_block",
+						"taunt",
+						"torment"
+					]
+				}
+			}]
+		}]
+	}, {
+		"event": "on_move_disabled",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": []
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "remove_volatile_status",
+			"value": [
+						"embargo",
+						"encore",
+						"heal_block",
+						"infatuated",
+						"heal_block",
+						"taunt",
+						"torment"
+					],
+			"conditions": []
+		}, {
+			"function": "remove_move_disabled",
+			"value": "all",
+			"conditions": []
+		}]
+	}]
+}

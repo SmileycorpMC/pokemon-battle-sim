@@ -1,8 +1,7 @@
 {
-	"name": "Berry",
+	"name": "Sitrus Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
 		"event": "damaged_by_move",
@@ -33,8 +32,8 @@
 	}, {
 		"event": "consume_item",
 		"functions": [{
-			"function": "heal_user",
-			"value": 30,
+			"function": "fractional_heal_user",
+			"value": 0.25,
 			"conditions": []
 		}]
 	}]

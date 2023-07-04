@@ -1,6 +1,8 @@
 {
 	"name": "Pink Bow",
-	"properties": [],
+	"properties": [
+		"gen2_exclusive"
+	],
 	"effects": [{
 		"event": "on_use_move",
 		"functions": [{

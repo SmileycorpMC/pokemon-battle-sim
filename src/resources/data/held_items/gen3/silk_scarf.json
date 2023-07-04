@@ -1,8 +1,6 @@
 {
-	"name": "Polkadot Bow",
-	"properties": [
-		"gen2_exclusive"
-	],
+	"name": "Silk Scarf",
+	"properties": [],
 	"effects": [{
 		"event": "on_use_move",
 		"functions": [{

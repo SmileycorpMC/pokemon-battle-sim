@@ -1,0 +1,12 @@
+{
+	"name": "Shell Bell",
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "drain_hp_percent_of_damage",
+			"value": 0.125,
+			"conditions": []
+		}]
+	}]
+}

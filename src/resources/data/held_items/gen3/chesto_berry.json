@@ -1,8 +1,7 @@
 {
-	"name": "Mint Berry",
+	"name": "Chesto Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
 		"event": "on_apply_status",

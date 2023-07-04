@@ -1,11 +1,10 @@
 {
-	"name": "Mystery Berry",
+	"name": "Oran Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
-		"event": "on_use_move",
+		"event": "damaged_by_move",
 		"functions": [{
 			"function": "consume_user_item",
 			"value": null,
@@ -14,20 +13,28 @@
 				"value": {
 					"type": "int",
 					"value1": {
-						"type": "from_current_move",
-						"value": "pp"
+						"type": "from_target",
+						"value": "current_hp"
 					},
 					"operator": "<=",
-					"value2": 0
+					"value2": {
+						"operation": "Divide",
+						"value": [{
+								"type": "from_target",
+								"target": "max_hp"
+							},
+							2
+						]
+					}
 				}
 			}]
 		}]
 	}, {
 		"event": "consume_item",
 		"functions": [{
-			"function": "restore_pp_to_last_used_move",
-			"value": 5,
+			"function": "heal_user",
+			"value": 10,
 			"conditions": []
-		}
+		}]
 	}]
 }

@@ -1,11 +1,10 @@
 {
-	"name": "Mint Berry",
+	"name": "Persim Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
-		"event": "on_apply_status",
+		"event": "on_apply_volatile_status",
 		"functions": [{
 			"function": "consume_user_item",
 			"value": null,
@@ -18,21 +17,15 @@
 						"value": "status"
 					},
 					"operator": "==",
-					"value2": [
-						"sleep",
-						"drowsiness"
-					]
+					"value2": "confusion"
 				}
 			}]
 		}]
 	}, {
 		"event": "consume_item",
 		"functions": [{
-			"function": "remove_status",
-			"value": [
-				"sleep",
-				"drowsiness"
-			],
+			"function": "remove_volatile_status",
+			"value": "confusion",
 			"conditions": []
 		}]
 	}]

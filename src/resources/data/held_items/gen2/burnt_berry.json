@@ -1,6 +1,9 @@
 {
 	"name": "Burnt Berry",
-	"properties": [],
+	"properties": [
+		"berry",
+		"gen2_exclusive"
+	],
 	"effects": [{
 		"event": "on_apply_status",
 		"functions": [{

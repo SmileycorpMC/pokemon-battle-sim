@@ -1,8 +1,7 @@
 {
-	"name": "Berry",
+	"name": "Figy Berry",
 	"properties": [
-		"berry",
-		"gen2_exclusive"
+		"berry"
 	],
 	"effects": [{
 		"event": "damaged_by_move",
@@ -24,7 +23,7 @@
 								"type": "from_target",
 								"target": "max_hp"
 							},
-							2
+							4
 						]
 					}
 				}
@@ -33,9 +32,24 @@
 	}, {
 		"event": "consume_item",
 		"functions": [{
-			"function": "heal_user",
-			"value": 30,
+			"function": "fractional_heal_user",
+			"value": 0.3333,
 			"conditions": []
+		}, {
+			"function": "apply_volatile_status_to_user",
+			"value": "confusion",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_user",
+						"value": "disliked_flavors"
+					},
+					"operator": "==",
+					"value2": "spicy"
+				}
+			}]
 		}]
 	}]
 }
