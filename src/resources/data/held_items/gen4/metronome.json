@@ -1,0 +1,96 @@
+{
+	"name": "Metronome",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "remove_pokemon_variable",
+			"value": "metronome",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "name"
+					},
+					"operator": "!=",
+					"value2": {
+						"type": "from_current_pokemon",
+						"target": "last_used_move"
+					}
+				}
+			}]
+		}, {
+			"function": "multiple",
+			"value": [{
+				"function": "set_pokemon_variable",
+				"value": {
+					"target": "metronome",
+					"value": {
+						"operation": "Add",
+						"value": [{
+								"type": "from_pokemon_variable",
+								"target": "metronome"
+							},
+							1
+						]
+					}
+				},
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "int",
+						"value1": {
+							"type": "from_pokemon_variable",
+							"target": "metronome"
+						},
+						"operator": "<",
+						"value2": 5
+					}
+				}]
+			}, {
+				"function": "change_power",
+				"value": {
+					"operation": "Multiply",
+					"value": [{
+							"type": "from_move",
+							"target": "power"
+						},
+						{
+							"operation": "Add",
+							"value": [{
+									"operation": "Multiply",
+									"value": [{
+											"type": "from_pokemon_variable",
+											"target": "metronome"
+										},
+										0.2
+									]
+								},
+								1
+							]
+						}
+					]
+				},
+				"conditions": []
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "name"
+					},
+					"operator": "==",
+					"value2": {
+						"type": "from_current_pokemon",
+						"target": "last_used_move"
+					}
+				}
+			}]
+		}]
+	}]
+}

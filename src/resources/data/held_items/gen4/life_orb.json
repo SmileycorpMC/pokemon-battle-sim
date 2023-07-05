@@ -1,0 +1,36 @@
+{
+	"name": "Life Orb",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "change_power",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+						"type": "from_move",
+						"target": "power"
+					},
+					1.3
+				]
+			},
+			"conditions": []
+		}, {
+			"function": "fractional_damage_user",
+			"value": 0.1,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_move",
+						"target": "power"
+					},
+					"operator": ">",
+					"value2": 0
+				}
+			}]
+		}]
+	}]
+}

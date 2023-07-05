@@ -1,0 +1,27 @@
+{
+	"name": "Grip Claw",
+	"fling_power": 90,
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_volatile_status_to_target",
+		"functions": [{
+			"function": "set_target_turn_timer",
+			"value": {
+				"name": "bound",
+				"value": 7
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"attacking_type": {
+						"type": "from_event",
+						"value": "status"
+					},
+					"operator": "==",
+					"value2": "bound"
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	"name": "Light Clay",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_user_set_field_effect",
+		"functions": [{
+			"function": "set_effect_duration",
+			"value": 8,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "field_effect"
+					},
+					"operator": "==",
+					"value2": [
+						"light_screen",
+						"reflect"
+					]
+				}
+			}]
+		}]
+	}]
+}

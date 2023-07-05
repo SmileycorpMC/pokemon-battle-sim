@@ -1,0 +1,24 @@
+{
+	"name": "Flame Orb",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "apply_status",
+			"value": "burn",
+			"conditions": []
+		}]
+	}, {
+		"event": "on_thrown",
+		"functions": [{
+			"function": "add_secondary_effect",
+			"value": {
+				"function": "inflict_status_on_target",
+				"value": "burn",
+				"conditions": []
+			},
+			"conditions": []
+		}]
+	}]
+}

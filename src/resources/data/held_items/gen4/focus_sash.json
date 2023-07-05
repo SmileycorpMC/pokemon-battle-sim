@@ -1,6 +1,6 @@
 {
-	"name": "Sturdy",
-	"notification": "Trigger",
+	"name": "Focus Sash",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "hit_by_move",
@@ -13,6 +13,10 @@
 			}, {
 				"function": "set_user_hp",
 				"value": 1,
+				"conditions": []
+			}, {
+				"function": "consume_user_item",
+				"value": null,
 				"conditions": []
 			}],
 			"conditions": [{
@@ -31,16 +35,24 @@
 	}, {
 		"event": "damaged_by_move",
 		"functions": [{
-			"function": "set_damage",
-			"value": {
-				"operation": "Subtract",
-				"value": [{
-						"type": "from_current_pokemon",
-						"value": "current_hp"
-					},
-					1
-				]
-			},
+			"function": "multiple",
+			"value": [{
+				"function": "set_damage",
+				"value": {
+					"operation": "Subtract",
+					"value": [{
+							"type": "from_current_pokemon",
+							"value": "current_hp"
+						},
+						1
+					]
+				},
+				"conditions": []
+			}, {
+				"function": "consume_user_item",
+				"value": null,
+				"conditions": []
+			}],
 			"conditions": [{
 				"mode": "comparison",
 				"value": {
