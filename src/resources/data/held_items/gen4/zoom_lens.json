@@ -1,0 +1,44 @@
+{
+	"name": "Zoom Lens",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_accuracy",
+			"value": {
+				"operation": "Multiply",
+				"value": [
+					1.2,
+					{
+						"type": "from_current_move",
+						"value": "accuracy"
+					}
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "!=",
+					"value2": "one_hit_ko"
+				}
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "boolean",
+					"value1": {
+						"type": "from_defender",
+						"target": "has_attacked"
+					},
+					"operation": "==",
+					"value2": true
+				}
+			}]
+		}]
+	}]
+}

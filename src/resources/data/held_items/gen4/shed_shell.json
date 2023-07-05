@@ -1,0 +1,24 @@
+{
+	"name": "Shed Shell",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "on_user_switch",
+		"functions": [{
+			"function": "ignore_enemy_abilities",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "is_manual"
+					},
+					"operation": "==",
+					"value2": true
+				}
+			}]
+		}]
+	}]
+}

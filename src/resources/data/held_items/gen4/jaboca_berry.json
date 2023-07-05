@@ -1,0 +1,34 @@
+{
+	"name": "Jaboca Berry",
+	"fling_power": 10,
+	"properties": [
+		"berry"
+	],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+				"function": "fractional_damage_attacker",
+				"value": 0.125,
+				"conditions": []
+			}, {
+				"function": "consume_user_item",
+				"value": null,
+				"conditions": []
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "category"
+					},
+					"operation": "==",
+					"value2": "physical"
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Razor Claw",
+	"fling_power": 80,
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "temporarily_increase_crit_chance",
+			"value": 1,
+			"conditions": []
+		}]
+	}]
+}

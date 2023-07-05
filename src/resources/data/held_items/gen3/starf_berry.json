@@ -31,25 +31,28 @@
 			}]
 		}]
 	}, {
-		"function": "raise_random_stat_target",
-		"value": {
-			"stats": [
-				"ATK",
-				"DEF",
-				"SP_ATK",
-				"SP_DEF",
-				"SPD"
-			],
-			"amount": 2,
-			"conditions": [{
-				"mode": "predicate_comparison",
-				"value": {
-					"type": "int",
-					"operator": "<",
-					"value": 6
-				}
-			}]
-		},
-		"conditions": []
+		"event": "consume_item",
+		"functions": [{
+			"function": "raise_random_stat_target",
+			"value": {
+				"stats": [
+					"ATK",
+					"DEF",
+					"SP_ATK",
+					"SP_DEF",
+					"SPD"
+				],
+				"amount": 2,
+				"conditions": [{
+					"mode": "predicate_comparison",
+					"value": {
+						"type": "int",
+						"operator": "<",
+						"value": 6
+					}
+				}]
+			},
+			"conditions": []
+		}]
 	}]
 }

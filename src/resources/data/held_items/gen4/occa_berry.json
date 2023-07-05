@@ -1,0 +1,62 @@
+{
+	"name": "Occa Berry",
+	"fling_power": 10,
+	"properties": [
+		"berry"
+	],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+				"function": "change_power",
+				"value": {
+					"operation": "Divide",
+					"value": [{
+							"type": "from_move",
+							"target": "power"
+						},
+						2
+					]
+				},
+				"conditions": []
+			}, {
+				"function": "consume_user_item",
+				"value": null,
+				"conditions": []
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "fire"
+				}
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "get_type_effectiveness",
+						"value": {
+							"attacking_type": {
+								"type": "from_current_move",
+								"value": "types"
+							},
+							"defending_type": {
+								"type": "from_target",
+								"value": "types"
+							}
+						}
+					},
+					"operator": ">",
+					"value2": 0
+				}
+			}]
+		}]
+	}]
+}

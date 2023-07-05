@@ -1,0 +1,17 @@
+{
+	"name": "Power Herb",
+	"fling_power": 10,
+	"properties": [],
+	"effects": [{
+		"event": "on_start_charging_move",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": []
+		}, {
+			"function": "skip_charge_turn",
+			"value": null,
+			"conditions": []
+		}]
+	}]
+}

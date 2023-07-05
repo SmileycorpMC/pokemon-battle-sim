@@ -1,0 +1,50 @@
+{
+	"name": "Sticky Barb",
+	"fling_power": 80,
+	"properties": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_damage",
+			"value": 0.125,
+			"conditions": []
+		}]
+	}, {
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+				"function": "set_user_item",
+				"value": null,
+				"conditions": []
+			}, {
+				"function": "set_defender_item",
+				"value": "sticky_barb",
+				"conditions": []
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "==",
+					"value2": "makes_contact"
+				}
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_defender",
+						"target": "item"
+					},
+					"operation": "==",
+					"value2": null
+				}
+			}]
+		}]
+	}]
+}

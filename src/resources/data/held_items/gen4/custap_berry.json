@@ -1,5 +1,5 @@
 {
-	"name": "Liechi Berry",
+	"name": "Custap Berry",
 	"fling_power": 10,
 	"properties": [
 		"berry"
@@ -17,7 +17,7 @@
 						"type": "from_target",
 						"value": "current_hp"
 					},
-					"operator": "<=",
+					"operator": "<",
 					"value2": {
 						"operation": "Divide",
 						"value": [{
@@ -33,11 +33,23 @@
 	}, {
 		"event": "consume_item",
 		"functions": [{
-			"function": "apply_stat_modifiers",
-			"value": [{
-				"stat": "ATK",
-				"amount": 1
-			}],
+			"function": "modify_next_attack",
+			"value": {
+				"function": "move_first_in_priority_bracket",
+				"value": null,
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"target": "properties"
+						},
+						"operation": "!=",
+						"value2": "one_hit_ko"
+					}
+				}]
+			},
 			"conditions": []
 		}]
 	}]

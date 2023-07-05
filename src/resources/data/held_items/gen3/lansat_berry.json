@@ -31,8 +31,11 @@
 			}]
 		}]
 	}, {
-		"function": "increase_crit_chance",
-		"value": 2,
-		"conditions": []
+		"event": "consume_item",
+		"functions": [{
+			"function": "increase_crit_chance",
+			"value": 2,
+			"conditions": []
+		}]
 	}]
 }
