@@ -1,0 +1,42 @@
+{
+	"name": "Safety Goggles",
+	"fling_power": 80,
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "==",
+					"value2": "powder"
+				}
+			}]
+		}]
+	}, {
+		"event": "damaged_by_effect",
+		"functions": [{
+			"function": "set_damage",
+			"value": 0,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_damage_instance",
+						"value": "source"
+					},
+					"operator": "==",
+					"value2": "weather"
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Maranga Berry",
+	"fling_power": 10,
+	"properties": [
+		"berry"
+	],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "category"
+					},
+					"operation": "==",
+					"value2": "physical"
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "apply_stat_modifiers",
+			"value": [{
+				"stat": "SP_DEF",
+				"amount": 1
+			}],
+			"conditions": []
+		}]
+	}]
+}

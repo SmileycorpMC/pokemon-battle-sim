@@ -1,0 +1,48 @@
+{
+	"name": "Weakness Policy",
+	"fling_power": 80,
+	"properties": [
+		"berry"
+	],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "get_type_effectiveness",
+						"value": {
+							"attacking_type": {
+								"type": "from_current_move",
+								"value": "types"
+							},
+							"defending_type": {
+								"type": "from_target",
+								"value": "types"
+							}
+						}
+					},
+					"operator": ">",
+					"value2": 0
+				}
+			}]
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "apply_stat_modifiers",
+			"value": [{
+				"stat": "ATK",
+				"amount": 1
+			}, {
+				"stat": "SP_ATK",
+				"amount": 1
+			}],
+			"conditions": []
+		}]
+	}]
+}
