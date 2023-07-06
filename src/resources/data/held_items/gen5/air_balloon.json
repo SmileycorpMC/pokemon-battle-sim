@@ -1,6 +1,6 @@
 {
-	"name": "Levitate",
-	"notification": "Trigger",
+	"name": "Air Balloon",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "hit_by_move",
@@ -28,6 +28,30 @@
 					},
 					"operation": "==",
 					"value2": "ground"
+				}
+			}]
+		}, {
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "get_type_effectiveness",
+						"value": {
+							"attacking_type": {
+								"type": "from_current_move",
+								"value": "types"
+							},
+							"defending_type": {
+								"type": "from_target",
+								"value": "types"
+							}
+						}
+					},
+					"operator": ">",
+					"value2": 0
 				}
 			}]
 		}]

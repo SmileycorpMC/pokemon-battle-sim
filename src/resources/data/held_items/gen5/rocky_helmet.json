@@ -1,0 +1,24 @@
+{
+	"name": "Rocky Helmet",
+	"fling_power": 60,
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "fractional_damage_attacker",
+			"value": 0.1667,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "==",
+					"value2": "makes_contact"
+				}
+			}]
+		}]
+	}]
+}

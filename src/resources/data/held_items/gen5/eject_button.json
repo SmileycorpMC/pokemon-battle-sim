@@ -1,0 +1,32 @@
+{
+	"name": "Eject Button",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+				"function": "force_switch_defender",
+				"value": "choose",
+				"conditions": []
+			}, {
+				"function": "consume_user_item",
+				"value": null,
+				"conditions": []
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "category"
+					},
+					"operation": "!=",
+					"value2": "status"
+				}
+			}]
+		}]
+	}]
+}

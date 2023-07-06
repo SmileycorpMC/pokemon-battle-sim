@@ -1,12 +1,12 @@
 {
-	"name": "Wonder Guard",
-	"notification": "Trigger",
+	"name": "Ring Target",
+	"fling_power": 10,
 	"properties": [],
 	"effects": [{
 		"event": "hit_by_move",
 		"functions": [{
 			"function": "change_move_type_effectiveness",
-			"value": 0,
+			"value": 1,
 			"conditions": [{
 				"mode": "comparison",
 				"value": {
@@ -24,7 +24,7 @@
 							}
 						}
 					},
-					"operator": "<=",
+					"operator": "<",
 					"value2": 1
 				}
 			}]

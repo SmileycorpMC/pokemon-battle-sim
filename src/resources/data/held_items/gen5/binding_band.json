@@ -1,0 +1,27 @@
+{
+	"name": "Binding Band",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_volatile_status_to_target",
+		"functions": [{
+			"function": "set_pokemon_variable",
+			"value": {
+				"name": "bind_damage",
+				"value": 0.1667
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"attacking_type": {
+						"type": "from_event",
+						"value": "status"
+					},
+					"operator": "==",
+					"value2": "bound"
+				}
+			}]
+		}]
+	}]
+}

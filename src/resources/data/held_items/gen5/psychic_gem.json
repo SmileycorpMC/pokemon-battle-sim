@@ -1,0 +1,43 @@
+{
+	"name": "Psychic Gem",
+	"fling_power": 0,
+	"properties": [
+		"gem",
+		"cant_be_thrown"
+	],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+				"function": "change_power",
+				"value": {
+					"operation": "Multiply",
+					"value": [{
+							"type": "from_move",
+							"target": "power"
+						},
+						1.3
+					]
+				},
+				"conditions": []
+			}, {
+				"function": "consume_user_item",
+				"value": null,
+				"conditions": []
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"attacking_type": {
+						"type": "from_current_move",
+						"value": "types"
+					},
+					"operator": "==",
+					"value2": "psychic"
+				}
+			}]
+		}]
+	}]
+}

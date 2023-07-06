@@ -1,0 +1,12 @@
+{
+	"name": "Float Stone",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_calculate_weight",
+		"functions": [{
+			"function": "apply_modifier",
+			"value": 0.5,
+			"conditions": []
+	}]
+}

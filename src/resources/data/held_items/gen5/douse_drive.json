@@ -1,0 +1,16 @@
+{
+	"name": "Douse Drive",
+	"fling_power": 70,
+	"properties": [
+		"drive",
+		"form_changer"
+	],
+	"effects": [{
+		"event": "on_battle_start",
+		"functions": [{
+			"function": "change_user_form",
+			"value": "douse",
+			"conditions": []
+		}]
+	}]
+}
