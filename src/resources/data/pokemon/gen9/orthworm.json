@@ -2,27 +2,24 @@
   "name": "Orthworm",
   "id": 968,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 35,
   "baseHappiness": 50,
   "catchRate": 25,
   "expRate": "Slow",
   "eggGroups": [
-	"Field"
+    "Field"
   ],
   "forms": {
     "default": {
       "types": [
-		"Steel"
+        "Steel"
       ],
       "ability1": "Earth Eater",
       "ability2": "",
       "hiddenAbility": "Sand Veil",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 70,
         "ATK": 85,
@@ -42,6 +39,6 @@
       "expDrop": 240,
       "classification": "Earthworm",
       "isBaseForm": true
-	}
+    }
   }
 }

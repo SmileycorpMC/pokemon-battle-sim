@@ -2,14 +2,14 @@
   "name": "Regirock",
   "id": 377,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"hoenn_regis",
+	"regi"
+  ],
   "hatchCounter": 80,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 35,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

@@ -2,11 +2,10 @@
   "name": "Chi-Yu",
   "id": 1004,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"treasure_of_ruin"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 6,

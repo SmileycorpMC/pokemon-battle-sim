@@ -2,11 +2,10 @@
   "name": "Iron Hands",
   "id": 992,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"paradox",
+	"future"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 50,
@@ -18,7 +17,7 @@
     "default": {
       "types": [
         "Fighting",
-		"Electric"
+        "Electric"
       ],
       "ability1": "Quark Drive",
       "ability2": "",

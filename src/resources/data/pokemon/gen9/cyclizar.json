@@ -2,28 +2,25 @@
   "name": "Cyclizar",
   "id": 967,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 30,
   "baseHappiness": 50,
   "catchRate": 190,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Field"
+    "Field"
   ],
   "forms": {
     "default": {
       "types": [
-		"Dragon",
-		"Normal"
+        "Dragon",
+        "Normal"
       ],
       "ability1": "Shed Skin",
       "ability2": "",
       "hiddenAbility": "Regenerator",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 70,
         "ATK": 95,
@@ -43,6 +40,6 @@
       "expDrop": 175,
       "classification": "Mount",
       "isBaseForm": true
-	}
+    }
   }
 }

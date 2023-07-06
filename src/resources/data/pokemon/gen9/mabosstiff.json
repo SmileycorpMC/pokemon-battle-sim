@@ -2,17 +2,13 @@
   "name": "Mabosstiff",
   "id": 943,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 75,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Field"
+    "Field"
   ],
   "forms": {
     "default": {
@@ -23,6 +19,7 @@
       "ability2": "Guard Dog",
       "hiddenAbility": "Stakeout",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 80,
         "ATK": 120,

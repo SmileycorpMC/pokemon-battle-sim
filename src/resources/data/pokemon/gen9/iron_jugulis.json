@@ -2,11 +2,10 @@
   "name": "Iron Jugulis",
   "id": 993,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"paradox",
+	"future"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 30,
@@ -18,7 +17,7 @@
     "default": {
       "types": [
         "Dark",
-		"Flying"
+        "Flying"
       ],
       "ability1": "Quark Drive",
       "ability2": "",

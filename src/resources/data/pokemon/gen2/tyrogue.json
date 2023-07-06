@@ -2,14 +2,12 @@
   "name": "Tyrogue",
   "id": 236,
   "genderRatio": 0,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": true,
+  "tags": [
+	"baby"
+  ],
   "hatchCounter": 25,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 75,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Undiscovered"

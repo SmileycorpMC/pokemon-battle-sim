@@ -2,14 +2,13 @@
   "name": "Enamorus",
   "id": 905,
   "genderRatio": 8,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"forces_of_nature"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

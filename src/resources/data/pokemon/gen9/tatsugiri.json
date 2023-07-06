@@ -2,28 +2,25 @@
   "name": "Tatsugiri",
   "id": 978,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 35,
   "baseHappiness": 50,
   "catchRate": 100,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Water2"
+    "Water_2"
   ],
   "forms": {
     "curly": {
       "types": [
-		"Dragon",
-		"Water"
+        "Dragon",
+        "Water"
       ],
       "ability1": "Commander",
       "ability2": "",
       "hiddenAbility": "Storm Drain",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 68,
         "ATK": 50,
@@ -43,16 +40,17 @@
       "expDrop": 166,
       "classification": "Mimicry",
       "isBaseForm": true
-	},
-	"droopy": {
+    },
+    "droopy": {
       "types": [
-		"Dragon",
-		"Water"
+        "Dragon",
+        "Water"
       ],
       "ability1": "Commander",
       "ability2": "",
       "hiddenAbility": "Storm Drain",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 68,
         "ATK": 50,
@@ -72,16 +70,17 @@
       "expDrop": 166,
       "classification": "Mimicry",
       "isBaseForm": true
-	},
-	"stretchy": {
+    },
+    "stretchy": {
       "types": [
-		"Dragon",
-		"Water"
+        "Dragon",
+        "Water"
       ],
       "ability1": "Commander",
       "ability2": "",
       "hiddenAbility": "Storm Drain",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 68,
         "ATK": 50,
@@ -101,6 +100,6 @@
       "expDrop": 166,
       "classification": "Mimicry",
       "isBaseForm": true
-	}
+    }
   }
 }

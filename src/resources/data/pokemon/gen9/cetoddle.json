@@ -2,27 +2,33 @@
   "name": "Cetoddle",
   "id": 974,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 25,
   "baseHappiness": 50,
   "catchRate": 150,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Field"
+    "Field"
   ],
   "forms": {
     "default": {
       "types": [
-		"Ice"
+        "Ice"
       ],
       "ability1": "Thick Fat",
       "ability2": "Snow Cloak",
       "hiddenAbility": "Sheer Force",
       "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "cetitan",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "ice_stone"
+        }
+      ],
       "stats": {
         "HP": 108,
         "ATK": 68,
@@ -42,6 +48,6 @@
       "expDrop": 67,
       "classification": "Terra Whale",
       "isBaseForm": true
-	}
+    }
   }
 }

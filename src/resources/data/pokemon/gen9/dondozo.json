@@ -2,27 +2,24 @@
   "name": "Dondozo",
   "id": 977,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 40,
   "baseHappiness": 50,
   "catchRate": 25,
   "expRate": "Slow",
   "eggGroups": [
-	"Water2"
+    "Water_2"
   ],
   "forms": {
     "default": {
       "types": [
-		"Water"
+        "Water"
       ],
       "ability1": "Unaware",
       "ability2": "Oblivious",
       "hiddenAbility": "Water Veil",
       "eventAbilities": [],
+      "evolutions": [],
       "stats": {
         "HP": 150,
         "ATK": 100,
@@ -42,6 +39,6 @@
       "expDrop": 265,
       "classification": "Big Catfish",
       "isBaseForm": true
-	}
+    }
   }
 }

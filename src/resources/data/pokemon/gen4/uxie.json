@@ -2,14 +2,13 @@
   "name": "Uxie",
   "id": 480,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"lake_guardians"
+  ],
   "hatchCounter": 80,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 140,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

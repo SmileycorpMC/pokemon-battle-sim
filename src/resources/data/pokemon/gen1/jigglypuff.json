@@ -2,14 +2,10 @@
   "name": "Jigglypuff",
   "id": 39,
   "genderRatio": 6,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 10,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 170,
   "expRate": "Fast",
   "eggGroups": [
     "Fairy"

@@ -2,30 +2,35 @@
   "name": "Arctibax",
   "id": 997,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 40,
   "baseHappiness": 50,
   "catchRate": 25,
   "expRate": "Slow",
   "eggGroups": [
     "Dragon",
-	"Mineral"
+    "Mineral"
   ],
   "forms": {
     "default": {
       "types": [
         "Dragon",
-		"Ice"
+        "Ice"
       ],
       "ability1": "Thermal Exchange",
       "ability2": "",
       "hiddenAbility": "Ice Body",
       "eventAbilities": [],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "baxcalibur",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 54
+        }
+      ],
       "stats": {
         "HP": 90,
         "ATK": 95,

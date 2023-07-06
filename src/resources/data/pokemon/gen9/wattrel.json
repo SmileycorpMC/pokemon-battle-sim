@@ -2,29 +2,35 @@
   "name": "Wattrel",
   "id": 940,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
   "baseHappiness": 50,
   "catchRate": 180,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Flying",
+    "Flying",
     "Water_1"
   ],
   "forms": {
     "default": {
       "types": [
         "Electric",
-		"Flying"
+        "Flying"
       ],
       "ability1": "Wind Power",
       "ability2": "Volt Absorb",
       "hiddenAbility": "Competitive",
       "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "kilowattrel",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 25
+        }
+      ],
       "stats": {
         "HP": 40,
         "ATK": 40,

@@ -2,14 +2,10 @@
   "name": "Eelektrik",
   "id": 603,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 70,
+  "catchRate": 60,
   "expRate": "Slow",
   "eggGroups": [
     "Amorphous"

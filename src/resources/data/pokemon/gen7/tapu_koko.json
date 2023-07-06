@@ -2,14 +2,13 @@
   "name": "Tapu Koko",
   "id": 785,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"tapu"
+  ],
   "hatchCounter": 15,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

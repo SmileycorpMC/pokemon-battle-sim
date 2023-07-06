@@ -2,28 +2,34 @@
   "name": "Glimmet",
   "id": 969,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 30,
   "baseHappiness": 50,
   "catchRate": 70,
   "expRate": "Medium_Slow",
   "eggGroups": [
-	"Mineral"
+    "Mineral"
   ],
   "forms": {
     "default": {
       "types": [
-		"Rock",
-		"Poison"
+        "Rock",
+        "Poison"
       ],
       "ability1": "Toxic Debris",
       "ability2": "",
       "hiddenAbility": "Corrosion",
       "eventAbilities": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "glimmora",
+            "form": "default"
+          },
+          "method": "level",
+          "value": 35
+        }
+      ],
       "stats": {
         "HP": 48,
         "ATK": 35,

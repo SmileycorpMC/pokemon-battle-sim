@@ -2,11 +2,10 @@
   "name": "Sandy Shocks",
   "id": 989,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"paradox",
+	"past"
+  ],
   "hatchCounter": 50,
   "baseHappiness": 0,
   "catchRate": 30,
@@ -18,7 +17,7 @@
     "default": {
       "types": [
         "Electric",
-		"Ground"
+        "Ground"
       ],
       "ability1": "Protosynthesis",
       "ability2": "",

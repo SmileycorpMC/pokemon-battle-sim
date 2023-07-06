@@ -2,14 +2,10 @@
   "name": "Indeedee",
   "id": 876,
   "genderRatio": 3,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 40,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 140,
+  "catchRate": 30,
   "expRate": "Fast",
   "eggGroups": [
     "Fairy"

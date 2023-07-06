@@ -2,14 +2,12 @@
   "name": "Azurill",
   "id": 298,
   "genderRatio": 6,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": true,
+  "tags": [
+	"baby"
+  ],
   "hatchCounter": 10,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 150,
   "expRate": "Fast",
   "eggGroups": [
     "Undiscovered"

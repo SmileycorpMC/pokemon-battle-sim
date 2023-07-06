@@ -2,14 +2,14 @@
   "name": "Zygarde",
   "id": 718,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": true,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"restricted",
+	"aura_trio"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

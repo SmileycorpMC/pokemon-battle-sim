@@ -2,14 +2,10 @@
   "name": "Mew",
   "id": 151,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": true,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 120,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 100,
+  "catchRate": 45,
   "expRate": "Medium_Slow",
   "eggGroups": [
     "Undiscovered"

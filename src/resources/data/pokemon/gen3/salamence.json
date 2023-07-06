@@ -2,14 +2,12 @@
   "name": "Salamence",
   "id": 373,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"pseudo-legendary"
+  ],
   "hatchCounter": 40,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 35,
+  "catchRate": 45,
   "expRate": "Slow",
   "eggGroups": [
     "Dragon"

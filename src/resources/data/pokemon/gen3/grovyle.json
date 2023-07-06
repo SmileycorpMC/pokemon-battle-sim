@@ -2,14 +2,12 @@
   "name": "Grovyle",
   "id": 253,
   "genderRatio": 1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"starter"
+  ],
   "hatchCounter": 20,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 45,
   "expRate": "Medium_Slow",
   "eggGroups": [
     "Monster",

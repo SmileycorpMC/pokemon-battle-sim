@@ -2,14 +2,12 @@
   "name": "Heatran",
   "id": 485,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary"
+  ],
   "hatchCounter": 10,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 100,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

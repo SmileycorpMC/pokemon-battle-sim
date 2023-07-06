@@ -2,14 +2,14 @@
   "name": "Rayquaza",
   "id": 384,
   "genderRatio": -1,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": true,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"weather_trio",
+	"restricted"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 45,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

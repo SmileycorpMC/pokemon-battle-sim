@@ -2,14 +2,10 @@
   "name": "Lairon",
   "id": 305,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 35,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 35,
+  "catchRate": 90,
   "expRate": "Slow",
   "eggGroups": [
     "Monster"

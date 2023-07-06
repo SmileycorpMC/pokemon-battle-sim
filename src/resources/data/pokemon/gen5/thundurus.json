@@ -2,14 +2,14 @@
   "name": "Thundurus",
   "id": 642,
   "genderRatio": 0,
-  "canDynamax": true,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"forces_of_nature",
+	"unova_forces"
+  ],
   "hatchCounter": 120,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 90,
+  "catchRate": 3,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

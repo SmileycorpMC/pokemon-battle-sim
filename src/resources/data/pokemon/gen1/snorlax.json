@@ -2,14 +2,10 @@
   "name": "Snorlax",
   "id": 143,
   "genderRatio": 1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 40,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 25,
   "expRate": "Slow",
   "eggGroups": [
     "Monster"

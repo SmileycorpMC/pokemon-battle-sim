@@ -2,14 +2,12 @@
   "name": "Lileep",
   "id": 345,
   "genderRatio": 1,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [
+	"fossil"
+  ],
   "hatchCounter": 30,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 45,
   "expRate": "Erratic",
   "eggGroups": [
     "Water_3"

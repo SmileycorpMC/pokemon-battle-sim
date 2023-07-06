@@ -2,14 +2,10 @@
   "name": "Furret",
   "id": 162,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 15,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 70,
+  "catchRate": 90,
   "expRate": "Medium_Fast",
   "eggGroups": [
     "Field"

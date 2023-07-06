@@ -2,14 +2,10 @@
   "name": "Makuhita",
   "id": 296,
   "genderRatio": 2,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 20,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 70,
+  "catchRate": 180,
   "expRate": "Fluctuating",
   "eggGroups": [
     "Human-like"

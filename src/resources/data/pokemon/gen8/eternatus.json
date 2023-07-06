@@ -2,14 +2,14 @@
   "name": "Eternatus",
   "id": 890,
   "genderRatio": -1,
-  "canDynamax": false,
-  "isLegendary": true,
-  "isMythical": false,
-  "isRestricted": true,
-  "isBaby": false,
+  "tags": [
+	"legendary",
+	"restricted",
+	"cant_dynamax"
+  ],
   "hatchCounter": 120,
   "baseHappiness": 0,
-  "catchRate": 0,
+  "catchRate": 255,
   "expRate": "Slow",
   "eggGroups": [
     "Undiscovered"

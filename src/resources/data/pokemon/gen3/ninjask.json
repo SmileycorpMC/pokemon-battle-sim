@@ -2,14 +2,10 @@
   "name": "Ninjask",
   "id": 291,
   "genderRatio": 4,
-  "canDynamax": true,
-  "isLegendary": false,
-  "isMythical": false,
-  "isRestricted": false,
-  "isBaby": false,
+  "tags": [],
   "hatchCounter": 15,
-  "baseHappiness": 0,
-  "catchRate": 0,
+  "baseHappiness": 50,
+  "catchRate": 120,
   "expRate": "Erratic",
   "eggGroups": [
     "Bug"
