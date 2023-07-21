@@ -37,7 +37,10 @@
 						"value": "ability"
 					},
 					"operator": "==",
-					"value2": "minus"
+					"value2": [
+						"plus",
+						"minus"
+					]
 				}
 			}]
 		}]

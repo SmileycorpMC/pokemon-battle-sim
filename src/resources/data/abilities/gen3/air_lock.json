@@ -1,0 +1,13 @@
+{
+	"name": "Air Lock",
+	"notification": "Enter",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_weather_effects",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": []
+		}]
+	}
+}

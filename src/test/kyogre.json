@@ -7,7 +7,7 @@
 	"gigantamax": false,
 	"tera_type": "water",
 	"nature": "timid",
-	"ivs" {
+	"ivs": {
 		"atk": 0,
 		"def": 31,
 		"sp_atk": 31,

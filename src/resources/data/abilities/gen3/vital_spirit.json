@@ -1,0 +1,63 @@
+{
+	"name": "Vital Spirit",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_status",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "get_status_type"
+					},
+					"operation": "==",
+					"value2": [
+						"sleep",
+						"drowsiness"
+					]
+				}
+			}]
+		}]
+	}, {
+		"event": "on_apply_volatile_status",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "get_status_type"
+					},
+					"operation": "==",
+					"value2": "drowsy"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "name"
+					},
+					"operation": "==",
+					"value2": "rest"
+				}
+			}]
+		}]
+	}]
+}

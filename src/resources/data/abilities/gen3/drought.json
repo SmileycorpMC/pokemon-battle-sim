@@ -1,0 +1,13 @@
+{
+	"name": "Drought",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_first_apply",
+		"functions": [{
+			"function": "set_weather",
+			"value": "harsh_sunlight",
+			"conditions": []
+		}]
+	}]
+}

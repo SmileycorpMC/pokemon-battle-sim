@@ -1,0 +1,13 @@
+{
+	"name": "Shell Armor",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "set_crit_chance",
+			"value": -1,
+			"conditions": []
+		}]
+	}]
+}

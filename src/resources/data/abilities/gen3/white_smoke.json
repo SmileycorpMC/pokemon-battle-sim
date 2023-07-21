@@ -1,0 +1,37 @@
+{
+	"name": "White Smoke",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_change_stat",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [
+			{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_event",
+						"value": "cause"
+					},
+					"operator": "!=",
+					"value2": "user"
+				}
+			},
+			{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_event",
+						"value": "amount"
+					},
+					"operator": "<",
+					"value2": 0
+				}
+			}]
+		}]
+	}]
+}

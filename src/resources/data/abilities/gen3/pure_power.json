@@ -1,5 +1,5 @@
 {
-	"name": "Minus",
+	"name": "Pure Power",
 	"notification": "None",
 	"properties": [],
 	"effects": [{
@@ -9,7 +9,7 @@
 			"value": {
 				"operation": "Multiply",
 				"value": [
-					1.5,
+					2,
 					{
 						"type": "from_current_move",
 						"target": "power"
@@ -25,22 +25,7 @@
 						"value": "category"
 					},
 					"operator": "==",
-					"value2": "special"
-				}
-			},
-			{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_ally_pokemon",
-						"value": "ability"
-					},
-					"operator": "==",
-					"value2": [
-						"plus",
-						"minus"
-					]
+					"value2": "physical"
 				}
 			}]
 		}]
