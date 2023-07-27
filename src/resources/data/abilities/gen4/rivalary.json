@@ -1,0 +1,69 @@
+{
+	"name": "Rivalry",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"event": "on_use_move",
+			"functions": [{
+				"function": "change_power",
+				"value": {
+					"operation": "Multiply",
+					"value": [
+						1.25,
+						{
+							"type": "from_current_move",
+							"target": "power"
+						}
+					]
+				},
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_attacker",
+							"target": "gender"
+						},
+						"operation": "==",
+						"value2": {
+							"type": "from_defender",
+							"target": "gender"
+						}
+					}
+				}]
+			}, {
+				"function": "change_power",
+				"value": {
+					"operation": "Multiply",
+					"value": [
+						0.75,
+						{
+							"type": "from_current_move",
+							"target": "power"
+						}
+					]
+				},
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_attacker",
+							"target": "gender"
+						},
+						"operation": "!=",
+						"value2": [
+							"genderless",
+							{
+								"type": "from_defender",
+								"target": "gender"
+							}
+						]
+					}
+				}]
+			}]
+		}]
+	}]
+}

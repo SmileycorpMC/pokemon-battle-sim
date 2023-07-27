@@ -1,0 +1,27 @@
+{
+	"name": "Tangled Feet",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_calculate_stats",
+		"functions": [{
+			"function": "add_multiplier",
+			"value": [{
+				"stat": "Evasion",
+				"amount": 2
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"value": "volatile_status"
+					},
+					"operator": "!=",
+					"value2": "confusion"
+				}
+			}]
+		}]
+	}]
+}

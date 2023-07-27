@@ -1,0 +1,27 @@
+{
+	"name": "Anger Point",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "damaged_by_move",
+		"functions": [{
+			"function": "apply_stat_modifiers_to_target",
+			"value": [{
+				"stat": "SPD",
+				"amount": 1
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "boolean",
+					"value1": {
+						"type": "from_move",
+						"value": "was_crit"
+					},
+					"operator": "==",
+					"value2": "true"
+				}
+			}]
+		}]
+	}]
+}

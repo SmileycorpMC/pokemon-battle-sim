@@ -2,7 +2,8 @@
 	"name": "Aguav Berry",
 	"fling_power": 10,
 	"properties": [
-		"berry"
+		"berry",
+		"gluttony_consumable"
 	],
 	"effects": [{
 		"event": "damaged_by_move",

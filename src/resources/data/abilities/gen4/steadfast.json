@@ -1,0 +1,27 @@
+{
+	"name": "Steadfast",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "apply_stat_modifiers_to_user",
+			"value": [{
+				"stat": "SPD",
+				"amount": 1
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"value": "volatile_status"
+					},
+					"operator": "!=",
+					"value2": "flinch"
+				}
+			}]
+		}]
+	}]
+}

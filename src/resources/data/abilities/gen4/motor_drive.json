@@ -1,0 +1,37 @@
+{
+	"name": "Motor Drive",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+					"function": "set_move_status",
+					"value": "Fail",
+					"conditions": []
+				},
+				{
+					"function": "apply_stat_modifiers_to_target",
+					"value": [{
+						"stat": "SPD",
+						"amount": 1
+					}],
+					"conditions": []
+				}
+			],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "electric"
+				}
+			}]
+		}]
+	}]
+}

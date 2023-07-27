@@ -1,10 +1,7 @@
 {
-	"name": "Wiki Berry",
-	"fling_power": 10,
-	"properties": [
-		"berry",
-		"gluttony_consumable"
-	],
+	"name": "Gluttony",
+	"notification": "Trigger",
+	"properties": [],
 	"effects": [{
 		"event": "damaged_by_move",
 		"functions": [{
@@ -29,27 +26,16 @@
 						]
 					}
 				}
-			}]
-		}]
-	}, {
-		"event": "consume_item",
-		"functions": [{
-			"function": "fractional_heal_user",
-			"value": 0.3333,
-			"conditions": []
-		}, {
-			"function": "apply_volatile_status_to_user",
-			"value": "confusion",
-			"conditions": [{
+			}, {
 				"mode": "comparison",
 				"value": {
 					"type": "string",
 					"value1": {
-						"type": "from_user",
-						"value": "disliked_flavors"
+						"type": "from_target_item",
+						"value": "properties"
 					},
 					"operator": "==",
-					"value2": "dry"
+					"value2": "gluttony_consumable"
 				}
 			}]
 		}]
