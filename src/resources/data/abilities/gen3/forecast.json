@@ -62,8 +62,7 @@
 						]
 					}
 				}]
-			},
-			{
+			}, {
 				"function": "change_user_form",
 				"value": "rainy",
 				"conditions": [{

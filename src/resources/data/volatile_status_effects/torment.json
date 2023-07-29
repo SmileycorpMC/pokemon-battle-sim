@@ -1,32 +1,26 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_use_move",
-      "functions": [
-        {
-          "function": "set_move_status",
-          "value": "Fail",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_move",
-                  "target": "name"
-                },
-                "operator": "==",
-                "value2": {
-                  "type": "from_current_pokemon",
-                  "target": "last_used_move"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "name"
+					},
+					"operator": "==",
+					"value2": {
+						"type": "from_current_pokemon",
+						"target": "last_used_move"
+					}
+				}
+			}]
+		}]
+	}],
+	"immune_types": []
 }

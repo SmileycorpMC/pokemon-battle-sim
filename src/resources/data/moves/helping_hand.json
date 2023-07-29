@@ -11,62 +11,58 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
+		"function": "set_target_variable",
+		"value": {
+			"name": "helping_hand_multiplier",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+						"type": "from_target_variable",
+						"target": "helping_hand_multiplier"
+					},
+					1.5
+				]
+			}
+		},
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_current_pokemon",
+					"target": "volatile_status"
+				},
+				"operator": "==",
+				"value2": "helping_hand"
+			}
+		}]
+	}, {
+		"function": "multiple",
+		"value": [{
+			"function": "inflict_volatile_status_on_target",
+			"value": "helping_hand",
+			"conditions": []
+		}, {
 			"function": "set_target_variable",
 			"value": {
 				"name": "helping_hand_multiplier",
-				"value": {
-					"operation": "Multiply",
-					"value": [{
-							"type": "from_target_variable",
-							"target": "helping_hand_multiplier"
-						},
-						1.5
-					]
-				}
+				"value": 1.5
 			},
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_current_pokemon",
-						"target": "volatile_status"
-					},
-					"operator": "==",
-					"value2": "helping_hand"
-				}
-			}]
-		},
-		{
-			"function": "multiple",
-			"value": [{
-					"function": "inflict_volatile_status_on_target",
-					"value": "helping_hand",
-					"conditions": []
+			"conditions": []
+		}],
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_current_pokemon",
+					"target": "volatile_status"
 				},
-				{
-					"function": "set_target_variable",
-					"value": {
-						"name": "helping_hand_multiplier",
-						"value": 1.5
-					},
-					"conditions": []
-				}
-			],
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_current_pokemon",
-						"target": "volatile_status"
-					},
-					"operator": "!=",
-					"value2": "helping_hand"
-				}
-			}]
-		}
-	],
+				"operator": "!=",
+				"value2": "helping_hand"
+			}
+		}]
+	}],
 	"secondary_effects": [],
 	"z-move_effects": [{
 		"function": "reset_user_stat_modifiers",

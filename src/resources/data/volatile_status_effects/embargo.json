@@ -1,81 +1,63 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_first_apply",
-      "functions": [
-        {
-          "function": "create_turn_timer",
-          "value": {
-            "name": "embargo",
-            "start": 5,
-            "value": -1
-          },
-          "conditions": []
-        }
-      ]
-    },
-    {
-      "event": "on_use_item",
-      "functions": [
-        {
-          "function": "set_event_status",
-          "value": "Deny",
-          "conditions": []
-        }
-      ]
-    },
-	{
-		"event": "on_use_bag_item",
-		"functions": [{
-			"function": "set_event_status",
-			"value": "Deny",
-			"conditions": []
-		}]
-	},
-    {
-      "event": "on_use_held_item",
-      "functions": [
-        {
-          "function": "set_event_status",
-          "value": "Deny",
-          "conditions": []
-        }
-      ]
-    },
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "remove_volatile_status",
-          "value": "embargo",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "int",
-                "value1": {
-                  "type": "from_turn_timer",
-                  "target": "embargo"
-                },
-                "operator": "<=",
-                "value2": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_effect_removed",
-      "functions": [
-        {
-          "function": "remove_turn_timer",
-          "value": "embargo",
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+			"event": "on_first_apply",
+			"functions": [{
+				"function": "create_turn_timer",
+				"value": {
+					"name": "embargo",
+					"start": 5,
+					"value": -1
+				},
+				"conditions": []
+			}]
+		}, {
+			"event": "on_use_item",
+			"functions": [{
+				"function": "set_event_status",
+				"value": "Deny",
+				"conditions": []
+			}]
+		}, {
+			"event": "on_use_bag_item",
+			"functions": [{
+				"function": "set_event_status",
+				"value": "Deny",
+				"conditions": []
+			}]
+		}, {
+			"event": "on_use_held_item",
+			"functions": [{
+				"function": "set_event_status",
+				"value": "Deny",
+				"conditions": []
+			}]
+		}, {
+			"event": "on_turn_end",
+			"functions": [{
+				"function": "remove_volatile_status",
+				"value": "embargo",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "int",
+						"value1": {
+							"type": "from_turn_timer",
+							"target": "embargo"
+						},
+						"operator": "<=",
+						"value2": 1
+					}
+				}]
+			}]
+		}, {
+			"event": "on_effect_removed",
+			"functions": [{
+				"function": "remove_turn_timer",
+				"value": "embargo",
+				"conditions": []
+			}]
+		}
+	],
+	"immune_types": []
 }

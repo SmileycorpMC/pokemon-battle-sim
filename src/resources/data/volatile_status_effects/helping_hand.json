@@ -1,38 +1,32 @@
 {
 	"stat_modifiers": [],
 	"effects": [{
-			"event": "on_use_move",
-			"functions": [{
-				"function": "change_power",
-				"value": {
-					"operation": "Multiply",
-					"value": [{
-							"type": "from_move",
-							"target": "power"
-						},
-						{
-							"type": "from_pokemon_variable",
-							"target": "helping_hand_multiplier"
-						}
-					]
-				},
-				"conditions": []
-			}]
-		},
-		{
-			"event": "on_turn_end",
-			"functions": [{
-					"function": "remove_volatile_status",
-					"value": "helping_hand",
-					"conditions": []
-				},
-				{
-					"function": "remove_pokemon_variable",
-					"value": "helping_hand_multiplier",
-					"conditions": []
-				}
-			]
-		}
-	],
+		"event": "on_use_move",
+		"functions": [{
+			"function": "change_power",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+					"type": "from_move",
+					"target": "power"
+				}, {
+					"type": "from_pokemon_variable",
+					"target": "helping_hand_multiplier"
+				}]
+			},
+			"conditions": []
+		}]
+	}, {
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "remove_volatile_status",
+			"value": "helping_hand",
+			"conditions": []
+		}, {
+			"function": "remove_pokemon_variable",
+			"value": "helping_hand_multiplier",
+			"conditions": []
+		}]
+	}],
 	"immune_types": []
 }

@@ -1,68 +1,53 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "hit_by_move",
-      "functions": [
-        {
-          "function": "remove_status",
-          "value": "freeze",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_move",
-                  "target": "types"
-                },
-                "operation": "==",
-                "value2": "fire"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_use_move",
-      "functions": [
-        {
-          "function": "remove_status",
-          "value": "freeze",
-          "conditions": [
-            {
-              "mode": "or",
-              "value": [
-                {
-                  "mode": "comparison",
-                  "value": {
-                    "type": "string",
-                    "value1": {
-                      "type": "from_current_move",
-                      "value": "type"
-                    },
-                    "operation": "==",
-                    "value2": "fire"
-                  }
-                },
-                {
-                  "mode": "random_chance",
-                  "value": 0.2
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "function": "set_move_status",
-          "value": "Frozen",
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": [
-    "ice"
-  ]
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "remove_status",
+			"value": "freeze",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "fire"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_use_move",
+		"functions": [{
+			"function": "remove_status",
+			"value": "freeze",
+			"conditions": [{
+				"mode": "or",
+				"value": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"value": "type"
+						},
+						"operation": "==",
+						"value2": "fire"
+					}
+				}, {
+					"mode": "random_chance",
+					"value": 0.2
+				}]
+			}]
+		}, {
+			"function": "set_move_status",
+			"value": "Frozen",
+			"conditions": []
+		}]
+	}],
+	"immune_types": [
+		"ice"
+	]
 }

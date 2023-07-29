@@ -10,8 +10,7 @@
 					"function": "set_move_status",
 					"value": "Fail",
 					"conditions": []
-				},
-				{
+				}, {
 					"function": "inflict_volatile_status_on_target",
 					"value": "fire_boosted",
 					"conditions": []

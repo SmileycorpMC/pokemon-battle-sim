@@ -1,34 +1,27 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "remove_volatile_status",
-          "value": "nightmare",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_pokemon",
-                  "target": "status"
-                },
-                "operator": "!=",
-                "value2": "sleep"
-              }
-            }
-          ]
-        },
-        {
-          "function": "fractional_damage",
-          "value": 0.25,
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "remove_volatile_status",
+			"value": "nightmare",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "status"
+					},
+					"operator": "!=",
+					"value2": "sleep"
+				}
+			}]
+		}, {
+			"function": "fractional_damage",
+			"value": 0.25,
+			"conditions": []
+		}]
+	}],
+	"immune_types": []
 }

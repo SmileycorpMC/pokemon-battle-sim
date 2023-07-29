@@ -5,50 +5,48 @@
 	"effects": [{
 		"event": "on_use_move",
 		"functions": [{
-				"function": "set_secondary_effect_chance",
-				"value": {
-					"operation": "Multiply",
-					"value": [
-						2,
-						{
-							"type": "from_current_move",
-							"value": "secondary_effect_chance"
-						}
-					]
-				},
-				"conditions": []
-			},
-			{
-				"function": "set_item_effect_chance",
-				"value": {
-					"operation": "Multiply",
-					"value": [
-						2,
-						{
-							"type": "from_attacker",
-							"value": {
-								"type": "from_held_item",
-								"value": "effect_chance"
-							}
-						}
-					]
-				},
-				"conditions": [{
-					"mode": "comparison",
-					"value": {
-						"type": "string",
-						"value1": {
-							"type": "from_attacker",
-							"target": "item"
-						},
-						"operation": "==",
-						"value2": [
-							"kings_rock",
-							"razor_fang"
-						]
+			"function": "set_secondary_effect_chance",
+			"value": {
+				"operation": "Multiply",
+				"value": [
+					2,
+					{
+						"type": "from_current_move",
+						"value": "secondary_effect_chance"
 					}
-				}]
-			}
-		]
+				]
+			},
+			"conditions": []
+		}, {
+			"function": "set_item_effect_chance",
+			"value": {
+				"operation": "Multiply",
+				"value": [
+					2,
+					{
+						"type": "from_attacker",
+						"value": {
+							"type": "from_held_item",
+							"value": "effect_chance"
+						}
+					}
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_attacker",
+						"target": "item"
+					},
+					"operation": "==",
+					"value2": [
+						"kings_rock",
+						"razor_fang"
+					]
+				}
+			}]
+		}]
 	}]
 }

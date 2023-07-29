@@ -14,16 +14,14 @@
 		"punching"
 	],
 	"primary_effects": [{
-			"function": "set_crit_chance",
-			"value": 3,
-			"conditions": []
-		},
-		{
-			"function": "set_hit_count",
-			"value": 3,
-			"conditions": []
-		}
-	],
+		"function": "set_crit_chance",
+		"value": 3,
+		"conditions": []
+	}, {
+		"function": "set_hit_count",
+		"value": 3,
+		"conditions": []
+	}],
 	"secondary_effects": [],
 	"z-move_effects": []
 }

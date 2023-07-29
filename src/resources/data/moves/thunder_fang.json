@@ -15,21 +15,19 @@
 	],
 	"primary_effects": [],
 	"secondary_effects": [{
-			"function": "inflict_status_on_target",
-			"value": "paralysis",
-			"conditions": [{
-				"mode": "random_chance",
-				"value": 0.10
-			}]
-		},
-		{
-			"function": "inflict_volatile_status_on_target",
-			"value": "flinch",
-			"conditions": [{
-				"mode": "random_chance",
-				"value": 0.10
-			}]
-		}
-	],
+		"function": "inflict_status_on_target",
+		"value": "paralysis",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}, {
+		"function": "inflict_volatile_status_on_target",
+		"value": "flinch",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.10
+		}]
+	}],
 	"z-move_effects": []
 }

@@ -2,48 +2,45 @@
 	"name": "Rock Head",
 	"notification": "None",
 	"properties": [],
-	"effects": [
-		{
-			"event": "damaged_by_effect",
-			"functions": [{
-				"function": "set_damage",
-				"value": 0,
-				"conditions": [{
-						"mode": "comparison",
-						"value": {
-							"type": "string",
-							"value1": {
-								"type": "from_damage_instance",
-								"value": "source"
-							},
-							"operator": "==",
-							"value2": "recoil"
-						}
-					}, {
-						"mode": "comparison",
-						"value": {
-							"type": "string",
-							"value1": {
-								"type": "from_move",
-								"value": "type"
-							},
-							"operator": "!=",
-							"value2": "shadow"
-						}
-					}, {
-						"mode": "comparison",
-						"value": {
-							"type": "string",
-							"value1": {
-								"type": "from_move",
-								"value": "name"
-							},
-							"operator": "!=",
-							"value2": "struggle"
-						}
-					}
-				]
+	"effects": [{
+		"event": "damaged_by_effect",
+		"functions": [{
+			"function": "set_damage",
+			"value": 0,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_damage_instance",
+						"value": "source"
+					},
+					"operator": "==",
+					"value2": "recoil"
+				}
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_move",
+						"value": "type"
+					},
+					"operator": "!=",
+					"value2": "shadow"
+				}
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_move",
+						"value": "name"
+					},
+					"operator": "!=",
+					"value2": "struggle"
+				}
 			}]
-		}
-	]
+		}]
+	}]
 }

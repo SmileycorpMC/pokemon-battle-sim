@@ -1,34 +1,26 @@
 {
-  "stat_modifiers": [
-    {
-      "type": "psychic",
-      "stat": "Damage",
-      "multiplier": 1.3
-    }
-  ],
-  "effects": [
-    {
-      "event": "hit_by_move",
-      "functions": [
-        {
-          "function": "set_move_status",
-          "value": "Fail",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "int",
-                "value1": {
-                  "type": "from_current_move",
-                  "target": "priority"
-                },
-                "operator": ">",
-                "value2": 0
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"stat_modifiers": [{
+		"type": "psychic",
+		"stat": "Damage",
+		"multiplier": 1.3
+	}],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_current_move",
+						"target": "priority"
+					},
+					"operator": ">",
+					"value2": 0
+				}
+			}]
+		}]
+	}]
 }

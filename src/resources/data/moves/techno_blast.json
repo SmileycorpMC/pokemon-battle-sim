@@ -11,70 +11,66 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "change_type",
-			"value": "electric",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_user",
-						"value": "held_item"
-					},
-					"operation": "==",
-					"value2": "shock_drive"
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "fire",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_user",
-						"value": "held_item"
-					},
-					"operation": "==",
-					"value2": "burn_drive"
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "ice",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_user",
-						"value": "held_item"
-					},
-					"operation": "==",
-					"value2": "chill_drive"
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "water",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_user",
-						"value": "held_item"
-					},
-					"operation": "==",
-					"value2": "douse_drive"
-				}
-			}]
-		}
-	],
+		"function": "change_type",
+		"value": "electric",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "held_item"
+				},
+				"operation": "==",
+				"value2": "shock_drive"
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "fire",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "held_item"
+				},
+				"operation": "==",
+				"value2": "burn_drive"
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "ice",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "held_item"
+				},
+				"operation": "==",
+				"value2": "chill_drive"
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "water",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "held_item"
+				},
+				"operation": "==",
+				"value2": "douse_drive"
+			}
+		}]
+	}],
 	"secondary_effects": [],
 	"z-move_effects": []
 }

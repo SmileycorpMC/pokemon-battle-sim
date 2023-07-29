@@ -11,19 +11,17 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "damage_target",
-			"value": {
-				"type": "from_user",
-				"target": "current_hp"
-			},
-			"conditions": []
+		"function": "damage_target",
+		"value": {
+			"type": "from_user",
+			"target": "current_hp"
 		},
-		{
-			"function": "set_user_hp",
-			"value": 0,
-			"conditions": []
-		}
-	],
+		"conditions": []
+	}, {
+		"function": "set_user_hp",
+		"value": 0,
+		"conditions": []
+	}],
 	"secondary_effects": [],
 	"z-move_effects": []
 }

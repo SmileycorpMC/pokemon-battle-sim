@@ -1,61 +1,53 @@
 {
-  "is_harsh": true,
-  "stat_modifiers": [
-    {
-      "type": "fire",
-      "stat": "Damage",
-      "multiplier": 1.5
-    }
-  ],
-  "effects": [
-    {
-      "event": "on_apply_status",
-      "functions": [
-        {
-          "function": "set_event_status",
-          "value": "deny",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-					"type": "from_event",
-					"value": "get_status_type"
-                },
-                "operation": "==",
-                "value2": [
-					"freeze",
-					"frostbite"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "hit_by_move",
-      "functions": [
-        {
-          "function": "set_move_status",
-          "value": "Fail",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_move",
-                  "target": "types"
-                },
-                "operation": "==",
-                "value2": "water"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"is_harsh": true,
+	"stat_modifiers": [{
+		"type": "fire",
+		"stat": [
+			"ATK",
+			"SP_ATK"
+		],
+		"multiplier": 1.5
+	}],
+	"effects": [{
+			"event": "on_apply_status",
+			"functions": [{
+				"function": "set_event_status",
+				"value": "deny",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_event",
+							"value": "get_status_type"
+						},
+						"operation": "==",
+						"value2": [
+							"freeze",
+							"frostbite"
+						]
+					}
+				}]
+			}]
+		},
+		{
+			"event": "hit_by_move",
+			"functions": [{
+				"function": "set_move_status",
+				"value": "Fail",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"target": "types"
+						},
+						"operation": "==",
+						"value2": "water"
+					}
+				}]
+			}]
+		}
+	]
 }

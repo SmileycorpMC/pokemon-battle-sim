@@ -19,8 +19,7 @@
 						]
 					},
 					"conditions": []
-				},
-				{
+				}, {
 					"function": "change_accuracy",
 					"value": {
 						"operation": "Multiply",
@@ -46,8 +45,7 @@
 						"operator": "!=",
 						"value2": "status"
 					}
-				},
-				{
+				}, {
 					"mode": "comparison",
 					"value": {
 						"type": "string",

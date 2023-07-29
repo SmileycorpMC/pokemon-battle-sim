@@ -11,28 +11,23 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "apply_stat_modifiers_to_user",
-			"value": [{
-					"stat": "ATK",
-					"amount": 2
-				},
-				{
-					"stat": "SP_ATK",
-					"amount": 2
-				},
-				{
-					"stat": "SPD",
-					"amount": 2
-				}
-			],
-			"conditions": []
-		},
-		{
-			"function": "fractional_damage_user",
-			"value": 0.5,
-			"conditions": []
-		}
-	],
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "ATK",
+			"amount": 2
+		}, {
+			"stat": "SP_ATK",
+			"amount": 2
+		}, {
+			"stat": "SPD",
+			"amount": 2
+		}],
+		"conditions": []
+	}, {
+		"function": "fractional_damage_user",
+		"value": 0.5,
+		"conditions": []
+	}],
 	"secondary_effects": [],
 	"z-move_effects": []
 }

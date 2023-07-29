@@ -3,33 +3,31 @@
 	"effects": [{
 		"event": "on_turn_end",
 		"functions": [{
-				"event": "on_use_move",
-				"functions": [{
-					"function": "set_move_status",
-					"value": "Silenced",
-					"conditions": [{
-						"mode": "comparison",
-						"value": {
-							"type": "string",
-							"value1": {
-								"type": "from_current_move",
-								"target": "properties"
-							},
-							"operator": "==",
-							"value2": "sound_based"
-						}
-					}]
+			"event": "on_use_move",
+			"functions": [{
+				"function": "set_move_status",
+				"value": "Silenced",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"target": "properties"
+						},
+						"operator": "==",
+						"value2": "sound_based"
+					}
 				}]
-			},
-			{
-				"event": "on_turn_end",
-				"functions": [{
-					"function": "remove_volatile_status",
-					"value": "silenced",
-					"conditions": []
-				}]
-			}
-		]
+			}]
+		}, {
+			"event": "on_turn_end",
+			"functions": [{
+				"function": "remove_volatile_status",
+				"value": "silenced",
+				"conditions": []
+			}]
+		}]
 	}],
 	"immune_types": []
 }

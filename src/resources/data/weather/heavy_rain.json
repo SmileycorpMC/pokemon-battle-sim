@@ -1,35 +1,30 @@
 {
-  "is_harsh": true,
-  "stat_modifiers": [
-    {
-      "type": "water",
-      "stat": "Damage",
-      "multiplier": 1.5
-    }
-  ],
-  "effects": [
-    {
-      "event": "hit_by_move",
-      "functions": [
-        {
-          "function": "set_move_status",
-          "value": "Fail",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_move",
-                  "target": "types"
-                },
-                "operation": "==",
-                "value2": "fire"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"is_harsh": true,
+	"stat_modifiers": [{
+		"type": "water",
+		"stat": [
+			"ATK",
+			"SP_ATK"
+		],
+		"multiplier": 1.5
+	}],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "fire"
+				}
+			}]
+		}]
+	}]
 }

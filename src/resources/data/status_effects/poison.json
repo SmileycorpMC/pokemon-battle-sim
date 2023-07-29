@@ -1,19 +1,15 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "fractional_damage",
-          "value": 0.125,
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": [
-    "poison",
-    "steel"
-  ]
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_damage",
+			"value": 0.125,
+			"conditions": []
+		}]
+	}],
+	"immune_types": [
+		"poison",
+		"steel"
+	]
 }

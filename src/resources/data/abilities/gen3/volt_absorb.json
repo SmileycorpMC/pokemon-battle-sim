@@ -10,8 +10,7 @@
 					"function": "set_move_status",
 					"value": "Fail",
 					"conditions": []
-				},
-				{
+				}, {
 					"function": "fractional_heal_target",
 					"value": 0.25,
 					"conditions": []

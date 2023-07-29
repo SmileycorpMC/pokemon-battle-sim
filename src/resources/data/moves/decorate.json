@@ -15,14 +15,12 @@
 	"primary_effects": [{
 		"function": "apply_stat_modifiers_to_target",
 		"value": [{
-				"stat": "ATK",
-				"amount": 2
-			},
-			{
-				"stat": "SP_ATK",
-				"amount": 2
-			}
-		],
+			"stat": "ATK",
+			"amount": 2
+		}, {
+			"stat": "SP_ATK",
+			"amount": 2
+		}],
 		"conditions": []
 	}],
 	"secondary_effects": [],

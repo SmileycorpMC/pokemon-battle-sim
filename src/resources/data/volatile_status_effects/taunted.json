@@ -1,76 +1,59 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_first_apply",
-      "functions": [
-        {
-          "function": "create_turn_timer",
-          "value": {
-            "name": "taunted",
-            "start": 3,
-            "value": -1
-          },
-          "conditions": []
-        }
-      ]
-    },
-    {
-      "event": "on_use_move",
-      "functions": [
-        {
-          "function": "set_move_status",
-          "value": "Fail",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_move",
-                  "target": "catagory"
-                },
-                "operator": "==",
-                "value2": "status"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "remove_volatile_status",
-          "value": "taunted",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "int",
-                "value1": {
-                  "type": "from_turn_timer",
-                  "target": "taunted"
-                },
-                "operator": "<=",
-                "value2": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_effect_removed",
-      "functions": [
-        {
-          "function": "remove_turn_timer",
-          "value": "taunted",
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_first_apply",
+		"functions": [{
+			"function": "create_turn_timer",
+			"value": {
+				"name": "taunted",
+				"start": 3,
+				"value": -1
+			},
+			"conditions": []
+		}]
+	}, {
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Fail",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "catagory"
+					},
+					"operator": "==",
+					"value2": "status"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "remove_volatile_status",
+			"value": "taunted",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_turn_timer",
+						"target": "taunted"
+					},
+					"operator": "<=",
+					"value2": 1
+				}
+			}]
+		}]
+	}, {
+		"event": "on_effect_removed",
+		"functions": [{
+			"function": "remove_turn_timer",
+			"value": "taunted",
+			"conditions": []
+		}]
+	}],
+	"immune_types": []
 }

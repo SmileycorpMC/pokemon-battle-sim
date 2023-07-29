@@ -8,8 +8,7 @@
 			"function": "set_move_pp",
 			"value": {
 				"operation": "Subtract",
-				"value": [
-					{
+				"value": [{
 						"type": "from_current_move",
 						"target": "pp"
 					},

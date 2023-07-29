@@ -1,21 +1,15 @@
 {
-  "stat_modifiers": [
-    {
-      "type": "grass",
-      "stat": "Damage",
-      "multiplier": 1.5
-    }
-  ],
-  "effects": [
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "fractional_heal",
-          "value": 0.0625,
-          "conditions": []
-        }
-      ]
-    }
-  ]
+	"stat_modifiers": [{
+		"type": "grass",
+		"stat": "Damage",
+		"multiplier": 1.5
+	}],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_heal",
+			"value": 0.0625,
+			"conditions": []
+		}]
+	}]
 }

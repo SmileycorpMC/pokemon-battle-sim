@@ -1,44 +1,37 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "hit_by_move",
-      "functions": [
-        {
-          "function": "change_move_type_effectiveness",
-          "value": 1,
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_move",
-                  "value": "types"
-                },
-                "operator": "==",
-                "value2": [
-                  "normal",
-                  "fighting"
-                ]
-              }
-            },
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_pokemon",
-                  "value": "types"
-                },
-                "operator": "==",
-                "value2": "ghost"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "change_move_type_effectiveness",
+			"value": 1,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"value": "types"
+					},
+					"operator": "==",
+					"value2": [
+						"normal",
+						"fighting"
+					]
+				}
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"value": "types"
+					},
+					"operator": "==",
+					"value2": "ghost"
+				}
+			}]
+		}]
+	}],
+	"immune_types": []
 }

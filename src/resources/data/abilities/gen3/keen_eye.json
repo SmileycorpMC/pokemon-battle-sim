@@ -15,30 +15,28 @@
 			"function": "set_event_status",
 			"value": "Deny",
 			"conditions": [{
-					"mode": "comparison",
-					"value": {
-						"type": "string",
-						"value1": {
-							"type": "from_event",
-							"target": "stat"
-						},
-						"operation": "==",
-						"value2": "Accuracy"
-					}
-				},
-				{
-					"mode": "comparison",
-					"value": {
-						"type": "int",
-						"value1": {
-							"type": "from_event",
-							"target": "amount"
-						},
-						"operation": "<",
-						"value2": 0
-					}
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "stat"
+					},
+					"operation": "==",
+					"value2": "Accuracy"
 				}
-			]
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_event",
+						"target": "amount"
+					},
+					"operation": "<",
+					"value2": 0
+				}
+			}]
 		}]
 	}]
 }

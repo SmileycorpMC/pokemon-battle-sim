@@ -1,37 +1,29 @@
 {
-  "stat_modifiers": [
-    {
-      "type": "electric",
-      "stat": "Damage",
-      "multiplier": 1.3
-    }
-  ],
-  "effects": [
-    {
-      "event": "on_apply_status",
-      "functions": [
-        {
-          "function": "set_event_status",
-          "value": "Deny",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-					"type": "from_event",
-					"value": "get_status_type"
-                },
-                "operation": "==",
-                "value2": [
-                  "sleep",
-                  "drowsiness"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"stat_modifiers": [{
+		"type": "electric",
+		"stat": "Damage",
+		"multiplier": 1.3
+	}],
+	"effects": [{
+		"event": "on_apply_status",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"value": "get_status_type"
+					},
+					"operation": "==",
+					"value2": [
+						"sleep",
+						"drowsiness"
+					]
+				}
+			}]
+		}]
+	}]
 }

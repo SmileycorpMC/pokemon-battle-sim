@@ -11,34 +11,29 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "remove_status_from_self",
-			"value": "freeze",
-			"conditions": []
-		},
-		{
-			"function": "remove_status_from_self",
-			"value": "frostbite",
-			"conditions": []
-		}
-	],
+		"function": "remove_status_from_self",
+		"value": "freeze",
+		"conditions": []
+	}, {
+		"function": "remove_status_from_self",
+		"value": "frostbite",
+		"conditions": []
+	}],
 	"secondary_effects": [{
-			"function": "remove_status_from_target",
-			"value": "freeze",
-			"conditions": []
-		},
-		{
-			"function": "remove_status_from_target",
-			"value": "frostbite",
-			"conditions": []
-		},
-		{
-			"function": "inflict_status_on_target",
-			"value": "burn",
-			"conditions": [{
-				"mode": "random_chance",
-				"value": 0.30
-			}]
-		}
-	],
+		"function": "remove_status_from_target",
+		"value": "freeze",
+		"conditions": []
+	}, {
+		"function": "remove_status_from_target",
+		"value": "frostbite",
+		"conditions": []
+	}, {
+		"function": "inflict_status_on_target",
+		"value": "burn",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.30
+		}]
+	}],
 	"z-move_effects": []
 }

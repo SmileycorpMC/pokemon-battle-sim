@@ -1,69 +1,52 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "event": "on_first_apply",
-          "functions": [
-            {
-              "function": "create_turn_timer",
-              "value": {
-                "name": "drowsy",
-                "start": 1,
-                "value": -1
-              },
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "event": "on_turn_end",
-          "functions": [
-            {
-              "function": "multiple",
-              "value": [
-                {
-                  "function": "apply_status",
-                  "value": "sleep",
-                  "conditions": []
-                },
-                {
-                  "function": "remove_volatile_status",
-                  "value": "drowsy",
-                  "conditions": []
-                }
-              ],
-              "conditions": [
-                {
-                  "mode": "comparison",
-                  "value": {
-                    "type": "int",
-                    "value1": {
-                      "type": "from_turn_timer",
-                      "target": "drowsy"
-                    },
-                    "operator": "<",
-                    "value2": 1
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "event": "on_effect_removed",
-          "functions": [
-            {
-              "function": "remove_turn_timer",
-              "value": "drowsy",
-              "conditions": []
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_turn_end",
+		"functions": [{
+			"event": "on_first_apply",
+			"functions": [{
+				"function": "create_turn_timer",
+				"value": {
+					"name": "drowsy",
+					"start": 1,
+					"value": -1
+				},
+				"conditions": []
+			}]
+		}, {
+			"event": "on_turn_end",
+			"functions": [{
+				"function": "multiple",
+				"value": [{
+					"function": "apply_status",
+					"value": "sleep",
+					"conditions": []
+				}, {
+					"function": "remove_volatile_status",
+					"value": "drowsy",
+					"conditions": []
+				}],
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "int",
+						"value1": {
+							"type": "from_turn_timer",
+							"target": "drowsy"
+						},
+						"operator": "<",
+						"value2": 1
+					}
+				}]
+			}]
+		}, {
+			"event": "on_effect_removed",
+			"functions": [{
+				"function": "remove_turn_timer",
+				"value": "drowsy",
+				"conditions": []
+			}]
+		}]
+	}],
+	"immune_types": []
 }

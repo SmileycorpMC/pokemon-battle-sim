@@ -18,8 +18,7 @@
 					"operation": "==",
 					"value2": true
 				}
-			},
-			{
+			}, {
 				"mode": "comparison",
 				"value": {
 					"type": "string",

@@ -29,7 +29,7 @@
 						"value": "status"
 					},
 					"operator": "!=",
-					"value2": "null"
+					"value2": null
 				}
 			}]
 		}]

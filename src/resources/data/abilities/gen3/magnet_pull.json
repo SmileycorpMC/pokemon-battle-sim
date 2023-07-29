@@ -1,6 +1,6 @@
 {
 	"name": "Magnet Pull",
-	"notification": "Enter",
+	"notification": "None",
 	"properties": [],
 	"effects": [{
 		"event": "on_enemy_switch",
@@ -18,8 +18,7 @@
 					"operation": "==",
 					"value2": true
 				}
-			},
-			{
+			}, {
 				"mode": "comparison",
 				"value": {
 					"type": "string",

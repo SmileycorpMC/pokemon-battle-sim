@@ -38,30 +38,28 @@
 			"function": "set_damage",
 			"value": 0,
 			"conditions": [{
-					"mode": "comparison",
-					"value": {
-						"type": "string",
-						"value1": {
-							"type": "from_damage_instance",
-							"value": "source"
-						},
-						"operator": "==",
-						"value2": "weather"
-					}
-				},
-				{
-					"mode": "comparison",
-					"value": {
-						"type": "string",
-						"value1": {
-							"type": "from_battle_instance",
-							"value": "weather"
-						},
-						"operator": "==",
-						"value2": "hail"
-					}
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_damage_instance",
+						"value": "source"
+					},
+					"operator": "==",
+					"value2": "weather"
 				}
-			]
+			}, {
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "weather"
+					},
+					"operator": "==",
+					"value2": "hail"
+				}
+			}]
 		}]
 	}]
 }

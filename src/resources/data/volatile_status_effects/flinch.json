@@ -1,21 +1,19 @@
 {
 	"stat_modifiers": [],
 	"effects": [{
-			"event": "on_use_move",
-			"functions": [{
-				"function": "set_move_status",
-				"value": "Flinch",
-				"conditions": []
-			}]
-		},
-		{
-			"event": "on_turn_end",
-			"functions": [{
-				"function": "remove_volatile_status",
-				"value": "flinch",
-				"conditions": []
-			}]
-		}
-	],
+		"event": "on_use_move",
+		"functions": [{
+			"function": "set_move_status",
+			"value": "Flinch",
+			"conditions": []
+		}]
+	}, {
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "remove_volatile_status",
+			"value": "flinch",
+			"conditions": []
+		}]
+	}],
 	"immune_types": []
 }

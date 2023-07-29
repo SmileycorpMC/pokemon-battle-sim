@@ -14,8 +14,7 @@
 			"function": "change_user_type",
 			"value": "normal",
 			"conditions": []
-		},
-		{
+		}, {
 			"function": "change_user_type",
 			"value": "electric",
 			"conditions": [{
@@ -30,8 +29,7 @@
 					"value2": "electric_terrain"
 				}
 			}]
-		},
-		{
+		}, {
 			"function": "change_user_type",
 			"value": "grass",
 			"conditions": [{
@@ -46,8 +44,7 @@
 					"value2": "grassy_terrain"
 				}
 			}]
-		},
-		{
+		}, {
 			"function": "change_user_type",
 			"value": "fairy",
 			"conditions": [{
@@ -62,8 +59,7 @@
 					"value2": "misty_terrain"
 				}
 			}]
-		},
-		{
+		}, {
 			"function": "change_user_type",
 			"value": "psychic",
 			"conditions": [{

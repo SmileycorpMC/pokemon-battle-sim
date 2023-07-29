@@ -27,8 +27,7 @@
 					"operator": "==",
 					"value2": "special"
 				}
-			},
-			{
+			}, {
 				"mode": "comparison",
 				"value": {
 					"type": "string",

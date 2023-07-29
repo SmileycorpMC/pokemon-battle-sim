@@ -19,21 +19,19 @@
 					},
 					"operation": "==",
 					"value2": [
-						"infatuated"
+						"infatuated",
 						"taunted"
 					]
 				}
 			}]
 		}]
-	},
-	{
+	}, {
 		"event": "on_first_apply",
 		"functions": [{
 			"function": "remove_volatile_status",
 			"value": "infatuated",
 			"conditions": []
-		},
-		{
+		}, {
 			"function": "remove_volatile_status",
 			"value": "taunted",
 			"conditions": []

@@ -3,7 +3,7 @@
 	"notification": "Trigger",
 	"properties": [],
 	"effects": [{
-		"event": "on_item_removed",
+		"event": "item_removed",
 		"functions": [{
 			"function": "set_event_status",
 			"value": "Deny",

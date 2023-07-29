@@ -19,8 +19,7 @@
 					"operator": "==",
 					"value2": "Accuracy"
 				}
-			},
-			{
+			}, {
 				"mode": "comparison",
 				"value": {
 					"type": "int",

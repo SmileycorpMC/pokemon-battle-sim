@@ -1,26 +1,36 @@
 {
-	"name": "Bite",
-	"type": "Dark",
+	"name": "Bind",
+	"type": "Normal",
 	"category": "physical",
 	"target": "select_ajacent",
-	"power": 60,
-	"accuracy": 100,
-	"pp": 25,
+	"power": 15,
+	"accuracy": 85,
+	"pp": 20,
 	"priority": 0,
 	"z-move_power": -1,
 	"max_move_power": -1,
 	"properties": [
-		"makes_contact",
-		"biting"
+		"binding"
 	],
 	"primary_effects": [],
 	"secondary_effects": [{
 		"function": "inflict_volatile_status_on_target",
-		"value": "flinch",
-		"conditions": [{
-			"mode": "random_chance",
-			"value": 0.30
-		}]
+		"value": "bound",
+		"conditions": []
+	}, {
+		"function": "delayed_event",
+		"value": {
+			"event": "on_switch_out",
+			"functions": [{
+				"function": "remove_volatile_status",
+				"value": {
+					"from": "move_target",
+					"status": "bound"
+				},
+				"conditions": []
+			}]
+		},
+		"conditions": []
 	}],
 	"z-move_effects": []
 }

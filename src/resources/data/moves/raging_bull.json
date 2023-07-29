@@ -22,8 +22,7 @@
 				"side": "target"
 			},
 			"conditions": []
-		},
-		{
+		}, {
 			"function": "function_group",
 			"value": [{
 				"function": "change_type",

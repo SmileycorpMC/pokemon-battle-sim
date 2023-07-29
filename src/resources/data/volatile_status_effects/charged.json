@@ -5,24 +5,22 @@
 		"functions": [{
 			"function": "multiple",
 			"value": [{
-					"function": "change_power",
-					"value": {
-						"operation": "Multiply",
-						"value": [{
-								"type": "from_move",
-								"target": "power"
-							},
-							2
-						]
-					},
-					"conditions": []
+				"function": "change_power",
+				"value": {
+					"operation": "Multiply",
+					"value": [{
+							"type": "from_move",
+							"target": "power"
+						},
+						2
+					]
 				},
-				{
-					"function": "remove_volatile_status",
-					"value": "charged",
-					"conditions": []
-				}
-			],
+				"conditions": []
+			}, {
+				"function": "remove_volatile_status",
+				"value": "charged",
+				"conditions": []
+			}],
 			"conditions": [{
 				"mode": "comparison",
 				"value": {

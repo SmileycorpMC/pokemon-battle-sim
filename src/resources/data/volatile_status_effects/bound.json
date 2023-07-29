@@ -1,103 +1,83 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_first_apply",
-      "functions": [
-        {
-          "function": "create_turn_timer",
-          "value": {
-            "name": "bound",
-            "start": {
-              "type": "random_value",
-              "target": {
-                "min": 4,
-                "max": 5
-              }
-            },
-            "value": -1
-          },
-          "conditions": []
-        },
-        {
-          "function": "set_pokemon_variable",
-          "value": {
-            "name": "bind_damage",
-            "value": 0.125
-          },
-          "conditions": []
-        }
-      ]
-    },
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "fractional_damage",
-          "value": {
-            "type": "from_pokemon_variable",
-            "target": "bind_damage"
-          },
-          "conditions": []
-        },
-        {
-          "function": "remove_volatile_status",
-          "value": "bound",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "int",
-                "value1": {
-                  "type": "from_turn_timer",
-                  "target": "bound"
-                },
-                "operator": "<=",
-                "value2": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_switch_out",
-      "functions": [
-        {
-          "function": "set_event_status",
-          "value": "Deny",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_current_pokemon",
-                  "target": "types"
-                },
-                "operator": "!=",
-                "value2": "ghost"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_effect_removed",
-      "functions": [
-        {
-          "function": "remove_turn_timer",
-          "value": "bound",
-          "conditions": []
-        },
-        {
-          "function": "remove_pokemon_variable",
-          "value": "bind_damage",
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_first_apply",
+		"functions": [{
+			"function": "create_turn_timer",
+			"value": {
+				"name": "bound",
+				"start": {
+					"type": "random_value",
+					"target": {
+						"min": 4,
+						"max": 5
+					}
+				},
+				"value": -1
+			},
+			"conditions": []
+		}, {
+			"function": "set_pokemon_variable",
+			"value": {
+				"name": "bind_damage",
+				"value": 0.125
+			},
+			"conditions": []
+		}]
+	}, {
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_damage",
+			"value": {
+				"type": "from_pokemon_variable",
+				"target": "bind_damage"
+			},
+			"conditions": []
+		}, {
+			"function": "remove_volatile_status",
+			"value": "bound",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_turn_timer",
+						"target": "bound"
+					},
+					"operator": "<=",
+					"value2": 1
+				}
+			}]
+		}]
+	}, {
+		"event": "on_switch_out",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_pokemon",
+						"target": "types"
+					},
+					"operator": "!=",
+					"value2": "ghost"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_effect_removed",
+		"functions": [{
+			"function": "remove_turn_timer",
+			"value": "bound",
+			"conditions": []
+		}, {
+			"function": "remove_pokemon_variable",
+			"value": "bind_damage",
+			"conditions": []
+		}]
+	}],
+	"immune_types": []
 }

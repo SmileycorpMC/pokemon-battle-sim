@@ -1,76 +1,59 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "event": "on_first_apply",
-      "functions": [
-        {
-          "function": "create_turn_timer",
-          "value": {
-            "name": "heal_block",
-            "start": 5,
-            "value": -1
-          },
-          "conditions": []
-        }
-      ]
-    },
-    {
-      "event": "on_heal",
-      "functions": [
-        {
-          "function": "set_event_status",
-          "value": "Deny",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "string",
-                "value1": {
-                  "type": "from_event",
-                  "target": "get_heal_type"
-                },
-                "operator": "!=",
-                "value2": "Item"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_turn_end",
-      "functions": [
-        {
-          "function": "remove_volatile_status",
-          "value": "heal_block",
-          "conditions": [
-            {
-              "mode": "comparison",
-              "value": {
-                "type": "int",
-                "value1": {
-                  "type": "from_turn_timer",
-                  "target": "heal_block"
-                },
-                "operator": "<=",
-                "value2": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event": "on_effect_removed",
-      "functions": [
-        {
-          "function": "remove_turn_timer",
-          "value": "heal_block",
-          "conditions": []
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"event": "on_first_apply",
+		"functions": [{
+			"function": "create_turn_timer",
+			"value": {
+				"name": "heal_block",
+				"start": 5,
+				"value": -1
+			},
+			"conditions": []
+		}]
+	}, {
+		"event": "on_heal",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "get_heal_type"
+					},
+					"operator": "!=",
+					"value2": "Item"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "remove_volatile_status",
+			"value": "heal_block",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "int",
+					"value1": {
+						"type": "from_turn_timer",
+						"target": "heal_block"
+					},
+					"operator": "<=",
+					"value2": 1
+				}
+			}]
+		}]
+	}, {
+		"event": "on_effect_removed",
+		"functions": [{
+			"function": "remove_turn_timer",
+			"value": "heal_block",
+			"conditions": []
+		}]
+	}],
+	"immune_types": []
 }

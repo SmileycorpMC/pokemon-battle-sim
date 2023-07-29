@@ -23,15 +23,13 @@
 				}
 			}]
 		}]
-	},
-	{
+	}, {
 		"event": "on_first_apply",
 		"functions": [{
 			"function": "remove_status",
 			"value": "poison",
 			"conditions": []
-		},
-		{
+		}, {
 			"function": "remove_status",
 			"value": "bad_poison",
 			"conditions": []

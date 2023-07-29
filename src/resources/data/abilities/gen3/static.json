@@ -8,22 +8,20 @@
 			"function": "apply_status_to_attacker",
 			"value": "paralysis",
 			"conditions": [{
-					"mode": "comparison",
-					"value": {
-						"type": "string",
-						"value1": {
-							"type": "from_current_move",
-							"target": "properties"
-						},
-						"operation": "==",
-						"value2": "makes_contact"
-					}
-				},
-				{
-					"mode": "random_chance",
-					"value": 0.30
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "properties"
+					},
+					"operation": "==",
+					"value2": "makes_contact"
 				}
-			]
+			}, {
+				"mode": "random_chance",
+				"value": 0.30
+			}]
 		}]
 	}]
 }

@@ -1,16 +1,12 @@
 {
-  "stat_modifiers": [],
-  "effects": [
-    {
-      "function": "set_move_status",
-      "value": "Infatuated",
-      "conditions": [
-        {
-          "mode": "random_chance",
-          "value": 0.5
-        }
-      ]
-    }
-  ],
-  "immune_types": []
+	"stat_modifiers": [],
+	"effects": [{
+		"function": "set_move_status",
+		"value": "Infatuated",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.5
+		}]
+	}],
+	"immune_types": []
 }

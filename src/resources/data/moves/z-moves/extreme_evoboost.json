@@ -10,26 +10,21 @@
 	"primary_effects": [{
 		"function": "apply_stat_modifiers_to_user",
 		"value": [{
-				"stat": "ATK",
-				"amount": 2
-			},
-			{
-				"stat": "DEF",
-				"amount": 2
-			},
-			{
-				"stat": "SP_ATK",
-				"amount": 2
-			},
-			{
-				"stat": "SP_DEF",
-				"amount": 2
-			},
-			{
-				"stat": "SPD",
-				"amount": 2
-			}
-		],
+			"stat": "ATK",
+			"amount": 2
+		}, {
+			"stat": "DEF",
+			"amount": 2
+		}, {
+			"stat": "SP_ATK",
+			"amount": 2
+		}, {
+			"stat": "SP_DEF",
+			"amount": 2
+		}, {
+			"stat": "SPD",
+			"amount": 2
+		}],
 		"conditions": []
 	}],
 	"secondary_effects": []

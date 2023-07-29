@@ -9,7 +9,9 @@
 	"priority": 0,
 	"z-move_power": -1,
 	"max_move_power": -1,
-	"properties": ["makes_contact"],
+	"properties": [
+		"makes_contact"
+	],
 	"primary_effects": [],
 	"secondary_effects": [],
 	"z-move_effects": []

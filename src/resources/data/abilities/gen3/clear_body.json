@@ -19,8 +19,7 @@
 					"operator": "!=",
 					"value2": "user"
 				}
-			},
-			{
+			}, {
 				"mode": "comparison",
 				"value": {
 					"type": "int",

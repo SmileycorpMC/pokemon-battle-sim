@@ -13,38 +13,36 @@
 		"makes_contact"
 	],
 	"primary_effects": [{
-			"function": "change_power",
-			"value": 170,
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_target",
-						"value": "volatile_status_effects"
-					},
-					"operator": "==",
-					"value2": "minimized"
-				}
-			}]
-		},
-		{
-			"function": "change_accuracy",
-			"value": 101,
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_target",
-						"value": "volatile_status_effects"
-					},
-					"operator": "==",
-					"value2": "minimized"
-				}
-			}]
-		}
-	],
+		"function": "change_power",
+		"value": 170,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_target",
+					"value": "volatile_status_effects"
+				},
+				"operator": "==",
+				"value2": "minimized"
+			}
+		}]
+	}, {
+		"function": "change_accuracy",
+		"value": 101,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_target",
+					"value": "volatile_status_effects"
+				},
+				"operator": "==",
+				"value2": "minimized"
+			}
+		}]
+	}],
 	"secondary_effects": [{
 		"function": "inflict_status_on_target",
 		"value": "paralysis",

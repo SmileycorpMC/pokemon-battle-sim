@@ -11,26 +11,24 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "inflict_volatile_status_on_target",
-			"value": "trapped",
-			"conditions": []
+		"function": "inflict_volatile_status_on_target",
+		"value": "trapped",
+		"conditions": []
+	}, {
+		"function": "delayed_event",
+		"value": {
+			"event": "on_switch_out",
+			"functions": [{
+				"function": "remove_volatile_status",
+				"value": {
+					"from": "move_target",
+					"status": "trapped"
+				},
+				"conditions": []
+			}]
 		},
-		{
-			"function": "delayed_event",
-			"value": {
-				"event": "on_switch_out",
-				"functions": [{
-					"function": "remove_volatile_status",
-					"value": {
-						"from": "parent$move_target",
-						"status": "trapped"
-					},
-					"conditions": []
-				}]
-			},
-			"conditions": []
-		}
-	],
+		"conditions": []
+	}],
 	"secondary_effects": [],
 	"z-move_effects": [{
 		"function": "apply_stat_modifiers_to_user",

@@ -1,16 +1,21 @@
 {
-  "is_harsh": false,
-  "stat_modifiers": [
-    {
-      "type": "water",
-      "stat": "Damage",
-      "multiplier": 0.5
-    },
-    {
-      "type": "fire",
-      "stat": "Damage",
-      "multiplier": 1.5
-    }
-  ],
-  "effects": []
+	"is_harsh": false,
+	"stat_modifiers": [{
+			"type": "water",
+			"stat": [
+				"ATK",
+				"SP_ATK"
+			],
+			"multiplier": 0.5
+		},
+		{
+			"type": "fire",
+			"stat": [
+				"ATK",
+				"SP_ATK"
+			],
+			"multiplier": 1.5
+		}
+	],
+	"effects": []
 }

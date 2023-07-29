@@ -13,124 +13,118 @@
 		"ballistic"
 	],
 	"primary_effects": [{
-			"function": "change_power",
-			"value": 100,
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_battle_instance",
-						"value": "weather"
-					},
-					"operator": "==",
-					"value2": [
-						"extremely_harsh_sunlight",
-						"fog",
-						"hail",
-						"harsh_sunlight",
-						"heavy_rain",
-						"rain",
-						"sandstorm",
-						"snowstorm"
-					]
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "normal",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_battle_instance",
-						"value": "weather"
-					},
-					"operator": "==",
-					"value2": [
-						null,
-						"fog",
-						"strong_winds"
-					]
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "fire",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_battle_instance",
-						"value": "weather"
-					},
-					"operator": "==",
-					"value2": [
-						"extremely_harsh_sunlight",
-						"harsh_sunlight"
-					]
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "ice",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_battle_instance",
-						"value": "weather"
-					},
-					"operator": "==",
-					"value2": [
-						"hail",
-						"snowstorm"
-					]
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "water",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_battle_instance",
-						"value": "weather"
-					},
-					"operator": "==",
-					"value2": [
-						"heavy_rain",
-						"rain"
-					]
-				}
-			}]
-		},
-		{
-			"function": "change_type",
-			"value": "rock",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": {
-						"type": "from_battle_instance",
-						"value": "weather"
-					},
-					"operator": "==",
-					"value2": "sandstorm"
-				}
-			}]
-		}
-	],
+		"function": "change_power",
+		"value": 100,
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					"extremely_harsh_sunlight",
+					"fog",
+					"hail",
+					"harsh_sunlight",
+					"heavy_rain",
+					"rain",
+					"sandstorm",
+					"snowstorm"
+				]
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "normal",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					null,
+					"fog",
+					"strong_winds"
+				]
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "fire",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					"extremely_harsh_sunlight",
+					"harsh_sunlight"
+				]
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "ice",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					"hail",
+					"snowstorm"
+				]
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "water",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": [
+					"heavy_rain",
+					"rain"
+				]
+			}
+		}]
+	}, {
+		"function": "change_type",
+		"value": "rock",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_battle_instance",
+					"value": "weather"
+				},
+				"operator": "==",
+				"value2": "sandstorm"
+			}
+		}]
+	}],
 	"secondary_effects": [],
 	"z-move_effects": []
 }

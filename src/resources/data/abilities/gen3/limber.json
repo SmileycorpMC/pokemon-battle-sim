@@ -20,11 +20,9 @@
 				}
 			}]
 		}]
-	},
-	{
+	}, {
 		"event": "on_first_apply",
-		"functions": [
-		{
+		"functions": [{
 			"function": "remove_status",
 			"value": "paralysis",
 			"conditions": []

@@ -15,20 +15,18 @@
 		"value": {
 			"operation": "Divide",
 			"value": [{
-					"operation": "Multiply",
-					"value": [
-						150,
-						{
-							"type": "from_user",
-							"target": "current_hp"
-						}
-					]
-				},
-				{
-					"type": "from_user",
-					"target": "max_hp"
-				}
-			]
+				"operation": "Multiply",
+				"value": [
+					150,
+					{
+						"type": "from_user",
+						"target": "current_hp"
+					}
+				]
+			}, {
+				"type": "from_user",
+				"target": "max_hp"
+			}]
 		},
 		"conditions": []
 	}],

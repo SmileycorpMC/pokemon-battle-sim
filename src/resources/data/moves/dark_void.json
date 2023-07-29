@@ -11,24 +11,25 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "set_move_status",
-			"value": "Fail",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"value1": "#user",
-					"operator": "!=",
-					"value2": "darkrai"
-				}
-			}]
-		},
-		{
-			"function": "inflict_status_on_target",
-			"value": "sleep",
-			"conditions": []
-		}
-	],
+		"function": "set_move_status",
+		"value": "Fail",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"target": "from_user",
+					"value": "species"
+				},
+				"operator": "!=",
+				"value2": "darkrai"
+			}
+		}]
+	}, {
+		"function": "inflict_status_on_target",
+		"value": "sleep",
+		"conditions": []
+	}],
 	"secondary_effects": [],
 	"z-move_effects": [{
 		"function": "reset_user_stat_modifiers",

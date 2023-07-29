@@ -11,19 +11,17 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-			"function": "inflict_volatile_status_on_user",
-			"value": "charged",
-			"conditions": []
-		},
-		{
-			"function": "apply_stat_modifiers_to_user",
-			"value": [{
-				"stat": "SP_DEF",
-				"amount": 1
-			}],
-			"conditions": []
-		}
-	],
+		"function": "inflict_volatile_status_on_user",
+		"value": "charged",
+		"conditions": []
+	}, {
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "SP_DEF",
+			"amount": 1
+		}],
+		"conditions": []
+	}],
 	"secondary_effects": [],
 	"z-move_effects": [{
 		"function": "apply_stat_modifiers_to_user",
