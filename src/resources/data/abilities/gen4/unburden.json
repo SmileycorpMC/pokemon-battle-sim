@@ -1,0 +1,46 @@
+{
+	"name": "Unburden",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "item_removed",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+					"function": "set_move_status",
+					"value": "Fail",
+					"conditions": []
+				},
+				{
+					"function": "apply_stat_modifiers_to_target",
+					"value": [{
+						"stat": "SPD",
+						"amount": 1
+					}],
+					"conditions": []
+				}
+			],
+			"conditions": []
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+					"function": "set_move_status",
+					"value": "Fail",
+					"conditions": []
+				},
+				{
+					"function": "apply_stat_modifiers_to_target",
+					"value": [{
+						"stat": "SPD",
+						"amount": 1
+					}],
+					"conditions": []
+				}
+			],
+			"conditions": []
+		}]
+	}]
+}

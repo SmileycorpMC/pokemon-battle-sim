@@ -1,0 +1,21 @@
+{
+	"name": "Simple",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "on_apply_stat_modifier_to_user",
+		"functions": [{
+			"function": "set_event_amount",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+						"type": "from_event",
+						"target": "amount"
+					},
+					2
+				]
+			},
+			"conditions": []
+		}]
+	}]
+}

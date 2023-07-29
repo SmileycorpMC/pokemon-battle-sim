@@ -1,0 +1,70 @@
+{
+	"name": "Heatproof",
+	"notification": "None",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "change_power",
+			"value": {
+				"operation": "Divide",
+				"value": [{
+						"type": "from_current_move",
+						"target": "power"
+					},
+					2
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "fire"
+				}
+			}]
+		}]
+	}, {
+		"event": "damaged_by_effect",
+		"functions": [{
+			"function": "set_damage",
+			"value": {
+				"operation": "Divide",
+				"value": [{
+						"type": "from_event",
+						"target": "amount"
+					},
+					2
+				]
+			},
+			"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_damage_instance",
+							"value": "source"
+						},
+						"operator": "==",
+						"value2": "status"
+					}
+				}, {
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "status"
+						},
+						"operator": "==",
+						"value2": "burn"
+					}
+				}
+			]
+		}]
+	}]
+}

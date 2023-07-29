@@ -1,0 +1,97 @@
+{
+	"name": "Dry Skin",
+	"notification": "Trigger",
+	"properties": [],
+	"effects": [{
+		"event": "hit_by_move",
+		"functions": [{
+			"function": "multiple",
+			"value": [{
+					"function": "set_move_status",
+					"value": "Fail",
+					"conditions": []
+				},
+				{
+					"function": "fractional_heal_target",
+					"value": 0.25,
+					"conditions": []
+				}
+
+			],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "water"
+				}
+			}]
+		}, {
+			"function": "change_power",
+			"value": {
+				"operation": "Multiply",
+				"value": [{
+						"type": "from_current_move",
+						"target": "power"
+					},
+					1.25
+				]
+			},
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_current_move",
+						"target": "types"
+					},
+					"operation": "==",
+					"value2": "fire"
+				}
+			}]
+		}]
+	}, {
+		"event": "on_turn_end",
+		"functions": [{
+			"function": "fractional_damage_user",
+			"value": 0.125,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "weather"
+					},
+					"operator": "==",
+					"value2": [
+						"harsh_sunlight",
+						"extremely_harsh_sunlight"
+					]
+				}
+			}]
+		}, {
+			"function": "fractional_heal_user",
+			"value": 0.125,
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_battle_instance",
+						"value": "weather"
+					},
+					"operator": "==",
+					"value2": [
+						"rain",
+						"heavy_rain"
+					]
+				}
+			}]
+		}]
+	}]
+}
