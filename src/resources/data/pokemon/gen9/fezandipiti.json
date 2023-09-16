@@ -1,0 +1,45 @@
+{
+	"name": "Fezandipiti",
+	"id": 1016,
+	"genderRatio": 0,
+	"tags": [
+		"legendary"
+	],
+	"hatchCounter": 120,
+	"baseHappiness": 0,
+	"catchRate": 3,
+	"expRate": "Slow",
+	"eggGroups": [
+		"Undiscovered"
+	],
+	"forms": {
+		"default": {
+			"types": [
+				"Poison",
+				"Fairy"
+			],
+			"ability1": "Toxic Chain",
+			"ability2": "",
+			"hiddenAbility": "Technician",
+			"eventAbilities": [],
+			"evolutions": [],
+			"stats": {
+				"HP": 88,
+				"ATK": 91,
+				"DEF": 82,
+				"SP_ATK": 70,
+				"SP_DEF": 125,
+				"SPD": 99
+			},
+			"height": 1.4,
+			"weight": 30.1,
+			"evs": [{
+				"stat": "SP_DEF",
+				"value": 3
+			}],
+			"expDrop": 278,
+			"classification": "Retainer",
+			"isBaseForm": true
+		}
+	}
+}

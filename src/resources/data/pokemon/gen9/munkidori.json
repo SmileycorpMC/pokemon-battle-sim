@@ -1,0 +1,44 @@
+{
+	"name": "Munkidori",
+	"id": 1015,
+	"genderRatio": 0,
+	"tags": [
+		"legendary"
+	],
+	"hatchCounter": 120,
+	"baseHappiness": 0,
+	"catchRate": 3,
+	"expRate": "Slow",
+	"eggGroups": [
+		"Undiscovered"
+	],
+	"forms": {
+		"default": {
+			"types": [
+				"Poison",
+				"Psychic"
+			],
+			"ability1": "Toxic Chain",
+			"ability2": "",
+			"hiddenAbility": "Frisk",
+			"eventAbilities": [],
+			"evolutions": [],
+			"stats": {
+				"HP": 88,
+				"ATK": 75,
+				"DEF": 66,
+				"SP_ATK": 130,
+				"SP_DEF": 90,
+				"SPD": 106
+			},
+			"height": 1,
+			"weight": 12.2,
+			"evs": [{
+				"stat": "SP_ATK",
+				"value": 3
+			}],
+			"expDrop": 278,
+			"classification": "Retainer"
+		}
+	}
+}

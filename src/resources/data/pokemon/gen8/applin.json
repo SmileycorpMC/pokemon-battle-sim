@@ -37,6 +37,14 @@
           },
           "method": "item",
           "value": "sweet_apple"
+        },
+		{
+          "target": {
+            "species": "dipplin",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "sticky_apple"
         }
       ],
       "stats": {
