@@ -1,10 +1,10 @@
 {
-  "name": "Walking Wake",
-  "id": 1009,
+  "name": "Iron Crown",
+  "id": 1023,
   "genderRatio": -1,
-  "tags": [
+   "tags": [
 	"paradox",
-	"past",
+	"future",
 	"legendary"
   ],
   "hatchCounter": 50,
@@ -17,24 +17,24 @@
   "forms": {
     "default": {
       "types": [
-        "Water",
-        "Dragon"
+        "Steel",
+        "Psychic"
       ],
-      "ability1": "Protosynthesis",
+      "ability1": "Quark Drive",
       "ability2": "",
       "hiddenAbility": "",
       "eventAbilities": [],
       "evolutions": [],
       "stats": {
-        "HP": 99,
-        "ATK": 83,
-        "DEF": 91,
-        "SP_ATK": 125,
-        "SP_DEF": 83,
-        "SPD": 109
+        "HP": 90,
+        "ATK": 72,
+        "DEF": 100,
+        "SP_ATK": 122,
+        "SP_DEF": 108,
+        "SPD": 98
       },
-      "height": 3.5,
-      "weight": 280.0,
+      "height": 1.5,
+      "weight": 162.5,
       "evs": [
         {
           "stat": "SP_ATK",

@@ -1,6 +1,6 @@
 {
-  "name": "Walking Wake",
-  "id": 1009,
+  "name": "Gouging Fire",
+  "id": 1020,
   "genderRatio": -1,
   "tags": [
 	"paradox",
@@ -17,7 +17,7 @@
   "forms": {
     "default": {
       "types": [
-        "Water",
+        "Fire",
         "Dragon"
       ],
       "ability1": "Protosynthesis",
@@ -26,18 +26,18 @@
       "eventAbilities": [],
       "evolutions": [],
       "stats": {
-        "HP": 99,
-        "ATK": 83,
-        "DEF": 91,
-        "SP_ATK": 125,
-        "SP_DEF": 83,
-        "SPD": 109
+        "HP": 105,
+        "ATK": 115,
+        "DEF": 121,
+        "SP_ATK": 65,
+        "SP_DEF": 93,
+        "SPD": 91
       },
       "height": 3.5,
-      "weight": 280.0,
+      "weight": 590.0,
       "evs": [
         {
-          "stat": "SP_ATK",
+          "stat": "DEF",
           "value": 3
         }
       ],

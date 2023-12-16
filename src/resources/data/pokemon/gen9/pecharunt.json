@@ -1,0 +1,44 @@
+{
+	"name": "Petcharunt",
+	"id": 1025,
+	"genderRatio": 0,
+	"tags": [
+		"mythical"
+	],
+	"hatchCounter": 20,
+	"baseHappiness": 0,
+	"catchRate": 3,
+	"expRate": "Slow",
+	"eggGroups": [
+		"Undiscovered"
+	],
+	"forms": {
+		"default": {
+			"types": [
+				"Poison",
+				"Ghost"
+			],
+			"ability1": "Poison Puppeteer",
+			"ability2": "",
+			"hiddenAbility": "",
+			"eventAbilities": [],
+			"evolutions": [],
+			"stats": {
+				"HP": 88,
+				"ATK": 88,
+				"DEF": 160,
+				"SP_ATK": 88,
+				"SP_DEF": 88,
+				"SPD": 88
+			},
+			"height": 0.3,
+			"weight": 0.3,
+			"evs": [{
+				"stat": "DEF",
+				"value": 3
+			}],
+			"expDrop": 278,
+			"classification": "Subjugation"
+		}
+	}
+}

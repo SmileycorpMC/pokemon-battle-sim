@@ -22,12 +22,15 @@
       "hiddenAbility": "Sticky Hold",
       "eventAbilities": [],
       "evolutions": [
-		{
-          "target": null,
-          "method": null,
-          "value": null
+        {
+          "target": {
+            "species": "hydrapple",
+            "form": "default"
+          },
+          "method": "level_move",
+          "value": "dragon_cheer"
         }
-	  ],
+      ],
       "stats": {
         "HP": 110,
         "ATK": 115,

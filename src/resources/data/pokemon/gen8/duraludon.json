@@ -21,7 +21,16 @@
       "ability2": "Heavy Metal",
       "hiddenAbility": "Stalwart",
       "eventAbilities": [],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "target": {
+            "species": "archaludon",
+            "form": "default"
+          },
+          "method": "item",
+          "value": "metal_alloy"
+        }
+	],
       "stats": {
         "HP": 70,
         "ATK": 95,

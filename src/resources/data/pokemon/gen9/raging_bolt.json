@@ -1,6 +1,6 @@
 {
-  "name": "Walking Wake",
-  "id": 1009,
+  "name": "Raging Bolt",
+  "id": 1021,
   "genderRatio": -1,
   "tags": [
 	"paradox",
@@ -17,7 +17,7 @@
   "forms": {
     "default": {
       "types": [
-        "Water",
+        "Electric",
         "Dragon"
       ],
       "ability1": "Protosynthesis",
@@ -26,15 +26,15 @@
       "eventAbilities": [],
       "evolutions": [],
       "stats": {
-        "HP": 99,
-        "ATK": 83,
+        "HP": 125,
+        "ATK": 73,
         "DEF": 91,
-        "SP_ATK": 125,
-        "SP_DEF": 83,
-        "SPD": 109
+        "SP_ATK": 137,
+        "SP_DEF": 89,
+        "SPD": 75
       },
-      "height": 3.5,
-      "weight": 280.0,
+      "height": 5.2,
+      "weight": 480,
       "evs": [
         {
           "stat": "SP_ATK",

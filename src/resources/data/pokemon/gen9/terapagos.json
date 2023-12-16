@@ -1,0 +1,99 @@
+{
+	"name": "Terapagos",
+	"id": 1024,
+	"genderRatio": 4,
+	"tags": [
+		"legendary",
+		"restricted"
+	],
+	"hatchCounter": 5,
+	"baseHappiness": 50,
+	"catchRate": 255,
+	"expRate": "Slow",
+	"eggGroups": [
+		"Undiscovered"
+	],
+	"forms": {
+		"default": {
+			"types": [
+				"Normal"
+			],
+			"ability1": "Tera Shift",
+			"ability2": "",
+			"hiddenAbility": "",
+			"eventAbilities": [],
+			"evolutions": [],
+			"stats": {
+				"HP": 90,
+				"ATK": 65,
+				"DEF": 85,
+				"SP_ATK": 65,
+				"SP_DEF": 85,
+				"SPD": 60
+			},
+			"height": 0.2,
+			"weight": 6.5,
+			"evs": [{
+				"stat": "DEF",
+				"value": 1
+			}],
+			"expDrop": 275,
+			"classification": "Tera",
+			"isBaseForm": true
+		},
+		"terastal": {
+			"types": [
+				"Normal"
+			],
+			"ability1": "Tera Shell",
+			"ability2": "",
+			"hiddenAbility": "",
+			"eventAbilities": [],
+			"evolutions": [],
+			"stats": {
+				"HP": 95,
+				"ATK": 110,
+				"DEF": 110,
+				"SP_ATK": 105,
+				"SP_DEF": 110,
+				"SPD": 85
+			},
+			"height": 0.3,
+			"weight": 16,
+			"evs": [{
+				"stat": "DEF",
+				"value": 1
+			}],
+			"expDrop": 275,
+			"classification": "Tera",
+			"isBaseForm": false
+		},
+		"stellar_form": {
+			"types": [
+				"Normal"
+			],
+			"ability1": "Tera Shell",
+			"ability2": "",
+			"hiddenAbility": "",
+			"eventAbilities": [],
+			"evolutions": [],
+			"stats": {
+				"HP": 160,
+				"ATK": 105,
+				"DEF": 110,
+				"SP_ATK": 130,
+				"SP_DEF": 110,
+				"SPD": 85
+			},
+			"height": 1.7,
+			"weight": 77,
+			"evs": [{
+				"stat": "DEF",
+				"value": 1
+			}],
+			"expDrop": 275,
+			"classification": "Tera",
+			"isBaseForm": false
+		}
+	}
+}

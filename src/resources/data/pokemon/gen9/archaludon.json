@@ -1,0 +1,46 @@
+{
+  "name": "Archaludon",
+  "id": 1018,
+  "genderRatio": 4,
+  "tags": [],
+  "hatchCounter": 30,
+  "baseHappiness": 50,
+  "catchRate": 10,
+  "expRate": "Medium_Fast",
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "forms": {
+    "default": {
+      "types": [
+        "Steel",
+        "Dragon"
+      ],
+      "ability1": "Stamina",
+      "ability2": "Sturdy",
+      "hiddenAbility": "Stalwart",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 90,
+        "ATK": 105,
+        "DEF": 130,
+        "SP_ATK": 125,
+        "SP_DEF": 65,
+        "SPD": 85
+      },
+      "height": 2,
+      "weight": 60,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Alloy",
+      "isBaseForm": true
+    }
+  }
+}
