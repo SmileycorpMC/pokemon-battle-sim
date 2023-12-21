@@ -1,0 +1,27 @@
+{
+	"name": "Rusted Sword",
+	"fling_power": 0,
+	"properties": [
+		"cant_be_thrown",
+		"form_changer"
+	],
+	"effects": [{
+		"event": "on_battle_start",
+		"functions": [{
+			"function": "change_user_form",
+			"value": "crowned",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"attacking_type": {
+						"type": "from_current_pokemon",
+						"value": "species"
+					},
+					"operator": "==",
+					"value2": "zacian"
+				}
+			}]
+		}]
+	}]
+}

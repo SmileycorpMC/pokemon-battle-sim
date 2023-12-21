@@ -1,0 +1,9 @@
+{
+	"name": "Fairy Memory",
+	"fling_power": 50,
+	"properties": [
+		"cant_be_thrown",
+		"form_changer"
+	],
+	"effects": []
+}
