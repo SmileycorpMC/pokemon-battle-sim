@@ -1,236 +1,270 @@
 {
-	"name": "Ogerpon",
-	"id": 1017,
-	"genderRatio": 8,
-	"tags": [
-		"legendary"
-	],
-	"hatchCounter": 10,
-	"baseHappiness": 50,
-	"catchRate": 5,
-	"expRate": "Slow",
-	"eggGroups": [
-		"Undiscovered"
-	],
-	"forms": {
-		"teal_mask": {
-			"types": [
-				"Grass"
-			],
-			"ability1": "Defiant",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": true
-		},
-		"teal_mask_terra": {
-			"types": [
-				"Grass"
-			],
-			"ability1": "Embody Aspect",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		},
-		"wellspring_mask": {
-			"types": [
-				"Grass",
-				"Water"
-			],
-			"ability1": "Water Absorb",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		},
-		"wellspring_mask_terra": {
-			"types": [
-				"Water"
-			],
-			"ability1": "Embody Aspect",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		},
-		"hearthflame_mask": {
-			"types": [
-				"Grass",
-				"Fire"
-			],
-			"ability1": "Mold Breaker",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		},
-		"hearthflame_mask_terra": {
-			"types": [
-				"Fire"
-			],
-			"ability1": "Embody Aspect",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		},
-		"cornerstone_mask": {
-			"types": [
-				"Grass",
-				"Rock"
-			],
-			"ability1": "Sturdy",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		},
-		"cornerstone_mask_terra": {
-			"types": [
-				"Rock"
-			],
-			"ability1": "Embody Aspect",
-			"ability2": "",
-			"hiddenAbility": "",
-			"eventAbilities": [],
-			"evolutions": [],
-			"stats": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 84,
-				"SP_ATK": 60,
-				"SP_DEF": 96,
-				"SPD": 110
-			},
-			"height": 1.2,
-			"weight": 39.8,
-			"evs": [{
-				"stat": "ATK",
-				"value": 3
-			}],
-			"expDrop": 275,
-			"classification": "Mask",
-			"isBaseForm": false
-		}
-	}
+    "name": "Ogerpon",
+    "id": 1017,
+    "genderRatio": 8,
+    "tags": [
+        "legendary"
+    ],
+    "hatchCounter": 10,
+    "baseHappiness": 50,
+    "catchRate": 5,
+    "expRate": "Slow",
+    "eggGroups": [
+        "Undiscovered"
+    ],
+    "forms": {
+        "teal_mask": {
+            "types": [
+                "Grass"
+            ],
+            "ability1": "Defiant",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "tera_properties": {
+                "set_form": "teal_mask_tera",
+                "set_tera_type": "Grass"
+            },
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": true
+        },
+        "teal_mask_tera": {
+            "types": [
+                "Grass"
+            ],
+            "ability1": "Embody Aspect",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        },
+        "wellspring_mask": {
+            "types": [
+                "Grass",
+                "Water"
+            ],
+            "ability1": "Water Absorb",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "tera_properties": {
+                "set_form": "wellspring_mask_tera",
+                "set_tera_type": "Water"
+            },
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        },
+        "wellspring_mask_tera": {
+            "types": [
+                "Grass",
+                "Water"
+            ],
+            "ability1": "Embody Aspect",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        },
+        "hearthflame_mask": {
+            "types": [
+                "Grass",
+                "Fire"
+            ],
+            "ability1": "Mold Breaker",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "tera_properties": {
+                "set_form": "hearthflame_mask_tera",
+                "set_tera_type": "Fire"
+            },
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        },
+        "hearthflame_mask_tera": {
+            "types": [
+                "Fire"
+            ],
+            "ability1": "Embody Aspect",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        },
+        "cornerstone_mask": {
+            "types": [
+                "Grass",
+                "Rock"
+            ],
+            "ability1": "Sturdy",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "tera_properties": {
+                "set_form": "cornerstone_mask_tera",
+                "set_tera_type": "Rock"
+            },
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        },
+        "cornerstone_mask_tera": {
+            "types": [
+                "Grass",
+                "Rock"
+            ],
+            "ability1": "Embody Aspect",
+            "ability2": "",
+            "hiddenAbility": "",
+            "eventAbilities": [],
+            "evolutions": [],
+            "stats": {
+                "HP": 80,
+                "ATK": 120,
+                "DEF": 84,
+                "SP_ATK": 60,
+                "SP_DEF": 96,
+                "SPD": 110
+            },
+            "height": 1.2,
+            "weight": 39.8,
+            "evs": [
+                {
+                    "stat": "ATK",
+                    "value": 3
+                }
+            ],
+            "expDrop": 275,
+            "classification": "Mask",
+            "isBaseForm": false
+        }
+    }
 }
