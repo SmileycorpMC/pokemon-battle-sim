@@ -11,6 +11,17 @@
   "max_move_power": -1,
   "properties": [],
   "primary_effects": [],
-  "secondary_effects": [],
+  "secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": [
+			"paralysis",
+			"burn",
+			"frozen"
+		],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.20
+		}]
+	}],
   "z-move_effects": []
 }

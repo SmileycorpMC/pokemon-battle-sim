@@ -11,6 +11,13 @@
   "max_move_power": -1,
   "properties": [],
   "primary_effects": [],
-  "secondary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SPD",
+			"amount": -1
+		}],
+		"conditions": []
+	}],
   "z-move_effects": []
 }

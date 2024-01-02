@@ -1,15 +1,17 @@
 {
-  "name": "Double Slap",
-  "type": "Normal",
+  "name": "Smart Strike",
+  "type": "Steel",
   "category": "physical",
   "target": "select_ajacent",
-  "power": 15,
-  "accuracy": 85,
+  "power": 70,
+  "accuracy": 101,
   "pp": 10,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+		"makes_contact"
+	],
   "primary_effects": [],
   "secondary_effects": [],
   "z-move_effects": []

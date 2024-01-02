@@ -1,15 +1,17 @@
 {
-  "name": "Icicle Spear",
-  "type": "Ice",
+  "name": "Wing Attack",
+  "type": "Flying",
   "category": "physical",
-  "target": "select_ajacent",
-  "power": 25,
+  "target": "select_any",
+  "power": 60,
   "accuracy": 100,
-  "pp": 30,
+  "pp": 35,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+		"makes_contact"
+	],
   "primary_effects": [],
   "secondary_effects": [],
   "z-move_effects": []

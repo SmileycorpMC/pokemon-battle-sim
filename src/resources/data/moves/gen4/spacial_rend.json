@@ -10,7 +10,11 @@
   "z-move_power": -1,
   "max_move_power": -1,
   "properties": [],
-  "primary_effects": [],
+  "primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
   "secondary_effects": [],
   "z-move_effects": []
 }
