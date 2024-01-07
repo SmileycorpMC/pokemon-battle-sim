@@ -1,15 +1,17 @@
 {
-  "name": "Mega Punch",
+  "name": "Mega Kick",
   "type": "Normal",
   "category": "physical",
   "target": "select_ajacent",
-  "power": 80,
-  "accuracy": 85,
-  "pp": 20,
+  "power": 120,
+  "accuracy": 75,
+  "pp": 5,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+	"makes_contact"
+  ],
   "primary_effects": [],
   "secondary_effects": [],
   "z-move_effects": []

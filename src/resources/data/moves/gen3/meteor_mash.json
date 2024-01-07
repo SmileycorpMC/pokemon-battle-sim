@@ -9,8 +9,21 @@
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+		"makes_contact",
+		"punching"
+	]
   "primary_effects": [],
-  "secondary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "ATK",
+			"amount": 1
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.2
+		}]
+	}],
   "z-move_effects": []
 }

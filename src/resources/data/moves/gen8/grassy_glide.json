@@ -3,7 +3,7 @@
 	"type": "Grass",
 	"category": "physical",
 	"target": "select_ajacent",
-	"power": 60,
+	"power": 55,
 	"accuracy": 100,
 	"pp": 20,
 	"priority": 0,

@@ -10,7 +10,37 @@
 	"z-move_power": -1,
 	"max_move_power": -1,
 	"properties": [],
-	"primary_effects": [{
+	"primary_effects": [
+	{
+		"function": "change_category",
+		"value": "physical",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "boolean",
+				"value1": {
+					"type": "from_user",
+					"value": "is_terastallized"
+				},
+				"operator": "==",
+				"value2": true
+			}
+		}, {
+			"mode": "comparison",
+			"value": {
+				"type": "int",
+				"value1": {
+					"type": "from_user",
+					"value": "ATK"
+				},
+				"operator": ">",
+				"value2": {
+					"type": "from_user",
+					"value": "SP_ATK"
+				}
+			}
+		}]
+	}, {
 		"function": "change_type",
 		"value": {
 			"type": "from_user",
@@ -21,11 +51,54 @@
 			"value": {
 				"type": "boolean",
 				"value1": {
-					"type": "from_target",
+					"type": "from_user",
 					"value": "is_terastallized"
 				},
 				"operator": "==",
 				"value2": true
+			}
+		}, {
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "tera_type"
+				},
+				"operator": "!=",
+				"value2": "Stellar"
+			}
+		}]
+	},  {
+		"function": "multiple",
+		"value": [
+			{
+				"function": "change_power",
+				"value": 100,
+				"conditions": []
+			}
+		],
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "boolean",
+				"value1": {
+					"type": "from_user",
+					"value": "is_terastallized"
+				},
+				"operator": "==",
+				"value2": true
+			}
+		}, {
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_user",
+					"value": "tera_type"
+				},
+				"operator": "==",
+				"value2": "Stellar"
 			}
 		}]
 	}],

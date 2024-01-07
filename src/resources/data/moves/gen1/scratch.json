@@ -1,15 +1,17 @@
 {
-  "name": "Slam",
+  "name": "Scratch",
   "type": "Normal",
   "category": "physical",
   "target": "select_ajacent",
-  "power": 80,
-  "accuracy": 75,
-  "pp": 20,
+  "power": 40,
+  "accuracy": 100,
+  "pp": 35,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+	"makes_contact"
+  ],
   "primary_effects": [],
   "secondary_effects": [],
   "z-move_effects": []

@@ -3,7 +3,7 @@
   "type": "Psychic",
   "category": "special",
   "target": "select_ajacent",
-  "power": 70,
+  "power": 95,
   "accuracy": 100,
   "pp": 5,
   "priority": 0,
@@ -11,6 +11,16 @@
   "max_move_power": -1,
   "properties": [],
   "primary_effects": [],
-  "secondary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SP_ATK",
+			"amount": -1
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.5
+		}]
+	}],
   "z-move_effects": []
 }

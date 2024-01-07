@@ -1,15 +1,18 @@
 {
-  "name": "Shadow Bone",
-  "type": "Ghost",
+  "name": "Mega Punch",
+  "type": "Normal",
   "category": "physical",
   "target": "select_ajacent",
-  "power": 85,
-  "accuracy": 100,
-  "pp": 10,
+  "power": 80,
+  "accuracy": 85,
+  "pp": 20,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+		"makes_contact",
+		"punching"
+	]
   "primary_effects": [],
   "secondary_effects": [],
   "z-move_effects": []

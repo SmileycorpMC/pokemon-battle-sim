@@ -9,8 +9,20 @@
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+	"makes_contact"
+  ],
   "primary_effects": [],
-  "secondary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "DEF",
+			"amount": -1
+		}],
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.5
+		}]
+	}],
   "z-move_effects": []
 }

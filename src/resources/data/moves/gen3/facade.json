@@ -1,0 +1,72 @@
+{
+    "name": "Facade",
+    "type": "Normal",
+    "category": "physical",
+    "target": "select_ajacent",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "makes_contact"
+    ],
+    "primary_effects": [
+        {
+            "function": "change_power",
+            "value": 140,
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_current_pokemon",
+                            "value": "status"
+                        },
+                        "operator": "!=",
+                        "value2": null
+                    }
+                }
+            ]
+        },
+        {
+            "event": "apply_stat_modifier",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "Deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "source"
+                                },
+                                "operator": "==",
+                                "value2": "status"
+                            }
+                        },
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_current_pokemon",
+                                    "value": "status"
+                                },
+                                "operator": "==",
+                                "value2": "burn"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": []
+}

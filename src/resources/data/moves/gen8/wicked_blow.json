@@ -3,7 +3,7 @@
 	"type": "Dark",
 	"category": "physical",
 	"target": "select_ajacent",
-	"power": 80,
+	"power": 75,
 	"accuracy": 100,
 	"pp": 5,
 	"priority": 0,

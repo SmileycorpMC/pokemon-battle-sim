@@ -1,15 +1,17 @@
 {
-  "name": "Drain Punch",
-  "type": "Fighting",
+  "name": "Slam",
+  "type": "Normal",
   "category": "physical",
   "target": "select_ajacent",
-  "power": 75,
-  "accuracy": 100,
-  "pp": 10,
+  "power": 80,
+  "accuracy": 75,
+  "pp": 20,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
+  "properties": [
+	"makes_contact"
+  ],
   "primary_effects": [],
   "secondary_effects": [],
   "z-move_effects": []

@@ -7,10 +7,16 @@
   "accuracy": 90,
   "pp": 10,
   "priority": 0,
-  "z-move_power": -1,
-  "max_move_power": -1,
-  "properties": [],
-  "primary_effects": [],
+  "z-move_power": 160,
+  "max_move_power": 130,
+  "properties": [
+	"makes_contact"
+  ],
+  "primary_effects": [{
+		"function": "set_hit_count",
+		"value": 2,
+		"conditions": []
+	}],
   "secondary_effects": [],
   "z-move_effects": []
 }
