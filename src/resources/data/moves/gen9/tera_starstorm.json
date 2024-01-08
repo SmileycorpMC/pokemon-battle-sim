@@ -1,0 +1,57 @@
+{
+    "name": "Tera Starstorm",
+    "type": "Normal",
+    "category": "special",
+    "target": "select_ajacent",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "multiple",
+            "value": [
+                {
+                    "function": "change_targeting",
+                    "value": "all_adjacent_opponents",
+                    "conditions": []
+                },
+                {
+                    "function": "change_type",
+                    "value": "stellar"
+                }
+            ],
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "species"
+                        },
+                        "operation": "==",
+                        "value2": "terapagos"
+                    }
+                },
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "form"
+                        },
+                        "operation": "==",
+                        "value2": "stellar"
+                    }
+                }
+            ]
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": []
+}

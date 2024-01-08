@@ -1,0 +1,78 @@
+{
+	"name": "Ivy Cudgel",
+	"type": "Grass",
+	"category": "physical",
+	"target": "select_ajacent",
+	"power": 100,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [],
+	"primary_effects": [{
+			"function": "function_group",
+			"value": [{
+				"function": "change_type",
+				"value": "water",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "held_item"
+						},
+						"operation": "==",
+						"value2": "wellspring_mask"
+					}
+				}]
+			}, {
+				"function": "change_type",
+				"value": "fire",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "held_item"
+						},
+						"operation": "==",
+						"value2": "hearthflame_mask"
+					}
+				}]
+			}, {
+				"function": "change_type",
+				"value": "rock",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_user",
+							"value": "held_item"
+						},
+						"operation": "==",
+						"value2": "cornerstone_mask"
+					}
+				}]
+			}],
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_user",
+						"value": "species"
+					},
+					"operation": "==",
+					"value2": "ogerpon"
+				}
+			}]
+		}
+
+	],
+	"secondary_effects": [],
+	"z-move_effects": []
+}

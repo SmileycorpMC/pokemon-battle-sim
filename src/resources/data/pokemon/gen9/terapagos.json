@@ -53,7 +53,7 @@
             "eventAbilities": [],
             "evolutions": [],
             "tera_properties": {
-                "set_form": "stellar_form",
+                "set_form": "stellar",
                 "set_tera_type": "Stellar"
             },
             "stats": {
@@ -76,11 +76,11 @@
             "classification": "Tera",
             "isBaseForm": false
         },
-        "stellar_form": {
+        "stellar": {
             "types": [
                 "Normal"
             ],
-            "ability1": "Tera Shell",
+            "ability1": "Teraform Zero",
             "ability2": "",
             "hiddenAbility": "",
             "eventAbilities": [],

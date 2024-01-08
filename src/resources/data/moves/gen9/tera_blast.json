@@ -1,107 +1,127 @@
 {
-	"name": "Tera Blast",
-	"type": "Normal",
-	"category": "special",
-	"target": "select_ajacent",
-	"power": 80,
-	"accuracy": 100,
-	"pp": 10,
-	"priority": 0,
-	"z-move_power": -1,
-	"max_move_power": -1,
-	"properties": [],
-	"primary_effects": [
-	{
-		"function": "change_category",
-		"value": "physical",
-		"conditions": [{
-			"mode": "comparison",
-			"value": {
-				"type": "boolean",
-				"value1": {
-					"type": "from_user",
-					"value": "is_terastallized"
-				},
-				"operator": "==",
-				"value2": true
-			}
-		}, {
-			"mode": "comparison",
-			"value": {
-				"type": "int",
-				"value1": {
-					"type": "from_user",
-					"value": "ATK"
-				},
-				"operator": ">",
-				"value2": {
-					"type": "from_user",
-					"value": "SP_ATK"
-				}
-			}
-		}]
-	}, {
-		"function": "change_type",
-		"value": {
-			"type": "from_user",
-			"value": "tera_type"
-		},
-		"conditions": [{
-			"mode": "comparison",
-			"value": {
-				"type": "boolean",
-				"value1": {
-					"type": "from_user",
-					"value": "is_terastallized"
-				},
-				"operator": "==",
-				"value2": true
-			}
-		}, {
-			"mode": "comparison",
-			"value": {
-				"type": "string",
-				"value1": {
-					"type": "from_user",
-					"value": "tera_type"
-				},
-				"operator": "!=",
-				"value2": "Stellar"
-			}
-		}]
-	},  {
-		"function": "multiple",
-		"value": [
-			{
-				"function": "change_power",
-				"value": 100,
-				"conditions": []
-			}
-		],
-		"conditions": [{
-			"mode": "comparison",
-			"value": {
-				"type": "boolean",
-				"value1": {
-					"type": "from_user",
-					"value": "is_terastallized"
-				},
-				"operator": "==",
-				"value2": true
-			}
-		}, {
-			"mode": "comparison",
-			"value": {
-				"type": "string",
-				"value1": {
-					"type": "from_user",
-					"value": "tera_type"
-				},
-				"operator": "==",
-				"value2": "Stellar"
-			}
-		}]
-	}],
-	"secondary_effects": [],
-	"z-move_effects": []
+    "name": "Tera Blast",
+    "type": "Normal",
+    "category": "special",
+    "target": "select_ajacent",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "change_category",
+            "value": "physical",
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "boolean",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "is_terastallized"
+                        },
+                        "operator": "==",
+                        "value2": true
+                    }
+                },
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "int",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "ATK"
+                        },
+                        "operator": ">",
+                        "value2": {
+                            "type": "from_user",
+                            "value": "SP_ATK"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "function": "change_type",
+            "value": {
+                "type": "from_user",
+                "value": "tera_type"
+            },
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "boolean",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "is_terastallized"
+                        },
+                        "operator": "==",
+                        "value2": true
+                    }
+                }
+            ]
+        },
+        {
+            "function": "multiple",
+            "value": [
+                {
+                    "function": "change_power",
+                    "value": 100,
+                    "conditions": []
+                },
+                {
+                    "function": "apply_recoil",
+                    "value": [
+                        {
+                            "function": "apply_stat_modifiers_to_user",
+                            "value": [
+                                {
+                                    "stat": "ATK",
+                                    "amount": -1
+                                },
+                                {
+                                    "stat": "SP_ATK",
+                                    "amount": -1
+                                }
+                            ],
+                            "conditions": []
+                        }
+                    ],
+                    "conditions": []
+                }
+            ],
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "boolean",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "is_terastallized"
+                        },
+                        "operator": "==",
+                        "value2": true
+                    }
+                },
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_user",
+                            "value": "tera_type"
+                        },
+                        "operator": "==",
+                        "value2": "Stellar"
+                    }
+                }
+            ]
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": []
 }

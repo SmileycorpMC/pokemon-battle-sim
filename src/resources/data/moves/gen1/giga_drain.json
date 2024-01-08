@@ -10,7 +10,11 @@
   "z-move_power": -1,
   "max_move_power": -1,
   "properties": [],
-  "primary_effects": [],
+  "primary_effects": [{
+		"function": "drain_hp_percent_of_damage",
+		"value": 0.5,
+		"conditions": []
+	}],
   "secondary_effects": [],
   "z-move_effects": []
 }
