@@ -1,0 +1,26 @@
+{
+  "name": "Self-Destruct",
+  "type": "Normal",
+  "category": "physical",
+  "target": "all_adjacent",
+  "power": 200,
+  "accuracy": 100,
+  "pp": 5,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+		"explosive"
+	],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "fractional_damage_user",
+			"value": 1,
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

@@ -1,20 +1,22 @@
 {
-	"name": "Blast Burn",
-	"type": "Fire",
-	"category": "special",
-	"target": "select_ajacent",
-	"power": 150,
-	"accuracy": 90,
+	"name": "Explosion",
+	"type": "Normal",
+	"category": "physical",
+	"target": "all_adjacent",
+	"power": 250,
+	"accuracy": 100,
 	"pp": 5,
 	"priority": 0,
 	"z-move_power": -1,
 	"max_move_power": -1,
-	"properties": [],
+	"properties": [
+		"explosive"
+	],
 	"primary_effects": [{
 		"function": "apply_recoil",
 		"value": [{
-			"function": "inflict_volatile_status_on_user",
-			"value": "recharge",
+			"function": "fractional_damage_user",
+			"value": 1,
 			"conditions": []
 		}],
 		"conditions": []

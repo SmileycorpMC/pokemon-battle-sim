@@ -1,0 +1,26 @@
+{
+  "name": "Power-Up Punch",
+  "type": "Fighting",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 40,
+  "accuracy": 100,
+  "pp": 20,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+		"makes_contact",
+		"punching"
+	],
+  "primary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "ATK",
+			"amount": 1
+		}],
+		"conditions": []
+	}],
+  "z-move_effects": []
+}

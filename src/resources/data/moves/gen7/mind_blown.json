@@ -1,0 +1,26 @@
+{
+  "name": "Mind Blown",
+  "type": "Fire",
+  "category": "special",
+  "target": "all_adjacent",
+  "power": 150,
+  "accuracy": 100,
+  "pp": 5,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+		"explosive"
+	],
+	"primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "fractional_damage_user",
+			"value": 0.5,
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

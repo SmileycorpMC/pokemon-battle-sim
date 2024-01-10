@@ -1,0 +1,25 @@
+{
+  "name": "Poison Fang",
+  "type": "Poison",
+  "category": "physical",
+  "target": "select_ajacent",
+  "power": 50,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+	"makes_contact"
+  ],
+  "primary_effects": [],
+  "secondary_effects": [{
+		"function": "inflict_status_on_target",
+		"value": "bad_poison",
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.5
+		}]
+	}],
+  "z-move_effects": []
+}

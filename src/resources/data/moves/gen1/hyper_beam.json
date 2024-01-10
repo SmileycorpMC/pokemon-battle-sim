@@ -1,0 +1,24 @@
+{
+  "name": "Hyper Beam",
+  "type": "Normal",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 150,
+  "accuracy": 90,
+  "pp": 5,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "inflict_volatile_status_on_user",
+			"value": "recharge",
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

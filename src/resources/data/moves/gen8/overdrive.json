@@ -1,0 +1,18 @@
+{
+  "name": "Overdrive",
+  "type": "Electric",
+  "category": "special",
+  "target": "all_adjacent_opponents",
+  "power": 80,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+	"sound_based"
+  ],
+  "primary_effects": [],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

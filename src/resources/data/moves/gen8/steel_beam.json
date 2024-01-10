@@ -1,0 +1,24 @@
+{
+  "name": "Steel Beam",
+  "type": "Steel",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 140,
+  "accuracy": 95,
+  "pp": 5,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [{
+		"function": "apply_recoil",
+		"value": [{
+			"function": "fractional_damage_user",
+			"value": 0.5,
+			"conditions": []
+		}],
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

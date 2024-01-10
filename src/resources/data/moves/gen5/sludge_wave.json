@@ -1,0 +1,25 @@
+{
+  "name": "Sludge Wave",
+  "type": "Poison",
+  "category": "special",
+  "target": "all_adjacent",
+  "power": 95,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [
+		{
+			"function": "inflict_status_on_target",
+			"value": "poison",
+			"conditions": [{
+				"mode": "random_chance",
+				"value": 0.1
+			}]
+		}
+	],
+  "z-move_effects": []
+}

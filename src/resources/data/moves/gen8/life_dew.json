@@ -1,0 +1,23 @@
+{
+  "name": "Life Dew",
+  "type": "Water",
+  "category": "status",
+  "target": "self_and_allies",
+  "power": -1,
+  "accuracy": 101,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+	"bypasses_substitute",
+	"bypasses_protection"
+  ],
+  "primary_effects": [{
+		"function": "fractional_heal_target",
+		"value": 0.25,
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

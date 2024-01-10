@@ -1,0 +1,25 @@
+{
+  "name": "Octazooka",
+  "type": "Water",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 65,
+  "accuracy": 85,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+	"ballistic"
+  ],
+  "primary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "Accuracy",
+			"amount": 1
+		}],
+		"conditions": []
+	}],
+  "z-move_effects": []
+}

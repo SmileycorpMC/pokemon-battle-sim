@@ -9,7 +9,10 @@
 	"priority": 0,
 	"z-move_power": -1,
 	"max_move_power": -1,
-	"properties": [],
+	"properties": [
+		"bypasses_substitute",
+		"bypasses_protection"
+	],
 	"primary_effects": [{
 		"function": "fractional_heal_target",
 		"value": 0.25,

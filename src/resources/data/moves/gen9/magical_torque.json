@@ -1,0 +1,27 @@
+{
+	"name": "Magical Torque",
+	"type": "Fairy",
+	"category": "physical",
+	"target": "all_adjacent",
+	"power": 100,
+	"accuracy": 100,
+	"pp": 10,
+	"priority": 0,
+	"z-move_power": -1,
+	"max_move_power": -1,
+	"properties": [
+		"ignores_encore"
+	],
+	"primary_effects": [],
+	"secondary_effects": [
+		{
+			"function": "inflict_volatile_status_on_target",
+			"value": "confusion",
+			"conditions": [{
+				"mode": "random_chance",
+				"value": 0.3
+			}]
+		}
+	],
+	"z-move_effects": []
+}

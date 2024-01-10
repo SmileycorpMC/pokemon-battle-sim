@@ -1,0 +1,20 @@
+{
+  "name": "Twin Beam",
+  "type": "Psychic",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 40,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": 160,
+  "max_move_power": 130,
+  "properties": [],
+  "primary_effects": [{
+		"function": "set_hit_count",
+		"value": 2,
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

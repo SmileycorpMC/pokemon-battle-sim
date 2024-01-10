@@ -1,0 +1,23 @@
+{
+  "name": "Glaciate",
+  "type": "Ice",
+  "category": "special",
+  "target": "all_adjacent_opponents",
+  "power": 65,
+  "accuracy": 95,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [],
+  "secondary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "SPD",
+			"amount": -1
+		}],
+		"conditions": []
+	}],
+  "z-move_effects": []
+}

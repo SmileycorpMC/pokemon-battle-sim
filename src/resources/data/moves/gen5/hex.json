@@ -1,0 +1,35 @@
+{
+  "name": "Hex",
+  "type": "Ghost",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 65,
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [
+        {
+            "function": "change_power",
+            "value": 130,
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_target",
+                            "value": "status"
+                        },
+                        "operator": "!=",
+                        "value2": null
+                    }
+                }
+            ]
+        }
+    ],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

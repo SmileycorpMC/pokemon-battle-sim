@@ -11,7 +11,7 @@
 	"max_move_power": -1,
 	"properties": [],
 	"primary_effects": [{
-		"function": "inflict_volatile_status_on_self",
+		"function": "inflict_volatile_status_on_user",
 		"value": "aqua_ring",
 		"conditions": []
 	}],

@@ -24,11 +24,14 @@
 	}],
 	"secondary_effects": [],
 	"z-move_effects": [{
-		"function": "apply_stat_modifiers_to_user",
+		"function": "apply_stat_modifiers_to_targett",
 		"value": [{
 			"stat": "Accuracy",
-			"amount": 1
+			"amount": -1
 		}],
-		"conditions": []
+		"conditions": [{
+			"mode": "random_chance",
+			"value": 0.5
+		}]
 	}]
 }
