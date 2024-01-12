@@ -1,16 +1,22 @@
 {
-  "name": "Fairy Wind",
+  "name": "Draining Kiss",
   "type": "Fairy",
   "category": "special",
   "target": "select_ajacent",
-  "power": 40,
+  "power": 50,
   "accuracy": 100,
-  "pp": 30,
+  "pp": 10,
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
-  "primary_effects": [],
+  "properties": [
+	"makes_contact"
+  ],
+  "primary_effects": [{
+		"function": "drain_hp_percent_of_damage",
+		"value": 0.75,
+		"conditions": []
+	}],
   "secondary_effects": [],
   "z-move_effects": []
 }

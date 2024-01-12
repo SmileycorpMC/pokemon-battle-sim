@@ -1,0 +1,33 @@
+{
+  "name": "Feather Dance",
+  "type": "Flying",
+  "category": "status",
+  "target": "select_ajacent",
+  "power": -1,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [
+	"dance"
+  ],
+  "primary_effects": [{
+		"function": "apply_stat_modifiers_to_target",
+		"value": [{
+			"stat": "ATK",
+			"amount": -2
+		}],
+		"conditions": []
+	}],
+	"secondary_effects": [],
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "DEF",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
+  "z-move_effects": []
+}

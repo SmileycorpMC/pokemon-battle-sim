@@ -1,0 +1,39 @@
+{
+  "name": "Dream Eater",
+  "type": "Psychic",
+  "category": "special",
+  "target": "select_ajacent",
+  "power": 100,
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "z-move_power": -1,
+  "max_move_power": -1,
+  "properties": [],
+  "primary_effects": [
+	{
+		"function": "set_move_status",
+		"value": "Fail",
+		"conditions": [{
+			"mode": "comparison",
+			"value": {
+				"type": "string",
+				"value1": {
+					"type": "from_target",
+					"value": "status"
+				},
+				"operator": "!=",
+				"value2": [
+					"sleep",
+					"drowsiness"
+				]	
+			}
+		}]
+	}, {
+		"function": "drain_hp_percent_of_damage",
+		"value": 0.5,
+		"conditions": []
+	}],
+  "secondary_effects": [],
+  "z-move_effects": []
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Guillotine",
+    "type": "Normal",
+    "category": "physical",
+    "target": "select_ajacent",
+    "power": -1,
+    "accuracy": 30,
+    "pp": 5,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "ohko",
+        "makes_contact"
+    ],
+    "primary_effects": [
+        {
+            "function": "change_accuracy",
+            "value": {
+                "operation": "Add",
+                "value": [
+                    {
+                        "operation": "Subtract",
+                        "value": [
+                            {
+                                "type": "from_user",
+                                "value": "level"
+                            },
+                            {
+                                "type": "from_target",
+                                "value": "level"
+                            }
+                        ]
+                    },
+                    30
+                ]
+            },
+            "conditions": []
+        },
+        {
+            "function": "fractional_damage_target",
+            "value": 1,
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": []
+}

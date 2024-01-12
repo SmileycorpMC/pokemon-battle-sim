@@ -9,8 +9,14 @@
   "priority": 0,
   "z-move_power": -1,
   "max_move_power": -1,
-  "properties": [],
-  "primary_effects": [],
+  "properties": [
+	"makes_contact"
+  ],
+  "primary_effects": [{
+		"function": "temporarily_increase_crit_chance",
+		"value": 1,
+		"conditions": []
+	}],
   "secondary_effects": [],
   "z-move_effects": []
 }

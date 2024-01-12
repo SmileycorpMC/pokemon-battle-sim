@@ -1,0 +1,114 @@
+{
+    "name": "Sheer Cold",
+    "type": "Ice",
+    "category": "special",
+    "target": "select_ajacent",
+    "power": -1,
+    "accuracy": 30,
+    "pp": 5,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "ohko"
+    ],
+    "primary_effects": [
+        {
+            "function": "set_move_status",
+            "value": "Fail",
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_target",
+                            "target": "types"
+                        },
+                        "operator": "==",
+                        "value2": "ice"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "change_accuracy",
+            "value": {
+                "operation": "Add",
+                "value": [
+                    {
+                        "operation": "Subtract",
+                        "value": [
+                            {
+                                "type": "from_user",
+                                "value": "level"
+                            },
+                            {
+                                "type": "from_target",
+                                "value": "level"
+                            }
+                        ]
+                    },
+                    30
+                ]
+            },
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_user",
+                            "target": "types"
+                        },
+                        "operator": "==",
+                        "value2": "ice"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "change_accuracy",
+            "value": {
+                "operation": "Add",
+                "value": [
+                    {
+                        "operation": "Subtract",
+                        "value": [
+                            {
+                                "type": "from_user",
+                                "value": "level"
+                            },
+                            {
+                                "type": "from_target",
+                                "value": "level"
+                            }
+                        ]
+                    },
+                    20
+                ]
+            },
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_user",
+                            "target": "types"
+                        },
+                        "operator": "!=",
+                        "value2": "ice"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "fractional_damage_target",
+            "value": 1,
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": []
+}

@@ -1,5 +1,5 @@
 {
-	"name": "Trailbalze",
+	"name": "Trailblaze",
 	"type": "Grass",
 	"category": "physical",
 	"target": "select_ajacent",
@@ -10,7 +10,6 @@
 	"z-move_power": -1,
 	"max_move_power": -1,
 	"properties": [
-		"dance",
 		"makes_contact"
 	],
 	"primary_effects": [],

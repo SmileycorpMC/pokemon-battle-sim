@@ -2,7 +2,7 @@
 	"name": "Mountain Gale",
 	"type": "Ice",
 	"category": "physical",
-	"target": "select_any",
+	"target": "select_adjacent",
 	"power": 100,
 	"accuracy": 85,
 	"pp": 10,

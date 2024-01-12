@@ -1,8 +1,8 @@
 {
-	"name": "Aura Sphere",
+	"name": "Kowtow Kleave",
 	"type": "Fighting",
 	"category": "physical",
-	"target": "select_any",
+	"target": "select_adjacent",
 	"power": 85,
 	"accuracy": 101,
 	"pp": 20,
