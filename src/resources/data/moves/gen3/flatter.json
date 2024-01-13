@@ -1,0 +1,43 @@
+{
+    "name": "Flatter",
+    "type": "Dark",
+    "category": "status",
+    "target": "select_ajacent",
+    "power": -1,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "apply_stat_modifiers_to_target",
+            "value": [
+                {
+                    "stat": "SP_ATK",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        },
+        {
+            "function": "inflict_volatile_status_on_target",
+            "value": "confusion",
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "SP_DEF",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        }
+    ]
+}

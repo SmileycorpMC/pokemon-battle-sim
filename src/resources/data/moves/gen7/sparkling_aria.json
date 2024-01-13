@@ -1,0 +1,24 @@
+{
+    "name": "Sparkling Aria",
+    "type": "Water",
+    "category": "special",
+    "target": "all_adjacent",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "sound_based"
+    ],
+    "primary_effects": [],
+    "secondary_effects": [
+        {
+            "function": "remove_status_from_target",
+            "value": "burn",
+            "conditions": []
+        }
+    ],
+    "z-move_effects": []
+}

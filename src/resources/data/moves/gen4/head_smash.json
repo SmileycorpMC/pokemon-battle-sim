@@ -1,0 +1,39 @@
+{
+    "name": "Head Smash",
+    "type": "Rock",
+    "category": "physical",
+    "target": "select_ajacent",
+    "power": 150,
+    "accuracy": 80,
+    "pp": 5,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "makes_contact"
+    ],
+    "primary_effects": [
+        {
+            "function": "apply_recoil",
+            "value": [
+                {
+                    "function": "damage_user",
+                    "value": {
+                        "operation": "Divide",
+                        "value": [
+                            {
+                                "type": "from_last_move",
+                                "target": "damage_dealt"
+                            },
+                            2
+                        ]
+                    },
+                    "conditions": []
+                }
+            ],
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": []
+}

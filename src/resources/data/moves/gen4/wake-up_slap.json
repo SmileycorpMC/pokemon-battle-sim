@@ -1,0 +1,49 @@
+{
+    "name": "Wake-Up Slap",
+    "type": "Fighting",
+    "category": "physical",
+    "target": "select_ajacent",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "makes_contact"
+    ],
+    "primary_effects": [
+        {
+            "function": "change_power",
+            "value": 140,
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_target",
+                            "value": "status"
+                        },
+                        "operator": "!=",
+                        "value2": [
+                            "sleep",
+                            "drowsiness"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "secondary_effects": [
+        {
+            "function": "remove_status_from_target",
+            "value": [
+                "sleep",
+                "drowsiness"
+            ],
+            "conditions": []
+        }
+    ],
+    "z-move_effects": []
+}

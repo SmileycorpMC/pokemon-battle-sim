@@ -1,0 +1,37 @@
+{
+    "name": "Withdraw",
+    "type": "Water",
+    "category": "status",
+    "target": "self",
+    "power": -1,
+    "accuracy": 101,
+    "pp": 40,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "primary_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "DEF",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "DEF",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        }
+    ]
+}

@@ -16,5 +16,12 @@
 		"conditions": []
 	}],
 	"secondary_effects": [],
-	"z-move_effects": []
+	"z-move_effects": [{
+		"function": "apply_stat_modifiers_to_user",
+		"value": [{
+			"stat": "DEF",
+			"amount": 1
+		}],
+		"conditions": []
+	}]
 }

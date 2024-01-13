@@ -1,0 +1,38 @@
+{
+    "name": "String Shot",
+    "type": "Bug",
+    "category": "status",
+    "target": "all_adjacent_opponents",
+    "power": -1,
+    "accuracy": 95,
+    "pp": 40,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "apply_stat_modifiers_to_target",
+            "value": [
+                {
+                    "stat": "SPD",
+                    "amount": -2
+                }
+            ],
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "SPD",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        }
+    ]
+}

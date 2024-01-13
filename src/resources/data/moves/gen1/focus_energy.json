@@ -1,0 +1,33 @@
+{
+    "name": "Focus Energy",
+    "type": "Normal",
+    "category": "status",
+    "target": "self",
+    "power": -1,
+    "accuracy": 101,
+    "pp": 30,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "increase_user_crit_chance",
+            "value": 2,
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "Accuracy",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        }
+    ]
+}

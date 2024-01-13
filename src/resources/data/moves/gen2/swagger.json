@@ -1,0 +1,55 @@
+{
+    "name": "Swagger",
+    "type": "Normal",
+    "category": "status",
+    "target": "select_ajacent",
+    "power": -1,
+    "accuracy": 85,
+    "pp": 15,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "apply_stat_modifiers_to_target",
+            "value": [
+                {
+                    "stat": "ATK",
+                    "amount": 2
+                }
+            ],
+            "conditions": []
+        },
+        {
+            "function": "inflict_volatile_status_on_target",
+            "value": "confusion",
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "reset_user_stat_modifiers",
+            "value": [
+                "ATK",
+                "DEF",
+                "SP_ATK",
+                "SP_DEF",
+                "SPD",
+                "Accuracy",
+                "Evasion"
+            ],
+            "conditions": [
+                {
+                    "mode": "predicate_comparison",
+                    "value": {
+                        "type": "int",
+                        "operator": "<",
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

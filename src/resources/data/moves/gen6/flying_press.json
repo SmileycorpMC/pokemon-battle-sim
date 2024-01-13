@@ -1,0 +1,21 @@
+{
+    "name": "Flying Press",
+    "type": [
+        "Fighting",
+        "Flying"
+    ],
+    "category": "physical",
+    "target": "select_any",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 10,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [
+        "makes_contact"
+    ],
+    "primary_effects": [],
+    "secondary_effects": [],
+    "z-move_effects": []
+}

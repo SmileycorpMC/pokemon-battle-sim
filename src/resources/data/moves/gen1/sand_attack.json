@@ -1,0 +1,38 @@
+{
+    "name": "Sand Attack",
+    "type": "Ground",
+    "category": "status",
+    "target": "select_ajacent",
+    "power": -1,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "apply_stat_modifiers_to_target",
+            "value": [
+                {
+                    "stat": "Accuracy",
+                    "amount": -1
+                }
+            ],
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "Evasiveness",
+                    "amount": 1
+                }
+            ],
+            "conditions": []
+        }
+    ]
+}

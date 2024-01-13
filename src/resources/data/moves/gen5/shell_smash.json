@@ -1,0 +1,66 @@
+{
+    "name": "Shell Smash",
+    "type": "Normal",
+    "category": "status",
+    "target": "self",
+    "power": -1,
+    "accuracy": 101,
+    "pp": 15,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "apply_stat_modifiers_to_user",
+            "value": [
+                {
+                    "stat": "DEF",
+                    "amount": 1
+                },
+                {
+                    "stat": "SP_DEF",
+                    "amount": 1
+                },
+                {
+                    "stat": "ATK",
+                    "amount": 2
+                },
+                {
+                    "stat": "SP_ATK",
+                    "amount": 2
+                },
+                {
+                    "stat": "SPD",
+                    "amount": 2
+                }
+            ],
+            "conditions": []
+        }
+    ],
+    "secondary_effects": [],
+    "z-move_effects": [
+        {
+            "function": "reset_user_stat_modifiers",
+            "value": [
+                "ATK",
+                "DEF",
+                "SP_ATK",
+                "SP_DEF",
+                "SPD",
+                "Accuracy",
+                "Evasion"
+            ],
+            "conditions": [
+                {
+                    "mode": "predicate_comparison",
+                    "value": {
+                        "type": "int",
+                        "operator": "<",
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

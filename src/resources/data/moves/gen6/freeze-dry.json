@@ -1,0 +1,46 @@
+{
+    "name": "Freeze-Dry",
+    "type": "Ice",
+    "category": "special",
+    "target": "select_ajacent",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "z-move_power": -1,
+    "max_move_power": -1,
+    "properties": [],
+    "primary_effects": [
+        {
+            "function": "change_move_type_effectiveness",
+            "value": 2,
+            "conditions": [
+                {
+                    "mode": "comparison",
+                    "value": {
+                        "type": "string",
+                        "value1": {
+                            "type": "from_event",
+                            "value": "get_defending_type"
+                        },
+                        "operator": "==",
+                        "value2": "Water"
+                    }
+                }
+            ]
+        }
+    ],
+    "secondary_effects": [
+        {
+            "function": "inflict_status_on_target",
+            "value": "freeze",
+            "conditions": [
+                {
+                    "mode": "random_chance",
+                    "value": 0.1
+                }
+            ]
+        }
+    ],
+    "z-move_effects": []
+}
