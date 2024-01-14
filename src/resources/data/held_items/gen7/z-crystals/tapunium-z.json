@@ -1,0 +1,63 @@
+{
+    "name": "Tapunium-Z",
+    "fling_power": 0,
+    "properties": [
+        "z-crystal",
+        "cant_be_thrown",
+        "cant_be_stolen"
+    ],
+    "effects": [
+        {
+            "event": "z-move",
+            "functions": [
+                {
+                    "function": "change_move",
+                    "value": "guardian_of_alola",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_move",
+                                    "value": "name"
+                                },
+                                "operator": "==",
+                                "value2": "nature's_madness"
+                            }
+                        },
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_current_pokemon",
+                                    "value": "species"
+                                },
+                                "operator": "==",
+                                "value2": [
+									"tapu_koko",
+									"tapu_lele",
+									"tapu_bulu",
+									"tapu_fini"
+								]
+                            }
+                        },
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "attacking_type": {
+                                    "type": "from_current_pokemon",
+                                    "value": "form"
+                                },
+                                "operator": "==",
+                                "value2": "default"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

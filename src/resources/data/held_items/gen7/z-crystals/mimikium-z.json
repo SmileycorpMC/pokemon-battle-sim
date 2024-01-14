@@ -1,0 +1,46 @@
+{
+    "name": "Mimikium-Z",
+    "fling_power": 0,
+    "properties": [
+        "z-crystal",
+        "cant_be_thrown",
+        "cant_be_stolen"
+    ],
+    "effects": [
+        {
+            "event": "z-move",
+            "functions": [
+                {
+                    "function": "change_move",
+                    "value": "let’s_snuggle_forever",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_move",
+                                    "value": "name"
+                                },
+                                "operator": "==",
+                                "value2": "play_rough"
+                            }
+                        },
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_current_pokemon",
+                                    "value": "species"
+                                },
+                                "operator": "==",
+                                "value2": "mimikyu"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Grassy Seed",
+    "fling_power": 30,
+    "properties": [
+        "seed"
+    ],
+    "effects": [
+        {
+            "event": "on_switch_in",
+            "functions": [
+                {
+                    "function": "consume_user_item",
+                    "value": null,
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_battle_instance",
+                                    "value": "terrain"
+                                },
+                                "operator": "==",
+                                "value2": "misty_terrain"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event": "on_start_terrain",
+            "functions": [
+                {
+                    "function": "consume_user_item",
+                    "value": null,
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "weather"
+                                },
+                                "operator": "==",
+                                "value2": "misty_terrain"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event": "consume_item",
+            "functions": [
+                {
+                    "function": "apply_stat_modifiers_to_user",
+                    "value": {
+                        "stat": "SP_DEF",
+                        "amount": 1
+                    },
+                    "conditions": []
+                }
+            ]
+        }
+    ]
+}

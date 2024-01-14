@@ -1,0 +1,66 @@
+{
+    "name": "Pikanium-Z",
+    "fling_power": 0,
+    "properties": [
+        "z-crystal",
+        "cant_be_thrown",
+        "cant_be_stolen"
+    ],
+    "effects": [
+        {
+            "event": "z-move",
+            "functions": [
+                {
+                    "function": "change_move",
+                    "value": "10,000,000_volt_thunderbolt",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_move",
+                                    "value": "name"
+                                },
+                                "operator": "==",
+                                "value2": "thunderbolt"
+                            }
+                        },
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_current_pokemon",
+                                    "value": "species"
+                                },
+                                "operator": "==",
+                                "value2": "pikachu"
+                            }
+                        },
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "attacking_type": {
+                                    "type": "from_current_pokemon",
+                                    "value": "form"
+                                },
+                                "operator": "==",
+                                "value2": [
+									"original-cap",
+									"hoenn-cap",
+									"sinnoh-cap",
+									"unova-cap",
+									"kalos-cap",
+									"alola-cap",
+									"partner-cap"
+								]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

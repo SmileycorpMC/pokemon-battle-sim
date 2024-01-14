@@ -1,0 +1,13 @@
+{
+	"name": "Terarin Extender",
+	"fling_power": 30,
+	"properties": [],
+	"effects": [{
+		"event": "on_start_terrain",
+		"functions": [{
+			"function": "set_terrain_turns",
+			"value": 8,
+			"conditions": []
+		}]
+	}]
+}

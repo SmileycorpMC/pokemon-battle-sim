@@ -1,0 +1,27 @@
+{
+    "name": "Protective Pads",
+    "fling_power": 30,
+    "properties": [],
+    "effects": [
+        {
+            "event": "user_use_move",
+            "functions": [
+                {
+                    "function": "remove_move_property",
+                    "value": "makes_contact",
+                    "conditions": []
+                }
+            ]
+        },
+        {
+            "event": "user_targeted_by_move",
+            "functions": [
+                {
+                    "function": "remove_move_property",
+                    "value": "makes_contact",
+                    "conditions": []
+                }
+            ]
+        }
+    ]
+}
