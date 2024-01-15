@@ -1,5 +1,5 @@
 {
-  "name": "Houndoominite",
+  "name": "Mewtwonite X",
   "fling_power": 0,
   "properties": [
     "mega_stone",
@@ -12,7 +12,7 @@
       "functions": [
         {
           "function": "change_user_form",
-          "value": "mega",
+          "value": "mega_x",
           "conditions": [
             {
               "mode": "comparison",
@@ -23,7 +23,7 @@
                   "value": "species"
                 },
                 "operator": "==",
-                "value2": "houndoom"
+                "value2": "mewtwo"
               }
             },
             {

@@ -1,40 +1,46 @@
 {
-	"name": "Slowbronite",
-	"fling_power": 0,
-	"properties": [
-		"mega_stone",
-		"cant_be_thrown",
-		"cant_be_stolen",
-		"oras"
-	],
-	"effects": [{
-		"event": "mega_evolve",
-		"functions": [{
-			"function": "change_user_form",
-			"value": "mega",
-			"conditions": [{
-				"mode": "comparison",
-				"value": {
-					"type": "string",
-					"attacking_type": {
-						"type": "from_current_pokemon",
-						"value": "species"
-					},
-					"operator": "==",
-					"value2": "slowbro"
-				}
-			}]
-		}, {
-			"mode": "comparison",
-			"value": {
-				"type": "string",
-				"attacking_type": {
-					"type": "from_current_pokemon",
-					"value": "form"
-				},
-				"operator": "==",
-				"value2": "default"
-			}
-		}]
-	}]
+  "name": "Slowbronite",
+  "fling_power": 0,
+  "properties": [
+    "mega_stone",
+    "cant_be_thrown",
+    "cant_be_stolen"
+  ],
+  "effects": [
+    {
+      "event": "mega_evolve",
+      "functions": [
+        {
+          "function": "change_user_form",
+          "value": "mega",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_pokemon",
+                  "value": "species"
+                },
+                "operator": "==",
+                "value2": "slowbro"
+              }
+            },
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_pokemon",
+                  "value": "form"
+                },
+                "operator": "==",
+                "value2": "default"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
