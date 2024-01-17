@@ -1,0 +1,23 @@
+{
+	"name": "Blunder Policy",
+	"fling_power": 80,
+	"properties": [],
+	"effects": [{
+		"event": "missed_move",
+		"functions": [{
+			"function": "consume_user_item",
+			"value": null,
+			"conditions": []
+		}]
+	}, {
+		"event": "consume_item",
+		"functions": [{
+			"function": "apply_stat_modifiers",
+			"value": [{
+				"stat": "SPD",
+				"amount": 2
+			}],
+			"conditions": []
+		}]
+	}]
+}

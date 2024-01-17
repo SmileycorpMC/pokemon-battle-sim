@@ -1,0 +1,29 @@
+{
+	"name": "Utillity Umbrella",
+	"fling_power": 60,
+	"properties": [],
+	"effects": [{
+		"event": "apply_weather_effect",
+		"functions": [{
+			"function": "set_event_status",
+			"value": "Deny",
+			"conditions": [{
+				"mode": "comparison",
+				"value": {
+					"type": "string",
+					"value1": {
+						"type": "from_event",
+						"target": "weather"
+					},
+					"operation": "==",
+					"value2": [
+						"rain",
+						"harsh_sunlight"
+						"heavy_rain",
+						"extremely_harsh_sunlight"
+					]
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,76 @@
+{
+    "name": "Heavy-Duty Boots",
+    "fling_power": 80,
+    "properties": [],
+    "effects": [
+        {
+            "event": "statused_by_effect",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "Deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_damage_instance",
+                                    "target": "source"
+                                },
+                                "operation": "==",
+                                "value2": "field_effect"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event": "stats_changed_by_effect",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "Deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_damage_instance",
+                                    "target": "source"
+                                },
+                                "operation": "==",
+                                "value2": "field_effect"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event": "damaged_by_effect",
+            "functions": [
+                {
+                    "function": "set_damage",
+                    "value": 0,
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_damage_instance",
+                                    "target": "source"
+                                },
+                                "operation": "==",
+                                "value2": "field_effect"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

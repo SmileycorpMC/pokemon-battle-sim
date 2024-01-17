@@ -1,0 +1,66 @@
+{
+    "name": "Room Service",
+    "fling_power": 100,
+    "properties": [],
+    "effects": [
+        {
+            "event": "on_switch_in",
+            "functions": [
+                {
+                    "function": "consume_user_item",
+                    "value": null,
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_battle_instance",
+                                    "value": "field_effect"
+                                },
+                                "operator": "==",
+                                "value2": "trick_room"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event": "on_start_terrain",
+            "functions": [
+                {
+                    "function": "consume_user_item",
+                    "value": null,
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "field_effect"
+                                },
+                                "operator": "==",
+                                "value2": "trick_room"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event": "consume_item",
+            "functions": [
+                {
+                    "function": "apply_stat_modifiers_to_user",
+                    "value": {
+                        "stat": "SPD",
+                        "amount": -1
+                    },
+                    "conditions": []
+                }
+            ]
+        }
+    ]
+}

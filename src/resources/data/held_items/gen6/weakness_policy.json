@@ -1,9 +1,7 @@
 {
 	"name": "Weakness Policy",
 	"fling_power": 80,
-	"properties": [
-		"berry"
-	],
+	"properties": [],
 	"effects": [{
 		"event": "damaged_by_move",
 		"functions": [{
