@@ -1,0 +1,35 @@
+{
+    "name": "Water",
+    "colour": [
+        43,
+        146,
+        251
+    ],
+    "effectiveness": [
+        {
+            "type": "water",
+            "multiplier": 0.5
+        },
+        {
+            "type": "grass",
+            "multiplier": 0.5
+        },
+        {
+            "type": "dragon",
+            "multiplier": 0.5
+        },
+        {
+            "type": "fire",
+            "multiplier": 2
+        },
+        {
+            "type": "ground",
+            "multiplier": 2
+        },
+        {
+            "type": "rock",
+            "multiplier": 2
+        }
+    ],
+    "events": []
+}

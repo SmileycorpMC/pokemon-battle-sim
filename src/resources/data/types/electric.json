@@ -1,0 +1,59 @@
+{
+    "name": "Electric",
+    "colour": [
+        255,
+        219,
+        0
+    ],
+    "effectiveness": [
+        {
+            "type": "ground",
+            "multiplier": 0
+        },
+        {
+            "type": "electric",
+            "multiplier": 0.5
+        },
+        {
+            "type": "grass",
+            "multiplier": 0.5
+        },
+		{
+            "type": "dragon",
+            "multiplier": 0.5
+        },
+        {
+            "type": "water",
+            "multiplier": 2
+        },
+        {
+            "type": "flying",
+            "multiplier": 2
+        }
+    ],
+    "events": [
+        {
+            "event": "on_apply_status",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "get_status_type"
+                                },
+                                "operation": "==",
+                                "value2": "paralysis"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Steel",
+    "colour": [
+        106,
+        174,
+        211
+    ],
+    "effectiveness": [
+        {
+            "type": "fire",
+            "multiplier": 0.5
+        },
+		{
+            "type": "water",
+            "multiplier": 0.5
+        },
+		{
+            "type": "electric",
+            "multiplier": 0.5
+        },
+		{
+            "type": "steel",
+            "multiplier": 0.5
+        },
+		{
+            "type": "ice",
+            "multiplier": 2
+        },
+		{
+            "type": "rock",
+            "multiplier": 2
+        },
+		{
+            "type": "fairy",
+            "multiplier": 2
+        }
+    ],
+    "events": [
+        {
+            "event": "on_apply_status",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "get_status_type"
+                                },
+                                "operation": "==",
+                                "value2": [
+									"poison",
+									"bad_poison"
+								]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

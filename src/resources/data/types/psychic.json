@@ -1,0 +1,31 @@
+{
+    "name": "Psychic",
+    "colour": [
+        255,
+        99,
+        128
+    ],
+    "effectiveness": [
+		{
+            "type": "dark",
+            "multiplier": 0
+        },
+        {
+            "type": "psychic",
+            "multiplier": 0.5
+        },
+		{
+            "type": "steel",
+            "multiplier": 0.5
+        },
+        {
+            "type": "fighting",
+            "multiplier": 2
+        },
+		{
+            "type": "poison",
+            "multiplier": 2
+        }
+    ],
+    "events": []
+}

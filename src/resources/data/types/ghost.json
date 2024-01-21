@@ -1,0 +1,26 @@
+{
+    "name": "Ghost",
+    "colour": [
+        110,
+		69,
+		113
+    ],
+    "effectiveness": [
+        {
+            "type": "normal",
+            "multiplier": 0
+        },
+        {
+            "type": "dark",
+            "multiplier": 0.5
+        },
+		{
+            "type": "psychic",
+            "multiplier": 2
+        },
+        {
+            "type": "ghost",
+            "multiplier": 2
+        }],
+    "events": []
+}

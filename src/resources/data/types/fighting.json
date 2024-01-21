@@ -1,0 +1,54 @@
+{
+    "name": "Fighting",
+    "colour": [
+        255,
+		162,
+		2
+    ],
+    "effectiveness": [
+        {
+            "type": "ghost",
+            "multiplier": 0
+        },
+        {
+            "type": "poison",
+            "multiplier": 0.5
+        },
+		{
+            "type": "psychic",
+            "multiplier": 0.5
+        },
+		{
+            "type": "flying",
+            "multiplier": 0.5
+        },
+		{
+            "type": "bug",
+            "multiplier": 0.5
+        },
+		{
+            "type": "fairy",
+            "multiplier": 0.5
+        },
+		{
+            "type": "normal",
+            "multiplier": 2
+        },
+		{
+            "type": "ice",
+            "multiplier": 2
+        },
+		{
+            "type": "rock",
+            "multiplier": 2
+        },
+		{
+            "type": "dark",
+            "multiplier": 2
+        },
+        {
+            "type": "steel",
+            "multiplier": 2
+        }],
+    "events": []
+}

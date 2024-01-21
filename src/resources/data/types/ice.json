@@ -1,0 +1,74 @@
+{
+    "name": "Ice",
+    "colour": [
+        97,
+        217,
+        254
+    ],
+    "effectiveness": [
+        {
+            "type": "fire",
+            "multiplier": 0.5
+        },
+        {
+            "type": "water",
+            "multiplier": 0.5
+        },
+		{
+            "type": "ice",
+            "multiplier": 0.5
+        },
+		{
+            "type": "steel",
+            "multiplier": 0.5
+        },
+        {
+            "type": "water",
+            "multiplier": 2
+        },
+		{
+            "type": "grass",
+            "multiplier": 2
+        },
+		{
+            "type": "ground",
+            "multiplier": 2
+        },
+        {
+            "type": "flying",
+            "multiplier": 2
+        },
+		{
+            "type": "dragon",
+            "multiplier": 2
+        }
+    ],
+    "events": [
+        {
+            "event": "on_apply_status",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "get_status_type"
+                                },
+                                "operation": "==",
+                                "value2": [
+									"freeze",
+									"frostbite"
+								]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Poison",
+    "colour": [
+        153,
+        78,
+        207
+    ],
+    "effectiveness": [
+        {
+            "type": "steel",
+            "multiplier": 0
+        },
+        {
+            "type": "poison",
+            "multiplier": 0.5
+        },
+		{
+            "type": "ground",
+            "multiplier": 0.5
+        },
+		{
+            "type": "rock",
+            "multiplier": 0.5
+        },
+		{
+            "type": "ghost",
+            "multiplier": 0.5
+        },
+		{
+            "type": "grass",
+            "multiplier": 2
+        },
+		{
+            "type": "fairy",
+            "multiplier": 2
+        }
+    ],
+    "events": [
+        {
+            "event": "on_apply_status",
+            "functions": [
+                {
+                    "function": "set_event_status",
+                    "value": "deny",
+                    "conditions": [
+                        {
+                            "mode": "comparison",
+                            "value": {
+                                "type": "string",
+                                "value1": {
+                                    "type": "from_event",
+                                    "value": "get_status_type"
+                                },
+                                "operation": "==",
+                                "value2": [
+									"poison",
+									"bad_poison"
+								]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Grass",
+    "colour": [
+        66,
+        191,
+        37
+    ],
+    "effectiveness": [
+        {
+            "type": "fire",
+            "multiplier": 0.5
+        },
+        {
+            "type": "grass",
+            "multiplier": 0.5
+        },
+        {
+            "type": "poison",
+            "multiplier": 0.5
+        },
+		{
+            "type": "flying",
+            "multiplier": 0.5
+        },
+		{
+            "type": "bug",
+            "multiplier": 0.5
+        },
+        {
+            "type": "dragon",
+            "multiplier": 0.5
+        },
+        {
+            "type": "water",
+            "multiplier": 2
+        },
+        {
+            "type": "ground",
+            "multiplier": 2
+        },
+        {
+            "type": "rock",
+            "multiplier": 2
+        }
+    ],
+    "events": [
+        {
+			"event": "targeted_by_move",
+			"functions": [{
+				"function": "set_move_status",
+				"value": "Fail",
+				"conditions": [{
+					"mode": "comparison",
+					"value": {
+						"type": "string",
+						"value1": {
+							"type": "from_current_move",
+							"target": "properties"
+						},
+						"operation": "==",
+						"value2": "powder"
+					}
+				}]
+			}]
+		}
+    ]
+}

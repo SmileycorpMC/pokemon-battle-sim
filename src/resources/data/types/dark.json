@@ -1,0 +1,30 @@
+{
+    "name": "Dark",
+    "colour": [
+        79,
+		70,
+		71
+    ],
+    "effectiveness": [
+        {
+            "type": "fighting",
+            "multiplier": 0.5
+        },
+		{
+            "type": "dark",
+            "multiplier": 0.5
+        },
+		{
+            "type": "fairy",
+            "multiplier": 0.5
+        },
+		{
+            "type": "psychic",
+            "multiplier": 2
+        },
+        {
+            "type": "ghost",
+            "multiplier": 2
+        }],
+    "events": []
+}

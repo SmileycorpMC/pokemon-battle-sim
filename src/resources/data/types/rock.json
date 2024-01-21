@@ -1,0 +1,43 @@
+{
+    "name": "Rock",
+    "colour": [
+        188,
+        184,
+        136
+    ],
+    "effectiveness": [
+		{
+            "type": "fighting",
+            "multiplier": 0.5
+        },
+		{
+            "type": "ground",
+            "multiplier": 0.5
+        },
+		{
+            "type": "steel",
+            "multiplier": 0.5
+        },
+		{
+            "type": "fairy",
+            "multiplier": 0.5
+        },
+		{
+            "type": "fire",
+            "multiplier": 2
+        },
+        {
+            "type": "ice",
+            "multiplier": 2
+        },
+		{
+            "type": "flying",
+            "multiplier": 2
+        },
+		{
+            "type": "bug",
+            "multiplier": 2
+        }
+    ],
+    "events": []
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Normal",
+    "colour": [
+        153,
+		153,
+		153
+    ],
+    "effectiveness": [
+        {
+            "type": "ghost",
+            "multiplier": 0
+        },
+        {
+            "type": "rock",
+            "multiplier": 0.5
+        },
+        {
+            "type": "steel",
+            "multiplier": 0.5
+        }],
+    "events": []
+}
