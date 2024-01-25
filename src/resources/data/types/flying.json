@@ -5,6 +5,9 @@
         101,
         255
     ],
+	"properties": [
+        "not_grounded"
+    ],
     "effectiveness": [
         {
             "type": "electric",
@@ -31,16 +34,5 @@
             "multiplier": 2
         }
     ],
-    "events": [
-		{
-            "event": "on_get_property",
-            "functions": [
-                {
-                    "function": "give_property",
-                    "value": "not_grounded",
-                    "conditions": []
-                }
-            ]
-        }
-	]
+    "events": []
 }
