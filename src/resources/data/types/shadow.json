@@ -1,0 +1,14 @@
+{
+    "name": "Shadow",
+    "colour": [
+        30,
+        30,
+        56
+    ],
+    "properties": [
+        "no_terra",
+        "offensive_only"
+    ],
+    "effectiveness": [],
+    "events": []
+}
