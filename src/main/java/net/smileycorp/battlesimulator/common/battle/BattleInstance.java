@@ -1,9 +1,9 @@
 package net.smileycorp.battlesimulator.common.battle;
 
+import net.smileycorp.battlesimulator.common.battle.event.BattleEvent;
+
 import java.util.List;
 import java.util.Random;
-
-import net.smileycorp.battlesimulator.common.battle.event.BattleEvent;
 
 public class BattleInstance {
 

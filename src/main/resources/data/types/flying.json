@@ -1,38 +1,20 @@
 {
-    "name": "Flying",
-    "colour": [
-        150,
-        101,
-        255
-    ],
-	"properties": [
-        "not_grounded"
-    ],
-    "effectiveness": [
-        {
-            "type": "electric",
-            "multiplier": 0.5
-        },
-        {
-            "type": "rock",
-            "multiplier": 0.5
-        },
-		{
-            "type": "steel",
-            "multiplier": 0.5
-        },
-        {
-            "type": "grass",
-            "multiplier": 2
-        },
-        {
-            "type": "fighting",
-            "multiplier": 2
-        },
-		{
-            "type": "bug",
-            "multiplier": 2
-        }
-    ],
-    "events": []
+  "name": "Flying",
+  "colour": [
+    150,
+    101,
+    255
+  ],
+  "properties": [
+    "not_grounded"
+  ],
+  "effectiveness": {
+    "bug": 2.0,
+    "electric": 0.5,
+    "fighting": 2.0,
+    "grass": 2.0,
+    "rock": 0.5,
+    "steel": 0.5
+  },
+  "events": []
 }

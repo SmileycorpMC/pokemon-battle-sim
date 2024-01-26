@@ -1,28 +1,17 @@
 package net.smileycorp.battlesimulator.common.data;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
-
+import com.google.gson.*;
 import net.smileycorp.battlesimulator.common.data.ability.AbilityDescriptor;
 import net.smileycorp.battlesimulator.common.stat.BasicStatMap;
 import net.smileycorp.battlesimulator.common.stat.BasicStatMap.StatEntry;
 import net.smileycorp.battlesimulator.common.stat.EnumStat;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.util.*;
+import java.util.Map.Entry;
 
 public class PokemonSpecies {
 

@@ -1,10 +1,6 @@
 package net.smileycorp.battlesimulator.common.stat;
 
-import static net.smileycorp.battlesimulator.common.stat.EnumStat.ATK;
-import static net.smileycorp.battlesimulator.common.stat.EnumStat.DEF;
-import static net.smileycorp.battlesimulator.common.stat.EnumStat.SPD;
-import static net.smileycorp.battlesimulator.common.stat.EnumStat.SP_ATK;
-import static net.smileycorp.battlesimulator.common.stat.EnumStat.SP_DEF;
+import static net.smileycorp.battlesimulator.common.stat.EnumStat.*;
 
 public enum EnumNature {
 

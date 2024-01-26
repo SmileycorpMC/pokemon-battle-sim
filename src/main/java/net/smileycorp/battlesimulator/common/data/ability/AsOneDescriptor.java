@@ -1,10 +1,10 @@
 package net.smileycorp.battlesimulator.common.data.ability;
 
-import java.util.Collection;
-import java.util.List;
-
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+
+import java.util.Collection;
+import java.util.List;
 
 public class AsOneDescriptor implements AbilityDescriptor {
 

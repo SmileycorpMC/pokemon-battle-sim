@@ -2,7 +2,6 @@ package net.smileycorp.battlesimulator.common.data;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
-
 import net.smileycorp.battlesimulator.common.data.tags.SerializableTag;
 
 public class EvolutionData {

@@ -1,43 +1,20 @@
 {
-    "name": "Ground",
-    "colour": [
-        171,
-        122,
-        56
-    ],
-    "effectiveness": [
-        {
-            "type": "flying",
-            "multiplier": 0
-        },
-        {
-            "type": "grass",
-            "multiplier": 0.5
-        },
-        {
-            "type": "bug",
-            "multiplier": 0.5
-        },
-        {
-            "type": "fire",
-            "multiplier": 2
-        },
-        {
-            "type": "electric",
-            "multiplier": 2
-        },
-		{
-            "type": "poison",
-            "multiplier": 2
-        },
-        {
-            "type": "rock",
-            "multiplier": 2
-        },
-		{
-            "type": "steel",
-            "multiplier": 2
-        }
-    ],
-    "events": []
+  "name": "Ground",
+  "colour": [
+    171,
+    122,
+    56
+  ],
+  "properties": [],
+  "effectiveness": {
+    "bug": 0.5,
+    "electric": 2.0,
+    "fire": 2.0,
+    "flying": 0.0,
+    "grass": 0.5,
+    "poison": 2.0,
+    "rock": 2.0,
+    "steel": 2.0
+  },
+  "events": []
 }

@@ -1,22 +1,15 @@
 {
-    "name": "Dragon",
-    "colour": [
-        85,
-		98,
-		213
-    ],
-    "effectiveness": [
-        {
-            "type": "fairy",
-            "multiplier": 0
-        },
-        {
-            "type": "steel",
-            "multiplier": 0.5
-        },
-        {
-            "type": "dragon",
-            "multiplier": 2
-        }],
-    "events": []
+  "name": "Dragon",
+  "colour": [
+    85,
+    98,
+    213
+  ],
+  "properties": [],
+  "effectiveness": {
+    "dragon": 2.0,
+    "fairy": 0.0,
+    "steel": 0.5
+  },
+  "events": []
 }

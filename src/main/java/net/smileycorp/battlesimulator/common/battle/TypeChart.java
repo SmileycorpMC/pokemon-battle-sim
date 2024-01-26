@@ -1,62 +1,41 @@
 package net.smileycorp.battlesimulator.common.battle;
 
-import static net.smileycorp.battlesimulator.common.data.EnumType.BUG;
-import static net.smileycorp.battlesimulator.common.data.EnumType.DARK;
-import static net.smileycorp.battlesimulator.common.data.EnumType.DRAGON;
-import static net.smileycorp.battlesimulator.common.data.EnumType.ELECTRIC;
-import static net.smileycorp.battlesimulator.common.data.EnumType.FAIRY;
-import static net.smileycorp.battlesimulator.common.data.EnumType.FIGHTING;
-import static net.smileycorp.battlesimulator.common.data.EnumType.FIRE;
-import static net.smileycorp.battlesimulator.common.data.EnumType.FLYING;
-import static net.smileycorp.battlesimulator.common.data.EnumType.GHOST;
-import static net.smileycorp.battlesimulator.common.data.EnumType.GRASS;
-import static net.smileycorp.battlesimulator.common.data.EnumType.GROUND;
-import static net.smileycorp.battlesimulator.common.data.EnumType.ICE;
-import static net.smileycorp.battlesimulator.common.data.EnumType.NORMAL;
-import static net.smileycorp.battlesimulator.common.data.EnumType.POISON;
-import static net.smileycorp.battlesimulator.common.data.EnumType.PSYCHIC;
-import static net.smileycorp.battlesimulator.common.data.EnumType.ROCK;
-import static net.smileycorp.battlesimulator.common.data.EnumType.STEEL;
-import static net.smileycorp.battlesimulator.common.data.EnumType.WATER;
+import net.smileycorp.battlesimulator.common.data.Type;
+import net.smileycorp.battlesimulator.common.data.Types;
 
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-
-import javax.imageio.ImageIO;
-
-import net.smileycorp.battlesimulator.common.data.EnumType;
 
 public class TypeChart {
 
-	private Map<EnumType, Map<EnumType, Float>> map = new HashMap<EnumType, Map<EnumType, Float>>();
+	private final List<Type> loaded_types;
+	private final Map<Type, Map<Type, Float>> map;
 
-	public static TypeChart DEFAULT_CHART = getDefaultChart();
-
-	public static TypeChart LOADED_CHART = DEFAULT_CHART;
-
-	public TypeChart add(EnumType defender, EnumType attacker, float multiplier) {
-		if (!map.containsKey((defender))) map.put(defender, new HashMap<EnumType, Float>());
-		map.get(defender).put(attacker, multiplier);
-		return this;
+	private TypeChart(List<Type> loaded_types, Map<Type, Map<Type, Float>> map) {
+		this.loaded_types = loaded_types;
+		this.map = map;
 	}
 
-	public float getEffectiveness(EnumType defender, EnumType attacker, boolean isInverse) {
-		if (!map.containsKey((defender))) return 1;
-		Map<EnumType, Float> submap = map.get(defender);
+	public float getEffectiveness(Type attacker, Type defender, boolean isInverse) {
+		if (!map.containsKey((attacker))) return 1;
+		Map<Type, Float> submap = map.get(attacker);
 		if (submap == null) return 1;
-		if (!submap.containsKey((attacker))) return 1;
-		float value = submap.get(attacker);
+		if (!submap.containsKey((defender))) return 1;
+		float value = submap.get(defender);
 		if (isInverse) {
-			if (value<=0) value = 0.5f;
-			value = 1/value;
+			if (value <= 0) value = 0.5f;
+			value = 1 / value;
 		}
 		return value;
 	}
 
-	public static TypeChart importChart(File file) {
+	/*public static TypeChart importChart(File file) {
 		try {
 			TypeChart chart = new TypeChart();
 			BufferedImage image = ImageIO.read(file);
@@ -78,24 +57,29 @@ public class TypeChart {
 			e.printStackTrace();
 		}
 		return null;
-	}
+	}*/
 
 	public void exportChart(File file) {
-		int length = EnumType.values().length;
+		int length = loaded_types.size() + 1;
 		BufferedImage image = new BufferedImage(length, length, BufferedImage.TYPE_INT_RGB);
-		for (EnumType defender : EnumType.values()) {
-			Map<EnumType, Float> effectiveness = map.get(defender);
-			for (EnumType attacker : EnumType.values()) {
-				int colour = 0xffffff;
-				if (effectiveness!=null) {
-					if (effectiveness.containsKey(attacker)) {
-						float value = effectiveness.get(attacker);
+		image.setRGB(0, 0, 0xFFFFFF);
+		for (int i = 0; i < loaded_types.size(); i++) {
+			Type attacker = loaded_types.get(i);
+			image.setRGB(i + 1, 0, attacker.getColour().getRGB());
+			image.setRGB(0, i + 1, attacker.getColour().getRGB());
+			Map<Type, Float> effectiveness = map.get(attacker);
+			for (int j = 0; j < loaded_types.size(); j++) {
+				Type defender = loaded_types.get(j);
+				int colour = 0xFFFFFF;
+				if (effectiveness != null) {
+					if (effectiveness.containsKey(defender)) {
+						float value = effectiveness.get(defender);
 						if (value <= 0) colour = 0x000000;
 						else if (value < 1) colour = 0xFF0000;
 						else if (value > 1) colour = 0x00FF00;
 					}
 				}
-				image.setRGB(defender.ordinal(), attacker.ordinal(), colour);
+				image.setRGB(j + 1, i + 1, colour);
 			}
 		}
 		try {
@@ -105,7 +89,7 @@ public class TypeChart {
 		}
 	}
 
-	public static TypeChart getDefaultChart() {
+	/*public static TypeChart getDefaultChart() {
 		return new TypeChart().add(NORMAL, FIGHTING, 2)
 				.add(NORMAL, GHOST, 0)
 				.add(FIGHTING, FLYING, 2)
@@ -226,6 +210,46 @@ public class TypeChart {
 				.add(FAIRY, STEEL, 2)
 				.add(FAIRY, DRAGON, 0)
 				.add(FAIRY, DARK, 0.5f);
+	}*/
+
+	public static final class Builder {
+
+		private List<Type> loaded_types = new ArrayList<>();
+		private Map<Type, Map<Type, Float>> map = new HashMap<>();
+
+		public Builder() {
+			loaded_types.add(Types.get("normal"));
+			loaded_types.add(Types.get("fire"));
+			loaded_types.add(Types.get("water"));
+			loaded_types.add(Types.get("electric"));
+			loaded_types.add(Types.get("grass"));
+			loaded_types.add(Types.get("ice"));
+			loaded_types.add(Types.get("fighting"));
+			loaded_types.add(Types.get("poison"));
+			loaded_types.add(Types.get("ground"));
+			loaded_types.add(Types.get("flying"));
+			loaded_types.add(Types.get("psychic"));
+			loaded_types.add(Types.get("bug"));
+			loaded_types.add(Types.get("rock"));
+			loaded_types.add(Types.get("ghost"));
+			loaded_types.add(Types.get("dragon"));
+			loaded_types.add(Types.get("dark"));
+			loaded_types.add(Types.get("steel"));
+			loaded_types.add(Types.get("fairy"));
+		}
+
+		public Builder add(Type attacker, Type defender, float multiplier) {
+			if (!map.containsKey((attacker))) map.put(attacker, new HashMap<>());
+			map.get(attacker).put(defender, multiplier);
+			if (!loaded_types.contains(attacker)) loaded_types.add(attacker);
+			if (!loaded_types.contains(defender)) loaded_types.add(defender);
+			return this;
+		}
+
+		public TypeChart build() {
+			return new TypeChart(loaded_types, map);
+		}
+
 	}
 
 }

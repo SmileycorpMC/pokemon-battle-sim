@@ -1,14 +1,13 @@
 package net.smileycorp.battlesimulator.common.battle;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import com.google.gson.JsonObject;
-
 import net.smileycorp.battlesimulator.common.battle.status.Status;
 import net.smileycorp.battlesimulator.common.battle.status.Status.VolatileStatus;
 import net.smileycorp.battlesimulator.common.data.PokemonSpecies;
 import net.smileycorp.battlesimulator.common.stat.BasicStatMap;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Pokemon {
 

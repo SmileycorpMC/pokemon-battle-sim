@@ -1,9 +1,9 @@
 package net.smileycorp.battlesimulator.common.battle.status;
 
+import net.smileycorp.battlesimulator.common.stat.IEnumStat;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import net.smileycorp.battlesimulator.common.stat.IEnumStat;
 
 public abstract class Status implements IStatus {
 

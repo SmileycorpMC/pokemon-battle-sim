@@ -1,113 +1,113 @@
 {
-    "name": "Stellar",
-    "colour": [
-        124,
-        199,
-        178
-    ],
-    "properties": [
-        "tera_only",
-        "offensive_only"
-    ],
-    "effectiveness": [],
-    "events": [
+  "name": "Stellar",
+  "colour": [
+    124,
+    199,
+    178
+  ],
+  "properties": [
+    "tera_only",
+    "offensive_only"
+  ],
+  "effectiveness": {},
+  "events": [
+    {
+      "event": "member_of_type_use_move",
+      "functions": [
         {
-            "event": "member_of_type_use_move",
-            "functions": [
+          "function": "Multiple",
+          "value": [
+            {
+              "function": "change_power",
+              "value": {
+                "operation": "Multiply",
+                "value": [
+                  1.2,
+                  {
+                    "type": "from_current_move",
+                    "target": "power"
+                  }
+                ]
+              },
+              "conditions": [
                 {
-                    "function": "Multiple",
-                    "value": [
-                        {
-                            "function": "change_power",
-                            "value": {
-                                "operation": "Multiply",
-                                "value": [
-                                    1.2,
-                                    {
-                                        "type": "from_current_move",
-                                        "target": "power"
-                                    }
-                                ]
-                            },
-                            "conditions": [
-                                {
-                                    "mode": "comparison",
-                                    "value": {
-                                        "type": "string",
-                                        "value1": {
-                                            "type": "from_current_move",
-                                            "target": "type"
-                                        },
-                                        "operation": "!=",
-                                        "value2": {
-                                            "type": "from_pokemon",
-                                            "target": "types"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "function": "change_power",
-                            "value": {
-                                "operation": "Multiply",
-                                "value": [
-                                    2,
-                                    {
-                                        "type": "from_current_move",
-                                        "target": "power"
-                                    }
-                                ]
-                            },
-                            "conditions": [
-                                {
-                                    "mode": "comparison",
-                                    "value": {
-                                        "type": "string",
-                                        "value1": {
-                                            "type": "from_current_move",
-                                            "target": "type"
-                                        },
-                                        "operation": "==",
-                                        "value2": {
-                                            "type": "from_pokemon",
-                                            "target": "types"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_pokemon_variable",
-                            "value": {
-                                "name": "stellar_types",
-                                "value": {
-                                    "type": "from_current_move",
-                                    "target": "type"
-                                }
-                            },
-                            "conditions": []
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "mode": "comparison",
-                            "value": {
-                                "type": "string",
-                                "value1": {
-                                    "type": "from_event",
-                                    "value": "get_status_type"
-                                },
-                                "operation": "!=",
-                                "value2": {
-                                    "type": "from_pokemon_variable",
-                                    "target": "stellar_types"
-                                }
-                            }
-                        }
-                    ]
+                  "mode": "comparison",
+                  "value": {
+                    "type": "string",
+                    "value1": {
+                      "type": "from_current_move",
+                      "target": "type"
+                    },
+                    "operation": "!=",
+                    "value2": {
+                      "type": "from_pokemon",
+                      "target": "types"
+                    }
+                  }
                 }
-            ]
+              ]
+            },
+            {
+              "function": "change_power",
+              "value": {
+                "operation": "Multiply",
+                "value": [
+                  2,
+                  {
+                    "type": "from_current_move",
+                    "target": "power"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "mode": "comparison",
+                  "value": {
+                    "type": "string",
+                    "value1": {
+                      "type": "from_current_move",
+                      "target": "type"
+                    },
+                    "operation": "==",
+                    "value2": {
+                      "type": "from_pokemon",
+                      "target": "types"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_pokemon_variable",
+              "value": {
+                "name": "stellar_types",
+                "value": {
+                  "type": "from_current_move",
+                  "target": "type"
+                }
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_event",
+                  "value": "get_status_type"
+                },
+                "operation": "!=",
+                "value2": {
+                  "type": "from_pokemon_variable",
+                  "target": "stellar_types"
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

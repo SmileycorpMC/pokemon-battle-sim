@@ -1,15 +1,10 @@
 package net.smileycorp.battlesimulator.common.stat;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
-import net.smileycorp.battlesimulator.common.stat.BasicStatMap.StatEntry;
-
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
+import net.smileycorp.battlesimulator.common.stat.BasicStatMap.StatEntry;
+
+import java.util.*;
 
 public class BasicStatMap implements Iterable<StatEntry> {
 

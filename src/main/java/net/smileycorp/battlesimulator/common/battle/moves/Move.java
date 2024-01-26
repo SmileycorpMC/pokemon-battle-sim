@@ -1,20 +1,15 @@
 package net.smileycorp.battlesimulator.common.battle.moves;
 
+import com.google.gson.*;
+import net.smileycorp.battlesimulator.common.data.EnumType;
+import net.smileycorp.battlesimulator.common.util.TextUtils;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-
-import net.smileycorp.battlesimulator.common.data.EnumType;
-import net.smileycorp.battlesimulator.common.util.TextUtils;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
 
 public class Move {
 

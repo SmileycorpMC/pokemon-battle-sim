@@ -1,31 +1,17 @@
 {
-    "name": "Psychic",
-    "colour": [
-        255,
-        99,
-        128
-    ],
-    "effectiveness": [
-		{
-            "type": "dark",
-            "multiplier": 0
-        },
-        {
-            "type": "psychic",
-            "multiplier": 0.5
-        },
-		{
-            "type": "steel",
-            "multiplier": 0.5
-        },
-        {
-            "type": "fighting",
-            "multiplier": 2
-        },
-		{
-            "type": "poison",
-            "multiplier": 2
-        }
-    ],
-    "events": []
+  "name": "Psychic",
+  "colour": [
+    255,
+    99,
+    128
+  ],
+  "properties": [],
+  "effectiveness": {
+    "dark": 0.0,
+    "fighting": 2.0,
+    "poison": 2.0,
+    "psychic": 0.5,
+    "steel": 0.5
+  },
+  "events": []
 }

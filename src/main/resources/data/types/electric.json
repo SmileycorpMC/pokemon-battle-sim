@@ -1,59 +1,42 @@
 {
-    "name": "Electric",
-    "colour": [
-        255,
-        219,
-        0
-    ],
-    "effectiveness": [
+  "name": "Electric",
+  "colour": [
+    255,
+    219,
+    0
+  ],
+  "properties": [],
+  "effectiveness": {
+    "dragon": 0.5,
+    "electric": 0.5,
+    "flying": 2.0,
+    "grass": 0.5,
+    "ground": 0.0,
+    "water": 2.0
+  },
+  "events": [
+    {
+      "event": "on_apply_status",
+      "functions": [
         {
-            "type": "ground",
-            "multiplier": 0
-        },
-        {
-            "type": "electric",
-            "multiplier": 0.5
-        },
-        {
-            "type": "grass",
-            "multiplier": 0.5
-        },
-		{
-            "type": "dragon",
-            "multiplier": 0.5
-        },
-        {
-            "type": "water",
-            "multiplier": 2
-        },
-        {
-            "type": "flying",
-            "multiplier": 2
+          "function": "set_event_status",
+          "value": "deny",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_event",
+                  "value": "get_status_type"
+                },
+                "operation": "==",
+                "value2": "paralysis"
+              }
+            }
+          ]
         }
-    ],
-    "events": [
-        {
-            "event": "on_apply_status",
-            "functions": [
-                {
-                    "function": "set_event_status",
-                    "value": "deny",
-                    "conditions": [
-                        {
-                            "mode": "comparison",
-                            "value": {
-                                "type": "string",
-                                "value1": {
-                                    "type": "from_event",
-                                    "value": "get_status_type"
-                                },
-                                "operation": "==",
-                                "value2": "paralysis"
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

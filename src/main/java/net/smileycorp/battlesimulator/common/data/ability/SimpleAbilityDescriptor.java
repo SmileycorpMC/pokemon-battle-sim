@@ -1,11 +1,11 @@
 package net.smileycorp.battlesimulator.common.data.ability;
 
+import com.google.gson.JsonElement;
+import com.google.gson.JsonPrimitive;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
-import com.google.gson.JsonElement;
-import com.google.gson.JsonPrimitive;
 
 public class SimpleAbilityDescriptor implements AbilityDescriptor {
 

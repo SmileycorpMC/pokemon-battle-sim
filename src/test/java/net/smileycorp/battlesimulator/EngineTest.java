@@ -1,3 +1,7 @@
+import net.smileycorp.battlesimulator.common.Main;
+import net.smileycorp.battlesimulator.common.battle.Pokemon;
+
+import java.io.File;
 
 public class EngineTest {
 

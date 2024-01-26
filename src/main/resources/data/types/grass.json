@@ -1,67 +1,46 @@
 {
-    "name": "Grass",
-    "colour": [
-        66,
-        191,
-        37
-    ],
-    "effectiveness": [
+  "name": "Grass",
+  "colour": [
+    66,
+    191,
+    37
+  ],
+  "properties": [],
+  "effectiveness": {
+    "bug": 0.5,
+    "dragon": 0.5,
+    "fire": 0.5,
+    "flying": 0.5,
+    "grass": 0.5,
+    "ground": 2.0,
+    "poison": 0.5,
+    "rock": 2.0,
+    "steel": 0.5,
+    "water": 2.0
+  },
+  "events": [
+    {
+      "event": "targeted_by_move",
+      "functions": [
         {
-            "type": "fire",
-            "multiplier": 0.5
-        },
-        {
-            "type": "grass",
-            "multiplier": 0.5
-        },
-        {
-            "type": "poison",
-            "multiplier": 0.5
-        },
-		{
-            "type": "flying",
-            "multiplier": 0.5
-        },
-		{
-            "type": "bug",
-            "multiplier": 0.5
-        },
-        {
-            "type": "dragon",
-            "multiplier": 0.5
-        },
-        {
-            "type": "water",
-            "multiplier": 2
-        },
-        {
-            "type": "ground",
-            "multiplier": 2
-        },
-        {
-            "type": "rock",
-            "multiplier": 2
+          "function": "set_move_status",
+          "value": "Fail",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_move",
+                  "target": "properties"
+                },
+                "operation": "==",
+                "value2": "powder"
+              }
+            }
+          ]
         }
-    ],
-    "events": [
-        {
-			"event": "targeted_by_move",
-			"functions": [{
-				"function": "set_move_status",
-				"value": "Fail",
-				"conditions": [{
-					"mode": "comparison",
-					"value": {
-						"type": "string",
-						"value1": {
-							"type": "from_current_move",
-							"target": "properties"
-						},
-						"operation": "==",
-						"value2": "powder"
-					}
-				}]
-			}]
-		}
-    ]
+      ]
+    }
+  ]
 }

@@ -1,26 +1,16 @@
 {
-    "name": "Ghost",
-    "colour": [
-        110,
-		69,
-		113
-    ],
-    "effectiveness": [
-        {
-            "type": "normal",
-            "multiplier": 0
-        },
-        {
-            "type": "dark",
-            "multiplier": 0.5
-        },
-		{
-            "type": "psychic",
-            "multiplier": 2
-        },
-        {
-            "type": "ghost",
-            "multiplier": 2
-        }],
-    "events": []
+  "name": "Ghost",
+  "colour": [
+    110,
+    69,
+    113
+  ],
+  "properties": [],
+  "effectiveness": {
+    "dark": 0.5,
+    "ghost": 2.0,
+    "normal": 0.0,
+    "psychic": 2.0
+  },
+  "events": []
 }

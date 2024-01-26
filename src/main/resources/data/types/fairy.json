@@ -1,34 +1,18 @@
 {
-    "name": "Fairy",
-    "colour": [
-        254,
-		175,
-		254
-    ],
-    "effectiveness": [
-        {
-            "type": "fire",
-            "multiplier": 0.5
-        },
-		{
-            "type": "poison",
-            "multiplier": 0.5
-        },
-		{
-            "type": "steel",
-            "multiplier": 0.5
-        },
-		{
-            "type": "fighting",
-            "multiplier": 2
-        },
-		{
-            "type": "dragon",
-            "multiplier": 2
-        },
-        {
-            "type": "dark",
-            "multiplier": 2
-        }],
-    "events": []
+  "name": "Fairy",
+  "colour": [
+    254,
+    175,
+    254
+  ],
+  "properties": [],
+  "effectiveness": {
+    "dark": 2.0,
+    "dragon": 2.0,
+    "fighting": 2.0,
+    "fire": 0.5,
+    "poison": 0.5,
+    "steel": 0.5
+  },
+  "events": []
 }

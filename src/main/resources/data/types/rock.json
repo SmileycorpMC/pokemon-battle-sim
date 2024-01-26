@@ -1,43 +1,19 @@
 {
-    "name": "Rock",
-    "colour": [
-        188,
-        184,
-        136
-    ],
-    "effectiveness": [
-		{
-            "type": "fighting",
-            "multiplier": 0.5
-        },
-		{
-            "type": "ground",
-            "multiplier": 0.5
-        },
-		{
-            "type": "steel",
-            "multiplier": 0.5
-        },
-		{
-            "type": "fairy",
-            "multiplier": 0.5
-        },
-		{
-            "type": "fire",
-            "multiplier": 2
-        },
-        {
-            "type": "ice",
-            "multiplier": 2
-        },
-		{
-            "type": "flying",
-            "multiplier": 2
-        },
-		{
-            "type": "bug",
-            "multiplier": 2
-        }
-    ],
-    "events": []
+  "name": "Rock",
+  "colour": [
+    188,
+    184,
+    136
+  ],
+  "properties": [],
+  "effectiveness": {
+    "bug": 2.0,
+    "fighting": 0.5,
+    "fire": 2.0,
+    "flying": 2.0,
+    "ground": 0.5,
+    "ice": 2.0,
+    "steel": 0.5
+  },
+  "events": []
 }

@@ -1,51 +1,22 @@
 {
-    "name": "Bug",
-    "colour": [
-        159,
-        164,
-        35
-    ],
-    "effectiveness": [
-		{
-            "type": "fire",
-            "multiplier": 0.5
-        },
-		{
-            "type": "fighting",
-            "multiplier": 0.5
-        },
-		{
-            "type": "poison",
-            "multiplier": 0.5
-        },
-        {
-            "type": "flying",
-            "multiplier": 0.5
-        },
-		{
-            "type": "ghost",
-            "multiplier": 0.5
-        },
-		{
-            "type": "steel",
-            "multiplier": 0.5
-        },
-		{
-            "type": "fairy",
-            "multiplier": 0.5
-        },
-		{
-            "type": "grass",
-            "multiplier": 2
-        },
-        {
-            "type": "psychic",
-            "multiplier": 2
-        },
-		{
-            "type": "dark",
-            "multiplier": 2
-        }
-    ],
-    "events": []
+  "name": "Bug",
+  "colour": [
+    159,
+    164,
+    35
+  ],
+  "properties": [],
+  "effectiveness": {
+    "dark": 2.0,
+    "fairy": 0.5,
+    "fighting": 0.5,
+    "fire": 0.5,
+    "flying": 0.5,
+    "ghost": 0.5,
+    "grass": 2.0,
+    "poison": 0.5,
+    "psychic": 2.0,
+    "steel": 0.5
+  },
+  "events": []
 }

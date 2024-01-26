@@ -1,47 +1,11 @@
 package net.smileycorp.battlesimulator.data;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.AbstractMap.SimpleEntry;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map.Entry;
-import java.util.Scanner;
-import java.util.Set;
-
-import org.apache.hc.client5.http.classic.methods.HttpGet;
-import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
-import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
-import org.apache.hc.client5.http.impl.classic.HttpClients;
-import org.apache.hc.core5.http.HttpEntity;
-import org.apache.hc.core5.http.ParseException;
-import org.apache.hc.core5.http.io.entity.EntityUtils;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonNull;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-
+import com.google.gson.*;
 import net.smileycorp.battlesimulator.common.Main;
 import net.smileycorp.battlesimulator.common.battle.moves.EnumMoveCategory;
 import net.smileycorp.battlesimulator.common.battle.moves.EnumTargetType;
 import net.smileycorp.battlesimulator.common.battle.moves.Move;
-import net.smileycorp.battlesimulator.common.data.EnumEggGroup;
-import net.smileycorp.battlesimulator.common.data.EnumExpRate;
-import net.smileycorp.battlesimulator.common.data.EnumType;
-import net.smileycorp.battlesimulator.common.data.EvolutionData;
-import net.smileycorp.battlesimulator.common.data.EvolutionMethod;
-import net.smileycorp.battlesimulator.common.data.FormReference;
-import net.smileycorp.battlesimulator.common.data.PokemonSpecies;
+import net.smileycorp.battlesimulator.common.data.*;
 import net.smileycorp.battlesimulator.common.data.PokemonSpecies.Form;
 import net.smileycorp.battlesimulator.common.data.ability.SimpleAbilityDescriptor;
 import net.smileycorp.battlesimulator.common.data.tags.NullTag;
@@ -52,6 +16,20 @@ import net.smileycorp.battlesimulator.common.stat.BasicStatMap;
 import net.smileycorp.battlesimulator.common.stat.BasicStatMap.StatEntry;
 import net.smileycorp.battlesimulator.common.stat.EnumStat;
 import net.smileycorp.battlesimulator.common.util.TextUtils;
+import org.apache.hc.client5.http.classic.methods.HttpGet;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
+import org.apache.hc.client5.http.impl.classic.HttpClients;
+import org.apache.hc.core5.http.HttpEntity;
+import org.apache.hc.core5.http.ParseException;
+import org.apache.hc.core5.http.io.entity.EntityUtils;
+
+import java.io.*;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.AbstractMap.SimpleEntry;
+import java.util.*;
+import java.util.Map.Entry;
 
 public class DataGenerator {
 
