@@ -1,4 +1,4 @@
-package net.smileycorp.battlesimulator.common.battle;
+package net.smileycorp.battlesimulator.common.stat;
 
 import net.smileycorp.battlesimulator.common.stat.IEnumStat;
 

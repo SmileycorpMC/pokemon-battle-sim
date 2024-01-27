@@ -55,4 +55,12 @@ public enum EnumNature {
 	public boolean isNeutral() {
 		return lowered == raised;
 	}
+
+	public double getMultiplier(EnumStat stat) {
+		if (isNeutral()) return 1;
+		if (stat == raised) return 1.1;
+		if (stat == lowered) return 0.9;
+		return 1;
+	}
+
 }

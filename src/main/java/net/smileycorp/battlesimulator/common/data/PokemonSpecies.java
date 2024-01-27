@@ -22,7 +22,7 @@ public class PokemonSpecies {
 	public int hatchCounter, baseHappiness, catchRate;
 	public EnumExpRate expRate;
 	public List<EnumEggGroup> eggGroups = new ArrayList<>();
-	public List<Form> forms = new ArrayList<>();
+	public Map<String, Form> forms = new HashMap<>();
 
 	public static class Form {
 
@@ -101,9 +101,9 @@ public class PokemonSpecies {
 			return newForm;
 		}
 
-		public static Form fromJson(JsonObject formJson) {
+		public static Form fromJson(String name, JsonObject formJson) {
 			Form form = new Form();
-			form.formName = formJson.get("name").getAsString();
+			form.formName = name;
 			for (JsonElement element : formJson.get("types").getAsJsonArray()) {
 				form.types.add(EnumType.valueOf(element.getAsString().toUpperCase()));
 			}
@@ -150,9 +150,7 @@ public class PokemonSpecies {
 		for (EnumEggGroup eggGroup : eggGroups) eggGroupsJson.add(eggGroup.getName());
 		json.add("eggGroups", eggGroupsJson);
 		JsonObject formsJson = new JsonObject();
-		for (Form form : forms) {
-			formsJson.add(form.formName, form.toJson());
-		}
+		for (Form form : forms.values()) formsJson.add(form.formName, form.toJson());
 		json.add("forms", formsJson);
 		file.createNewFile();
 		try(FileWriter writer = new FileWriter(file)) {
@@ -179,9 +177,8 @@ public class PokemonSpecies {
 			pokemon.eggGroups.add(EnumEggGroup.getGroup(element.getAsString()));
 		}
 		for (Entry<String, JsonElement> entry : pokemonJson.get("forms").getAsJsonObject().entrySet()) {
-			JsonObject formJson = entry.getValue().getAsJsonObject();
-			formJson.add("name", new JsonPrimitive(entry.getKey()));
-			pokemon.forms.add(Form.fromJson(formJson));
+			String name = entry.getKey();
+			pokemon.forms.put(name, Form.fromJson(name, entry.getValue().getAsJsonObject()));
 		}
 		return pokemon;
 	}
