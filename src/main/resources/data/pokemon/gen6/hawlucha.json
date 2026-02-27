@@ -41,6 +41,36 @@
       "expDrop": 175,
       "classification": "Wrestling",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Fighting",
+        "Flying"
+      ],
+      "ability1": "Mold Breaker",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 78,
+        "ATK": 137,
+        "DEF": 100,
+        "SP_ATK": 74,
+        "SP_DEF": 93,
+        "SPD": 118
+      },
+      "height": 1.0,
+      "weight": 25.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Wrestling",
+      "isBaseForm": false
     }
   }
 }

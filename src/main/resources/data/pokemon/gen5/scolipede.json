@@ -40,6 +40,36 @@
       "expDrop": 243,
       "classification": "Megapede",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "ability1": "Speed Boost",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 140,
+        "DEF": 149,
+        "SP_ATK": 75,
+        "SP_DEF": 99,
+        "SPD": 62
+      },
+      "height": 3.2,
+      "weight": 230.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Megapede",
+      "isBaseForm": false
     }
   }
 }

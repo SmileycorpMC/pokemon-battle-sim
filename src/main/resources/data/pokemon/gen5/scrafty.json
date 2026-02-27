@@ -45,6 +45,40 @@
       "expDrop": 171,
       "classification": "Hoodlum",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "ability1": "Moxie",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 120,
+        "DEF": 135,
+        "SP_ATK": 55,
+        "SP_DEF": 135,
+        "SPD": 68
+      },
+      "height": 1.1,
+      "weight": 31.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        }
+      ],
+      "expDrop": 171,
+      "classification": "Hoodlum",
+      "isBaseForm": false
     }
   }
 }

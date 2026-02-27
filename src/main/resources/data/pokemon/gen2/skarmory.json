@@ -40,6 +40,37 @@
       "expDrop": 163,
       "classification": "Armor Bird",
       "isBaseForm": true
+    },
+	"forms": {
+    "mega": {
+      "types": [
+        "Steel",
+        "Flying"
+      ],
+      "ability1": "Weak Armor",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 140,
+        "DEF": 110,
+        "SP_ATK": 40,
+        "SP_DEF": 100,
+        "SPD": 110
+      },
+      "height": 1.7,
+      "weight": 40.4,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 163,
+      "classification": "Armor Bird",
+      "isBaseForm": false
     }
   }
 }

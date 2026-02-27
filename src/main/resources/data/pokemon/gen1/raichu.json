@@ -70,6 +70,64 @@
       "expDrop": 243,
       "classification": "Mouse",
       "isBaseForm": true
+    },
+	"mega-x": {
+	  "types": [
+		"Electric"
+	  ],
+	  "ability1": "Lightning Rod",
+	  "ability2": "",
+	  "hiddenAbility": "",
+	  "eventAbilities": [],
+	  "evolutions": [],
+	  "stats": {
+		"HP": 60,
+		"ATK": 135,
+		"DEF": 95,
+		"SP_ATK": 90,
+		"SP_DEF": 95,
+		"SPD": 110
+	  },
+	  "height": 1.2,
+	  "weight": 38.0,
+	  "evs": [
+		{
+		  "stat": "SPD",
+		  "value": 3
+		}
+	  ],
+	  "expDrop": 243,
+	  "classification": "Mouse",
+	  "isBaseForm": false
+	},
+    "mega-y": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Lightning Rod",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 100,
+        "DEF": 55,
+        "SP_ATK": 160,
+        "SP_DEF": 80,
+        "SPD": 130
+      },
+      "height": 1.0,
+      "weight": 26.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Mouse",
+      "isBaseForm": false
     }
   }
 }

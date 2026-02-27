@@ -42,6 +42,36 @@
       "expDrop": 238,
       "classification": "Mega Fire Pig",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "ability1": "Reckless",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 148,
+        "DEF": 75,
+        "SP_ATK": 110,
+        "SP_DEF": 110,
+        "SPD": 75
+      },
+      "height": 1.6,
+      "weight": 150.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 238,
+      "classification": "Mega Fire Pig",
+      "isBaseForm": false
     }
   }
 }

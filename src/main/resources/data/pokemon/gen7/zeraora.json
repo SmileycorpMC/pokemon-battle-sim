@@ -41,6 +41,35 @@
       "expDrop": 300,
       "classification": "Thunderclap",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Volt Absorb",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 88,
+        "ATK": 157,
+        "DEF": 75,
+        "SP_ATK": 147,
+        "SP_DEF": 80,
+        "SPD": 153
+      },
+      "height": 1.5,
+      "weight": 44.5,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Thunderclap",
+      "isBaseForm": false
     }
   }
 }

@@ -39,6 +39,36 @@
       "expDrop": 242,
       "classification": "Fairy",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Fairy",
+		"Flying"
+      ],
+      "ability1": "Unaware",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 95,
+        "ATK": 80,
+        "DEF": 93,
+        "SP_ATK": 135,
+        "SP_DEF": 110,
+        "SPD": 70
+      },
+      "height": 1.7,
+      "weight": 42.3,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 242,
+      "classification": "Fairy",
+      "isBaseForm": false
     }
   }
 }

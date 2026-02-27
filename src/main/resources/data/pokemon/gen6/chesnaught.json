@@ -40,6 +40,36 @@
       "expDrop": 239,
       "classification": "Spiny Armor",
       "isBaseForm": true
+    },
+	"default": {
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "ability1": "Bulletproof",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 88,
+        "ATK": 137,
+        "DEF": 172,
+        "SP_ATK": 74,
+        "SP_DEF": 115,
+        "SPD": 44
+      },
+      "height": 1.6,
+      "weight": 90.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 3
+        }
+      ],
+      "expDrop": 239,
+      "classification": "Spiny Armor",
+      "isBaseForm": false
     }
   }
 }

@@ -40,6 +40,36 @@
       "expDrop": 167,
       "classification": "Woolly Crab",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Fighting",
+        "Ice"
+      ],
+      "ability1": "Hyper Cutter",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 97,
+        "ATK": 157,
+        "DEF": 122,
+        "SP_ATK": 62,
+        "SP_DEF": 107,
+        "SPD": 33
+      },
+      "height": 2.6,
+      "weight": 252.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 167,
+      "classification": "Woolly Crab",
+      "isBaseForm": false
     }
   }
 }

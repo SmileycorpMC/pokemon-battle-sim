@@ -74,6 +74,36 @@
       "expDrop": 288,
       "classification": "Ninja",
       "isBaseForm": false
+    },
+	"default": {
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "ability1": "Protean",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 72,
+        "ATK": 125,
+        "DEF": 77,
+        "SP_ATK": 133,
+        "SP_DEF": 81,
+        "SPD": 142
+      },
+      "height": 1.5,
+      "weight": 40.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 3
+        }
+      ],
+      "expDrop": 239,
+      "classification": "Ninja",
+      "isBaseForm": false
     }
   }
 }

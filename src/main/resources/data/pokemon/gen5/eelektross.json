@@ -39,6 +39,35 @@
       "expDrop": 232,
       "classification": "EleFish",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Electric"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 145,
+        "DEF": 80,
+        "SP_ATK": 135,
+        "SP_DEF": 90,
+        "SPD": 80
+      },
+      "height": 3,
+      "weight": 180.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 232,
+      "classification": "EleFish",
+      "isBaseForm": false
     }
   }
 }

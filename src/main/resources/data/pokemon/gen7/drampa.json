@@ -41,6 +41,36 @@
       "expDrop": 170,
       "classification": "Placid",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Normal",
+        "Dragon"
+      ],
+      "ability1": "Berserk",
+      "ability2": "",
+      "hiddenAbility": ",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 78,
+        "ATK": 85,
+        "DEF": 110,
+        "SP_ATK": 160,
+        "SP_DEF": 116,
+        "SPD": 36
+      },
+      "height": 3.0,
+      "weight": 240.5,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Imposing",
+      "isBaseForm": false
     }
   }
 }

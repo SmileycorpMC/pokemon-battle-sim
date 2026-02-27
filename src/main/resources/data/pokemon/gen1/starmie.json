@@ -40,6 +40,36 @@
       "expDrop": 182,
       "classification": "Mysterious",
       "isBaseForm": true
+    },
+	"default": {
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability1": "Analytic",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 60,
+        "ATK": 140,
+        "DEF": 105,
+        "SP_ATK": 130,
+        "SP_DEF": 115,
+        "SPD": 120
+      },
+      "height": 2.3,
+      "weight": 80.0,
+      "evs": [
+        {
+          "stat": "SPD",
+          "value": 2
+        }
+      ],
+      "expDrop": 182,
+      "classification": "Mysterious",
+      "isBaseForm": false
     }
   }
 }

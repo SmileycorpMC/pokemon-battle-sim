@@ -46,6 +46,40 @@
       "expDrop": 239,
       "classification": "Big Jaw",
       "isBaseForm": true
+    },
+	"default": {
+      "types": [
+        "Water",
+		"Dragon"
+      ],
+      "ability1": "Sheer Force",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 160,
+        "DEF": 125,
+        "SP_ATK": 89,
+        "SP_DEF": 93,
+        "SPD": 78
+      },
+      "height": 2.3,
+      "weight": 88.8,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 239,
+      "classification": "Double Jaw",
+      "isBaseForm": false
     }
   }
 }

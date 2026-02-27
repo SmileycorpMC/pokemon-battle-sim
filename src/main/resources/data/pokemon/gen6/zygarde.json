@@ -108,6 +108,36 @@
       "expDrop": 354,
       "classification": "Order",
       "isBaseForm": false
+    },
+	"mega": {
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "ability1": "Aura Break",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 216,
+        "ATK": 70,
+        "DEF": 91,
+        "SP_ATK": 216,
+        "SP_DEF": 85,
+        "SPD": 100
+      },
+      "height": 7.7,
+      "weight": 610.0,
+      "evs": [
+        {
+          "stat": "HP",
+          "value": 3
+        }
+      ],
+      "expDrop": 354,
+      "classification": "Order",
+      "isBaseForm": false
     }
   }
 }

@@ -1,0 +1,76 @@
+{
+  "name": "Magearnite",
+  "fling_power": 0,
+  "properties": [
+    "mega_stone",
+    "cant_be_thrown",
+    "cant_be_stolen"
+  ],
+  "effects": [
+    {
+      "event": "mega_evolve",
+      "functions": [
+        {
+          "function": "change_user_form",
+          "value": "mega",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_pokemon",
+                  "value": "species"
+                },
+                "operator": "==",
+                "value2": "magearnite"
+              }
+            },
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_pokemon",
+                  "value": "form"
+                },
+                "operator": "==",
+                "value2": "default"
+              }
+            }
+          ]
+        },
+		{
+          "function": "change_user_form",
+          "value": "original_mega",
+          "conditions": [
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_pokemon",
+                  "value": "species"
+                },
+                "operator": "==",
+                "value2": "magearnite"
+              }
+            },
+            {
+              "mode": "comparison",
+              "value": {
+                "type": "string",
+                "value1": {
+                  "type": "from_current_pokemon",
+                  "value": "form"
+                },
+                "operator": "==",
+                "value2": "original"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -41,6 +41,36 @@
       "expDrop": 169,
       "classification": "Overturning",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Dark",
+        "Psychic"
+      ],
+      "ability1": "Contrary",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 86,
+        "ATK": 102,
+        "DEF": 88,
+        "SP_ATK": 98,
+        "SP_DEF": 120,
+        "SPD": 88
+      },
+      "height": 2.9,
+      "weight": 69.8,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 169,
+      "classification": "Overturning",
+      "isBaseForm": false
     }
   }
 }

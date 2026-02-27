@@ -68,6 +68,36 @@
       "expDrop": 198,
       "classification": "Disaster",
       "isBaseForm": false
+    },
+	"mega-z": {
+      "types": [
+        "Dark",
+		"Ghost"
+      ],
+      "ability1": "Justified",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 154,
+        "DEF": 60,
+        "SP_ATK": 75,
+        "SP_DEF": 60,
+        "SPD": 151
+      },
+      "height": 1.2,
+      "weight": 49.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 198,
+      "classification": "Disaster",
+      "isBaseForm": false
     }
   }
 }

@@ -43,6 +43,40 @@
       "expDrop": 159,
       "classification": "Wind Chime",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Psychic",
+		"Steel"
+      ],
+      "ability1": "Levitate",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 75,
+        "ATK": 50,
+        "DEF": 110,
+        "SP_ATK": 135,
+        "SP_DEF": 120,
+        "SPD": 65
+      },
+      "height": 1.2,
+      "weight": 8,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_ATK",
+          "value": 1
+        }
+      ],
+      "expDrop": 159,
+      "classification": "Wind Chime",
+      "isBaseForm": false
     }
   }
 }

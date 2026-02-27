@@ -46,6 +46,40 @@
       "expDrop": 236,
       "classification": "Herb",
       "isBaseForm": true
+    },
+	"default": {
+      "types": [
+        "Grass",
+		"Fairy"
+      ],
+      "ability1": "Leaf Guard",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 92,
+        "DEF": 115,
+        "SP_ATK": 143,
+        "SP_DEF": 115,
+        "SPD": 80
+      },
+      "height": 2.4,
+      "weight": 201.0,
+      "evs": [
+        {
+          "stat": "DEF",
+          "value": 1
+        },
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 236,
+      "classification": "Herb",
+      "isBaseForm": false
     }
   }
 }

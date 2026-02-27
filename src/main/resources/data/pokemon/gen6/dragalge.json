@@ -41,6 +41,36 @@
       "expDrop": 173,
       "classification": "Mock Kelp",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "ability1": "Adaptability",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 85,
+        "DEF": 105,
+        "SP_ATK": 132,
+        "SP_DEF": 163,
+        "SPD": 44
+      },
+      "height": 2.1,
+      "weight": 100.3,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 173,
+      "classification": "Mock Kelp",
+      "isBaseForm": false
     }
   }
 }

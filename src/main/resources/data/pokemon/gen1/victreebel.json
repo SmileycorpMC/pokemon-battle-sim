@@ -40,6 +40,36 @@
       "expDrop": 221,
       "classification": "Flycatcher",
       "isBaseForm": true
+    },
+	"default": {
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 80,
+        "ATK": 125,
+        "DEF": 85,
+        "SP_ATK": 135,
+        "SP_DEF": 95,
+        "SPD": 70
+      },
+      "height": 1.7,
+      "weight": 15.5,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 221,
+      "classification": "Flycatcher",
+      "isBaseForm": false
     }
   }
 }

@@ -40,6 +40,36 @@
       "expDrop": 178,
       "classification": "Subterrene",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Ground",
+        "Steel"
+      ],
+      "ability1": "Mold Breaker",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 110,
+        "ATK": 165,
+        "DEF": 100,
+        "SP_ATK": 65,
+        "SP_DEF": 65,
+        "SPD": 103
+      },
+      "height": 0.9,
+      "weight": 60.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 178,
+      "classification": "Subterrene",
+      "isBaseForm": false
     }
   }
 }

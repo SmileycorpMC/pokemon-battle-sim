@@ -40,6 +40,36 @@
       "expDrop": 175,
       "classification": "Collective",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Rock",
+        "Fighting"
+      ],
+      "ability1": "Tough Claws",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 72,
+        "ATK": 140,
+        "DEF": 130,
+        "SP_ATK": 64,
+        "SP_DEF": 106,
+        "SPD": 88
+      },
+      "height": 2.2,
+      "weight": 100.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 175,
+      "classification": "Collective",
+      "isBaseForm": false
     }
   }
 }

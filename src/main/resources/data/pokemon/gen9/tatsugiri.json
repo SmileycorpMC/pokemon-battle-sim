@@ -100,6 +100,96 @@
       "expDrop": 166,
       "classification": "Mimicry",
       "isBaseForm": true
+    },
+	"curly_mega": {
+      "types": [
+        "Dragon",
+        "Water"
+      ],
+      "ability1": "Storm Drain",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 68,
+        "ATK": 65,
+        "DEF": 90,
+        "SP_ATK": 135,
+        "SP_DEF": 125,
+        "SPD": 92
+      },
+      "height": 0.6,
+      "weight": 52.9,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Mimicry",
+      "isBaseForm": false
+    },
+	"droopy_mega": {
+      "types": [
+        "Dragon",
+        "Water"
+      ],
+      "ability1": "Storm Drain",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 68,
+        "ATK": 65,
+        "DEF": 90,
+        "SP_ATK": 135,
+        "SP_DEF": 125,
+        "SPD": 92
+      },
+      "height": 0.6,
+      "weight": 52.9,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Mimicry",
+      "isBaseForm": false
+    },
+	"stretchy_mega": {
+      "types": [
+        "Dragon",
+        "Water"
+      ],
+      "ability1": "Storm Drain",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 68,
+        "ATK": 65,
+        "DEF": 90,
+        "SP_ATK": 135,
+        "SP_DEF": 125,
+        "SPD": 92
+      },
+      "height": 0.6,
+      "weight": 52.9,
+      "evs": [
+        {
+          "stat": "SP_ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 166,
+      "classification": "Mimicry",
+      "isBaseForm": false
     }
   }
 }

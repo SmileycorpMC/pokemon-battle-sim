@@ -73,6 +73,35 @@
       "expDrop": 315,
       "classification": "Mach",
       "isBaseForm": false
+    },
+	"mega-z": {
+      "types": [
+        "Dragon"
+      ],
+      "ability1": "Rough Skin",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 108,
+        "ATK": 130,
+        "DEF": 85,
+        "SP_ATK": 141,
+        "SP_DEF": 85,
+        "SPD": 151
+      },
+      "height": 1.9,
+      "weight": 99.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 315,
+      "classification": "Mach",
+      "isBaseForm": false
     }
   }
 }

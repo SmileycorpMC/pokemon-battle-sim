@@ -40,6 +40,36 @@
       "expDrop": 170,
       "classification": "Spicy Pepper",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Grass",
+        "Fire"
+      ],
+      "ability1": "Chlorophyll",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 138,
+        "DEF": 85,
+        "SP_ATK": 138,
+        "SP_DEF": 85,
+        "SPD": 75
+      },
+      "height": 1.2,
+      "weight": 22.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 170,
+      "classification": "Spicy Pepper",
+      "isBaseForm": false
     }
   }
 }

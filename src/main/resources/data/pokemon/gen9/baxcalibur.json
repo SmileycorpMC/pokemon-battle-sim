@@ -43,6 +43,36 @@
       "expDrop": 300,
       "classification": "Ice Dragon",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "ability1": "Thermal Exchange",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 115,
+        "ATK": 175,
+        "DEF": 117,
+        "SP_ATK": 105,
+        "SP_DEF": 101,
+        "SPD": 87
+      },
+      "height": 2.1,
+      "weight": 315.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 300,
+      "classification": "Ice Dragon",
+      "isBaseForm": false
     }
   }
 }

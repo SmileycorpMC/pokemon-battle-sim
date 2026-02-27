@@ -44,6 +44,39 @@
       "expDrop": 165,
       "classification": "Formation",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Fighting"
+      ],
+      "ability1": "Defiant",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 65,
+        "ATK": 135,
+        "DEF": 135,
+        "SP_ATK": 70,
+        "SP_DEF": 65,
+        "SPD": 100
+      },
+      "height": 1.6,
+      "weight": 99.0,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 1
+        },
+        {
+          "stat": "ATK",
+          "value": 2
+        }
+      ],
+      "expDrop": 165,
+      "classification": "Formation",
+      "isBaseForm": false
     }
   }
 }

@@ -40,6 +40,36 @@
       "expDrop": 218,
       "classification": "Predator",
       "isBaseForm": true
+    },
+	"default": {
+      "types": [
+        "Fighting",
+        "Flying"
+      ],
+      "ability1": "Reckless",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 85,
+        "ATK": 140,
+        "DEF": 100,
+        "SP_ATK": 60,
+        "SP_DEF": 90,
+        "SPD": 110
+      },
+      "height": 1.9,
+      "weight": 50.0,
+      "evs": [
+        {
+          "stat": "ATK",
+          "value": 3
+        }
+      ],
+      "expDrop": 218,
+      "classification": "Predator",
+      "isBaseForm": false
     }
   }
 }

@@ -229,6 +229,35 @@
       "expDrop": 243,
       "classification": "Single Bloom",
       "isBaseForm": true
+    },
+	"mega": {
+      "types": [
+        "Fairy"
+      ],
+      "ability1": "Flower Veil",
+      "ability2": "",
+      "hiddenAbility": "",
+      "eventAbilities": [],
+      "evolutions": [],
+      "stats": {
+        "HP": 74,
+        "ATK": 85,
+        "DEF": 87,
+        "SP_ATK": 155,
+        "SP_DEF": 148,
+        "SPD": 102
+      },
+      "height": 0.2,
+      "weight": 0.9,
+      "evs": [
+        {
+          "stat": "SP_DEF",
+          "value": 2
+        }
+      ],
+      "expDrop": 243,
+      "classification": "Single Bloom",
+      "isBaseForm": false
     }
   }
 }
